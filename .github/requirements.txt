@@ -1,0 +1,3 @@
+compare-locales==8.2.1
+moz-fluent-linter==0.3.*
+PyYAML==6.0

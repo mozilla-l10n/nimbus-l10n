@@ -1,0 +1,56 @@
+name: New translation request
+description: Request translation for new experiment
+title: "[NEW]: (experiment name)"
+assignees:
+  - flodolo
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Please note that this workflow is designed for Nimbus experiments.
+        To translate other types of content, please refer to
+        [this page](https://mozilla-hub.atlassian.net/wiki/spaces/FIREFOX/pages/11045331/Localization+l10n+and+Translation).
+  - type: textarea
+    id: info
+    attributes:
+      label: Information about the experiment
+      description: >
+        Provide as much context as possible about the experiment. This information
+        will be useful to create the file with the strings to translate. Consider
+        providing links to the experiment documentation, mock-ups, etc.
+      placeholder: Tell us about the experiment.
+    validations:
+      required: true
+  - type: textarea
+    id: locales
+    attributes:
+      label: List of locales
+      description: |
+        Provide a list of the locales that need to be translated. Keep in mind that:
+        * [Locales are not regions](https://mozilla-l10n.github.io/documentation/localization/globalization_best_practices.html#region--language). So, you should request French (fr), not France.
+        * We don't support all locales, for example we support a generic French (fr), but not Canadian French (fr-CA). You can find the [full list in Pontoon](https://pontoon.mozilla.org/teams/), but feel free to reach out to the [Localization Team](https://mozilla-hub.atlassian.net/wiki/spaces/FIREFOX/pages/11045331/Localization+l10n+and+Translation) if you have any doubts.
+      placeholder: Which locales are required.
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: >
+        Is there a hard deadline for the experiment? Keep in mind that getting
+        translations will require at least 72h, shorter deadlines will use
+        machine translation.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: false
+  - type: textarea
+    id: strings
+    attributes:
+      label: Content to translate
+      description: |
+        Provide the content that needs to be translated. You can put it in the issue, or provide a link to an external document (e.g. spreadsheet).
+
+        The more information you provide, the easier it will be to start the translation. For example, it's important to know in which context strings will be used (button label, title, etc.) or if there are length limitations.
+      placeholder: Content to translate or link to external spreadsheet.
+    validations:
+      required: true
