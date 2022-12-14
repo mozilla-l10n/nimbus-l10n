@@ -1,0 +1,13 @@
+{
+  "translations": {
+    "en-US": {
+      "import-bookmarks-experiment-title": "Bring along what matters",
+      "import-bookmarks-experiment-subtitle": "Start fresh without starting from scratch, import your passwords, bookmarks, and more to make Firefox feel a little bit like home.",
+      "import-bookmarks-experiment-primary-button-label": "Import to Firefox",
+      "import-bookmarks-experiment-secondary-button-label": "Not now"
+    }
+  },
+  "complete_locales": [
+    "en-US"
+  ]
+}
