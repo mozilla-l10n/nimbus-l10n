@@ -1,0 +1,35 @@
+name: Extract strings
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  extraction:
+    concurrency:
+      group: ${{ github.ref }}
+      cancel-in-progress: true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+      - name: Set up Python 3
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - name: Install Python dependencies
+        run: |
+          pip install -r .github/requirements.txt
+      - name: Extract strings
+        run: |
+          python .github/scripts/extract_strings.py --toml l10n.toml --dest .github/storage
+      - name: Commit changes
+        continue-on-error: true
+        run : |
+          # Commit changes. Failure is allowed if there is nothing to commit.
+          git config --global user.email 'flodolo@users.noreply.github.com'
+          git config --global user.name 'Francesco Lodolo [:flod]'
+          git add .github/storage
+          git commit -m "Update translations storage"
+          git push
