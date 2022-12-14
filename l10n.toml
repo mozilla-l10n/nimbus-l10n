@@ -5,10 +5,17 @@ basepath = "."
 
 locales = [
     "de",
-    "fr",
-    "it"
+    "fr"
 ]
 
 [[paths]]
     reference = "en-US/*.ftl"
     l10n = "{locale}/*.ftl"
+
+[[paths]]
+    reference = "en-US/subset/import_bookmarks_onboarding_2023.ftl"
+    l10n = "{locale}/subset/import_bookmarks_onboarding_2023.ftl"
+    locales = [
+        "de",
+        "fr"
+    ]
