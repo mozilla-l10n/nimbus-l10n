@@ -3,12 +3,16 @@
     "en-US": {
       "import-bookmarks-experiment-title": "Bring along what matters",
       "import-bookmarks-experiment-subtitle": "Start fresh without starting from scratch, import your passwords, bookmarks, and more to make Firefox feel a little bit like home.",
+      "import-bookmarks-experiment-title-v2": "Make yourself at home",
+      "import-bookmarks-experiment-subtitle-v2": "Whether you’re settling in or just stopping by, remember you can import your bookmarks, passwords, and more.",
       "import-bookmarks-experiment-primary-button-label": "Import to Firefox",
       "import-bookmarks-experiment-secondary-button-label": "Not now"
     },
     "de": {
       "import-bookmarks-experiment-title": "Nehmen Sie mit, worauf es ankommt",
       "import-bookmarks-experiment-subtitle": "Sie müssen nicht ganz von vorne beginnen: Importieren Sie Ihre Passwörter, Lesezeichen und mehr, damit sich Firefox ein bisschen wie zu Hause anfühlt.",
+      "import-bookmarks-experiment-title-v2": "Fühl dich wie zu Hause",
+      "import-bookmarks-experiment-subtitle-v2": "Egal, ob du hierbleibst oder nur vorbeischaust, denk daran, dass du deine Lesezeichen, Passwörter und mehr importieren kannst.",
       "import-bookmarks-experiment-primary-button-label": "In Firefox importieren",
       "import-bookmarks-experiment-secondary-button-label": "Nicht jetzt"
     }
