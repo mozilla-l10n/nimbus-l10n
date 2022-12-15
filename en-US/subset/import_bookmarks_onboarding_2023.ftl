@@ -5,8 +5,10 @@
 ## Strings for messages to be used in experiments encouraging users to import their bookmarks
 
 import-bookmarks-experiment-title = Bring along what matters
-
 import-bookmarks-experiment-subtitle = Start fresh without starting from scratch, import your passwords, bookmarks, and more to make Firefox feel a little bit like home.
+
+import-bookmarks-experiment-title-v2 = Make yourself at home
+import-bookmarks-experiment-subtitle-v2 = Whether you’re settling in or just stopping by, remember you can import your bookmarks, passwords, and more.
 
 # Modal dialog primary button to import bookmarks
 import-bookmarks-experiment-primary-button-label = Import to Firefox
