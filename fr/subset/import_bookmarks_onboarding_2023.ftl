@@ -5,9 +5,9 @@
 
 ## Strings for messages to be used in experiments encouraging users to import their bookmarks
 
+import-bookmarks-experiment-title = Importez ce qui compte pour vous
 import-bookmarks-experiment-title-v2 = Installez-vous confortablement
 import-bookmarks-experiment-subtitle-v2 = Que vous vous installiez ou que vous ne soyez que de passage, souvenez-vous que vous pouvez importer marque-pages, mots de passe et bien plus.
-
 # Modal dialog primary button to import bookmarks
 import-bookmarks-experiment-primary-button-label = Importer dans Firefox
 # Modal secondary action link to close modal dialog
