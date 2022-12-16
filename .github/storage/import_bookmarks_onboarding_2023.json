@@ -15,10 +15,19 @@
       "import-bookmarks-experiment-subtitle-v2": "Egal, ob du hierbleibst oder nur vorbeischaust, denk daran, dass du deine Lesezeichen, Passwörter und mehr importieren kannst.",
       "import-bookmarks-experiment-primary-button-label": "In Firefox importieren",
       "import-bookmarks-experiment-secondary-button-label": "Nicht jetzt"
+    },
+    "fr": {
+      "import-bookmarks-experiment-title": "Importez ce qui compte pour vous",
+      "import-bookmarks-experiment-subtitle": "Prenez un nouveau départ sans repartir de zéro, importez vos mots de passe, vos marque-pages et bien plus encore pour vous sentir comme chez vous avec Firefox.",
+      "import-bookmarks-experiment-title-v2": "Installez-vous confortablement",
+      "import-bookmarks-experiment-subtitle-v2": "Que vous vous installiez ou que vous ne soyez que de passage, souvenez-vous que vous pouvez importer marque-pages, mots de passe et bien plus.",
+      "import-bookmarks-experiment-primary-button-label": "Importer dans Firefox",
+      "import-bookmarks-experiment-secondary-button-label": "Plus tard"
     }
   },
   "complete_locales": [
     "de",
-    "en-US"
+    "en-US",
+    "fr"
   ]
 }
