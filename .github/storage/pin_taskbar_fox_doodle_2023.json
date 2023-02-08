@@ -8,9 +8,19 @@
       "pin-default-welcome-back-headline": "Welcome back",
       "pin-default-welcome-back-body": "Here’s a quick reminder that you can keep your favorite indie browser just one click away.",
       "pin-default-secondary-button-label": "Not now"
+    },
+    "de": {
+      "pin-default-peace-of-mind-headline": "Wir haben für Sie vorgesorgt",
+      "pin-default-peace-of-mind-body": "Jeden Monat blockiert Firefox durchschnittlich mehr als 3000 Tracker pro Nutzer und ermöglicht so einen sicheren, schnellen Zugriff auf das gute Internet.",
+      "pin-default-better-internet-headline": "Ein besseres Internet fängt bei Ihnen an",
+      "pin-default-better-internet-body": "Wenn Sie Firefox verwenden, stimmen Sie für ein offenes und zugängliches Internet, welches für jeden von uns von Vorteil ist.",
+      "pin-default-welcome-back-headline": "Willkommen zurück",
+      "pin-default-welcome-back-body": "Hier ist eine kurze Erinnerung, dass Sie Ihren unabhängigen Lieblings-Browser in Klickweite haben können.",
+      "pin-default-secondary-button-label": "Nicht jetzt"
     }
   },
   "complete_locales": [
+    "de",
     "en-US"
   ]
 }
