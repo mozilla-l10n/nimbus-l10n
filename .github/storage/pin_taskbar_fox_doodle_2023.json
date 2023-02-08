@@ -1,0 +1,16 @@
+{
+  "translations": {
+    "en-US": {
+      "pin-default-peace-of-mind-headline": "We’ve got you covered",
+      "pin-default-peace-of-mind-body": "Every month, Firefox blocks an average of 3,000+ trackers per user, giving you safe, speedy access to the good internet.",
+      "pin-default-better-internet-headline": "A better internet starts with you",
+      "pin-default-better-internet-body": "When you use Firefox, you’re voting for an open and accessible internet that’s better for everyone.",
+      "pin-default-welcome-back-headline": "Welcome back",
+      "pin-default-welcome-back-body": "Here’s a quick reminder that you can keep your favorite indie browser just one click away.",
+      "pin-default-secondary-button-label": "Not now"
+    }
+  },
+  "complete_locales": [
+    "en-US"
+  ]
+}
