@@ -19,3 +19,11 @@ locales = [
         "de",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/pin_taskbar_fox_doodle_2023.ftl"
+    l10n = "{locale}/subset/pin_taskbar_fox_doodle_2023.ftl"
+    locales = [
+        "de",
+        "fr"
+    ]
