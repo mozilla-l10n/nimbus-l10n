@@ -17,3 +17,6 @@ pin-default-welcome-back-headline = Willkommen zurück
 # In this instance, free from outside influence or control.
 pin-default-welcome-back-body = Hier ist eine kurze Erinnerung, dass Sie Ihren unabhängigen Lieblings-Browser in Klickweite haben können.
 pin-default-secondary-button-label = Nicht jetzt
+
+# Primary action label for the Set to Default message
+pin-default-set-default-primary-button-label = Meine Links mit Firefox öffnen

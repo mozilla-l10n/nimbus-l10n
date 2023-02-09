@@ -16,3 +16,6 @@ pin-default-better-internet-body = Lorsque vous utilisez Firefox, vous soutenez 
 pin-default-welcome-back-headline = Heureux de vous revoir !
 
 pin-default-secondary-button-label = Plus tard
+
+# Primary action label for the Set to Default message
+pin-default-set-default-primary-button-label = Ouvrir mes liens avec Firefox
