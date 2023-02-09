@@ -7,7 +7,8 @@
       "pin-default-better-internet-body": "When you use Firefox, you’re voting for an open and accessible internet that’s better for everyone.",
       "pin-default-welcome-back-headline": "Welcome back",
       "pin-default-welcome-back-body": "Here’s a quick reminder that you can keep your favorite indie browser just one click away.",
-      "pin-default-secondary-button-label": "Not now"
+      "pin-default-secondary-button-label": "Not now",
+      "pin-default-set-default-primary-button-label": "Open my links with Firefox"
     },
     "de": {
       "pin-default-peace-of-mind-headline": "Wir haben für Sie vorgesorgt",
@@ -16,7 +17,8 @@
       "pin-default-better-internet-body": "Wenn Sie Firefox verwenden, stimmen Sie für ein offenes und zugängliches Internet, welches für jeden von uns von Vorteil ist.",
       "pin-default-welcome-back-headline": "Willkommen zurück",
       "pin-default-welcome-back-body": "Hier ist eine kurze Erinnerung, dass Sie Ihren unabhängigen Lieblings-Browser in Klickweite haben können.",
-      "pin-default-secondary-button-label": "Nicht jetzt"
+      "pin-default-secondary-button-label": "Nicht jetzt",
+      "pin-default-set-default-primary-button-label": "Meine Links mit Firefox öffnen"
     }
   },
   "complete_locales": [
