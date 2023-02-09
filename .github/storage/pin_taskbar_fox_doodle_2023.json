@@ -19,10 +19,21 @@
       "pin-default-welcome-back-body": "Hier ist eine kurze Erinnerung, dass Sie Ihren unabhängigen Lieblings-Browser in Klickweite haben können.",
       "pin-default-secondary-button-label": "Nicht jetzt",
       "pin-default-set-default-primary-button-label": "Meine Links mit Firefox öffnen"
+    },
+    "fr": {
+      "pin-default-peace-of-mind-headline": "Nous assurons votre protection",
+      "pin-default-peace-of-mind-body": "Chaque mois, Firefox bloque en moyenne plus de 3 000 traqueurs par utilisateur, vous offrant un accès rapide et sûr au meilleur d’Internet.",
+      "pin-default-better-internet-headline": "Un Internet meilleur grâce à vous",
+      "pin-default-better-internet-body": "Lorsque vous utilisez Firefox, vous soutenez un Internet ouvert, accessible et meilleur pour tout le monde.",
+      "pin-default-welcome-back-headline": "Heureux de vous revoir !",
+      "pin-default-welcome-back-body": "Nous voulions juste vous rappeler que vous pouvez garder votre navigateur indépendant préféré à portée de clic.",
+      "pin-default-secondary-button-label": "Plus tard",
+      "pin-default-set-default-primary-button-label": "Ouvrir mes liens avec Firefox"
     }
   },
   "complete_locales": [
     "de",
-    "en-US"
+    "en-US",
+    "fr"
   ]
 }
