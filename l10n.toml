@@ -46,3 +46,12 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/device_migration_2023.ftl"
+    l10n = "{locale}/subset/device_migration_2023.ftl"
+    locales = [
+        "de",
+        "fr",
+        "it"
+    ]
