@@ -1,0 +1,15 @@
+{
+  "translations": {
+    "en-US": {
+      "windows-bg-notifications-title-a": "New Firefox. More private. Fewer trackers. No compromises.",
+      "windows-bg-notifications-body-a": "Try the newest Firefox now, upgraded with our strongest anti-tracking protection yet.",
+      "windows-bg-notifications-open-button-a": "Open Firefox now",
+      "windows-bg-notifications-remind-button-a": "Remind me later",
+      "windows-bg-notifications-title-b": "Firefox is now faster than ever",
+      "windows-bg-notifications-title-c": "Speedy page load times. Multiple tabs, minus the lag. Doesn’t waste memory so other programs run at top speed."
+    }
+  },
+  "complete_locales": [
+    "en-US"
+  ]
+}
