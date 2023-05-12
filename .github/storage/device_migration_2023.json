@@ -1,0 +1,17 @@
+{
+  "translations": {
+    "en-US": {
+      "device-migration-fxa-spotlight-header": "Using an older device?",
+      "device-migration-fxa-spotlight-body": "Back up your data to make sure you don’t lose important info like bookmarks and passwords –– especially if you switch to a new device.",
+      "device-migration-fxa-spotlight-primary-button": "How to back up my data",
+      "device-migration-fxa-spotlight-link": "Remind me later",
+      "device-migration-fxa-spotlight-header-v1": "Using Windows 7 or older?",
+      "device-migration-fxa-spotlight-body-v1": "Older devices won’t always have the most updated and secure version of Firefox. Backing up your data helps make sure you don’t lose important info — even if you switch to a new device.",
+      "device-migration-fxa-spotlight-header-v2": "New device in your future?",
+      "device-migration-fxa-spotlight-body-v2": "Follow a few simple steps to bring your bookmarks, history, and passwords with you when you get started on a new device."
+    }
+  },
+  "complete_locales": [
+    "en-US"
+  ]
+}
