@@ -1,0 +1,15 @@
+{
+  "translations": {
+    "en-US": {
+      "vpn-spotlight-v1-title": "Privacy beyond your browser",
+      "vpn-spotlight-v1-body": "Mozilla VPN is a powerful, easy-to-use virtual private network, that protects you across all your devices. Intentionally simple, fiercely protective. Use promo code SPOTLIGHT20 for 20% off.",
+      "vpn-spotlight-v1-main-button": "Get 20% off Mozilla VPN",
+      "vpn-spotlight-v1-cancel-button": "Not now",
+      "vpn-spotlight-v2-body": "Mozilla VPN is a powerful, easy-to-use virtual private network that protects you across all your devices. Intentionally simple, fiercely protective.",
+      "vpn-spotlight-v2-main-button": "Get Mozilla VPN"
+    }
+  },
+  "complete_locales": [
+    "en-US"
+  ]
+}
