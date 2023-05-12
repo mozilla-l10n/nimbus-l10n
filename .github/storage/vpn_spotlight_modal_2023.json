@@ -15,10 +15,28 @@
       "vpn-spotlight-v1-cancel-button": "Nicht jetzt",
       "vpn-spotlight-v2-body": "Mozilla VPN ist ein leistungsstarkes, einfach zu verwendendes virtuelles privates Netzwerk, das Sie auf allen Ihren Geräten schützt. Absichtlich einfach, starker Schutz.",
       "vpn-spotlight-v2-main-button": "Holen Sie sich Mozilla VPN"
+    },
+    "fr": {
+      "vpn-spotlight-v1-title": "La vie privée au-delà de votre navigateur",
+      "vpn-spotlight-v1-body": "Mozilla VPN est un réseau privé virtuel puissant et facile à utiliser qui vous protège sur tous vos appareils. Intentionnellement simple, farouchement protecteur. Utilisez le code promotionnel SPOTLIGHT20 pour bénéficier de 20 % de réduction.",
+      "vpn-spotlight-v1-main-button": "Obtenir 20 % de réduction sur Mozilla VPN",
+      "vpn-spotlight-v1-cancel-button": "Plus tard",
+      "vpn-spotlight-v2-body": "Mozilla VPN est un réseau privé virtuel puissant et facile à utiliser qui vous protège sur tous vos appareils. Intentionnellement simple, farouchement protecteur.",
+      "vpn-spotlight-v2-main-button": "Obtenir Mozilla VPN"
+    },
+    "it": {
+      "vpn-spotlight-v1-title": "Privacy oltre il tuo browser",
+      "vpn-spotlight-v1-body": "Mozilla VPN è una rete privata virtuale potente e facile da utilizzare, in grado di proteggerti su tutti i tuoi dispositivi. Volutamente semplice, orgogliosamente protettiva. Usa il codice promozionale SPOTLIGHT20 per uno sconto del 20%.",
+      "vpn-spotlight-v1-main-button": "Ottieni Mozilla VPN con uno sconto del 20%",
+      "vpn-spotlight-v1-cancel-button": "Non adesso",
+      "vpn-spotlight-v2-body": "Mozilla VPN è una rete privata virtuale potente e facile da utilizzare, in grado di proteggerti su tutti i tuoi dispositivi. Volutamente semplice, orgogliosamente protettiva.",
+      "vpn-spotlight-v2-main-button": "Ottieni Mozilla VPN"
     }
   },
   "complete_locales": [
     "de",
-    "en-US"
+    "en-US",
+    "fr",
+    "it"
   ]
 }
