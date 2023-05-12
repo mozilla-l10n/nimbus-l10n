@@ -5,7 +5,8 @@ basepath = "."
 
 locales = [
     "de",
-    "fr"
+    "fr",
+    "it"
 ]
 
 [[paths]]
@@ -26,4 +27,13 @@ locales = [
     locales = [
         "de",
         "fr"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/vpn_spotlight_modal_2023.ftl"
+    l10n = "{locale}/subset/vpn_spotlight_modal_2023.ftl"
+    locales = [
+        "de",
+        "fr",
+        "it"
     ]
