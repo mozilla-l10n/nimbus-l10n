@@ -10,6 +10,16 @@
       "device-migration-fxa-spotlight-header-v2": "New device in your future?",
       "device-migration-fxa-spotlight-body-v2": "Follow a few simple steps to bring your bookmarks, history, and passwords with you when you get started on a new device."
     },
+    "de": {
+      "device-migration-fxa-spotlight-header": "Verwenden Sie ein älteres Gerät?",
+      "device-migration-fxa-spotlight-body": "Sichern Sie Ihre Daten, um wichtige Informationen wie Lesezeichen und Passwörter nicht zu verlieren – insbesondere, wenn Sie zu einem neuen Gerät wechseln.",
+      "device-migration-fxa-spotlight-primary-button": "Wie die Datensicherung funktioniert",
+      "device-migration-fxa-spotlight-link": "Später erinnern",
+      "device-migration-fxa-spotlight-header-v1": "Verwenden Sie Windows 7 oder älter?",
+      "device-migration-fxa-spotlight-body-v1": "Ältere Geräte verfügen nicht immer über die aktuellste und sicherste Version von Firefox. Wenn Sie Ihre Daten sichern, verlieren Sie keine wichtigen Informationen – selbst wenn Sie zu einem neuen Gerät wechseln.",
+      "device-migration-fxa-spotlight-header-v2": "Planen Sie die Anschaffung eines neuen Geräts?",
+      "device-migration-fxa-spotlight-body-v2": "Befolgen Sie nur wenige einfache Schritte, um Ihre Lesezeichen, Chronik und Passwörter bei den ersten Schritten auf einem neuen Gerät mitzunehmen."
+    },
     "it": {
       "device-migration-fxa-spotlight-header": "Stai utilizzando un dispositivo meno recente?",
       "device-migration-fxa-spotlight-body": "Salva i tuoi dati per non perdere informazioni importanti come segnalibri e password, soprattutto se hai in programma di passare a un nuovo dispositivo.",
@@ -22,6 +32,7 @@
     }
   },
   "complete_locales": [
+    "de",
     "en-US",
     "it"
   ]
