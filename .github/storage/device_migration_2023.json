@@ -20,6 +20,16 @@
       "device-migration-fxa-spotlight-header-v2": "Planen Sie die Anschaffung eines neuen Geräts?",
       "device-migration-fxa-spotlight-body-v2": "Befolgen Sie nur wenige einfache Schritte, um Ihre Lesezeichen, Chronik und Passwörter bei den ersten Schritten auf einem neuen Gerät mitzunehmen."
     },
+    "fr": {
+      "device-migration-fxa-spotlight-header": "Vous utilisez un appareil plus ancien ?",
+      "device-migration-fxa-spotlight-body": "Sauvegardez vos données pour vous assurer de ne pas perdre d’informations importantes comme des marque-pages ou des mots de passe, surtout si vous changez d’appareil.",
+      "device-migration-fxa-spotlight-primary-button": "Comment sauvegarder mes données",
+      "device-migration-fxa-spotlight-link": "Me le rappeler plus tard",
+      "device-migration-fxa-spotlight-header-v1": "Vous utilisez Windows 7 ou une version plus ancienne ?",
+      "device-migration-fxa-spotlight-body-v1": "Les appareils plus anciens ne bénéficieront pas toujours de la version la plus récente et la plus sûre de Firefox. Sauvegarder vos données vous aide à vous assurer de ne perdre aucune information importante, même si vous changez d’appareil.",
+      "device-migration-fxa-spotlight-header-v2": "Prévoyez-vous d’acquérir un nouvel appareil ?",
+      "device-migration-fxa-spotlight-body-v2": "Suivez quelques étapes simples pour emporter avec vous vos marque-pages, votre historique et vos mots de passe lorsque vous aurez un nouvel appareil."
+    },
     "it": {
       "device-migration-fxa-spotlight-header": "Stai utilizzando un dispositivo meno recente?",
       "device-migration-fxa-spotlight-body": "Salva i tuoi dati per non perdere informazioni importanti come segnalibri e password, soprattutto se hai in programma di passare a un nuovo dispositivo.",
@@ -34,6 +44,7 @@
   "complete_locales": [
     "de",
     "en-US",
+    "fr",
     "it"
   ]
 }
