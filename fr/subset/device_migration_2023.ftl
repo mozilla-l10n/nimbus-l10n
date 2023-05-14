@@ -18,9 +18,11 @@ device-migration-fxa-spotlight-link = Me le rappeler plus tard
 ## Primary button and link are the same as the default version
 
 device-migration-fxa-spotlight-header-v1 = Vous utilisez Windows 7 ou une version plus ancienne ?
+device-migration-fxa-spotlight-body-v1 = Les appareils plus anciens ne bénéficieront pas toujours de la version la plus récente et la plus sûre de Firefox. Sauvegarder vos données vous aide à vous assurer de ne perdre aucune information importante, même si vous changez d’appareil.
 
 ## Variant 2
 ## Primary button and link are the same as the default version
 
 # This means: "Are you planning to get a new device in the future?"
 device-migration-fxa-spotlight-header-v2 = Prévoyez-vous d’acquérir un nouvel appareil ?
+device-migration-fxa-spotlight-body-v2 = Suivez quelques étapes simples pour emporter avec vous vos marque-pages, votre historique et vos mots de passe lorsque vous aurez un nouvel appareil.
