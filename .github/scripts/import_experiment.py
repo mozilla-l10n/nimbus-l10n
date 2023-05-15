@@ -4,14 +4,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+from datetime import date
+from jsonpath_ng.ext import parse
 import argparse
-import urllib.request
 import json
 import os
+import requests
 import sys
 import toml
-from jsonpath_ng.ext import parse
-from datetime import date
+import urllib.request
 
 
 def get_experiment_json(exp_id):
@@ -27,7 +28,7 @@ def get_experiment_json(exp_id):
     return json.load(data)
 
 
-def generate_file(recipe):
+def generate_ftl_file(recipe):
     # Generate a FTL file from the recipe
 
     file_content = [
@@ -116,6 +117,29 @@ def write_toml_content(toml_file, toml_data):
         f.write(print_toml_file(toml_data))
 
 
+def issue_exists(repo, issue_number):
+    # Verify if an issue number is available
+
+    if not issue_number:
+        return False
+
+    url = f"https://github.com/{repo}/issues/{issue_number}"
+    response = requests.get(url, allow_redirects=False)
+
+    if response.status_code != 200:
+        return False
+
+    return True
+
+
+def create_issue(repo, experiment_id, file_name, recipe_locales):
+    # Create a new issue
+
+    print("Creating a new issue")
+
+    return 42
+
+
 def main():
     # Read command line input parameters
     parser = argparse.ArgumentParser()
@@ -126,14 +150,14 @@ def main():
     parser.add_argument("--issue", dest="issue", help="Issue number", default=0)
     args = parser.parse_args()
 
-    # Store significant paths
+    # Store paths
     script_path = os.path.dirname(__file__)
     root_path = os.path.abspath(os.path.join(script_path, os.pardir, os.pardir))
     ftl_path = os.path.join(root_path, "en-US", "subset")
     ftl_rel_path = os.path.relpath(ftl_path, root_path)
     storage_path = os.path.join(root_path, ".github", "storage")
 
-    # Get a list of experiments already stored on file
+    # Get the JSON with the list of experiments already stored in the repository
     experiments_json = os.path.join(storage_path, "experiments.json")
     if not os.path.exists(experiments_json):
         experiments = {}
@@ -146,13 +170,15 @@ def main():
     recipe = get_experiment_json(experiment_id)
     file_name = f"{experiment_id.replace('-', '_')}_{date.today().year}.ftl"
     with open(os.path.join(ftl_path, file_name), "w") as f:
-        f.write(generate_file(recipe))
+        f.write(generate_ftl_file(recipe))
 
+    # Get the list of locales from the recipe
+    # TODO: https://github.com/mozilla/experimenter/pull/8820
     recipe_locales = ["de", "fr", "it"]
 
     # Parse and update the existing TOML file:
     # - Make sure that the list of locales include all locales requested in the recipe
-    # - Add new file
+    # - Add the new file
     toml_file = args.toml_path
     toml_data = read_toml_content(toml_file)
     toml_data["locales"] = recipe_locales
@@ -172,10 +198,13 @@ def main():
         )
     write_toml_content(toml_file, toml_data)
 
-    # If an issue was passed as parameter, check if it actually exists.
-
-    # If there was no issue provided, or it doesn't exist, create one
+    # Check if an issue already exists, create a new one if needed
+    gh_repo = "mozilla-l10n/nimbus-l10n"
     issue_number = args.issue
+    if not issue_exists(gh_repo, issue_number):
+        # Create a new issue
+        issue_number = create_issue(gh_repo, experiment_id, file_name, recipe_locales)
+    print(issue_number)
 
     # Write back info on the experiments in JSON file
     experiments[experiment_id] = {
