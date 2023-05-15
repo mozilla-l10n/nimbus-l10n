@@ -129,9 +129,17 @@ def main():
     # Store significant paths
     script_path = os.path.dirname(__file__)
     root_path = os.path.abspath(os.path.join(script_path, os.pardir, os.pardir))
-
     ftl_path = os.path.join(root_path, "en-US", "subset")
     ftl_rel_path = os.path.relpath(ftl_path, root_path)
+    storage_path = os.path.join(root_path, ".github", "storage")
+
+    # Get a list of experiments already stored on file
+    experiments_json = os.path.join(storage_path, "experiments.json")
+    if not os.path.exists(experiments_json):
+        experiments = {}
+    else:
+        with open(experiments_json) as f:
+            experiments = json.load(f)
 
     # Get the experiment recipe (JSON), generate the FTL file and store it in the repository
     experiment_id = args.exp_id
@@ -149,14 +157,34 @@ def main():
     toml_data = read_toml_content(toml_file)
     toml_data["locales"] = recipe_locales
     file_path = os.path.join(ftl_rel_path, file_name)
-    toml_data["paths"].append(
-        {
-            "reference": f"{file_path}",
-            "l10n": f"{file_path}",
-            "locales": recipe_locales,
-        }
-    )
+    # Add the path, avoid creating duplicates
+    path_exists = False
+    for path in toml_data["paths"]:
+        if path["reference"] == file_path:
+            path_exists = True
+    if not path_exists:
+        toml_data["paths"].append(
+            {
+                "reference": f"{file_path}",
+                "l10n": f"{file_path}",
+                "locales": recipe_locales,
+            }
+        )
     write_toml_content(toml_file, toml_data)
+
+    # If an issue was passed as parameter, check if it actually exists.
+
+    # If there was no issue provided, or it doesn't exist, create one
+    issue_number = args.issue
+
+    # Write back info on the experiments in JSON file
+    experiments[experiment_id] = {
+        "file": file_path,
+        "issue": args.issue,
+        "locales": recipe_locales,
+    }
+    with open(experiments_json, "w") as f:
+        json.dump(experiments, fp=f, indent=2, sort_keys=True)
 
 
 if __name__ == "__main__":
