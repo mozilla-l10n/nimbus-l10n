@@ -7,8 +7,12 @@
 import argparse
 import urllib.request
 import json
+import os
 import sys
+import toml
 from jsonpath_ng.ext import parse
+from datetime import date
+
 
 def get_experiment_json(exp_id):
     # Get experiment JSON from Nimbus API
@@ -21,6 +25,7 @@ def get_experiment_json(exp_id):
         sys.exit(e)
 
     return json.load(data)
+
 
 def generate_file(recipe):
     # Generate a FTL file from the recipe
@@ -37,7 +42,7 @@ def generate_file(recipe):
         for feature in branch["features"]:
             # Find all $l10n keys in the branch value
             branch_value = feature["value"]["content"]
-            jsonpath_expression = parse("$..\"$l10n\"")
+            jsonpath_expression = parse('$.."$l10n"')
             for match in jsonpath_expression.find(branch_value):
                 id = match.value["id"]
                 text = match.value["text"]
@@ -58,20 +63,101 @@ def generate_file(recipe):
 
     return "\n".join(file_content)
 
+
+def print_toml_file(toml_data):
+    # Format the TOML file to minimize difference with the format normally used
+
+    def print_locales(locales, indent=0):
+        # Order and format list of locales
+        locales.sort()
+        lines = ["locales = ["]
+        for i, loc in enumerate(locales, start=1):
+            line = f'    "{loc}"'
+            if i < len(locales):
+                line += ","
+            lines.append(line)
+        lines.append("]")
+
+        if indent:
+            spaces = " " * indent
+            lines = [f"{spaces}{line}" for line in lines]
+
+        return lines
+
+    file_content = []
+    file_content.append(f"basepath = \"{toml_data['basepath']}\"\n")
+    file_content += print_locales(toml_data["locales"])
+    for path in toml_data["paths"]:
+        file_content.append("\n[[paths]]")
+        file_content.append(f"    reference = \"{path['reference']}\"")
+        file_content.append(f"    l10n = \"{path['l10n']}\"")
+        if "locales" in path:
+            file_content += print_locales(path["locales"], 4)
+    file_content.append("")
+
+    return "\n".join(file_content)
+
+
+def read_toml_content(toml_file):
+    # Read project config (TOML) content
+
+    if not os.path.exists(toml_file):
+        sys.exit(f"TOML file does not exist ({toml_file})")
+    with open(toml_file) as f:
+        toml_data = toml.load(f)
+
+    return toml_data
+
+
+def write_toml_content(toml_file, toml_data):
+    # Write project config (TOML) content
+
+    with open(toml_file, "w") as f:
+        f.write(print_toml_file(toml_data))
+
+
 def main():
     # Read command line input parameters
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--id", dest="exp_id", help="Experiment ID", required="True"
+        "--toml", dest="toml_path", help="Path to l10n.toml file", required="True"
     )
-    parser.add_argument(
-        "--issue", dest="issue", help="Issue number", default=0
-    )
+    parser.add_argument("--id", dest="exp_id", help="Experiment ID", required="True")
+    parser.add_argument("--issue", dest="issue", help="Issue number", default=0)
     args = parser.parse_args()
 
-    # Get the experiment recipe (JSON)
-    recipe = get_experiment_json(args.exp_id)
-    file_content = generate_file(recipe)
+    # Store significant paths
+    script_path = os.path.dirname(__file__)
+    root_path = os.path.abspath(os.path.join(script_path, os.pardir, os.pardir))
+
+    ftl_path = os.path.join(root_path, "en-US", "subset")
+    ftl_rel_path = os.path.relpath(ftl_path, root_path)
+
+    # Get the experiment recipe (JSON), generate the FTL file and store it in the repository
+    experiment_id = args.exp_id
+    recipe = get_experiment_json(experiment_id)
+    file_name = f"{experiment_id.replace('-', '_')}_{date.today().year}.ftl"
+    with open(os.path.join(ftl_path, file_name), "w") as f:
+        f.write(generate_file(recipe))
+
+    recipe_locales = ["de", "fr", "it"]
+
+    # Parse and update the existing TOML file:
+    # - Make sure that the list of locales include all locales requested in the recipe
+    # - Add new file
+    toml_file = args.toml_path
+    toml_data = read_toml_content(toml_file)
+    toml_data["locales"] = recipe_locales
+    file_path = os.path.join(ftl_rel_path, file_name)
+    toml_data["paths"].append(
+        {
+            "reference": f"{file_path}",
+            "l10n": f"{file_path}",
+            "locales": recipe_locales,
+        }
+    )
+    write_toml_content(toml_file, toml_data)
+
 
 if __name__ == "__main__":
     main()
