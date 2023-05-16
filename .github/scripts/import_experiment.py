@@ -39,7 +39,7 @@ def generate_ftl_file(recipe):
     parsed_ids = {}
 
     for branch in recipe["branches"]:
-        file_content.append(f"\n## Branch: {branch['slug']}\n")
+        file_content.append(f"## Branch: {branch['slug']}\n")
         for feature in branch["features"]:
             # Find all $l10n keys in the branch value
             branch_value = feature["value"]["content"]
