@@ -16,6 +16,14 @@
       "windows-bg-notifications-title-b": "Firefox ist jetzt schneller als je zuvor",
       "windows-bg-notifications-title-c": "Schnelle Seitenladezeiten. Mehrere Tabs, ohne Verzögerung. Verschwendet keinen Speicherplatz, sodass andere Programme mit Höchstgeschwindigkeit ausgeführt werden."
     },
+    "fr": {
+      "windows-bg-notifications-title-a": "Le nouveau Firefox. Plus de confidentialité. Moins de traqueurs. Pas de compromis.",
+      "windows-bg-notifications-body-a": "Essayez le nouveau Firefox maintenant, amélioré grâce à notre protection contre le pistage la plus puissante à ce jour.",
+      "windows-bg-notifications-open-button-a": "Lancer Firefox",
+      "windows-bg-notifications-remind-button-a": "Rappeler plus tard",
+      "windows-bg-notifications-title-b": "Firefox est plus rapide que jamais",
+      "windows-bg-notifications-title-c": "Chargement des pages ultrarapide. Aucun ralentissement lors de l’ouverture de plusieurs onglets. Il ne gaspille pas la mémoire, afin que les autres programmes puissent fonctionner à pleine vitesse."
+    },
     "it": {
       "windows-bg-notifications-title-a": "Nuovo Firefox. Più riservato. Meno elementi traccianti. Nessun compromesso.",
       "windows-bg-notifications-body-a": "Prova ora il nuovo Firefox, aggiornato con la protezione antitracciamento più potente che abbiamo mai realizzato.",
@@ -28,6 +36,7 @@
   "complete_locales": [
     "de",
     "en-US",
+    "fr",
     "it"
   ]
 }
