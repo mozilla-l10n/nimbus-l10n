@@ -30,6 +30,11 @@ jobs:
           --repo ${{ github.repository }}
           --toml l10n.toml
           --token ${{ secrets.API_GITHUB_TOKEN }}
+      - name: Store ENV variables
+        id: env-variables
+        run: |
+          issue_number=$(jq -r '."${{ github.event.inputs.experiment_id }}" | .issue' .github/storage/experiments.json)
+          echo "issue_number=${issue_number}" >> $GITHUB_OUTPUT
       - name: Create pull request
         id: cpr
         uses: peter-evans/create-pull-request@v5
@@ -42,6 +47,7 @@ jobs:
           body: "See issue at https://github.com/${{ github.repository }}/issues/${{ github.event.inputs.issue_number }}"
       - name: Add comment to issue
         run: |
-          gh issue comment ${{ github.event.inputs.issue_number }} --repo ${{ github.repository }} --body "Created pull request: ${{ steps.cpr.outputs.pull-request-url }}"
+          # Need to use the issue number from experiments.json, as a new issue might have been created
+          gh issue comment ${{ steps.env-variables.outputs.issue_number }} --repo ${{ github.repository }} --body "Created pull request: ${{ steps.cpr.outputs.pull-request-url }}"
         env:
           GH_TOKEN: ${{ secrets.API_GITHUB_TOKEN }}
