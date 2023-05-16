@@ -138,7 +138,7 @@ def create_issue(repo, experiment_id, file_name, recipe_locales, api_token):
     url = f"https://api.github.com/repos/{repo}/issues"
     headers = {"Authorization": f"token {api_token}"}
 
-    issue_body=f"""
+    issue_body = f"""
 **Experiment ID**: `{experiment_id}`
 **Localization file**: `{file_name}`
 **Locales**: {', '.join(recipe_locales)}
@@ -159,6 +159,7 @@ def create_issue(repo, experiment_id, file_name, recipe_locales, api_token):
         print(r.status_code)
         return ""
 
+
 def main():
     # Read command line input parameters
     parser = argparse.ArgumentParser()
@@ -168,6 +169,7 @@ def main():
     parser.add_argument("--id", dest="exp_id", help="Experiment ID", required="True")
     parser.add_argument("--issue", dest="issue", help="Issue number", default=0)
     parser.add_argument("--token", dest="token", help="API Token", required=True)
+    parser.add_argument("--repo", dest="repo", help="GitHub repository", required=True)
     args = parser.parse_args()
 
     # Store paths
@@ -219,13 +221,13 @@ def main():
     write_toml_content(toml_file, toml_data)
 
     # Check if an issue already exists, create a new one if needed
-    # TODO: restore
-    # gh_repo = "mozilla-l10n/nimbus-l10n"
-    gh_repo = "flodolo/nimbus-l10n"
+    gh_repo = args.repo
     issue_number = args.issue
     if not issue_exists(gh_repo, issue_number):
         # Create a new issue
-        issue_number = create_issue(gh_repo, experiment_id, file_name, recipe_locales, args.token)
+        issue_number = create_issue(
+            gh_repo, experiment_id, file_name, recipe_locales, args.token
+        )
 
     # Write back info on the experiments in JSON file
     experiments[experiment_id] = {

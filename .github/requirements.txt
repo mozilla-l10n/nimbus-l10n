@@ -1,5 +1,6 @@
-compare-locales==8.2.1
+compare-locales==9.0.1
 jsonpath-ng==1.5.*
 moz-fluent-linter==0.3.*
 PyYAML==6.0
+requests==2.30.*
 toml==0.10.*

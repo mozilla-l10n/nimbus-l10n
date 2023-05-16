@@ -1,0 +1,47 @@
+name: Import experiment
+on:
+  workflow_dispatch:
+    inputs:
+      experiment_id:
+        description: ID of the experiment in Nimbus
+        required: true
+      issue_number:
+        description: Reference issue number (leave empty to create one)
+        required: false
+        default: ""
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+      - name: Set up Python 3
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install Python dependencies
+        run: |
+          pip install -r .github/requirements.txt
+      - name: Generate localization file and create issue if necessary
+        run: >
+          python .github/scripts/import_experiment.py
+          --id "${{ github.event.inputs.experiment_id }}"
+          --issue "${{ github.event.inputs.issue_number }}"
+          --repo ${{ github.repository }}
+          --toml l10n.toml
+          --token ${{ secrets.API_GITHUB_TOKEN }}
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.API_GITHUB_TOKEN }}
+          branch: "exp-${{ github.event.inputs.experiment_id }}"
+          author: l10n-bot <actions@users.noreply.github.com>
+          commit-message: "Set up localization for experiment ${{ github.event.inputs.experiment_id }}"
+          title: "Set up localization for experiment ${{ github.event.inputs.experiment_id }}"
+          body: "See issue at https://github.com/${{ github.repository }}/issues/${{ github.event.inputs.issue_number }}"
+      - name: Add comment to issue
+        run: |
+          gh issue comment ${{ github.event.inputs.issue_number }} --repo ${{ github.repository }} --body "Created pull request: ${{ steps.cpr.outputs.pull-request-url }}"
+        env:
+          GH_TOKEN: ${{ secrets.API_GITHUB_TOKEN }}
