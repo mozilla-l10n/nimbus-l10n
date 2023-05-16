@@ -132,13 +132,32 @@ def issue_exists(repo, issue_number):
     return True
 
 
-def create_issue(repo, experiment_id, file_name, recipe_locales):
+def create_issue(repo, experiment_id, file_name, recipe_locales, api_token):
     # Create a new issue
 
-    print("Creating a new issue")
+    url = f"https://api.github.com/repos/{repo}/issues"
+    headers = {"Authorization": f"token {api_token}"}
 
-    return 42
+    issue_body=f"""
+**Experiment ID**: `{experiment_id}`
+**Localization file**: `{file_name}`
+**Locales**: {', '.join(recipe_locales)}
+    """
+    payload = {
+        "title": f"Localization request for experiment {experiment_id}",
+        "body": issue_body,
+        "assignees": ["flodolo"],
+    }
 
+    r = requests.post(url=url, headers=headers, data=json.dumps(payload))
+    try:
+        issue_number = r.json()["number"]
+        print(f"Created a new issue: {issue_number}")
+        return issue_number
+    except:
+        print("Error creating a new issue")
+        print(r.status_code)
+        return ""
 
 def main():
     # Read command line input parameters
@@ -148,6 +167,7 @@ def main():
     )
     parser.add_argument("--id", dest="exp_id", help="Experiment ID", required="True")
     parser.add_argument("--issue", dest="issue", help="Issue number", default=0)
+    parser.add_argument("--token", dest="token", help="API Token", required=True)
     args = parser.parse_args()
 
     # Store paths
@@ -199,17 +219,18 @@ def main():
     write_toml_content(toml_file, toml_data)
 
     # Check if an issue already exists, create a new one if needed
-    gh_repo = "mozilla-l10n/nimbus-l10n"
+    # TODO: restore
+    # gh_repo = "mozilla-l10n/nimbus-l10n"
+    gh_repo = "flodolo/nimbus-l10n"
     issue_number = args.issue
     if not issue_exists(gh_repo, issue_number):
         # Create a new issue
-        issue_number = create_issue(gh_repo, experiment_id, file_name, recipe_locales)
-    print(issue_number)
+        issue_number = create_issue(gh_repo, experiment_id, file_name, recipe_locales, args.token)
 
     # Write back info on the experiments in JSON file
     experiments[experiment_id] = {
         "file": file_path,
-        "issue": args.issue,
+        "issue": issue_number,
         "locales": recipe_locales,
     }
     with open(experiments_json, "w") as f:
