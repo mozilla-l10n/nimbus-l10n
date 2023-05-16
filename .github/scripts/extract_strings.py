@@ -98,6 +98,7 @@ class StringExtraction:
                 experiment_id, message_id = full_id.split(":")
                 if experiment_id not in json_output:
                     json_output[experiment_id] = {
+                        "complete": False,
                         "complete_locales": [],
                         "translations": defaultdict(dict),
                     }
@@ -125,6 +126,9 @@ class StringExtraction:
             for loc in incomplete_locales:
                 del exp_data["translations"][loc]
 
+            if not incomplete_locales:
+                exp_data["complete"] = True
+
         return json_output
 
 
@@ -149,6 +153,7 @@ def main():
     extracted_strings.extractStrings()
     translations = extracted_strings.getTranslations()
 
+    # Store the JSON file for each experiment
     for exp_id, exp_data in translations.items():
         filename = os.path.join(args.dest_path, f"{exp_id}.json")
         with open(filename, "w", encoding="utf8") as f:
