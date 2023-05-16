@@ -98,8 +98,8 @@ class StringExtraction:
                 experiment_id, message_id = full_id.split(":")
                 if experiment_id not in json_output:
                     json_output[experiment_id] = {
-                        "translations": defaultdict(dict),
                         "complete_locales": [],
+                        "translations": defaultdict(dict),
                     }
                 json_output[experiment_id]["translations"][locale][
                     message_id
@@ -113,17 +113,17 @@ class StringExtraction:
             reference_ids = list(exp_data["translations"][self.reference_locale].keys())
 
             incomplete_locales = []
-            for l in locales:
-                l10n_ids = list(exp_data["translations"][l].keys())
+            for loc in locales:
+                l10n_ids = list(exp_data["translations"][loc].keys())
                 if len(set(reference_ids) - set(l10n_ids)) == 0:
-                    exp_data["complete_locales"].append(l)
+                    exp_data["complete_locales"].append(loc)
                 else:
-                    incomplete_locales.append(l)
+                    incomplete_locales.append(loc)
             exp_data["complete_locales"].sort()
 
             # Remove partially translated locales
-            for l in incomplete_locales:
-                del exp_data["translations"][l]
+            for loc in incomplete_locales:
+                del exp_data["translations"][loc]
 
         return json_output
 
