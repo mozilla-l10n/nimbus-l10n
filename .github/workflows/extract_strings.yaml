@@ -22,8 +22,15 @@ jobs:
         run: |
           pip install -r .github/requirements.txt
       - name: Extract strings
-        run: |
-          python .github/scripts/extract_strings.py --toml l10n.toml --dest .github/storage
+        run: >
+          python .github/scripts/extract_strings.py
+          --toml l10n.toml
+          --dest .github/storage
+      - name: Add comments
+        run: >
+          python .github/scripts/comment_complete_experiment.py
+          --repo ${{ github.repository }}
+          --token ${{ secrets.API_GITHUB_TOKEN }}
       - name: Commit changes
         continue-on-error: true
         run : |

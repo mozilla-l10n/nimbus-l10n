@@ -5,8 +5,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 from collections import defaultdict
-from configparser import ConfigParser
-from pathlib import Path
 import argparse
 import json
 import os
