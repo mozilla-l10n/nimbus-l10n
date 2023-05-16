@@ -18,3 +18,6 @@ windows-bg-notifications-remind-button-a = Rappeler plus tard
 ## Variant (the buttons remain the same)
 
 windows-bg-notifications-title-b = Firefox est plus rapide que jamais
+# “minus the lag” refers to reducing the presence of “lag” in the user experience.
+# Alternative versions: "Multiple tabs, no lag" or "Multiple tabs without the lag".
+windows-bg-notifications-title-c = Chargement des pages ultrarapide. Aucun ralentissement lors de l’ouverture de plusieurs onglets. Il ne gaspille pas la mémoire, afin que les autres programmes puissent fonctionner à pleine vitesse.
