@@ -9,6 +9,7 @@ from jsonpath_ng.ext import parse
 import argparse
 import json
 import os
+import re
 import requests
 import sys
 import toml
@@ -186,7 +187,14 @@ def main():
 
     # Extract the list of locales from the recipe
     # TODO: https://github.com/mozilla/experimenter/pull/8820
-    recipe_locales = ["de", "fr", "it"]
+    # For now, extract the list of locales from targeting
+    targeting = recipe["targeting"]
+    pattern = re.compile(r"locale in \[(?P<locales>.*)]")
+    matches = pattern.search(targeting)
+    recipe_locales = [
+        loc.strip() for loc in matches.group("locales").replace("'", "").split(",")
+    ]
+    recipe_locales.sort()
 
     # Parse and update the existing TOML file:
     # - Make sure that the top-level list of locales includes all locales
