@@ -8,8 +8,10 @@ body:
     attributes:
       value: >
         Please note that this workflow is designed for Nimbus experiments.
-        To translate other types of content, please refer to
-        [this page](https://mozilla-hub.atlassian.net/wiki/spaces/FIREFOX/pages/11045331/Localization+l10n+and+Translation).
+
+
+        To translate other types of content, please refer to [this
+        page](https://mozilla-hub.atlassian.net/wiki/spaces/FDPDT/pages/11045331/Localization+l10n+and+Translation).
   - type: textarea
     id: info
     attributes:
@@ -38,8 +40,8 @@ body:
       label: Deadline
       description: >
         Is there a hard deadline for the experiment? Keep in mind that getting
-        translations will require at least 72h, shorter deadlines will use
-        machine translation.
+        translations will require at least 72h, shorter deadlines might require
+        using pretranslation (automated translation).
       placeholder: YYYY-MM-DD
     validations:
       required: false
@@ -47,10 +49,14 @@ body:
     id: strings
     attributes:
       label: Content to translate
-      description: |
-        Provide the content that needs to be translated. You can put it in the issue, or provide a link to an external document (e.g. spreadsheet).
+      description: >
+        Provide the content that needs to be translated. You can put it in the
+        issue, or provide a link to an external document (e.g. spreadsheet).
 
-        The more information you provide, the easier it will be to start the translation. For example, it's important to know in which context strings will be used (button label, title, etc.) or if there are length limitations.
+        The more information you provide, the easier it will be to start the
+        translation. For example, it's important to know in which context
+        strings will be used (button label, title, etc.) or if there are length
+        limitations.
       placeholder: Content to translate or link to external spreadsheet.
     validations:
       required: true
