@@ -1,0 +1,40 @@
+name: New translation request (multi-locale recipe)
+description: Request translation for new experiment, using the new multi-locale recipe format (Firefox 113+)
+title: "[NEW]: (experiment name)"
+assignees:
+  - flodolo
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Please note that this workflow is designed for Nimbus experiments, using
+        a recipe format available with Firefox 113 and later versions.
+
+
+        To translate other types of content, please refer to [this
+        page](https://mozilla-hub.atlassian.net/wiki/spaces/FDPDT/pages/11045331/Localization+l10n+and+Translation).
+  - type: textarea
+    id: info
+    attributes:
+      label: Information about the experiment
+      description: >
+        Provide as much context as possible about the experiment, including a
+        URL to the experiment in
+        [Experimenter](https://experimenter.services.mozilla.com/nimbus/)
+        (automation will be used to extract the strings, comments, and the list
+        of requested locales). Consider providing links to the experiment
+        documentation, mock-ups, etc.
+      placeholder: Tell us about the experiment.
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: >
+        Is there a hard deadline for the experiment? Keep in mind that getting
+        translations will require at least 72h, shorter deadlines might require
+        using pretranslation (automated translation).
+      placeholder: YYYY-MM-DD
+    validations:
+      required: false
