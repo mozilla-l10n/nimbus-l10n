@@ -196,6 +196,8 @@ def main():
     recipe_locales = [
         loc.strip() for loc in matches.group("locales").replace("'", "").split(",")
     ]
+    # Remove en-US from the recipe locales
+    recipe_locales.remove("en-US")
     recipe_locales.sort()
 
     # Parse and update the existing TOML file:
@@ -204,7 +206,9 @@ def main():
     # - Add the new file to [[paths]]
     toml_file = args.toml_path
     toml_data = read_toml_content(toml_file)
-    toml_data["locales"] = recipe_locales
+    toml_locales = list(set(toml_data["locales"] + recipe_locales))
+    toml_locales.sort()
+    toml_data["locales"] = toml_locales
     file_path = os.path.relpath(os.path.join(ftl_path, ftl_filename))
 
     # Add the path, making sure not to create duplicates
