@@ -19,7 +19,7 @@ import urllib.request
 def get_experiment_json(exp_id):
     # Get recipe of draft experiment in JSON format from the Nimbus API
 
-    host = "https://experimenter.services.mozilla.com"
+    host = "https://stage.experimenter.nonprod.dataops.mozgcp.net"
     url = f"{host}/api/v6/draft-experiments/{exp_id}/"
     try:
         data = urllib.request.urlopen(url)
@@ -168,7 +168,7 @@ def main():
     # Store paths
     script_path = os.path.dirname(__file__)
     root_path = os.path.abspath(os.path.join(script_path, os.pardir, os.pardir))
-    ftl_path = os.path.join(root_path, "en-US", "subset")
+    ref_ftl_path = os.path.join(root_path, "en-US", "subset")
 
     # Get experiments.json, which contains information about experiments that
     # were processed through this pipeline.
@@ -184,7 +184,7 @@ def main():
     experiment_id = args.exp_id
     recipe = get_experiment_json(experiment_id)
     ftl_filename = f"{experiment_id.replace('-', '_')}_{date.today().year}.ftl"
-    with open(os.path.join(ftl_path, ftl_filename), "w") as f:
+    with open(os.path.join(ref_ftl_path, ftl_filename), "w") as f:
         f.write(generate_ftl_file(recipe))
 
     # Extract the list of locales from the recipe
@@ -209,18 +209,21 @@ def main():
     toml_locales = list(set(toml_data["locales"] + recipe_locales))
     toml_locales.sort()
     toml_data["locales"] = toml_locales
-    file_path = os.path.relpath(os.path.join(ftl_path, ftl_filename))
+    ref_file_path = os.path.relpath(os.path.join(ref_ftl_path, ftl_filename))
+    l10n_file_path = os.path.relpath(
+        os.path.join(root_path, "{locale}", "subset", ftl_filename)
+    )
 
     # Add the path, making sure not to create duplicates
     path_exists = False
     for path in toml_data["paths"]:
-        if path["reference"] == file_path:
+        if path["reference"] == ref_file_path:
             path_exists = True
     if not path_exists:
         toml_data["paths"].append(
             {
-                "reference": f"{file_path}",
-                "l10n": f"{file_path}",
+                "reference": f"{ref_file_path}",
+                "l10n": f"{l10n_file_path}",
                 "locales": recipe_locales,
             }
         )
@@ -240,7 +243,7 @@ def main():
     # Write back info on the experiment in experiments.json
     experiments[experiment_id] = {
         "complete": False,
-        "file": file_path,
+        "file": ref_file_path,
         "issue": issue_number,
         "locales": recipe_locales,
     }
