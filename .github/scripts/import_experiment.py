@@ -19,7 +19,7 @@ import urllib.request
 def get_experiment_json(exp_id):
     # Get recipe of draft experiment in JSON format from the Nimbus API
 
-    host = "https://stage.experimenter.nonprod.dataops.mozgcp.net"
+    host = "https://experimenter.services.mozilla.com"
     url = f"{host}/api/v6/draft-experiments/{exp_id}/"
     try:
         data = urllib.request.urlopen(url)
@@ -30,7 +30,7 @@ def get_experiment_json(exp_id):
     return json.load(data)
 
 
-def generate_ftl_file(recipe):
+def generate_ftl_file(recipe, experiment_id):
     # Generate a FTL file from the strings in the recipe
 
     file_content = [
@@ -39,11 +39,13 @@ def generate_ftl_file(recipe):
         "# file, You can obtain one at http://mozilla.org/MPL/2.0/.\n",
     ]
     parsed_ids = {}
-
+    warnings = []
     for branch in recipe["branches"]:
         file_content.append(f"## Branch: {branch['slug']}\n")
         for feature in branch["features"]:
             # Find all $l10n keys in the branch value
+            if "content" not in feature["value"]:
+                continue
             branch_value = feature["value"]["content"]
             jsonpath_expression = parse('$.."$l10n"')
             for match in jsonpath_expression.find(branch_value):
@@ -52,18 +54,28 @@ def generate_ftl_file(recipe):
                 comment = match.value.get("comment", "")
                 if id in parsed_ids:
                     # We already parsed a string with this ID. Verify that the
-                    # text is the same. If not, print a warning.
+                    # text is the same. If not, store a warning.
                     if parsed_ids[id] != text:
-                        print(f"WARNING: the ID {id} is used with different values")
-                        print(f"Previous: {parsed_ids['id']}")
-                        print(f"Current: {text}")
+                        warnings.append(
+                            "\n---\n\n"
+                            f"The string with ID `{id}` is defined with different values throughout the recipe.\n"
+                            f"Previous value: `{parsed_ids[id]}`\n"
+                            f"New value: `{text}`\n"
+                        )
+
                 else:
                     if comment:
                         file_content.append(f"# {comment}")
                     file_content.append(f"{id} = {text}\n")
                     parsed_ids[id] = text
 
-    return "\n".join(file_content)
+    # If there are no strings defined, exit with an error
+    if not parsed_ids:
+        sys.exit(
+            f"There are no strings defined in the experiment recipe ({experiment_id})"
+        )
+
+    return "\n".join(file_content), warnings
 
 
 def print_toml_file(toml_data):
@@ -153,6 +165,27 @@ def create_issue(repo, experiment_id, file_name, recipe_locales, api_token):
         return ""
 
 
+def add_comment_warnings(repo, issue_number, warnings, api_token):
+    # Comment in the issue linked to the experiment with the warnings
+
+    url = f"https://api.github.com/repos/{repo}/issues/{issue_number}/comments"
+    headers = {"Authorization": f"token {api_token}"}
+
+    warnings_body = "\n".join(warnings)
+    comment_body = f"""
+Automation has detected issues in the experiment recipe.
+
+{warnings_body}
+    """
+    payload = {
+        "body": comment_body,
+    }
+
+    r = requests.post(url=url, headers=headers, data=json.dumps(payload))
+    if r.status_code != 201:
+        print(f"Error adding comment to issue {issue_number} in {repo}")
+
+
 def main():
     # Read command line input parameters
     parser = argparse.ArgumentParser()
@@ -184,8 +217,9 @@ def main():
     experiment_id = args.exp_id
     recipe = get_experiment_json(experiment_id)
     ftl_filename = f"{experiment_id.replace('-', '_')}_{date.today().year}.ftl"
+    ftl_content, warnings = generate_ftl_file(recipe, experiment_id)
     with open(os.path.join(ref_ftl_path, ftl_filename), "w") as f:
-        f.write(generate_ftl_file(recipe))
+        f.write(ftl_content)
 
     # Extract the list of locales from the recipe
     # TODO: https://github.com/mozilla/experimenter/pull/8820
@@ -234,11 +268,14 @@ def main():
 
     # Check if an issue already exists, otherwise create a new one
     gh_repo = args.repo
+    api_token = args.token
     issue_number = args.issue
     if not issue_exists(gh_repo, issue_number):
         issue_number = create_issue(
-            gh_repo, experiment_id, ftl_filename, recipe_locales, args.token
+            gh_repo, experiment_id, ftl_filename, recipe_locales, api_token
         )
+    # Add an additional comment if there are warnings
+    add_comment_warnings(gh_repo, issue_number, warnings, api_token)
 
     # Write back info on the experiment in experiments.json
     experiments[experiment_id] = {
