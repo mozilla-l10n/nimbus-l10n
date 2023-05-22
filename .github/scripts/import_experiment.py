@@ -59,8 +59,8 @@ def generate_ftl_file(recipe, experiment_id):
                         warnings.append(
                             "\n---\n\n"
                             f"The string with ID `{id}` is defined with different values throughout the recipe.\n"
-                            f"Previous value: `{parsed_ids[id]}`\n"
-                            f"New value: `{text}`\n"
+                            f"Initial value: `{parsed_ids[id]}`\n"
+                            f"Different value (ignored): `{text}`\n"
                         )
 
                 else:
