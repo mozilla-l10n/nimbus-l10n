@@ -1,4 +1,11 @@
 {
+  "complete": true,
+  "complete_locales": [
+    "de",
+    "en-US",
+    "fr",
+    "it"
+  ],
   "translations": {
     "en-US": {
       "vpn-spotlight-v1-title": "Privacy beyond your browser",
@@ -32,11 +39,5 @@
       "vpn-spotlight-v2-body": "Mozilla VPN è una rete privata virtuale potente e facile da utilizzare, in grado di proteggerti su tutti i tuoi dispositivi. Volutamente semplice, orgogliosamente protettiva.",
       "vpn-spotlight-v2-main-button": "Ottieni Mozilla VPN"
     }
-  },
-  "complete_locales": [
-    "de",
-    "en-US",
-    "fr",
-    "it"
-  ]
+  }
 }

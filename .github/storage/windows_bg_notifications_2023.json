@@ -1,4 +1,11 @@
 {
+  "complete": true,
+  "complete_locales": [
+    "de",
+    "en-US",
+    "fr",
+    "it"
+  ],
   "translations": {
     "en-US": {
       "windows-bg-notifications-title-a": "New Firefox. More private. Fewer trackers. No compromises.",
@@ -32,11 +39,5 @@
       "windows-bg-notifications-title-b": "Ora Firefox è più veloce che mai",
       "windows-bg-notifications-title-c": "Caricamento delle pagine ultra rapido. Nessun rallentamento quando apri più schede. Stop agli sprechi di memoria, così gli altri programmi possono funzionare alla massima velocità."
     }
-  },
-  "complete_locales": [
-    "de",
-    "en-US",
-    "fr",
-    "it"
-  ]
+  }
 }

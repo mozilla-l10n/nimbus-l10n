@@ -1,4 +1,10 @@
 {
+  "complete": true,
+  "complete_locales": [
+    "de",
+    "en-US",
+    "fr"
+  ],
   "translations": {
     "en-US": {
       "import-bookmarks-experiment-title": "Bring along what matters",
@@ -24,10 +30,5 @@
       "import-bookmarks-experiment-primary-button-label": "Importer dans Firefox",
       "import-bookmarks-experiment-secondary-button-label": "Plus tard"
     }
-  },
-  "complete_locales": [
-    "de",
-    "en-US",
-    "fr"
-  ]
+  }
 }

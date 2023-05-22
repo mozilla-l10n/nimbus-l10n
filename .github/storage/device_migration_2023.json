@@ -1,4 +1,11 @@
 {
+  "complete": true,
+  "complete_locales": [
+    "de",
+    "en-US",
+    "fr",
+    "it"
+  ],
   "translations": {
     "en-US": {
       "device-migration-fxa-spotlight-header": "Using an older device?",
@@ -40,11 +47,5 @@
       "device-migration-fxa-spotlight-header-v2": "Nuovo dispositivo nel tuo futuro?",
       "device-migration-fxa-spotlight-body-v2": "Segui alcuni semplici passaggi per portare con te segnalibri, cronologia e password quando inizi a utilizzare un nuovo dispositivo."
     }
-  },
-  "complete_locales": [
-    "de",
-    "en-US",
-    "fr",
-    "it"
-  ]
+  }
 }

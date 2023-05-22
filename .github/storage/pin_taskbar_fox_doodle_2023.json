@@ -1,4 +1,10 @@
 {
+  "complete": true,
+  "complete_locales": [
+    "de",
+    "en-US",
+    "fr"
+  ],
   "translations": {
     "en-US": {
       "pin-default-peace-of-mind-headline": "We’ve got you covered",
@@ -30,10 +36,5 @@
       "pin-default-secondary-button-label": "Plus tard",
       "pin-default-set-default-primary-button-label": "Ouvrir mes liens avec Firefox"
     }
-  },
-  "complete_locales": [
-    "de",
-    "en-US",
-    "fr"
-  ]
+  }
 }
