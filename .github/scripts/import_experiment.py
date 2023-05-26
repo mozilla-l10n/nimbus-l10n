@@ -49,9 +49,38 @@ def generate_ftl_file(recipe, experiment_id):
             branch_value = feature["value"]["content"]
             jsonpath_expression = parse('$.."$l10n"')
             for match in jsonpath_expression.find(branch_value):
+                # Check if $l10n is an object
+                if type(match.value) != dict:
+                    warnings.append(
+                        "\n---\n\n"
+                        f"$l10n definition is not an object (found `{type(match.value).__name__}` instead).\n"
+                        f"\n```\n{match.value}\n```\n"
+                    )
+                    continue
+
+                # Get the id attribute, store a warning if not available
+                if "id" not in match.value:
+                    warnings.append(
+                        "\n---\n\n"
+                        f"$l10n object defined without an `id` attribute.\n"
+                        f"\n```\n{json.dumps(match.value, indent=2)}\n```\n"
+                    )
+                    continue
                 id = match.value["id"]
+
+                # Get the text attribute, store a warning if not available
+                if "text" not in match.value:
+                    warnings.append(
+                        "\n---\n\n"
+                        f"$l10n object defined without a `text` attribute.\n"
+                        f"\n```\n{json.dumps(match.value, indent=2)}\n```\n"
+                    )
+                    continue
                 text = match.value["text"]
+
+                # Get the comment attribute, use an empty string if not available
                 comment = match.value.get("comment", "")
+
                 if id in parsed_ids:
                     # We already parsed a string with this ID. Verify that the
                     # text is the same. If not, store a warning.
@@ -274,8 +303,10 @@ def main():
         issue_number = create_issue(
             gh_repo, experiment_id, ftl_filename, recipe_locales, api_token
         )
-    # Add an additional comment if there are warnings
-    add_comment_warnings(gh_repo, issue_number, warnings, api_token)
+    # If there are warnings, print them and add an additional comment
+    if warnings:
+        print("".join(warnings))
+        add_comment_warnings(gh_repo, issue_number, warnings, api_token)
 
     # Write back info on the experiment in experiments.json
     experiments[experiment_id] = {
