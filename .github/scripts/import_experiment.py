@@ -250,16 +250,8 @@ def main():
     with open(os.path.join(ref_ftl_path, ftl_filename), "w") as f:
         f.write(ftl_content)
 
-    # Extract the list of locales from the recipe
-    # TODO: https://github.com/mozilla/experimenter/pull/8820
-    # For now, extract the list of locales from targeting
-    targeting = recipe["targeting"]
-    pattern = re.compile(r"locale in \[(?P<locales>.*)]")
-    matches = pattern.search(targeting)
-    recipe_locales = [
-        loc.strip() for loc in matches.group("locales").replace("'", "").split(",")
-    ]
-    # Remove en-US from the recipe locales
+    # Extract the list of locales from the recipe, remove en-US
+    recipe_locales = recipe["locales"]
     recipe_locales.remove("en-US")
     recipe_locales.sort()
 
