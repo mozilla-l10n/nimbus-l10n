@@ -4,7 +4,8 @@
     "en-CA",
     "en-GB",
     "en-US",
-    "fr"
+    "fr",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -62,6 +63,20 @@
       "fox-doodle-trackers-subtitle": "Dites adieu aux traqueurs publicitaires pénibles et optez pour une expérience Internet plus rapide et plus sûre.",
       "fox-doodle-set-default-trackers-primary-button-label": "Ouvrir mes liens avec Firefox",
       "fox-doodle-trackers-secondary-button-label": "Plus tard"
+    },
+    "it": {
+      "fox-doodle-driving-title": "Fai un’accurata prova su strada di Firefox",
+      "fox-doodle-driving-subtitle": "Per prestazioni al top, tieni il tuo nuovo browser indipendente preferito a portata di clic mentre gli fai fare un giro di prova.",
+      "fox-doodle-set-default-driving-primary-button-label": "Apri i miei link con Firefox",
+      "fox-doodle-driving-secondary-button-label": "Non adesso",
+      "fox-doodle-campfire-title": "Codice sorgente aperto. Menti aperte.",
+      "fox-doodle-campfire-subtitle": "Ti manca solo un clic per sostenere l’unico browser sviluppato da un’organizzazione non profit, progettato per mettere le persone al primo posto, sempre, ovunque si trovino.",
+      "ffox-doodle-set-default-campfire-primary-button-label": "Apri i miei link con Firefox",
+      "fox-doodle-campfire-secondary-button-label": "Non adesso",
+      "fox-doodle-trackers-title": "Liberati dai fastidiosi elementi traccianti",
+      "fox-doodle-trackers-subtitle": "Dì addio alle fastidiose pubblicità che ti seguono ovunque e vivi Internet in modo più sicuro e veloce.",
+      "fox-doodle-set-default-trackers-primary-button-label": "Apri i miei link con Firefox",
+      "fox-doodle-trackers-secondary-button-label": "Non adesso"
     }
   }
 }
