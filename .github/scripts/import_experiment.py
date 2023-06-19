@@ -230,7 +230,7 @@ def main():
     # Store paths
     script_path = os.path.dirname(__file__)
     root_path = os.path.abspath(os.path.join(script_path, os.pardir, os.pardir))
-    ref_ftl_path = os.path.join(root_path, "en-US", "subset")
+    ref_folder_path = os.path.join(root_path, "en-US", "subset")
 
     # Get experiments.json, which contains information about experiments that
     # were processed through this pipeline.
@@ -246,14 +246,31 @@ def main():
     experiment_id = args.exp_id
     recipe = get_experiment_json(experiment_id)
     ftl_filename = f"{experiment_id.replace('-', '_')}_{date.today().year}.ftl"
-    ftl_content, warnings = generate_ftl_file(recipe, experiment_id)
-    with open(os.path.join(ref_ftl_path, ftl_filename), "w") as f:
-        f.write(ftl_content)
+    ref_ftl_fullname = os.path.join(ref_folder_path, ftl_filename)
+    ref_ftl_relname = os.path.relpath(ref_ftl_fullname, root_path)
+    # Exit with an error if the file already exists
+    if os.path.exists(ref_ftl_fullname):
+        sys.exit(
+            f"Error: there is already a file called `{ref_ftl_relname}`. Import stopped."
+        )
+    ref_ftl_content, warnings = generate_ftl_file(recipe, experiment_id)
+    with open(ref_ftl_fullname, "w") as f:
+        f.write(ref_ftl_content)
 
     # Extract the list of locales from the recipe, remove en-US
     recipe_locales = recipe["locales"]
     recipe_locales.remove("en-US")
     recipe_locales.sort()
+
+    # en-CA and en-GB are special cases, as we use the same content as en-US.
+    # If they're part of the request, store the same file also for these locales.
+    for loc in ["en-CA", "en-GB"]:
+        if loc not in recipe_locales:
+            continue
+        loc_folder = os.path.join(root_path, loc, "subset")
+        os.makedirs(loc_folder, exist_ok=True)
+        with open(os.path.join(loc_folder, ftl_filename), "w") as f:
+            f.write(ref_ftl_content)
 
     # Parse and update the existing TOML file:
     # - Make sure that the top-level list of locales includes all locales
@@ -264,20 +281,17 @@ def main():
     toml_locales = list(set(toml_data["locales"] + recipe_locales))
     toml_locales.sort()
     toml_data["locales"] = toml_locales
-    ref_file_path = os.path.relpath(os.path.join(ref_ftl_path, ftl_filename))
-    l10n_file_path = os.path.relpath(
-        os.path.join(root_path, "{locale}", "subset", ftl_filename)
-    )
+    l10n_file_path = os.path.join("{locale}", "subset", ftl_filename)
 
     # Add the path, making sure not to create duplicates
     path_exists = False
     for path in toml_data["paths"]:
-        if path["reference"] == ref_file_path:
+        if path["reference"] == ref_ftl_relname:
             path_exists = True
     if not path_exists:
         toml_data["paths"].append(
             {
-                "reference": f"{ref_file_path}",
+                "reference": f"{ref_ftl_relname}",
                 "l10n": f"{l10n_file_path}",
                 "locales": recipe_locales,
             }
@@ -303,7 +317,7 @@ def main():
     # Write back info on the experiment in experiments.json
     experiments[experiment_id] = {
         "complete": False,
-        "file": ref_file_path,
+        "file": ref_ftl_relname,
         "issue": issue_number,
         "locales": recipe_locales,
     }
