@@ -98,10 +98,11 @@ def generate_ftl_file(recipe, experiment_id):
                     branch_strings.append(f"{id} = {text}")
                     parsed_ids[id] = text
         if branch_strings:
+            # Add a group comment if the branch has strings, make sure
+            # there is an empty line after the last string.
             branch_strings.append("")
             file_content.append(f"## Branch: {branch['slug']}\n")
             file_content.extend(branch_strings)
-            (f"## Branch: {branch['slug']}\n")
 
     # If there are no strings defined, exit with an error
     if not parsed_ids:
