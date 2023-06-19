@@ -12,6 +12,8 @@ fox-doodle-driving-secondary-button-label = Non adesso
 
 ## Branch: treatment-b
 
+# This title plays on the repetition of open, and that might not work if your locale doesn't translate 'Open source'. You have the option to keep this string in English, if you think it can be easily understood and work well as a slogan, or use an alternative as a reference for translation: 'Support people over profits'.
+fox-doodle-campfire-title = Codice sorgente aperto. Menti aperte.
 fox-doodle-pin-campfire-primary-button-label = Aggiungi Firefox alla barra delle applicazioni
 fox-doodle-campfire-secondary-button-label = Non adesso
 
