@@ -45,6 +45,7 @@ Starting with Firefox 113, Nimbus supports multi-locale experiment recipes. In t
 Automation can be [manually triggered](https://github.com/mozilla-l10n/nimbus-l10n/actions/workflows/import_experiment.yaml) via GitHub actions, providing an experiment ID and an optional issue number. This will:
 * Retrieve the experiment JSON via API (using the experiment ID).
 * Extract the strings, create a FTL file for the experiment, and update `l10n.toml` accordingly (add new `path` for the file with the supported locales, amend the top-level list of locales if needed).
+    * If `en-CA` or `en-GB` are requested, the `en-US` content is also stored without modifications for these locales.
 * Open a new issue if an issue number wasn't provided. Note that this is actively discouraged, as requesters should [file an issue](https://github.com/mozilla-l10n/nimbus-l10n/issues/new/choose) with additional information on the experiment.
 * Open a pull request with a cross-reference to the issue.
 
