@@ -262,6 +262,16 @@ def main():
     recipe_locales.remove("en-US")
     recipe_locales.sort()
 
+    # en-CA and en-GB are special cases, as we use the same content as en-US.
+    # If they're part of the request, store the same file also for these locales.
+    for loc in ["en-CA", "en-GB"]:
+        if loc not in recipe_locales:
+            continue
+        loc_folder = os.path.join(root_path, loc, "subset")
+        os.makedirs(loc_folder, exist_ok=True)
+        with open(os.path.join(loc_folder, ftl_filename), "w") as f:
+            f.write(ref_ftl_content)
+
     # Parse and update the existing TOML file:
     # - Make sure that the top-level list of locales includes all locales
     #   requested in the recipe
