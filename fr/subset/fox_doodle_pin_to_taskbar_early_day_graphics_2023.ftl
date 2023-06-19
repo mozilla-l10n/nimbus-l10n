@@ -16,6 +16,7 @@ fox-doodle-driving-secondary-button-label = Plus tard
 
 # This title plays on the repetition of open, and that might not work if your locale doesn't translate 'Open source'. You have the option to keep this string in English, if you think it can be easily understood and work well as a slogan, or use an alternative as a reference for translation: 'Support people over profits'.
 fox-doodle-campfire-title = Logiciel libre. Esprits libres.
+fox-doodle-campfire-subtitle = En un clic, vous pouvez soutenir le seul navigateur soutenu par une organisation à but non lucratif, qui fait passer les gens avant tout le reste et est conçu pour tout le monde.
 fox-doodle-pin-campfire-primary-button-label = Épingler Firefox à la barre des tâches
 fox-doodle-campfire-secondary-button-label = Plus tard
 
