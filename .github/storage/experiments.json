@@ -1,0 +1,14 @@
+{
+  "fox-doodle-set-to-default-early-day-graphics": {
+    "complete": false,
+    "file": "en-US/subset/fox_doodle_set_to_default_early_day_graphics_2023.ftl",
+    "issue": "15",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  }
+}
