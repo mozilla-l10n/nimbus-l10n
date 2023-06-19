@@ -41,7 +41,7 @@ def generate_ftl_file(recipe, experiment_id):
     parsed_ids = {}
     warnings = []
     for branch in recipe["branches"]:
-        file_content.append(f"## Branch: {branch['slug']}\n")
+        branch_strings = []
         for feature in branch["features"]:
             # Find all $l10n keys in the branch value
             if "content" not in feature["value"]:
@@ -94,9 +94,14 @@ def generate_ftl_file(recipe, experiment_id):
 
                 else:
                     if comment:
-                        file_content.append(f"# {comment}")
-                    file_content.append(f"{id} = {text}\n")
+                        branch_strings.append(f"# {comment}")
+                    branch_strings.append(f"{id} = {text}")
                     parsed_ids[id] = text
+        if branch_strings:
+            branch_strings.append("")
+            file_content.append(f"## Branch: {branch['slug']}\n")
+            file_content.extend(branch_strings)
+            (f"## Branch: {branch['slug']}\n")
 
     # If there are no strings defined, exit with an error
     if not parsed_ids:
