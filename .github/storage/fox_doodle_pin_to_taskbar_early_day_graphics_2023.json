@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -47,6 +48,20 @@
       "fox-doodle-trackers-subtitle": "Say goodbye to annoying ad trackers and settle into a safer, speedy internet experience.",
       "fox-doodle-pin-trackers-primary-button-label": "Pin Firefox to taskbar",
       "fox-doodle-trackers-secondary-button-label": "Not now"
+    },
+    "fr": {
+      "fox-doodle-driving-title": "Essayez Firefox",
+      "fox-doodle-driving-subtitle": "Pour des performances de pointe, gardez votre nouveau navigateur indépendant préféré à portée de clic pendant que vous l’essayez.",
+      "fox-doodle-pin-driving-primary-button-label": "Épingler Firefox à la barre des tâches",
+      "fox-doodle-driving-secondary-button-label": "Plus tard",
+      "fox-doodle-campfire-title": "Logiciel libre. Esprits libres.",
+      "fox-doodle-campfire-subtitle": "En un clic, vous pouvez soutenir le seul navigateur soutenu par une organisation à but non lucratif, qui fait passer les gens avant tout le reste et est conçu pour tout le monde.",
+      "fox-doodle-pin-campfire-primary-button-label": "Épingler Firefox à la barre des tâches",
+      "fox-doodle-campfire-secondary-button-label": "Plus tard",
+      "fox-doodle-trackers-title": "Gardez les traqueurs indésirables à distance",
+      "fox-doodle-trackers-subtitle": "Dites adieu aux traqueurs publicitaires pénibles et optez pour une expérience Internet plus rapide et plus sûre.",
+      "fox-doodle-pin-trackers-primary-button-label": "Épingler Firefox à la barre des tâches",
+      "fox-doodle-trackers-secondary-button-label": "Plus tard"
     }
   }
 }
