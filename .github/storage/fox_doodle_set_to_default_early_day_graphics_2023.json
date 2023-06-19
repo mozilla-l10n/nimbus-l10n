@@ -1,6 +1,7 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -21,6 +22,20 @@
       "fox-doodle-trackers-subtitle": "Say goodbye to annoying ad trackers and settle into a safer, speedy internet experience.",
       "fox-doodle-set-default-trackers-primary-button-label": "Open my links with Firefox",
       "fox-doodle-trackers-secondary-button-label": "Not now"
+    },
+    "de": {
+      "fox-doodle-driving-title": "Probieren Sie Firefox mal so richtig aus",
+      "fox-doodle-driving-subtitle": "Behalten Sie Ihren unabhängigen Lieblings-Browser nur einen Klickweite, während Sie ihn ausprobieren.",
+      "fox-doodle-set-default-driving-primary-button-label": "Meine Links mit Firefox öffnen",
+      "fox-doodle-driving-secondary-button-label": "Nicht jetzt",
+      "fox-doodle-campfire-title": "Freie Software. Freies Denken.",
+      "fox-doodle-campfire-subtitle": "Sie sind nur einen Klick davon entfernt, den einzigen Browser für alle und überall zu unterstützen, der von gemeinnützigen Organisationen unterstützt wird und für den Menschen zuerst kommen.",
+      "ffox-doodle-set-default-campfire-primary-button-label": "Meine Links mit Firefox öffnen",
+      "fox-doodle-campfire-secondary-button-label": "Nicht jetzt",
+      "fox-doodle-trackers-title": "Hängen Sie störende Verfolger ab",
+      "fox-doodle-trackers-subtitle": "Verabschieden Sie sich von nervigen Werbe-Trackern und nutzen Sie ein sichereres und schnelleres Interneterlebnis.",
+      "fox-doodle-set-default-trackers-primary-button-label": "Meine Links mit Firefox öffnen",
+      "fox-doodle-trackers-secondary-button-label": "Nicht jetzt"
     },
     "en-CA": {
       "fox-doodle-driving-title": "Give Firefox a proper test drive",
