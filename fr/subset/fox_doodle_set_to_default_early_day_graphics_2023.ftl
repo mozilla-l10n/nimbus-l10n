@@ -5,6 +5,8 @@
 
 ## Branch: treatment-a
 
+# This title is displayed together with the picture of a fox driving a car, therefore a reference to 'test drive'. The goal is to invite users to spend time with Firefox and give it a proper test. If the localization of this message is challenging, consider using a simplified alternative as a reference for translation: 'Get the most out of Firefox'
+fox-doodle-driving-title = Essayez Firefox
 # The message is displayed together with the picture of a fox driving a car, therefore a reference to a 'take it for spin' (typically used in reference to trying out a car). If you opted for translating the alternative title, or have problems translating this, you can use 'give it a try' as an alternative. 'indie' is short for the term 'independent'. In this instance, free from outside influence or control.
 fox-doodle-driving-subtitle = Pour des performances de pointe, gardez votre nouveau navigateur indépendant préféré à portée de clic pendant que vous l’essayez.
 fox-doodle-set-default-driving-primary-button-label = Ouvrir mes liens avec Firefox
@@ -14,6 +16,7 @@ fox-doodle-driving-secondary-button-label = Plus tard
 
 # This title plays on the repetition of open, and that might not work if your locale doesn't translate 'Open source'. You have the option to keep this string in English, if you think it can be easily understood and work well as a slogan, or use an alternative as a reference for translation: 'Support people over profits'.
 fox-doodle-campfire-title = Logiciel libre. Esprits libres.
+fox-doodle-campfire-subtitle = En un clic, vous pouvez soutenir le seul navigateur soutenu par une organisation à but non lucratif, qui fait passer les gens avant tout le reste et est conçu pour tout le monde.
 ffox-doodle-set-default-campfire-primary-button-label = Ouvrir mes liens avec Firefox
 fox-doodle-campfire-secondary-button-label = Plus tard
 

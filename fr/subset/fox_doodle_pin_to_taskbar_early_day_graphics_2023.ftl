@@ -5,6 +5,8 @@
 
 ## Branch: treatment-a
 
+# This title is displayed together with the picture of a fox driving a car, therefore a reference to 'test drive'. The goal is to invite users to spend time with Firefox and give it a proper test. If the localization of this message is challenging, consider using a simplified alternative as a reference for translation: 'Get the most out of Firefox'
+fox-doodle-driving-title = Essayez Firefox
 # The message is displayed together with the picture of a fox driving a car, therefore a reference to a 'take it for spin' (typically used in reference to trying out a car). If you opted for translating the alternative title, or have problems translating this, you can use 'give it a try' as an alternative. 'indie' is short for the term 'independent'. In this instance, free from outside influence or control.
 fox-doodle-driving-subtitle = Pour des performances de pointe, gardez votre nouveau navigateur indépendant préféré à portée de clic pendant que vous l’essayez.
 fox-doodle-pin-driving-primary-button-label = Épingler Firefox à la barre des tâches
