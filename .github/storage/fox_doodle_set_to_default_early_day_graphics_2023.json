@@ -1,0 +1,52 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "fox-doodle-driving-title": "Give Firefox a proper test drive",
+      "fox-doodle-driving-subtitle": "For peak performance, keep your new favorite indie browser one click away while you take it for a spin.",
+      "fox-doodle-set-default-driving-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-driving-secondary-button-label": "Not now",
+      "fox-doodle-campfire-title": "Open source. Open minds.",
+      "fox-doodle-campfire-subtitle": "You’re one click away from supporting the only non-profit-backed, people-first browser made for everyone, everywhere.",
+      "ffox-doodle-set-default-campfire-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-campfire-secondary-button-label": "Not now",
+      "fox-doodle-trackers-title": "Keep pesky trackers off your tail",
+      "fox-doodle-trackers-subtitle": "Say goodbye to annoying ad trackers and settle into a safer, speedy internet experience.",
+      "fox-doodle-set-default-trackers-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-trackers-secondary-button-label": "Not now"
+    },
+    "en-CA": {
+      "fox-doodle-driving-title": "Give Firefox a proper test drive",
+      "fox-doodle-driving-subtitle": "For peak performance, keep your new favorite indie browser one click away while you take it for a spin.",
+      "fox-doodle-set-default-driving-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-driving-secondary-button-label": "Not now",
+      "fox-doodle-campfire-title": "Open source. Open minds.",
+      "fox-doodle-campfire-subtitle": "You’re one click away from supporting the only non-profit-backed, people-first browser made for everyone, everywhere.",
+      "ffox-doodle-set-default-campfire-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-campfire-secondary-button-label": "Not now",
+      "fox-doodle-trackers-title": "Keep pesky trackers off your tail",
+      "fox-doodle-trackers-subtitle": "Say goodbye to annoying ad trackers and settle into a safer, speedy internet experience.",
+      "fox-doodle-set-default-trackers-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-trackers-secondary-button-label": "Not now"
+    },
+    "en-GB": {
+      "fox-doodle-driving-title": "Give Firefox a proper test drive",
+      "fox-doodle-driving-subtitle": "For peak performance, keep your new favorite indie browser one click away while you take it for a spin.",
+      "fox-doodle-set-default-driving-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-driving-secondary-button-label": "Not now",
+      "fox-doodle-campfire-title": "Open source. Open minds.",
+      "fox-doodle-campfire-subtitle": "You’re one click away from supporting the only non-profit-backed, people-first browser made for everyone, everywhere.",
+      "ffox-doodle-set-default-campfire-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-campfire-secondary-button-label": "Not now",
+      "fox-doodle-trackers-title": "Keep pesky trackers off your tail",
+      "fox-doodle-trackers-subtitle": "Say goodbye to annoying ad trackers and settle into a safer, speedy internet experience.",
+      "fox-doodle-set-default-trackers-primary-button-label": "Open my links with Firefox",
+      "fox-doodle-trackers-secondary-button-label": "Not now"
+    }
+  }
+}
