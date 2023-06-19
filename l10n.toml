@@ -1,10 +1,9 @@
-# All files translated by the community by at least some locales should
-# be covered by the [[paths]] in this file.
-
 basepath = "."
 
 locales = [
     "de",
+    "en-CA",
+    "en-GB",
     "fr",
     "it"
 ]
@@ -52,6 +51,17 @@ locales = [
     l10n = "{locale}/subset/device_migration_2023.ftl"
     locales = [
         "de",
+        "fr",
+        "it"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/fox_doodle_set_to_default_early_day_graphics_2023.ftl"
+    l10n = "{locale}/subset/fox_doodle_set_to_default_early_day_graphics_2023.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
         "fr",
         "it"
     ]
