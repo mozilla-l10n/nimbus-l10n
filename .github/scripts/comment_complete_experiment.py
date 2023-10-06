@@ -72,6 +72,10 @@ def main():
             # is not marked as complete yet in experiments.json, add a comment
             # to the issue.
             if translation_data["complete"] and not exp_details["complete"]:
+                print(
+                    f"Translation is complete in {experiments_json} but not marked as completed in experiment.json.\n"
+                    f"Adding a comment in issue #{exp_details['issue']}."
+                )
                 add_comment(
                     args.repo,
                     exp_details["issue"],

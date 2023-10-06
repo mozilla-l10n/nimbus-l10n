@@ -106,7 +106,7 @@ class StringExtraction:
 
         # Identify complete locales for each experiment, and remove
         # translations for partially translated locales.
-        for exp_data in json_output.values():
+        for experiment_id, exp_data in json_output.items():
             locales = list(exp_data["translations"].keys())
             locales.sort()
             reference_ids = list(exp_data["translations"][self.reference_locale].keys())
@@ -124,7 +124,11 @@ class StringExtraction:
             for loc in incomplete_locales:
                 del exp_data["translations"][loc]
 
-            if not incomplete_locales:
+            if incomplete_locales:
+                print(
+                    f"Experiment {experiment_id} incomplete. Missing locales: {','.join(incomplete_locales)}"
+                )
+            else:
                 exp_data["complete"] = True
 
         return json_output
