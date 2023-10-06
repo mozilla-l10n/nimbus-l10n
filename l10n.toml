@@ -76,3 +76,12 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/backgroundtaskmessage_pip_notification_2023.ftl"
+    l10n = "{locale}/subset/backgroundtaskmessage_pip_notification_2023.ftl"
+    locales = [
+        "en-CA",
+        "fr",
+        "it"
+    ]

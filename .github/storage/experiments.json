@@ -1,4 +1,14 @@
 {
+  "backgroundtaskmessage-pip-notification": {
+    "complete": false,
+    "file": "en-US/subset/backgroundtaskmessage_pip_notification_2023.ftl",
+    "issue": "19",
+    "locales": [
+      "en-CA",
+      "fr",
+      "it"
+    ]
+  },
   "fox-doodle-pin-to-taskbar-early-day-graphics": {
     "complete": true,
     "file": "en-US/subset/fox_doodle_pin_to_taskbar_early_day_graphics_2023.ftl",
