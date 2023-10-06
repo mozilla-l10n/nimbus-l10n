@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "complete_locales": [
+    "en-CA",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "title-text": "Control more with Picture-in-Picture",
+      "body-text": "With new improved video controls, you can easily skip forward or back, quickly adjust volume, and more.",
+      "launch-button-text": "Try it now",
+      "later-button-text": "Remind me later"
+    },
+    "en-CA": {
+      "title-text": "Control more with Picture-in-Picture",
+      "body-text": "With new improved video controls, you can easily skip forward or back, quickly adjust volume, and more.",
+      "launch-button-text": "Try it now",
+      "later-button-text": "Remind me later"
+    }
+  }
+}
