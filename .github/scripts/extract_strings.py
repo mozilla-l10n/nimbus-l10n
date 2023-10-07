@@ -20,13 +20,14 @@ except ImportError as e:
 
 
 class StringExtraction:
-    def __init__(self, l10n_path, reference_locale):
+    def __init__(self, l10n_path, reference_locale, experiments_metadata):
         """Initialize object."""
 
         self.translations = defaultdict(dict)
 
         self.l10n_path = l10n_path
         self.reference_locale = reference_locale
+        self.experiments_metadata = experiments_metadata
 
     def extractStrings(self):
         """Extract strings from TOML file."""
@@ -106,6 +107,7 @@ class StringExtraction:
 
         # Identify complete locales for each experiment, and remove
         # translations for partially translated locales.
+        print("\nAnalyzing project completion...")
         for experiment_id, exp_data in json_output.items():
             locales = list(exp_data["translations"].keys())
             locales.sort()
@@ -126,10 +128,34 @@ class StringExtraction:
 
             if incomplete_locales:
                 print(
-                    f"Experiment {experiment_id} incomplete. Missing locales: {','.join(incomplete_locales)}"
+                    f"\nExperiment {experiment_id} incomplete. "
+                    f"Missing locales: {','.join(incomplete_locales)}"
                 )
             else:
-                exp_data["complete"] = True
+                # Check if there are locales that don't have yet an FTL file
+                # by looking at all requested locales in experiments.json
+
+                # Find the Nimbus experiment ID from metadata
+                nimbus_id = ""
+                for id, data in self.experiments_metadata.items():
+                    if experiment_id in data["file"]:
+                        nimbus_id = id
+                        break
+
+                all_locales = self.experiments_metadata.get(nimbus_id, {}).get(
+                    "locales", []
+                )
+                all_locales.append(self.reference_locale)
+                all_locales.sort()
+                if nimbus_id == "":
+                    # Old type experiment, not defined in experiments.json
+                    print(
+                        f"Warning: '{experiment_id}' not available in experiments.json."
+                    )
+                    exp_data["complete"] = True
+                else:
+                    if exp_data["complete_locales"] == all_locales:
+                        exp_data["complete"] = True
 
         return json_output
 
@@ -148,9 +174,25 @@ def main():
     )
     args = parser.parse_args()
 
+    # Read experiments metadata from experiments.json. We assume its path
+    # as fixed, relatively to the script (../storage/experiments.json)
+    experiments_json = os.path.join(
+        os.path.dirname(__file__), os.pardir, "storage", "experiments.json"
+    )
+    if not os.path.exists(experiments_json):
+        print("experiments.json not found")
+        # We don't emit an error here, since it's still possible to create
+        # experiments manually, and those are not tracked in experiments.json
+        experiments_metadata = {}
+    else:
+        with open(experiments_json) as f:
+            experiments_metadata = json.load(f)
+
+    # Extract translations from FTL files, update statistics for each experiment
     extracted_strings = StringExtraction(
         l10n_path=args.toml_path,
         reference_locale=args.reference_code,
+        experiments_metadata=experiments_metadata,
     )
     extracted_strings.extractStrings()
     translations = extracted_strings.getTranslations()
