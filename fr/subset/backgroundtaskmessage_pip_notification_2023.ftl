@@ -5,6 +5,8 @@
 
 ## Branch: treatment
 
+# Notification title text, displayed in bold.
+title-text = Plus de contrôle avec l’incrustation vidéo
 # Notification dismiss button text. This button will dismiss the notification; Windows may surface it again some time in the future.
 # Keep it as short as possible.
 later-button-text = Rappeler plus tard
