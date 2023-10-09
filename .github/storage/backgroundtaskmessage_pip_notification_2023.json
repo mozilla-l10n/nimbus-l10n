@@ -1,8 +1,9 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "en-CA",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -17,6 +18,12 @@
       "body-text": "With new improved video controls, you can easily skip forward or back, quickly adjust volume, and more.",
       "launch-button-text": "Try it now",
       "later-button-text": "Remind me later"
+    },
+    "fr": {
+      "title-text": "Plus de contrôle avec l’incrustation vidéo",
+      "body-text": "Grâce aux nouveaux contrôles vidéo améliorés, vous pouvez facilement avancer ou revenir en arrière, ajuster rapidement le volume, et bien plus.",
+      "launch-button-text": "Essayer",
+      "later-button-text": "Rappeler plus tard"
     },
     "it": {
       "title-text": "Più controllo con Picture-in-Picture",

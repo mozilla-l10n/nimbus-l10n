@@ -1,6 +1,6 @@
 {
   "backgroundtaskmessage-pip-notification": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/backgroundtaskmessage_pip_notification_2023.ftl",
     "issue": "19",
     "locales": [
