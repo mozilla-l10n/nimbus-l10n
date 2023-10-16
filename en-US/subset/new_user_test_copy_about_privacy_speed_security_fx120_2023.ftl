@@ -12,4 +12,4 @@ test-copy-about-privacy-speed-security-fx120-amo-introduce-title-label = Persona
 test-copy-about-privacy-speed-security-fx120-amo-introduce-subtitle-label = Add-ons are tiny apps that run in Firefox and level up the way you browse — from ultimate privacy and safety to changing how Firefox looks and behaves.
 test-copy-about-privacy-speed-security-fx120-amo-introduce-primary-button-label = Explore staff-recommended add-ons
 test-copy-about-privacy-speed-security-fx120-aw-gratitude-title-label = Firefox has your back
-test-copy-about-privacy-speed-security-fx120-aw-gratitude-subtitle-label = Thank you for using Firefox, backed by the Mozilla Foundation. With your support, we're working to make the internet safer and more accessible for everyone.
+test-copy-about-privacy-speed-security-fx120-aw-gratitude-subtitle-label = Thank you for using Firefox, backed by the Mozilla Foundation. With your support, we’re working to make the internet safer and more accessible for everyone.
