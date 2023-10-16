@@ -44,9 +44,7 @@ def generate_ftl_file(recipe, experiment_id):
         branch_strings = []
         for feature in branch["features"]:
             # Find all $l10n keys in the branch value
-            if "content" not in feature["value"]:
-                continue
-            branch_value = feature["value"]["content"]
+            branch_value = feature["value"]
             jsonpath_expression = parse('$.."$l10n"')
             for match in jsonpath_expression.find(branch_value):
                 # Check if $l10n is an object
@@ -265,7 +263,8 @@ def main():
 
     # Extract the list of locales from the recipe, remove en-US
     recipe_locales = recipe["locales"]
-    recipe_locales.remove("en-US")
+    if "en-US" in recipe_locales:
+        recipe_locales.remove("en-US")
     recipe_locales.sort()
 
     # en-CA and en-GB are special cases, as we use the same content as en-US.
