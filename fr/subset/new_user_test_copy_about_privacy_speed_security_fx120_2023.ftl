@@ -5,6 +5,7 @@
 
 ## Branch: treatment-a
 
+test-copy-about-privacy-speed-security-fx120-easy-setup-subtitle-label = Notre navigateur soutenu par une organisation à but non lucratif empêche les entreprises de vous suivre secrètement sur le Web.
 test-copy-about-privacy-speed-security-fx120-amo-introduce-title-label = Personnalisez Firefox
 test-copy-about-privacy-speed-security-fx120-amo-introduce-primary-button-label = Découvrez les modules recommandés par l’équipe
 test-copy-about-privacy-speed-security-fx120-aw-gratitude-title-label = Firefox vous protège
