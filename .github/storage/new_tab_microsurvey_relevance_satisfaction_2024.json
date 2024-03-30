@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -68,6 +69,27 @@
       "radio-very-satisfied-label": "Very Satisfied",
       "radio-dont-use-label": "I don’t use it",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "it": {
+      "question-title": "Aiuta Firefox a migliorare questa pagina",
+      "relevance-question": "Quanto sono pertinenti i contenuti in questa pagina di Firefox per i tuoi interessi?",
+      "advance-button-label": "Avanti",
+      "tos-link-label": "Condizioni di utilizzo del servizio",
+      "radio-not-relevant-label": "Per niente pertinente",
+      "radio-slightly-relevant-label": "Poco rilevante",
+      "radio-relevant-label": "Rilevante",
+      "radio-fairly-relevant-label": "Abbastanza pertinente",
+      "radio-very-relevant-label": "Molto pertinente",
+      "radio-no-opinion-label": "Nessuna opinione",
+      "satisfaction-question": "Quanto sei soddisfatto di questa pagina di Firefox?",
+      "submit-button-label": "Invia",
+      "radio-very-dissatisfied-label": "Molto insoddisfatto",
+      "radio-dissatisfied-label": "Insoddisfatto",
+      "radio-neutral-label": "Indifferente",
+      "radio-satisfied-label": "Soddisfatto",
+      "radio-very-satisfied-label": "Molto soddisfatto",
+      "radio-dont-use-label": "Non lo uso",
+      "thanks-toast-title": "Grazie per aver condiviso la tua opinione."
     }
   }
 }
