@@ -39,6 +39,6 @@ radio-satisfied-label = Satisfied
 # Answer choice indicating the highest satisfaction with the New Tab Page
 radio-very-satisfied-label = Very Satisfied
 # Answer choice indicating that the user does not use the New Tab Page
-radio-dont-use-label = I don't use it
+radio-dont-use-label = I don’t use it
 # Text displayed in a thank-you toast notification that appears briefly after the user submits their survey response
 thanks-toast-title = Thanks for your feedback!
