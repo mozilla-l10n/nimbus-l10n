@@ -33,6 +33,18 @@
       "it"
     ]
   },
+  "new-tab-microsurvey-relevance-satisfaction": {
+    "complete": false,
+    "file": "en-US/subset/new_tab_microsurvey_relevance_satisfaction_2024.ftl",
+    "issue": "25",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "new-user-test-copy-about-privacy-speed-security-fx120": {
     "complete": true,
     "file": "en-US/subset/new_user_test_copy_about_privacy_speed_security_fx120_2023.ftl",
