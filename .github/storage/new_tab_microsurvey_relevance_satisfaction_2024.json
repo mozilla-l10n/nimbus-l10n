@@ -1,0 +1,73 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "question-title": "Help Firefox improve this page",
+      "relevance-question": "How relevant are the contents of this Firefox page to you?",
+      "advance-button-label": "Next",
+      "tos-link-label": "Terms of use",
+      "radio-not-relevant-label": "Not at all relevant",
+      "radio-slightly-relevant-label": "Slightly relevant",
+      "radio-relevant-label": "Relevant",
+      "radio-fairly-relevant-label": "Fairly relevant",
+      "radio-very-relevant-label": "Very relevant",
+      "radio-no-opinion-label": "No opinion",
+      "satisfaction-question": "How satisfied are you with this Firefox page?",
+      "submit-button-label": "Submit",
+      "radio-very-dissatisfied-label": "Very Dissatisfied",
+      "radio-dissatisfied-label": "Dissatisfied",
+      "radio-neutral-label": "Neutral",
+      "radio-satisfied-label": "Satisfied",
+      "radio-very-satisfied-label": "Very Satisfied",
+      "radio-dont-use-label": "I don’t use it",
+      "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "en-CA": {
+      "question-title": "Help Firefox improve this page",
+      "relevance-question": "How relevant are the contents of this Firefox page to you?",
+      "advance-button-label": "Next",
+      "tos-link-label": "Terms of use",
+      "radio-not-relevant-label": "Not at all relevant",
+      "radio-slightly-relevant-label": "Slightly relevant",
+      "radio-relevant-label": "Relevant",
+      "radio-fairly-relevant-label": "Fairly relevant",
+      "radio-very-relevant-label": "Very relevant",
+      "radio-no-opinion-label": "No opinion",
+      "satisfaction-question": "How satisfied are you with this Firefox page?",
+      "submit-button-label": "Submit",
+      "radio-very-dissatisfied-label": "Very Dissatisfied",
+      "radio-dissatisfied-label": "Dissatisfied",
+      "radio-neutral-label": "Neutral",
+      "radio-satisfied-label": "Satisfied",
+      "radio-very-satisfied-label": "Very Satisfied",
+      "radio-dont-use-label": "I don’t use it",
+      "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "en-GB": {
+      "question-title": "Help Firefox improve this page",
+      "relevance-question": "How relevant are the contents of this Firefox page to you?",
+      "advance-button-label": "Next",
+      "tos-link-label": "Terms of use",
+      "radio-not-relevant-label": "Not at all relevant",
+      "radio-slightly-relevant-label": "Slightly relevant",
+      "radio-relevant-label": "Relevant",
+      "radio-fairly-relevant-label": "Fairly relevant",
+      "radio-very-relevant-label": "Very relevant",
+      "radio-no-opinion-label": "No opinion",
+      "satisfaction-question": "How satisfied are you with this Firefox page?",
+      "submit-button-label": "Submit",
+      "radio-very-dissatisfied-label": "Very Dissatisfied",
+      "radio-dissatisfied-label": "Dissatisfied",
+      "radio-neutral-label": "Neutral",
+      "radio-satisfied-label": "Satisfied",
+      "radio-very-satisfied-label": "Very Satisfied",
+      "radio-dont-use-label": "I don’t use it",
+      "thanks-toast-title": "Thanks for your feedback!"
+    }
+  }
+}
