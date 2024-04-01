@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -91,6 +92,27 @@
       "radio-very-satisfied-label": "Very Satisfied",
       "radio-dont-use-label": "I don’t use it",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "fr": {
+      "question-title": "Aidez Firefox à améliorer cette page",
+      "relevance-question": "Dans quelle mesure le contenu de cette page Firefox est-il pertinent pour vous ?",
+      "advance-button-label": "Suivant",
+      "tos-link-label": "Conditions d’utilisation",
+      "radio-not-relevant-label": "Pas du tout pertinent",
+      "radio-slightly-relevant-label": "Peu pertinent",
+      "radio-relevant-label": "Pertinent",
+      "radio-fairly-relevant-label": "Assez pertinent",
+      "radio-very-relevant-label": "Très pertinent",
+      "radio-no-opinion-label": "Pas d’opinion",
+      "satisfaction-question": "Êtes-vous satisfait·e de cette page Firefox ?",
+      "submit-button-label": "Envoyer",
+      "radio-very-dissatisfied-label": "Très insatisfait·e",
+      "radio-dissatisfied-label": "Insatisfait·e",
+      "radio-neutral-label": "Indifférent·e",
+      "radio-satisfied-label": "Satisfait·e",
+      "radio-very-satisfied-label": "Très satisfait·e",
+      "radio-dont-use-label": "Je ne l’utilise pas",
+      "thanks-toast-title": "Merci de votre retour !"
     },
     "it": {
       "question-title": "Aiuta Firefox a migliorare questa pagina",
