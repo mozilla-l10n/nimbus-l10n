@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -35,6 +36,16 @@
       "survey-checkbox-personal-label": "Personal",
       "survey-checkbox-other-label": "Other",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "it": {
+      "survey-title": "Per cosa utilizzi Firefox?",
+      "submit-button-label": "Invia",
+      "privacy-notice-label": "Informativa sulla privacy",
+      "survey-checkbox-work-label": "Lavoro",
+      "survey-checkbox-school-label": "Scuola",
+      "survey-checkbox-personal-label": "A scopo personale",
+      "survey-checkbox-other-label": "Altro",
+      "thanks-toast-title": "Grazie per aver condiviso la tua opinione."
     }
   }
 }
