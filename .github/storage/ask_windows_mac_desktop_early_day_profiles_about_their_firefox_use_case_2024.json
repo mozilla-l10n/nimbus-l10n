@@ -1,0 +1,40 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "survey-title": "What do you use Firefox for?",
+      "submit-button-label": "Submit",
+      "privacy-notice-label": "Privacy Notice",
+      "survey-checkbox-work-label": "Work",
+      "survey-checkbox-school-label": "School",
+      "survey-checkbox-personal-label": "Personal",
+      "survey-checkbox-other-label": "Other",
+      "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "en-CA": {
+      "survey-title": "What do you use Firefox for?",
+      "submit-button-label": "Submit",
+      "privacy-notice-label": "Privacy Notice",
+      "survey-checkbox-work-label": "Work",
+      "survey-checkbox-school-label": "School",
+      "survey-checkbox-personal-label": "Personal",
+      "survey-checkbox-other-label": "Other",
+      "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "en-GB": {
+      "survey-title": "What do you use Firefox for?",
+      "submit-button-label": "Submit",
+      "privacy-notice-label": "Privacy Notice",
+      "survey-checkbox-work-label": "Work",
+      "survey-checkbox-school-label": "School",
+      "survey-checkbox-personal-label": "Personal",
+      "survey-checkbox-other-label": "Other",
+      "thanks-toast-title": "Thanks for your feedback!"
+    }
+  }
+}
