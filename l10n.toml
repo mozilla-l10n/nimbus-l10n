@@ -105,3 +105,14 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/ask_windows_mac_desktop_early_day_profiles_about_their_firefox_use_case_2024.ftl"
+    l10n = "{locale}/subset/ask_windows_mac_desktop_early_day_profiles_about_their_firefox_use_case_2024.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
