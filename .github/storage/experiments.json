@@ -1,6 +1,6 @@
 {
   "ask-windows-mac-desktop-early-day-profiles-about-their-firefox-use-case": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/ask_windows_mac_desktop_early_day_profiles_about_their_firefox_use_case_2024.ftl",
     "issue": "27",
     "locales": [
