@@ -5,16 +5,16 @@
 
 ## Branch: treatment-a
 
-find-faster-title = Trova le cose più velocemente
-find-faster-subtitle = Inizia la tua ricerca qui per ottenere rapidamente risultati, inclusi siti che hai già aggiunto ai segnalibri e visitati in precedenza.
+find-faster-title = Trova più velocemente quello che ti serve
+find-faster-subtitle = Inizia la tua ricerca qui per ottenere rapidamente risultati. Verranno inclusi i siti che hai aggiunto ai segnalibri o visitato in passato.
 
 ## Branch: treatment-b
 
 # The title “Search smarter, not harder” is a play on an English phrase that may not translate to other languages. An alternative to this title for translation is “Search more efficiently.”
-search-smarter-title = Cerca in modo più intelligente, non più difficile
-search-smarter-subtitle = Trova tutto qui, dai risultati più rilevanti ai siti che hai già aggiunto ai segnalibri e visitati in precedenza.
+search-smarter-title = Cerca in modo più intelligente
+search-smarter-subtitle = Qui puoi trovare tutto, dai risultati più rilevanti ai siti che hai aggiunto ai segnalibri o visitato in passato.
 
 ## Branch: treatment-c
 
-search-once-title = Cerca una volta: trova tutto
+search-once-title = Cerca una volta, trova tutto
 search-once-subtitle = Ottieni suggerimenti di ricerca pertinenti qui, oltre a risultati basati sui siti che hai già visitato e aggiunto ai segnalibri.
