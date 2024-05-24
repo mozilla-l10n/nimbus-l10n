@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-US",
     "it"
   ],
@@ -12,6 +13,14 @@
       "search-smarter-subtitle": "Find everything here, from the most relevant results to sites you’ve bookmarked and visited before.",
       "search-once-title": "Search once — find everything",
       "search-once-subtitle": "Get relevant search suggestions here plus results based on sites you’ve visited and bookmarked before."
+    },
+    "de": {
+      "find-faster-title": "Dinge schneller finden",
+      "find-faster-subtitle": "Starten Sie Ihre Suche hier, um schnell Ergebnisse zu erhalten, einschließlich Websites, die Sie als Lesezeichen gespeichert und zuvor besucht haben.",
+      "search-smarter-title": "Intelligenter suchen, nicht schwieriger",
+      "search-smarter-subtitle": "Hier finden Sie alles, von den relevantesten Ergebnissen bis zu Websites, die Sie als Lesezeichen gespeichert und bereits besucht haben.",
+      "search-once-title": "Einmal suchen – alles finden",
+      "search-once-subtitle": "Erhalten Sie hier relevante Suchvorschläge sowie Ergebnisse, die auf zuvor besuchten und Lesezeichen gespeicherten Websites basieren."
     },
     "it": {
       "find-faster-title": "Trova più velocemente quello che ti serve",
