@@ -1,7 +1,8 @@
 {
   "complete": false,
   "complete_locales": [
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -11,6 +12,14 @@
       "search-smarter-subtitle": "Find everything here, from the most relevant results to sites you’ve bookmarked and visited before.",
       "search-once-title": "Search once — find everything",
       "search-once-subtitle": "Get relevant search suggestions here plus results based on sites you’ve visited and bookmarked before."
+    },
+    "it": {
+      "find-faster-title": "Trova le cose più velocemente",
+      "find-faster-subtitle": "Inizia la tua ricerca qui per ottenere rapidamente risultati, inclusi siti che hai già aggiunto ai segnalibri e visitati in precedenza.",
+      "search-smarter-title": "Cerca in modo più intelligente, non più difficile",
+      "search-smarter-subtitle": "Trova tutto qui, dai risultati più rilevanti ai siti che hai già aggiunto ai segnalibri e visitati in precedenza.",
+      "search-once-title": "Cerca una volta: trova tutto",
+      "search-once-subtitle": "Ottieni suggerimenti di ricerca pertinenti qui, oltre a risultati basati sui siti che hai già visitato e aggiunto ai segnalibri."
     }
   }
 }
