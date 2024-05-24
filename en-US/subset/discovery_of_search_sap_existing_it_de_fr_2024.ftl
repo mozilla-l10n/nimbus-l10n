@@ -15,5 +15,5 @@ search-smarter-subtitle = Find everything here, from the most relevant results t
 
 ## Branch: treatment-c
 
-search-once-title = Search once—find everything
+search-once-title = Search once — find everything
 search-once-subtitle = Get relevant search suggestions here plus results based on sites you’ve visited and bookmarked before.
