@@ -1,0 +1,16 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "find-faster-title": "Find things faster",
+      "find-faster-subtitle": "Start your search here to quickly get results, including sites you’ve bookmarked and visited before.",
+      "search-smarter-title": "Search smarter, not harder",
+      "search-smarter-subtitle": "Find everything here, from the most relevant results to sites you’ve bookmarked and visited before.",
+      "search-once-title": "Search once — find everything",
+      "search-once-subtitle": "Get relevant search suggestions here plus results based on sites you’ve visited and bookmarked before."
+    }
+  }
+}
