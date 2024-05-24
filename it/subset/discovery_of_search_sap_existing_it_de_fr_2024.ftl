@@ -12,9 +12,9 @@ find-faster-subtitle = Inizia la tua ricerca qui per ottenere rapidamente risult
 
 # The title “Search smarter, not harder” is a play on an English phrase that may not translate to other languages. An alternative to this title for translation is “Search more efficiently.”
 search-smarter-title = Cerca in modo più intelligente
-search-smarter-subtitle = Qui puoi trovare tutto, dai risultati più rilevanti ai siti che hai aggiunto ai segnalibri o visitato in passato.
+search-smarter-subtitle = Qui puoi trovare tutto, dai risultati più pertinenti ai siti che hai aggiunto ai segnalibri o visitato in passato.
 
 ## Branch: treatment-c
 
 search-once-title = Cerca una volta, trova tutto
-search-once-subtitle = Ottieni suggerimenti di ricerca pertinenti qui, oltre a risultati basati sui siti che hai già visitato e aggiunto ai segnalibri.
+search-once-subtitle = Qui puoi ottenere suggerimenti di ricerca pertinenti, oltre a risultati basati sui siti che hai visitato o aggiunto ai segnalibri.
