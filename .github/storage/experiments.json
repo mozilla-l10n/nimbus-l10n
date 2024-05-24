@@ -21,6 +21,16 @@
       "it"
     ]
   },
+  "discovery-of-search-sap-existing-it-de-fr": {
+    "complete": false,
+    "file": "en-US/subset/discovery_of_search_sap_existing_it_de_fr_2024.ftl",
+    "issue": "29",
+    "locales": [
+      "de",
+      "fr",
+      "it"
+    ]
+  },
   "fox-doodle-pin-to-taskbar-early-day-graphics": {
     "complete": true,
     "file": "en-US/subset/fox_doodle_pin_to_taskbar_early_day_graphics_2023.ftl",

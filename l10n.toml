@@ -116,3 +116,12 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/discovery_of_search_sap_existing_it_de_fr_2024.ftl"
+    l10n = "{locale}/subset/discovery_of_search_sap_existing_it_de_fr_2024.ftl"
+    locales = [
+        "de",
+        "fr",
+        "it"
+    ]
