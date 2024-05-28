@@ -1,0 +1,49 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "fx-view-discoverability-treatment-a-title": "Can’t find the tab you need?",
+      "fx-view-discoverability-treatment-a-subtitle": "Search across all your open and closed tabs to quickly find it.",
+      "fx-view-discoverability-primary-button-label": "Open Firefox View",
+      "fx-view-discoverability-secondary-button-label": "Dismiss",
+      "fx-view-discoverability-split-button-option1-label": "Don’t show this recommendation again",
+      "fx-view-discoverability-split-button-option2-label": "Show fewer recommendations",
+      "fx-view-discoverability-split-button-option3-label": "Manage settings",
+      "fx-view-discoverability-treatment-b-title": "Didn’t mean to close that tab?",
+      "fx-view-discoverability-treatment-b-subtitle": "Find and reopen it quickly here. We keep a history of your recently closed tabs for you.",
+      "fx-view-discoverability-treatment-c-title": "Can’t find the tab you need?",
+      "fx-view-discoverability-treatment-c-subtitle": "We’ll show you every tab you have open, across all your windows."
+    },
+    "en-CA": {
+      "fx-view-discoverability-treatment-a-title": "Can’t find the tab you need?",
+      "fx-view-discoverability-treatment-a-subtitle": "Search across all your open and closed tabs to quickly find it.",
+      "fx-view-discoverability-primary-button-label": "Open Firefox View",
+      "fx-view-discoverability-secondary-button-label": "Dismiss",
+      "fx-view-discoverability-split-button-option1-label": "Don’t show this recommendation again",
+      "fx-view-discoverability-split-button-option2-label": "Show fewer recommendations",
+      "fx-view-discoverability-split-button-option3-label": "Manage settings",
+      "fx-view-discoverability-treatment-b-title": "Didn’t mean to close that tab?",
+      "fx-view-discoverability-treatment-b-subtitle": "Find and reopen it quickly here. We keep a history of your recently closed tabs for you.",
+      "fx-view-discoverability-treatment-c-title": "Can’t find the tab you need?",
+      "fx-view-discoverability-treatment-c-subtitle": "We’ll show you every tab you have open, across all your windows."
+    },
+    "en-GB": {
+      "fx-view-discoverability-treatment-a-title": "Can’t find the tab you need?",
+      "fx-view-discoverability-treatment-a-subtitle": "Search across all your open and closed tabs to quickly find it.",
+      "fx-view-discoverability-primary-button-label": "Open Firefox View",
+      "fx-view-discoverability-secondary-button-label": "Dismiss",
+      "fx-view-discoverability-split-button-option1-label": "Don’t show this recommendation again",
+      "fx-view-discoverability-split-button-option2-label": "Show fewer recommendations",
+      "fx-view-discoverability-split-button-option3-label": "Manage settings",
+      "fx-view-discoverability-treatment-b-title": "Didn’t mean to close that tab?",
+      "fx-view-discoverability-treatment-b-subtitle": "Find and reopen it quickly here. We keep a history of your recently closed tabs for you.",
+      "fx-view-discoverability-treatment-c-title": "Can’t find the tab you need?",
+      "fx-view-discoverability-treatment-c-subtitle": "We’ll show you every tab you have open, across all your windows."
+    }
+  }
+}
