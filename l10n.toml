@@ -125,3 +125,14 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/fx_view_discoverability_early_day_users_2024.ftl"
+    l10n = "{locale}/subset/fx_view_discoverability_early_day_users_2024.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]

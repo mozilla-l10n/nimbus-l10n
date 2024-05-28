@@ -55,6 +55,18 @@
       "it"
     ]
   },
+  "fx-view-discoverability-early-day-users": {
+    "complete": false,
+    "file": "en-US/subset/fx_view_discoverability_early_day_users_2024.ftl",
+    "issue": "31",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "new-tab-microsurvey-relevance-satisfaction": {
     "complete": true,
     "file": "en-US/subset/new_tab_microsurvey_relevance_satisfaction_2024.ftl",
