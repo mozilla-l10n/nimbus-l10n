@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -19,6 +20,19 @@
       "fx-view-discoverability-treatment-b-subtitle": "Find and reopen it quickly here. We keep a history of your recently closed tabs for you.",
       "fx-view-discoverability-treatment-c-title": "Can’t find the tab you need?",
       "fx-view-discoverability-treatment-c-subtitle": "We’ll show you every tab you have open, across all your windows."
+    },
+    "de": {
+      "fx-view-discoverability-treatment-a-title": "Haben Sie den gewünschten Tab nicht gefunden?",
+      "fx-view-discoverability-treatment-a-subtitle": "Durchsuchen Sie alle Ihre offenen und geschlossenen Tabs, um ihn schnell zu finden.",
+      "fx-view-discoverability-primary-button-label": "Firefox View öffnen",
+      "fx-view-discoverability-secondary-button-label": "Schließen",
+      "fx-view-discoverability-split-button-option1-label": "Diese Empfehlung nicht mehr anzeigen",
+      "fx-view-discoverability-split-button-option2-label": "Weniger Empfehlungen anzeigen",
+      "fx-view-discoverability-split-button-option3-label": "Einstellungen verwalten",
+      "fx-view-discoverability-treatment-b-title": "Sie wollten diesen Tab nicht schließen?",
+      "fx-view-discoverability-treatment-b-subtitle": "Hier können Sie sie schnell finden und wieder öffnen. Wir speichern eine Chronik Ihrer kürzlich geschlossenen Tabs für Sie.",
+      "fx-view-discoverability-treatment-c-title": "Haben Sie den gewünschten Tab nicht gefunden?",
+      "fx-view-discoverability-treatment-c-subtitle": "Wir zeigen Ihnen alle geöffneten Tabs in allen Fenstern."
     },
     "en-CA": {
       "fx-view-discoverability-treatment-a-title": "Can’t find the tab you need?",
