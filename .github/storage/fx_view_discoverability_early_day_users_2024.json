@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -44,6 +45,19 @@
       "fx-view-discoverability-treatment-b-subtitle": "Find and reopen it quickly here. We keep a history of your recently closed tabs for you.",
       "fx-view-discoverability-treatment-c-title": "Can’t find the tab you need?",
       "fx-view-discoverability-treatment-c-subtitle": "We’ll show you every tab you have open, across all your windows."
+    },
+    "it": {
+      "fx-view-discoverability-treatment-a-title": "Non riesci a trovare la scheda che ti serve?",
+      "fx-view-discoverability-treatment-a-subtitle": "Cerca in tutte le tue schede, sia aperte che chiuse, per trovarla velocemente.",
+      "fx-view-discoverability-primary-button-label": "Apri Firefox View",
+      "fx-view-discoverability-secondary-button-label": "Chiudi",
+      "fx-view-discoverability-split-button-option1-label": "Non mostrare di nuovo questo suggerimento",
+      "fx-view-discoverability-split-button-option2-label": "Mostra meno suggerimenti",
+      "fx-view-discoverability-split-button-option3-label": "Gestisci impostazioni",
+      "fx-view-discoverability-treatment-b-title": "Non volevi chiudere quella scheda?",
+      "fx-view-discoverability-treatment-b-subtitle": "Qui puoi trovarla e riaprirla velocemente. Conserviamo per te una cronologia delle schede chiuse di recente.",
+      "fx-view-discoverability-treatment-c-title": "Non riesci a trovare la scheda che ti serve?",
+      "fx-view-discoverability-treatment-c-subtitle": "Ti mostreremo tutte le schede aperte, in tutte le finestre."
     }
   }
 }
