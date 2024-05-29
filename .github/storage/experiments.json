@@ -56,7 +56,7 @@
     ]
   },
   "fx-view-discoverability-early-day-users": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/fx_view_discoverability_early_day_users_2024.ftl",
     "issue": "31",
     "locales": [

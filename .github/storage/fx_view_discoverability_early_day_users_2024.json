@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -59,6 +60,19 @@
       "fx-view-discoverability-treatment-b-subtitle": "Find and reopen it quickly here. We keep a history of your recently closed tabs for you.",
       "fx-view-discoverability-treatment-c-title": "Can’t find the tab you need?",
       "fx-view-discoverability-treatment-c-subtitle": "We’ll show you every tab you have open, across all your windows."
+    },
+    "fr": {
+      "fx-view-discoverability-treatment-a-title": "Vous ne trouvez pas l’onglet dont vous avez besoin ?",
+      "fx-view-discoverability-treatment-a-subtitle": "Recherchez dans tous vos onglets ouverts et fermés pour le trouver rapidement.",
+      "fx-view-discoverability-primary-button-label": "Ouvrir Firefox View",
+      "fx-view-discoverability-secondary-button-label": "Ignorer",
+      "fx-view-discoverability-split-button-option1-label": "Ne plus afficher cette recommandation",
+      "fx-view-discoverability-split-button-option2-label": "Afficher moins de recommandations",
+      "fx-view-discoverability-split-button-option3-label": "Gérer les paramètres",
+      "fx-view-discoverability-treatment-b-title": "Vous ne vouliez pas fermer cet onglet ?",
+      "fx-view-discoverability-treatment-b-subtitle": "Retrouvez-le et rouvrez-le rapidement ici. Nous conservons un historique des onglets que vous avez récemment fermés.",
+      "fx-view-discoverability-treatment-c-title": "Vous ne trouvez pas l’onglet dont vous avez besoin ?",
+      "fx-view-discoverability-treatment-c-subtitle": "Nous vous affichons tous vos onglets ouverts, dans toutes vos fenêtres."
     },
     "it": {
       "fx-view-discoverability-treatment-a-title": "Non riesci a trovare la scheda che ti serve?",
