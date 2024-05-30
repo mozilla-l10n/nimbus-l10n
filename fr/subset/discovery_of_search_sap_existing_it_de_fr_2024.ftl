@@ -10,6 +10,8 @@ find-faster-subtitle = Lancez votre recherche ici pour obtenir rapidement des r�
 
 ## Branch: treatment-b
 
+# The title “Search smarter, not harder” is a play on an English phrase that may not translate to other languages. An alternative to this title for translation is “Search more efficiently.”
+search-smarter-title = Recherchez plus efficacement
 search-smarter-subtitle = Trouvez tout ici, des résultats les plus pertinents aux sites que vous avez ajouté à vos marque-pages ou que vous avez déjà visités.
 
 ## Branch: treatment-c
