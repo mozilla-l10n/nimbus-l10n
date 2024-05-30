@@ -22,7 +22,7 @@
     ]
   },
   "discovery-of-search-sap-existing-it-de-fr": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/discovery_of_search_sap_existing_it_de_fr_2024.ftl",
     "issue": "29",
     "locales": [

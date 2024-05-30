@@ -1,8 +1,9 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -21,6 +22,14 @@
       "search-smarter-subtitle": "Hier finden Sie alles, von den relevantesten Ergebnissen bis zu Websites, die Sie als Lesezeichen gespeichert und bereits besucht haben.",
       "search-once-title": "Einmal suchen – alles finden",
       "search-once-subtitle": "Erhalten Sie hier relevante Suchvorschläge sowie Ergebnisse, die auf zuvor besuchten und Lesezeichen gespeicherten Websites basieren."
+    },
+    "fr": {
+      "find-faster-title": "Vos recherches en un clin d’œil",
+      "find-faster-subtitle": "Lancez votre recherche ici pour obtenir rapidement des résultats, notamment des sites que vous avez ajoutés aux marque-pages et visités auparavant.",
+      "search-smarter-title": "Recherchez plus efficacement",
+      "search-smarter-subtitle": "Trouvez tout ici, des résultats les plus pertinents aux sites que vous avez ajouté à vos marque-pages ou que vous avez déjà visités.",
+      "search-once-title": "Une seule recherche pour tout trouver",
+      "search-once-subtitle": "Obtenez des suggestions de recherche pertinentes ici ainsi que des résultats selon des sites que vous avez déjà visités et que vous avez ajoutés à vos marque-pages."
     },
     "it": {
       "find-faster-title": "Trova più velocemente quello che ti serve",
