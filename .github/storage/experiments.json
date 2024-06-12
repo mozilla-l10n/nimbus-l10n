@@ -67,6 +67,16 @@
       "it"
     ]
   },
+  "localized-privacy-addon-recommendations-onboarding": {
+    "complete": false,
+    "file": "en-US/subset/localized_privacy_addon_recommendations_onboarding_2024.ftl",
+    "issue": "34",
+    "locales": [
+      "de",
+      "fr",
+      "it"
+    ]
+  },
   "new-tab-microsurvey-relevance-satisfaction": {
     "complete": true,
     "file": "en-US/subset/new_tab_microsurvey_relevance_satisfaction_2024.ftl",
