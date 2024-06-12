@@ -68,7 +68,7 @@
     ]
   },
   "localized-privacy-addon-recommendations-onboarding": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/localized_privacy_addon_recommendations_onboarding_2024.ftl",
     "issue": "34",
     "locales": [
