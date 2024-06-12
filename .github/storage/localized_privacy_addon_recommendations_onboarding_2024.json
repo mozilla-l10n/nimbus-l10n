@@ -2,6 +2,7 @@
   "complete": false,
   "complete_locales": [
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -16,6 +17,18 @@
       "addons-picker-privacy-boost-title": "Give your privacy a boost",
       "addons-picker-privacy-boost-subtitle": "Try our recommended extensions to add even more privacy and security to your browsing.",
       "addons-picker-privacy-boost-button": "Explore more extensions"
+    },
+    "fr": {
+      "addons-picker-install-button-label": "Ajouter à Firefox",
+      "addons-picker-privacy-badger-name": "Privacy Badger par EFD Technologists",
+      "addons-picker-privacy-badger-description": "Bloquez automatiquement les traqueurs invisibles.",
+      "addons-picker-cookie-auto-delete-name": "Cookie Auto-Delete par CAD Team",
+      "addons-picker-cookie-auto-delete-description": "Supprimez automatiquement les cookies indésirables à la fermeture d’un onglet.",
+      "addons-picker-facebook-container-name": "Facebook Container par Mozilla Firefox",
+      "addons-picker-facebook-container-description": "Empêchez Facebook de vous pister sur le Web.",
+      "addons-picker-privacy-boost-title": "Un coup de pouce pour protéger votre vie privée",
+      "addons-picker-privacy-boost-subtitle": "Essayez nos extensions recommandées pour davantage de confidentialité et de sécurité lorsque vous naviguez.",
+      "addons-picker-privacy-boost-button": "Découvrez d’autres extensions"
     },
     "it": {
       "addons-picker-install-button-label": "Aggiungi a Firefox",
