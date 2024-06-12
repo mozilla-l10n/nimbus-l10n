@@ -13,7 +13,7 @@ addons-picker-privacy-badger-name = Privacy Badger di EFD Technologists
 addons-picker-privacy-badger-description = Blocca automaticamente gli elementi traccianti invisibili.
 # The name and author should remain as is, but 'by' should be localized. 
 # You can reference how the name is shown on the addons page here: https://addons.mozilla.org/firefox/addon/cookie-autodelete/
-addons-picker-cookie-auto-delete-name = Eliminazione automatica dei cookie da parte del team CAD
+addons-picker-cookie-auto-delete-name = Cookie Auto-Delete di CAD Team
 # This is the description of the 'Cookie Auto Delete' addon.
 addons-picker-cookie-auto-delete-description = Elimina automaticamente i cookie indesiderati alla chiusura di una scheda.
 # The name and author should remain as is, but 'by' should be localized. 
@@ -23,6 +23,6 @@ addons-picker-facebook-container-name = Facebook Container di Mozilla Firefox
 addons-picker-facebook-container-description = Impedisci a Facebook di tracciarti sul Web.
 # This is the title of the screen that presents privacy-centric addons to the user during onboarding.
 addons-picker-privacy-boost-title = Migliora la tua privacy
-addons-picker-privacy-boost-subtitle = Prova le estensioni consigliate per aggiungere ancora più privacy e sicurezza alla tua navigazione.
+addons-picker-privacy-boost-subtitle = Prova le estensioni consigliate per garantire ancora più privacy e sicurezza alla tua navigazione.
 # This text is displayed on a button that will open the addons page.
 addons-picker-privacy-boost-button = Scopri altre estensioni
