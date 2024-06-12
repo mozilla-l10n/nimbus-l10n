@@ -136,3 +136,12 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/localized_privacy_addon_recommendations_onboarding_2024.ftl"
+    l10n = "{locale}/subset/localized_privacy_addon_recommendations_onboarding_2024.ftl"
+    locales = [
+        "de",
+        "fr",
+        "it"
+    ]
