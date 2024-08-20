@@ -1,0 +1,49 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "screen-1-header": "Now you can highlight your PDFs!",
+      "screen-1-variant-1-subtitle": "Use our new highlighter tool to mark the most important parts of your documents.",
+      "screen-1-variant-2-subtitle": "With our new highlighter tool, you can read and edit PDFs in one place.",
+      "feature-tour-next-button": "Next",
+      "feature-tour-dismiss-button": "Dismiss",
+      "feature-tour-set-default-button": "Set as default",
+      "screen-2-header": "Make Firefox your default PDF editor?",
+      "screen-2-subtitle": "You’ll have access to our tools every time you open a PDF.",
+      "feature-tour-submenu-item-1": "Don’t show this recommendation again",
+      "feature-tour-submenu-item-2": "Show fewer recommendations",
+      "feature-tour-submenu-item-3": "Manage settings"
+    },
+    "en-CA": {
+      "screen-1-header": "Now you can highlight your PDFs!",
+      "screen-1-variant-1-subtitle": "Use our new highlighter tool to mark the most important parts of your documents.",
+      "screen-1-variant-2-subtitle": "With our new highlighter tool, you can read and edit PDFs in one place.",
+      "feature-tour-next-button": "Next",
+      "feature-tour-dismiss-button": "Dismiss",
+      "feature-tour-set-default-button": "Set as default",
+      "screen-2-header": "Make Firefox your default PDF editor?",
+      "screen-2-subtitle": "You’ll have access to our tools every time you open a PDF.",
+      "feature-tour-submenu-item-1": "Don’t show this recommendation again",
+      "feature-tour-submenu-item-2": "Show fewer recommendations",
+      "feature-tour-submenu-item-3": "Manage settings"
+    },
+    "en-GB": {
+      "screen-1-header": "Now you can highlight your PDFs!",
+      "screen-1-variant-1-subtitle": "Use our new highlighter tool to mark the most important parts of your documents.",
+      "screen-1-variant-2-subtitle": "With our new highlighter tool, you can read and edit PDFs in one place.",
+      "feature-tour-next-button": "Next",
+      "feature-tour-dismiss-button": "Dismiss",
+      "feature-tour-set-default-button": "Set as default",
+      "screen-2-header": "Make Firefox your default PDF editor?",
+      "screen-2-subtitle": "You’ll have access to our tools every time you open a PDF.",
+      "feature-tour-submenu-item-1": "Don’t show this recommendation again",
+      "feature-tour-submenu-item-2": "Show fewer recommendations",
+      "feature-tour-submenu-item-3": "Manage settings"
+    }
+  }
+}
