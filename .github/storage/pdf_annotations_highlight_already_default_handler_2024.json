@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -19,6 +20,19 @@
       "feature-tour-submenu-item-1": "Don’t show this recommendation again",
       "feature-tour-submenu-item-2": "Show fewer recommendations",
       "feature-tour-submenu-item-3": "Manage settings"
+    },
+    "de": {
+      "screen-1-header": "Hervorhebung in PDFs ist ab sofort möglich!",
+      "screen-1-variant-1-subtitle": "Verwenden Sie unser neues Textmarker-Werkzeug, um die wichtigsten Teile Ihrer Dokumente zu markieren.",
+      "screen-1-variant-2-subtitle": "Mit unserem neuen Textmarker-Werkzeug können Sie PDFs an einem Ort lesen und bearbeiten.",
+      "feature-tour-next-button": "Weiter",
+      "feature-tour-dismiss-button": "Schließen",
+      "feature-tour-set-default-button": "Als Standard festlegen",
+      "screen-2-header": "Firefox zu Ihrem Standard-PDF-Editor machen?",
+      "screen-2-subtitle": "Sie haben jedes Mal Zugriff auf unsere Werkzeuge, wenn Sie eine PDF-Datei öffnen.",
+      "feature-tour-submenu-item-1": "Diese Empfehlung nicht mehr anzeigen",
+      "feature-tour-submenu-item-2": "Weniger Empfehlungen anzeigen",
+      "feature-tour-submenu-item-3": "Einstellungen verwalten"
     },
     "en-CA": {
       "screen-1-header": "Now you can highlight your PDFs!",
