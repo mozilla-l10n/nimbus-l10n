@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -44,6 +45,19 @@
       "feature-tour-submenu-item-1": "Don’t show this recommendation again",
       "feature-tour-submenu-item-2": "Show fewer recommendations",
       "feature-tour-submenu-item-3": "Manage settings"
+    },
+    "it": {
+      "screen-1-header": "Ora puoi mettere in evidenza i tuoi PDF!",
+      "screen-1-variant-1-subtitle": "Utilizza il nostro nuovo strumento evidenziatore per contrassegnare le parti più importanti dei tuoi documenti.",
+      "screen-1-variant-2-subtitle": "Con il nostro nuovo strumento evidenziatore, puoi leggere e modificare i PDF in un unico posto.",
+      "feature-tour-next-button": "Avanti",
+      "feature-tour-dismiss-button": "Chiudi",
+      "feature-tour-set-default-button": "Imposta come predefinito",
+      "screen-2-header": "Impostare Firefox come editor PDF predefinito?",
+      "screen-2-subtitle": "Avrai accesso ai nostri strumenti ogni volta che apri un PDF.",
+      "feature-tour-submenu-item-1": "Non mostrare di nuovo questo suggerimento",
+      "feature-tour-submenu-item-2": "Mostra meno suggerimenti",
+      "feature-tour-submenu-item-3": "Gestisci impostazioni"
     }
   }
 }
