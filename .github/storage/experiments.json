@@ -98,5 +98,17 @@
       "fr",
       "it"
     ]
+  },
+  "pdf-annotations-highlight-already-default-handler": {
+    "complete": false,
+    "file": "en-US/subset/pdf_annotations_highlight_already_default_handler_2024.ftl",
+    "issue": "36",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
   }
 }

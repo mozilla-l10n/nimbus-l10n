@@ -145,3 +145,14 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/pdf_annotations_highlight_already_default_handler_2024.ftl"
+    l10n = "{locale}/subset/pdf_annotations_highlight_already_default_handler_2024.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
