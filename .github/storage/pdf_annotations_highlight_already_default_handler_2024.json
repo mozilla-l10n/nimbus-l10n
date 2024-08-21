@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -59,6 +60,19 @@
       "feature-tour-submenu-item-1": "Don’t show this recommendation again",
       "feature-tour-submenu-item-2": "Show fewer recommendations",
       "feature-tour-submenu-item-3": "Manage settings"
+    },
+    "fr": {
+      "screen-1-header": "Vous pouvez désormais surligner vos PDF !",
+      "screen-1-variant-1-subtitle": "Utilisez notre nouvel outil de surlignage pour marquer les parties les plus importantes de vos documents.",
+      "screen-1-variant-2-subtitle": "Avec notre nouvel outil de surlignage, vous pouvez consulter et modifier des fichiers PDF sans avoir besoin d’un autre logiciel.",
+      "feature-tour-next-button": "Suivant",
+      "feature-tour-dismiss-button": "Ignorer",
+      "feature-tour-set-default-button": "Définir par défaut",
+      "screen-2-header": "Faire de Firefox votre éditeur PDF par défaut ?",
+      "screen-2-subtitle": "Vous aurez accès à nos outils à chaque fois que vous ouvrirez un fichier PDF.",
+      "feature-tour-submenu-item-1": "Ne plus afficher cette recommandation",
+      "feature-tour-submenu-item-2": "Afficher moins de recommandations",
+      "feature-tour-submenu-item-3": "Gérer les paramètres"
     },
     "it": {
       "screen-1-header": "Ora puoi evidenziare i tuoi PDF!",
