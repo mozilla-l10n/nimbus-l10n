@@ -1,0 +1,73 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "question-title": "Help improve sync in Firefox",
+      "csat-question": "How satisfied are you with the sync experience in Firefox?",
+      "advance-button-label": "Next",
+      "tos-link-label": "Terms of use",
+      "radio-very-dissatisfied-label": "Very dissatisfied",
+      "radio-dissatisfied-label": "Dissatisfied",
+      "radio-neutral-label": "Neutral",
+      "radio-satisfied-label": "Satisfied",
+      "radio-very-satisfied-label": "Very satisfied",
+      "radio-dont-use-label": "I don’t use it",
+      "usefulness-question": "How useful do you find sync in your daily browsing activities?",
+      "submit-button-label": "Submit",
+      "not-useful-at-all-label": "Not useful at all",
+      "not-very-useful-label": "Not very useful",
+      "neutral-label": "Neutral",
+      "somewhat-useful-label": "Somewhat useful",
+      "very-useful-label": "Very useful",
+      "dont-use-label": "I don’t use sync in my daily browsing",
+      "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "en-CA": {
+      "question-title": "Help improve sync in Firefox",
+      "csat-question": "How satisfied are you with the sync experience in Firefox?",
+      "advance-button-label": "Next",
+      "tos-link-label": "Terms of use",
+      "radio-very-dissatisfied-label": "Very dissatisfied",
+      "radio-dissatisfied-label": "Dissatisfied",
+      "radio-neutral-label": "Neutral",
+      "radio-satisfied-label": "Satisfied",
+      "radio-very-satisfied-label": "Very satisfied",
+      "radio-dont-use-label": "I don’t use it",
+      "usefulness-question": "How useful do you find sync in your daily browsing activities?",
+      "submit-button-label": "Submit",
+      "not-useful-at-all-label": "Not useful at all",
+      "not-very-useful-label": "Not very useful",
+      "neutral-label": "Neutral",
+      "somewhat-useful-label": "Somewhat useful",
+      "very-useful-label": "Very useful",
+      "dont-use-label": "I don’t use sync in my daily browsing",
+      "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "en-GB": {
+      "question-title": "Help improve sync in Firefox",
+      "csat-question": "How satisfied are you with the sync experience in Firefox?",
+      "advance-button-label": "Next",
+      "tos-link-label": "Terms of use",
+      "radio-very-dissatisfied-label": "Very dissatisfied",
+      "radio-dissatisfied-label": "Dissatisfied",
+      "radio-neutral-label": "Neutral",
+      "radio-satisfied-label": "Satisfied",
+      "radio-very-satisfied-label": "Very satisfied",
+      "radio-dont-use-label": "I don’t use it",
+      "usefulness-question": "How useful do you find sync in your daily browsing activities?",
+      "submit-button-label": "Submit",
+      "not-useful-at-all-label": "Not useful at all",
+      "not-very-useful-label": "Not very useful",
+      "neutral-label": "Neutral",
+      "somewhat-useful-label": "Somewhat useful",
+      "very-useful-label": "Very useful",
+      "dont-use-label": "I don’t use sync in my daily browsing",
+      "thanks-toast-title": "Thanks for your feedback!"
+    }
+  }
+}
