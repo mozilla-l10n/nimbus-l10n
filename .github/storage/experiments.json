@@ -78,7 +78,7 @@
     ]
   },
   "microsurvey-sync-csat-2024": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/microsurvey_sync_csat_2024_2024.ftl",
     "issue": "38",
     "locales": [
