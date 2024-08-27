@@ -25,12 +25,16 @@ radio-satisfied-label = Satisfait·e
 radio-very-satisfied-label = Très satisfait·e
 # Answer choice indicating that the user does not use the sync experience
 radio-dont-use-label = Je ne l’utilise pas
+# Survey question about usefulness of sync
+usefulness-question = Trouvez-vous la synchronisation utile pour votre navigation du quotidien ?
 # Label for the button that submits the user's response to question 3 and finishes the survey
 submit-button-label = Envoyer
 # Answer choice indicating user finds sync not useful at all
 not-useful-at-all-label = Pas utile du tout
 # Answer choice indicating user finds sync not very useful
 not-very-useful-label = Pas très utile
+# Answer choice indicating user is neutral about sync's usefulness
+neutral-label = Sans opinion
 # Answer choice indicating user finds sync somewhat useful
 somewhat-useful-label = Assez utile
 # Answer choice indicating user finds sync very useful
