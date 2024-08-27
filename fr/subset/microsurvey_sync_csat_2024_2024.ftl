@@ -27,5 +27,15 @@ radio-very-satisfied-label = Très satisfait·e
 radio-dont-use-label = Je ne l’utilise pas
 # Label for the button that submits the user's response to question 3 and finishes the survey
 submit-button-label = Envoyer
+# Answer choice indicating user finds sync not useful at all
+not-useful-at-all-label = Pas utile du tout
+# Answer choice indicating user finds sync not very useful
+not-very-useful-label = Pas très utile
+# Answer choice indicating user finds sync somewhat useful
+somewhat-useful-label = Assez utile
+# Answer choice indicating user finds sync very useful
+very-useful-label = Très utile
+# Answer choice indicating user doesn't use sync in daily browsing
+dont-use-label = Je n’utilise pas la synchronisation pour ma navigation quotidienne
 # Text displayed in a thank-you toast notification that appears briefly after the user submits their survey response
 thanks-toast-title = Merci de votre retour !
