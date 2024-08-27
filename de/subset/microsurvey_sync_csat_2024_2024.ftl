@@ -41,3 +41,5 @@ somewhat-useful-label = Ziemlich nützlich
 very-useful-label = Sehr nützlich
 # Answer choice indicating user doesn't use sync in daily browsing
 dont-use-label = Ich verwende beim täglichen Surfen keine Synchronisation
+# Text displayed in a thank-you toast notification that appears briefly after the user submits their survey response
+thanks-toast-title = Danke für Ihre Rückmeldung!
