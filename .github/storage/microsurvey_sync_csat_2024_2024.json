@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -68,6 +69,27 @@
       "very-useful-label": "Very useful",
       "dont-use-label": "I don’t use sync in my daily browsing",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "fr": {
+      "question-title": "Aidez à améliorer la synchronisation dans Firefox",
+      "csat-question": "Êtes-vous satisfait·e de la synchronisation de Firefox ?",
+      "advance-button-label": "Suivant",
+      "tos-link-label": "Conditions d’utilisation",
+      "radio-very-dissatisfied-label": "Très insatisfait·e",
+      "radio-dissatisfied-label": "Insatisfait·e",
+      "radio-neutral-label": "Indifférent·e",
+      "radio-satisfied-label": "Satisfait·e",
+      "radio-very-satisfied-label": "Très satisfait·e",
+      "radio-dont-use-label": "Je ne l’utilise pas",
+      "usefulness-question": "Trouvez-vous la synchronisation utile pour votre navigation du quotidien ?",
+      "submit-button-label": "Envoyer",
+      "not-useful-at-all-label": "Pas utile du tout",
+      "not-very-useful-label": "Pas très utile",
+      "neutral-label": "Sans opinion",
+      "somewhat-useful-label": "Assez utile",
+      "very-useful-label": "Très utile",
+      "dont-use-label": "Je n’utilise pas la synchronisation pour ma navigation quotidienne",
+      "thanks-toast-title": "Merci de votre retour !"
     }
   }
 }
