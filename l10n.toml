@@ -166,3 +166,13 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/microsurvey_search_csat_2024_2024.ftl"
+    l10n = "{locale}/subset/microsurvey_search_csat_2024_2024.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr"
+    ]
