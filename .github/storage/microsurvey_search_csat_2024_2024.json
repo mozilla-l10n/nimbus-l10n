@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US"
@@ -18,6 +19,19 @@
       "radio-very-satisfied-label": "Very satisfied",
       "radio-dont-use-label": "I don’t use search in Firefox",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "de": {
+      "question-title": "Helfen Sie, die Suche in Firefox zu verbessern",
+      "csat-question": "Wie zufrieden sind Sie mit der Suche in Firefox?",
+      "submit-button-label": "Absenden",
+      "tos-link-label": "Nutzungsbedingungen",
+      "radio-very-dissatisfied-label": "Sehr unzufrieden",
+      "radio-dissatisfied-label": "Unzufrieden",
+      "radio-neutral-label": "Neutral",
+      "radio-satisfied-label": "Zufrieden",
+      "radio-very-satisfied-label": "Sehr zufrieden",
+      "radio-dont-use-label": "Ich verwende die Suche in Firefox nicht",
+      "thanks-toast-title": "Danke für Ihr Feedback!"
     },
     "en-CA": {
       "question-title": "Help improve search in Firefox",
