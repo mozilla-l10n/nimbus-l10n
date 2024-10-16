@@ -132,5 +132,17 @@
       "fr",
       "it"
     ]
+  },
+  "recommend-bookmark-toolbar-existing-user": {
+    "complete": false,
+    "file": "en-US/subset/recommend_bookmark_toolbar_existing_user_2024.ftl",
+    "issue": "42",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
   }
 }

@@ -176,3 +176,14 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/recommend_bookmark_toolbar_existing_user_2024.ftl"
+    l10n = "{locale}/subset/recommend_bookmark_toolbar_existing_user_2024.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
