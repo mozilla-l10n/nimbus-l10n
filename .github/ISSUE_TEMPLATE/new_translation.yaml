@@ -7,7 +7,10 @@ body:
   - type: markdown
     attributes:
       value: >
-        Please note that this workflow is designed for Nimbus experiments.
+        Please note that this workflow is designed for Nimbus experiments. If
+        you're targeting Firefox 113 and later, you should use the new format,
+        as automation will provide automatically the JSON content to copy and
+        paste in the recipe.
 
 
         To translate other types of content, please refer to [this
@@ -52,6 +55,7 @@ body:
       description: >
         Provide the content that needs to be translated. You can put it in the
         issue, or provide a link to an external document (e.g. spreadsheet).
+        Ideally, you should provide a fully formed Fluent (FTL) file.
 
         The more information you provide, the easier it will be to start the
         translation. For example, it's important to know in which context
