@@ -2,7 +2,8 @@ name: New translation request (multi-locale recipe)
 description: Request translation for new experiment, using the new multi-locale recipe format (Firefox 113+)
 title: "[NEW]: (experiment name)"
 assignees:
-  - mozilla-l10n/nimbus-l10n
+  - flodolo
+  - bcolsson
 body:
   - type: markdown
     attributes:
