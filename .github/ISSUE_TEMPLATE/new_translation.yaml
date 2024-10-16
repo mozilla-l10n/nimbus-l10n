@@ -2,7 +2,7 @@ name: New translation request
 description: Request translation for new experiment
 title: "[NEW]: (experiment name)"
 assignees:
-  - flodolo
+  - mozilla-l10n/nimbus-l10n
 body:
   - type: markdown
     attributes:
