@@ -6,7 +6,7 @@
 ## Branch: survey
 
 # The title of a popup asking the user to give feedback by answering a short survey about search
-question-title = Helfen Sie, die Suche in Firefox zu verbessern
+question-title = Helfen Sie mit, die Suche in Firefox zu verbessern
 # Survey question about satisfaction with the search experience in Firefox
 csat-question = Wie zufrieden sind Sie mit der Suche in Firefox?
 # Label for the button that submits the user's response and finishes the survey
