@@ -12,10 +12,20 @@ split-dismiss-button-option-1 = Diese Empfehlung nicht mehr anzeigen
 split-dismiss-button-option-2 = Weniger Empfehlungen anzeigen
 split-dismiss-button-option-3 = Einstellungen verwalten
 treatment-a-screen-1-primary-button = Lesezeichen hinzufügen
+treatment-a-screen-2-accept-title = Einfach weitere Lesezeichen hinzufügen
+treatment-a-screen-2-accept-subtitle = Zieh Tabs hierher und lege sie ab, um weitere deiner Lieblings-Webseiten griffbereit zu haben.
+treatment-a-screen-2-accept-primary-button = Alles klar!
 treatment-a-screen-2-accept-secondary-button = Symbolleiste ausblenden
+treatment-a-screen-2-decline-title = Lesezeichen-Symbolleiste geöffnet lassen?
+treatment-a-screen-2-decline-primary-button = Offen lassen
+treatment-a-screen-2-decline-secondary-button = Nein danke
 
 ## Branch: treatment-b
 
+treatment-b-secondary-button = Nein danke
+treatment-b-primary-button = Offen lassen
 
 ## Branch: treatment-c
 
+treatment-c-secondary-button = Nein danke
+treatment-c-primary-button = Lesezeichen hinzufügen
