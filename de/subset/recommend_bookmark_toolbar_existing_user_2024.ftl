@@ -17,6 +17,7 @@ treatment-a-screen-2-accept-subtitle = Zieh Tabs hierher und lege sie ab, um wei
 treatment-a-screen-2-accept-primary-button = Alles klar!
 treatment-a-screen-2-accept-secondary-button = Symbolleiste ausblenden
 treatment-a-screen-2-decline-title = Lesezeichen-Symbolleiste geöffnet lassen?
+treatment-a-screen-2-decline-subtitle = Füge andere Webseiten hinzu, die du häufiger besuchst. Ziehen Tabs hierher und lege sie ab, um deine Lieblings-Webseiten griffbereit zu haben.
 treatment-a-screen-2-decline-primary-button = Offen lassen
 treatment-a-screen-2-decline-secondary-button = Nein danke
 
