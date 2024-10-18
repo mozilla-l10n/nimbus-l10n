@@ -23,6 +23,8 @@ treatment-a-screen-2-decline-secondary-button = Nein danke
 
 ## Branch: treatment-b
 
+treatment-b-title = Lesezeichen-Symbolleiste geöffnet lassen?
+treatment-b-subtitle = Ziehe Tabs auf die offene Lesezeichen-Symbolleiste und lege sie ab, um deine Lieblings-Webseiten immer griffbereit zu haben.
 treatment-b-secondary-button = Nein danke
 treatment-b-primary-button = Offen lassen
 
