@@ -6,6 +6,7 @@
 ## Branch: treatment-a
 
 treatment-a-screen-1-title = Diese Website zur Lesezeichen-Symbolleiste hinzufügen?
+treatment-a-screen-1-subtitle = Ein Lesezeichen wird direkt unter der Adressleiste gespeichert, damit du schnell darauf zugreifen zu kannst.
 treatment-a-screen-1-secondary-button = Nein danke
 split-dismiss-button-option-1 = Diese Empfehlung nicht mehr anzeigen
 split-dismiss-button-option-2 = Weniger Empfehlungen anzeigen
