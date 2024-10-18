@@ -5,7 +5,8 @@
 
 ## Branch: treatment-a
 
-treatment-a-screen-1-title = Diese Website zu Ihrer Lesezeichen-Symbolleiste hinzufügen?
+treatment-a-screen-1-title = Diese Website zur Lesezeichen-Symbolleiste hinzufügen?
+treatment-a-screen-1-secondary-button = Nein danke
 
 ## Branch: treatment-b
 
