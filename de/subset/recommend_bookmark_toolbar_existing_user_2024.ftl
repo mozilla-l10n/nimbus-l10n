@@ -12,6 +12,7 @@ split-dismiss-button-option-1 = Diese Empfehlung nicht mehr anzeigen
 split-dismiss-button-option-2 = Weniger Empfehlungen anzeigen
 split-dismiss-button-option-3 = Einstellungen verwalten
 treatment-a-screen-1-primary-button = Lesezeichen hinzufügen
+treatment-a-screen-2-accept-secondary-button = Symbolleiste ausblenden
 
 ## Branch: treatment-b
 
