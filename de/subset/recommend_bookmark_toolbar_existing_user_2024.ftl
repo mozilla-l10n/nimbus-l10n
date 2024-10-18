@@ -30,5 +30,7 @@ treatment-b-primary-button = Offen lassen
 
 ## Branch: treatment-c
 
+treatment-c-title = Diese Website zur Lesezeichen-Symbolleiste hinzufügen?
+treatment-c-subtitle = Wir lassen die Symbolleiste geöffnet, damit du Tabs dorthin ziehen kannst und so deine Lieblings-Webseiten immer griffbereit sind.
 treatment-c-secondary-button = Nein danke
 treatment-c-primary-button = Lesezeichen hinzufügen
