@@ -13,9 +13,23 @@ split-dismiss-button-option-2 = Afficher moins de recommandations
 split-dismiss-button-option-3 = Gérer les paramètres
 treatment-a-screen-1-primary-button = Ajouter le marque-page
 treatment-a-screen-2-accept-title = Ajoutez facilement des marque-pages
+treatment-a-screen-2-accept-subtitle = Vous pouvez glisser-déposer des onglets ici pour garder davantage de vos sites préférés à portée de main.
+treatment-a-screen-2-accept-primary-button = J’ai compris
+treatment-a-screen-2-accept-secondary-button = Masquer la barre personnelle
+treatment-a-screen-2-decline-title = Laisser la barre personnelle ouverte ?
+treatment-a-screen-2-decline-subtitle = Vous pouvez ajouter d’autres sites que vous visitez souvent. Glissez-déposez simplement des onglets ici pour garder vos sites web préférés à portée de main.
+treatment-a-screen-2-decline-primary-button = La garder ouverte
+treatment-a-screen-2-decline-secondary-button = Non merci
 
 ## Branch: treatment-b
 
+treatment-b-title = Laisser la barre personnelle ouverte ?
+treatment-b-subtitle = Une fois ouverte, vous pouvez glisser-déposer des onglets dans la barre personnelle pour garder vos sites préférés à portée de main.
+treatment-b-secondary-button = Non merci
+treatment-b-primary-button = La garder ouverte
 
 ## Branch: treatment-c
 
+treatment-c-title = Ajouter ce site à la barre personnelle ?
+treatment-c-secondary-button = Non merci
+treatment-c-primary-button = Ajouter le marque-page
