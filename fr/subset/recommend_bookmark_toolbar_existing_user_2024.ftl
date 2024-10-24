@@ -31,5 +31,6 @@ treatment-b-primary-button = La garder ouverte
 ## Branch: treatment-c
 
 treatment-c-title = Ajouter ce site à la barre personnelle ?
+treatment-c-subtitle = Nous laisserons la barre personnelle ouverte afin que vous puissiez faire glisser des onglets ici et garder vos sites préférés à portée de main.
 treatment-c-secondary-button = Non merci
 treatment-c-primary-button = Ajouter le marque-page
