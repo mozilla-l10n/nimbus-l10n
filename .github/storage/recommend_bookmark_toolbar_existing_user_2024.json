@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -107,6 +108,31 @@
       "treatment-c-subtitle": "We’ll leave the toolbar open so you can drag tabs here and keep your favorite sites within reach.",
       "treatment-c-secondary-button": "No thanks",
       "treatment-c-primary-button": "Add bookmark"
+    },
+    "fr": {
+      "treatment-a-screen-1-title": "Ajouter ce site à la barre personnelle ?",
+      "treatment-a-screen-1-subtitle": "Votre marque-page sera enregistré juste en dessous de la barre d’adresse pour pouvoir y accéder rapidement.",
+      "treatment-a-screen-1-secondary-button": "Non merci",
+      "split-dismiss-button-option-1": "Ne plus afficher cette recommandation",
+      "split-dismiss-button-option-2": "Afficher moins de recommandations",
+      "split-dismiss-button-option-3": "Gérer les paramètres",
+      "treatment-a-screen-1-primary-button": "Ajouter le marque-page",
+      "treatment-a-screen-2-accept-title": "Ajoutez facilement des marque-pages",
+      "treatment-a-screen-2-accept-subtitle": "Vous pouvez glisser-déposer des onglets ici pour garder davantage de vos sites préférés à portée de main.",
+      "treatment-a-screen-2-accept-primary-button": "J’ai compris",
+      "treatment-a-screen-2-accept-secondary-button": "Masquer la barre personnelle",
+      "treatment-a-screen-2-decline-title": "Laisser la barre personnelle ouverte ?",
+      "treatment-a-screen-2-decline-subtitle": "Vous pouvez ajouter d’autres sites que vous visitez souvent. Glissez-déposez simplement des onglets ici pour garder vos sites web préférés à portée de main.",
+      "treatment-a-screen-2-decline-primary-button": "La garder ouverte",
+      "treatment-a-screen-2-decline-secondary-button": "Non merci",
+      "treatment-b-title": "Laisser la barre personnelle ouverte ?",
+      "treatment-b-subtitle": "Une fois ouverte, vous pouvez glisser-déposer des onglets dans la barre personnelle pour garder vos sites préférés à portée de main.",
+      "treatment-b-secondary-button": "Non merci",
+      "treatment-b-primary-button": "La garder ouverte",
+      "treatment-c-title": "Ajouter ce site à la barre personnelle ?",
+      "treatment-c-subtitle": "Nous laisserons la barre personnelle ouverte afin que vous puissiez faire glisser des onglets ici et garder vos sites préférés à portée de main.",
+      "treatment-c-secondary-button": "Non merci",
+      "treatment-c-primary-button": "Ajouter le marque-page"
     },
     "it": {
       "treatment-a-screen-1-title": "Aggiungere questo sito alla barra dei segnalibri?",

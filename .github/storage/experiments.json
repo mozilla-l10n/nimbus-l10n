@@ -134,7 +134,7 @@
     ]
   },
   "recommend-bookmark-toolbar-existing-user": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/recommend_bookmark_toolbar_existing_user_2024.ftl",
     "issue": "42",
     "locales": [
