@@ -31,6 +31,18 @@
       "it"
     ]
   },
+  "fox-doodle-multi-action-cta-fr-it-de": {
+    "complete": false,
+    "file": "en-US/subset/fox_doodle_multi_action_cta_fr_it_de_2024.ftl",
+    "issue": "47",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "fox-doodle-pin-to-taskbar-early-day-graphics": {
     "complete": true,
     "file": "en-US/subset/fox_doodle_pin_to_taskbar_early_day_graphics_2023.ftl",
