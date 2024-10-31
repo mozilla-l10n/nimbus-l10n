@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -38,6 +39,17 @@
       "multi-action-fox-doodle-main-browser-primary-button-label": "Make Firefox my main browser",
       "multi-action-fox-doodle-msix-subtitle": "Keep your favorite privacy-focused browser just one click away. Set Firefox as your default browser for opening links and pin it to your taskbar and Start menu.",
       "multi-action-fox-doodle-nonmsix-subtitle": "Keep your favorite privacy-focused browser just one click away. Set Firefox as your default browser for opening links and pin it to your taskbar."
+    },
+    "it": {
+      "multi-action-fox-doodle-title": "Bentornato",
+      "multi-action-fox-doodle-subtitle": "Ti ricordiamo che puoi mantenere il tuo browser preferito incentrato sulla privacy a portata di clic.",
+      "multi-action-fox-doodle-set-default-checkbox": "Imposta Firefox come predefinito",
+      "multi-action-fox-doodle-start-browsing-button-label": "Inizia a navigare",
+      "multi-action-fox-doodle-pin-start-checkbox": "Aggiungi Firefox al menu Start",
+      "multi-action-fox-doodle-mac-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link e conservalo nel Dock.",
+      "multi-action-fox-doodle-main-browser-primary-button-label": "Imposta Firefox come browser principale",
+      "multi-action-fox-doodle-msix-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link e aggiungilo alla barra delle applicazioni e al menu Start.",
+      "multi-action-fox-doodle-nonmsix-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link e aggiungilo alla barra delle applicazioni."
     }
   }
 }
