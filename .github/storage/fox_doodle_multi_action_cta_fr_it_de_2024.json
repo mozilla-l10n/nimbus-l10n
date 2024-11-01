@@ -42,14 +42,14 @@
     },
     "it": {
       "multi-action-fox-doodle-title": "Bentornato",
-      "multi-action-fox-doodle-subtitle": "Un promemoria al volo: puoi avere il tuo browser preferito, che tutela la tua privacy, sempre a portata di clic.",
+      "multi-action-fox-doodle-subtitle": "Un promemoria al volo: puoi avere il tuo browser preferito incentrato sulla privacy sempre a portata di clic.",
       "multi-action-fox-doodle-set-default-checkbox": "Imposta Firefox come predefinito",
       "multi-action-fox-doodle-start-browsing-button-label": "Inizia a navigare",
       "multi-action-fox-doodle-pin-start-checkbox": "Aggiungi Firefox al menu Start",
-      "multi-action-fox-doodle-mac-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link e conservalo nel Dock.",
+      "multi-action-fox-doodle-mac-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy sempre a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link e tienilo nel Dock.",
       "multi-action-fox-doodle-main-browser-primary-button-label": "Imposta Firefox come browser principale",
-      "multi-action-fox-doodle-msix-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link e aggiungilo alla barra delle applicazioni e al menu Start.",
-      "multi-action-fox-doodle-nonmsix-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link e aggiungilo alla barra delle applicazioni."
+      "multi-action-fox-doodle-msix-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy sempre a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link, aggiungilo alla barra delle applicazioni e al menu Start.",
+      "multi-action-fox-doodle-nonmsix-subtitle": "Mantieni il tuo browser preferito incentrato sulla privacy sempre a portata di clic. Imposta Firefox come browser predefinito per l’apertura dei link e aggiungilo alla barra delle applicazioni."
     }
   }
 }
