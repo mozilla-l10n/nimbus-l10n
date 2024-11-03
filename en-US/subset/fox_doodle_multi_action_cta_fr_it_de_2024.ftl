@@ -13,6 +13,6 @@ multi-action-fox-doodle-pin-start-checkbox = Pin Firefox to Start menu
 ## Branch: treatment-b
 
 multi-action-fox-doodle-mac-subtitle = Keep your favorite privacy-focused browser just one click away. Set Firefox as your default browser for opening links and keep it in your Dock.
-multi-action-fox-doodle-main-browser-primary-button-label = Make Firefox my main browser
+multi-action-fox-doodle-main-browser-primary-button-label = Set Firefox as my main browser
 multi-action-fox-doodle-msix-subtitle = Keep your favorite privacy-focused browser just one click away. Set Firefox as your default browser for opening links and pin it to your taskbar and Start menu.
 multi-action-fox-doodle-nonmsix-subtitle = Keep your favorite privacy-focused browser just one click away. Set Firefox as your default browser for opening links and pin it to your taskbar.
