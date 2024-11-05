@@ -11,3 +11,4 @@ multi-action-fox-doodle-pin-start-checkbox = Firefox an Startmenü anheften
 
 ## Branch: treatment-b
 
+multi-action-fox-doodle-main-browser-primary-button-label = Firefox als meinen Hauptbrowser festlegen
