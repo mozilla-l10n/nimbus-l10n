@@ -21,6 +21,17 @@
       "it"
     ]
   },
+  "desktop-feature-callout-signed-into-account": {
+    "complete": false,
+    "file": "en-US/subset/desktop_feature_callout_signed_into_account_2024.ftl",
+    "issue": "50",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr"
+    ]
+  },
   "discovery-of-search-sap-existing-it-de-fr": {
     "complete": true,
     "file": "en-US/subset/discovery_of_search_sap_existing_it_de_fr_2024.ftl",
