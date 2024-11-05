@@ -198,3 +198,13 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/desktop_feature_callout_signed_into_account_2024.ftl"
+    l10n = "{locale}/subset/desktop_feature_callout_signed_into_account_2024.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr"
+    ]
