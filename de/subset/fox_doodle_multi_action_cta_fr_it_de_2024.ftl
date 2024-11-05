@@ -6,6 +6,8 @@
 ## Branch: treatment-a
 
 multi-action-fox-doodle-title = Willkommen zurück
+multi-action-fox-doodle-start-browsing-button-label = Lossurfen
+multi-action-fox-doodle-pin-start-checkbox = Firefox an Startmenü anheften
 
 ## Branch: treatment-b
 
