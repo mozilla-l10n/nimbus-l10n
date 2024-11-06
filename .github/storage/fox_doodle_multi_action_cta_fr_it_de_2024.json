@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -17,6 +18,17 @@
       "multi-action-fox-doodle-main-browser-primary-button-label": "Make Firefox my main browser",
       "multi-action-fox-doodle-msix-subtitle": "Keep your favorite privacy-focused browser just one click away. Set Firefox as your default browser for opening links and pin it to your taskbar and Start menu.",
       "multi-action-fox-doodle-nonmsix-subtitle": "Keep your favorite privacy-focused browser just one click away. Set Firefox as your default browser for opening links and pin it to your taskbar."
+    },
+    "de": {
+      "multi-action-fox-doodle-title": "Willkommen zurück",
+      "multi-action-fox-doodle-subtitle": "Hier eine schnelle Erinnerung: deinen Lieblings-Browser mit Fokus auf Privatsphäre kannst du auch mit nur einem Klick aufrufen.",
+      "multi-action-fox-doodle-set-default-checkbox": "Firefox als Standard festlegen",
+      "multi-action-fox-doodle-start-browsing-button-label": "Lossurfen",
+      "multi-action-fox-doodle-pin-start-checkbox": "Firefox an Startmenü anheften",
+      "multi-action-fox-doodle-mac-subtitle": "Halte deinen Lieblings-Browser mit Fokus auf Privatsphäre stets griffbereit. Lege Firefox als Standardbrowser zum Öffnen von Links fest und behalte ihn im Dock.",
+      "multi-action-fox-doodle-main-browser-primary-button-label": "Firefox als meinen Hauptbrowser festlegen",
+      "multi-action-fox-doodle-msix-subtitle": "Halte deinen Lieblings-Browser mit Fokus auf Privatsphäre stets griffbereit. Lege Firefox als Standardbrowser zum Öffnen von Links fest und hefte ihn an deine Taskleiste und dein Startmenü.",
+      "multi-action-fox-doodle-nonmsix-subtitle": "Halte deinen Lieblings-Browser mit Fokus auf Privatsphäre stets griffbereit. Lege Firefox als Standardbrowser zum Öffnen von Links fest und hefte ihn an deine Taskleiste."
     },
     "en-CA": {
       "multi-action-fox-doodle-title": "Welcome back",
