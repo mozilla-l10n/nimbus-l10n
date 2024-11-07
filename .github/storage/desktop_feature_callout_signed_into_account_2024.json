@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US"
@@ -11,6 +12,12 @@
       "desktop-to-mobile-subtitle": "Scan the QR code to download Firefox for mobile. Once installed, select “Sync to mobile” to access your passwords, bookmarks, and more on the go.",
       "dismiss-button-label": "Dismiss",
       "sync-to-mobile-button-label": "Sync to mobile"
+    },
+    "de": {
+      "desktop-to-mobile-headline": "Herunterladen, synchronisieren und loslegen!",
+      "desktop-to-mobile-subtitle": "Scanne den QR-Code, um Firefox fürs Handy herunterzuladen. Wähle nach der Installation „Mit Handy synchronisieren“, um unterwegs auf Passwörter, Lesezeichen und mehr zuzugreifen.",
+      "dismiss-button-label": "Schließen",
+      "sync-to-mobile-button-label": "Mit Handy synchronisieren"
     },
     "en-CA": {
       "desktop-to-mobile-headline": "Download, sync, and go!",
