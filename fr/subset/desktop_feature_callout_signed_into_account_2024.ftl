@@ -7,5 +7,9 @@
 
 # If the localization of this message’s headline is challenging, consider using a simplified alternative as a reference for translation: 'Sync your browsing with Firefox for mobile.'
 desktop-to-mobile-headline = Téléchargez, synchronisez et c’est parti !
+# The curly quotations around “Sync to mobile” are used to indicate the label for the primary CTA button without breaking the JSON recipe. The phrase, 'on the go', is used to describe when people are very busy and are traveling from place to place.
+desktop-to-mobile-subtitle = Scannez le code QR pour télécharger Firefox pour mobile. Une fois l’installation terminée, sélectionnez « Synchroniser avec votre appareil mobile » pour accéder à vos mots de passe, marque-pages et bien plus encore lors de vos déplacements.
 # Secondary button label for dismissing the callout
 dismiss-button-label = Ignorer
+# Primary button label to lead users to the 'Sync your device' page
+sync-to-mobile-button-label = Synchroniser avec votre appareil mobile
