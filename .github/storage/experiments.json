@@ -43,7 +43,7 @@
     ]
   },
   "fox-doodle-multi-action-cta-fr-it-de": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/fox_doodle_multi_action_cta_fr_it_de_2024.ftl",
     "issue": "47",
     "locales": [
