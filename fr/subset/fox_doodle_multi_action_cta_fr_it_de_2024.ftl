@@ -13,4 +13,7 @@ multi-action-fox-doodle-pin-start-checkbox = Épingler Firefox au menu Démarrer
 
 ## Branch: treatment-b
 
+multi-action-fox-doodle-mac-subtitle = Gardez votre navigateur préféré et qui respecte votre vie privée à portée de clic. Faites de Firefox votre navigateur par défaut pour ouvrir des liens et conservez-le dans votre Dock.
 multi-action-fox-doodle-main-browser-primary-button-label = Faire de Firefox mon navigateur principal
+multi-action-fox-doodle-msix-subtitle = Gardez votre navigateur préféré et qui respecte votre vie privée à portée de clic. Faites de Firefox votre navigateur par défaut pour ouvrir des liens et épinglez-le à la barre des tâches et au menu Démarrer.
+multi-action-fox-doodle-nonmsix-subtitle = Gardez votre navigateur préféré et qui respecte votre vie privée à portée de clic. Faites de Firefox votre navigateur par défaut pour ouvrir des liens et épinglez-le à la barre des tâches.
