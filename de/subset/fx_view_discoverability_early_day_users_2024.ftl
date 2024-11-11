@@ -21,7 +21,7 @@ fx-view-discoverability-split-button-option3-label = Einstellungen verwalten
 ## Branch: treatment-b
 
 fx-view-discoverability-treatment-b-title = Sie wollten diesen Tab nicht schließen?
-fx-view-discoverability-treatment-b-subtitle = Hier können Sie sie schnell finden und wieder öffnen. Wir speichern eine Chronik Ihrer kürzlich geschlossenen Tabs für Sie.
+fx-view-discoverability-treatment-b-subtitle = Hier können Sie ihn schnell finden und wieder öffnen. Wir speichern eine Chronik Ihrer kürzlich geschlossenen Tabs für Sie.
 
 ## Branch: treatment-c
 
