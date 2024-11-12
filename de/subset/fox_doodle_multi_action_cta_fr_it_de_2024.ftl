@@ -7,7 +7,7 @@
 
 multi-action-fox-doodle-title = Willkommen zurück
 multi-action-fox-doodle-subtitle = Hier eine schnelle Erinnerung: deinen Lieblings-Browser mit Fokus auf Privatsphäre kannst du auch mit nur einem Klick aufrufen.
-multi-action-fox-doodle-set-default-checkbox = Firefox als Standard festlegen
+multi-action-fox-doodle-set-default-checkbox = Firefox als Standardbrowser festlegen
 multi-action-fox-doodle-start-browsing-button-label = Lossurfen
 multi-action-fox-doodle-pin-start-checkbox = Firefox an Startmenü anheften
 
