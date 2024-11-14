@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -44,6 +45,19 @@
       "radio-very-satisfied-label": "Very satisfied",
       "radio-dont-use-label": "I don’t use add-ons/extensions",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "fr": {
+      "question-title": "Aidez à améliorer les extensions Firefox",
+      "csat-question": "Êtes-vous satisfait·e des modules complémentaires/extensions de Firefox ?",
+      "submit-button-label": "Envoyer",
+      "privacy-link-label": "Politique de confidentialité",
+      "radio-very-dissatisfied-label": "Très insatisfait·e",
+      "radio-dissatisfied-label": "Insatisfait·e",
+      "radio-neutral-label": "Indifférent·e",
+      "radio-satisfied-label": "Satisfait·e",
+      "radio-very-satisfied-label": "Très satisfait·e",
+      "radio-dont-use-label": "Je n’utilise pas de modules complémentaires/d’extensions",
+      "thanks-toast-title": "Merci de votre retour !"
     }
   }
 }
