@@ -23,3 +23,7 @@ radio-neutral-label = Weder zufrieden noch unzufrieden
 radio-satisfied-label = Zufrieden
 # Answer choice indicating the highest satisfaction with the addons experience
 radio-very-satisfied-label = Sehr zufrieden
+# Answer choice indicating that the user does not use extensions in Firefox
+radio-dont-use-label = Ich nutze keine Add-ons/Erweiterungen
+# Text displayed in a thank-you toast notification that appears briefly after the user submits their survey response
+thanks-toast-title = Danke für Ihr Feedback!
