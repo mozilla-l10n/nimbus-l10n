@@ -1,6 +1,7 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -19,6 +20,19 @@
       "radio-very-satisfied-label": "Very satisfied",
       "radio-dont-use-label": "I don’t use add-ons/extensions",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "de": {
+      "question-title": "Helfen Sie, Firefox-Erweiterungen zu verbessern",
+      "csat-question": "Wie zufrieden sind Sie mit der Handhabung von Add-ons/Erweiterungen in Firefox?",
+      "submit-button-label": "Absenden",
+      "privacy-link-label": "Datenschutzhinweis",
+      "radio-very-dissatisfied-label": "Sehr unzufrieden",
+      "radio-dissatisfied-label": "Unzufrieden",
+      "radio-neutral-label": "Weder zufrieden noch unzufrieden",
+      "radio-satisfied-label": "Zufrieden",
+      "radio-very-satisfied-label": "Sehr zufrieden",
+      "radio-dont-use-label": "Ich nutze keine Add-ons/Erweiterungen",
+      "thanks-toast-title": "Danke für Ihr Feedback!"
     },
     "en-CA": {
       "question-title": "Help improve Firefox extensions",

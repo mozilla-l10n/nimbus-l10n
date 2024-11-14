@@ -101,7 +101,7 @@
     ]
   },
   "microsurvey-addons-csat-2024": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/microsurvey_addons_csat_2024_2024.ftl",
     "issue": "53",
     "locales": [
