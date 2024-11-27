@@ -4,6 +4,7 @@
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -15,6 +16,9 @@
     },
     "en-GB": {
       "nuo-sign-up-or-sign-in-button": "Sign up or sign in"
+    },
+    "fr": {
+      "nuo-sign-up-or-sign-in-button": "Créer un compte ou se connecter"
     },
     "it": {
       "nuo-sign-up-or-sign-in-button": "Registrati o accedi"
