@@ -218,3 +218,14 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/npo_sign_up_sign_in_button_text_change_2024.ftl"
+    l10n = "{locale}/subset/npo_sign_up_sign_in_button_text_change_2024.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]

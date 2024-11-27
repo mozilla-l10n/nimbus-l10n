@@ -155,6 +155,18 @@
       "it"
     ]
   },
+  "npo-sign-up-sign-in-button-text-change": {
+    "complete": false,
+    "file": "en-US/subset/npo_sign_up_sign_in_button_text_change_2024.ftl",
+    "issue": "55",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "pdf-annotations-highlight-already-default-handler": {
     "complete": true,
     "file": "en-US/subset/pdf_annotations_highlight_already_default_handler_2024.ftl",
