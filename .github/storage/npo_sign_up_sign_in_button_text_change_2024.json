@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -14,6 +15,9 @@
     },
     "en-GB": {
       "nuo-sign-up-or-sign-in-button": "Sign up or sign in"
+    },
+    "it": {
+      "nuo-sign-up-or-sign-in-button": "Registrati o accedi"
     }
   }
 }
