@@ -1,0 +1,19 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "nuo-sign-up-or-sign-in-button": "Sign up or sign in"
+    },
+    "en-CA": {
+      "nuo-sign-up-or-sign-in-button": "Sign up or sign in"
+    },
+    "en-GB": {
+      "nuo-sign-up-or-sign-in-button": "Sign up or sign in"
+    }
+  }
+}
