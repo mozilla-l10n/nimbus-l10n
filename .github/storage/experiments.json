@@ -156,7 +156,7 @@
     ]
   },
   "npo-sign-up-sign-in-button-text-change": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/npo_sign_up_sign_in_button_text_change_2024.ftl",
     "issue": "55",
     "locales": [
