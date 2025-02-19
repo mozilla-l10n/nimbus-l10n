@@ -100,6 +100,17 @@
       "it"
     ]
   },
+  "login-status-advisory-callout": {
+    "complete": false,
+    "file": "en-US/subset/login_status_advisory_callout_2025.ftl",
+    "issue": "57",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr"
+    ]
+  },
   "microsurvey-addons-csat-2024": {
     "complete": true,
     "file": "en-US/subset/microsurvey_addons_csat_2024_2024.ftl",
