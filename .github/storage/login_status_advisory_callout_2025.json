@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US"
@@ -10,6 +11,11 @@
       "login-status-advisory-title-a": "You’re signed out. Click the account icon to sign in.",
       "login-status-advisory-title-b": "Start syncing your data. Click the account icon to sign in.",
       "login-status-advisory-title-c": "Sign in to sync"
+    },
+    "de": {
+      "login-status-advisory-title-a": "Sie sind abgemeldet. Klicken Sie auf das Kontosymbol, um sich anzumelden.",
+      "login-status-advisory-title-b": "Beginnen Sie mit der Synchronisation Ihrer Daten. Klicken Sie auf das Kontosymbol, um sich anzumelden.",
+      "login-status-advisory-title-c": "Zum Synchronisieren anmelden"
     },
     "en-CA": {
       "login-status-advisory-title-a": "You’re signed out. Click the account icon to sign in.",
