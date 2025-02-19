@@ -4,15 +4,18 @@
 
 ## Branch: treatment-a
 
-# The 'account icon' is the toolbar button with a 'profile' icon of a human head/shoulders. It's for dealing with your Mozilla account. When hovering the icon, the tooltip says 'Account'
-login-status-advisory-title-a = You’re signed out. Click the Account icon to sign in.
+# The 'account icon' is the toolbar button with a 'profile' icon of a human head/shoulders.
+# It's for dealing with your Mozilla account. When hovering the icon, the tooltip says 'Account'.
+login-status-advisory-title-a = You’re signed out. Click the account icon to sign in.
 
 ## Branch: treatment-b
 
-# The 'account icon' is the toolbar button with a 'profile' icon of a human head/shoulders. It's for dealing with your Mozilla account. When hovering the icon, the tooltip says 'Account'
+# The 'account icon' is the toolbar button with a 'profile' icon of a human head/shoulders.
+# It's for dealing with your Mozilla account. When hovering the icon, the tooltip says 'Account'.
 login-status-advisory-title-b = Start syncing your data. Click the account icon to sign in.
 
 ## Branch: treatment-c
 
-# The 'account icon' is the toolbar button with a 'profile' icon of a human head/shoulders. It's for dealing with your Mozilla account. When hovering the icon, the tooltip says 'Account'
+# The 'account icon' is the toolbar button with a 'profile' icon of a human head/shoulders.
+# It's for dealing with your Mozilla account. When hovering the icon, the tooltip says 'Account'.
 login-status-advisory-title-c = Sign in to sync
