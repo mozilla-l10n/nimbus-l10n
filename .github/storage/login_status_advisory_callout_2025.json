@@ -1,0 +1,25 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "login-status-advisory-title-a": "You’re signed out. Click the account icon to sign in.",
+      "login-status-advisory-title-b": "Start syncing your data. Click the account icon to sign in.",
+      "login-status-advisory-title-c": "Sign in to sync"
+    },
+    "en-CA": {
+      "login-status-advisory-title-a": "You’re signed out. Click the account icon to sign in.",
+      "login-status-advisory-title-b": "Start syncing your data. Click the account icon to sign in.",
+      "login-status-advisory-title-c": "Sign in to sync"
+    },
+    "en-GB": {
+      "login-status-advisory-title-a": "You’re signed out. Click the account icon to sign in.",
+      "login-status-advisory-title-b": "Start syncing your data. Click the account icon to sign in.",
+      "login-status-advisory-title-c": "Sign in to sync"
+    }
+  }
+}
