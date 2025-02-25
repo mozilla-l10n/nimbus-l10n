@@ -101,7 +101,7 @@
     ]
   },
   "login-status-advisory-callout": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/login_status_advisory_callout_2025.ftl",
     "issue": "57",
     "locales": [

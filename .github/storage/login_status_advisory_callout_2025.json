@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -26,6 +27,11 @@
       "login-status-advisory-title-a": "You’re signed out. Click the account icon to sign in.",
       "login-status-advisory-title-b": "Start syncing your data. Click the account icon to sign in.",
       "login-status-advisory-title-c": "Sign in to sync"
+    },
+    "fr": {
+      "login-status-advisory-title-a": "Votre compte est déconnecté. Cliquez sur l’icône de compte pour vous connecter.",
+      "login-status-advisory-title-b": "Commencez à synchroniser vos données. Cliquez sur l’icône de compte pour vous connecter.",
+      "login-status-advisory-title-c": "Se connecter pour synchroniser"
     }
   }
 }
