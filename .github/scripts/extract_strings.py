@@ -101,9 +101,9 @@ class StringExtraction:
                         "complete_locales": [],
                         "translations": defaultdict(dict),
                     }
-                json_output[experiment_id]["translations"][locale][
-                    message_id
-                ] = translation
+                json_output[experiment_id]["translations"][locale][message_id] = (
+                    translation
+                )
 
         # Identify complete locales for each experiment, and remove
         # translations for partially translated locales.

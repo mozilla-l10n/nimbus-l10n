@@ -9,7 +9,6 @@ from jsonpath_ng.ext import parse
 import argparse
 import json
 import os
-import re
 import requests
 import sys
 import toml
@@ -48,7 +47,7 @@ def generate_ftl_file(recipe, experiment_id):
             jsonpath_expression = parse('$.."$l10n"')
             for match in jsonpath_expression.find(branch_value):
                 # Check if $l10n is an object
-                if type(match.value) != dict:
+                if not isinstance(match.value, dict):
                     warnings.append(
                         "\n---\n\n"
                         f"$l10n definition is not an object (found `{type(match.value).__name__}` instead).\n"
@@ -192,8 +191,8 @@ def create_issue(repo, experiment_id, file_name, recipe_locales, api_token):
         issue_number = r.json()["number"]
         print(f"Created a new issue: {issue_number}")
         return issue_number
-    except:
-        print("Error creating a new issue")
+    except Exception as e:
+        print(f"Error creating a new issue: {e}")
         print(r.status_code)
         return ""
 
