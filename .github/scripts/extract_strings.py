@@ -5,27 +5,20 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 from collections import defaultdict
+from compare_locales import parser
+from moz.l10n.paths import L10nConfigPaths
 import argparse
 import json
 import os
-import sys
-
-try:
-    from compare_locales import paths
-    from compare_locales import parser
-except ImportError as e:
-    print("FATAL: make sure that dependencies are installed")
-    print(e)
-    sys.exit(1)
 
 
 class StringExtraction:
-    def __init__(self, l10n_path, reference_locale, experiments_metadata):
+    def __init__(self, toml_path, reference_locale, experiments_metadata):
         """Initialize object."""
 
         self.translations = defaultdict(dict)
 
-        self.l10n_path = l10n_path
+        self.toml_path = toml_path
         self.reference_locale = reference_locale
         self.experiments_metadata = experiments_metadata
 
@@ -37,11 +30,30 @@ class StringExtraction:
 
             print(f"Extracting strings for locale: {locale}.")
             if locale != self.reference_locale:
-                files = paths.ProjectFiles(locale, [project_config])
+                file_list = [
+                    (
+                        os.path.abspath(tgt_path.format(locale=locale)),
+                        os.path.abspath(ref_path.format(locale=None)),
+                    )
+                    for (
+                        ref_path,
+                        tgt_path,
+                    ), locales in project_config_paths.all().items()
+                    if locale in locales
+                ]
             else:
-                files = paths.ProjectFiles(None, [project_config])
+                file_list = [
+                    (
+                        os.path.abspath(ref_path.format(locale=None)),
+                        os.path.abspath(ref_path.format(locale=None)),
+                    )
+                    for (
+                        ref_path,
+                        tgt_path,
+                    ), locales in project_config_paths.all().items()
+                ]
 
-            for l10n_file, reference_file, _, _ in files:
+            for l10n_file, reference_file in file_list:
                 if not os.path.exists(l10n_file):
                     # File not available in localization
                     continue
@@ -75,17 +87,18 @@ class StringExtraction:
                 }
             print(f"  {len(self.translations[locale])} strings extracted")
 
-        basedir = os.path.dirname(self.l10n_path)
-        project_config = paths.TOMLParser().parse(self.l10n_path, env={"l10n_base": ""})
-        basedir = os.path.join(basedir, project_config.root)
+        basedir = os.path.dirname(self.toml_path)
+        project_config_paths = L10nConfigPaths(self.toml_path)
 
-        if not project_config.all_locales:
+        locales = list(project_config_paths.all_locales)
+        locales.sort()
+        if not locales:
             print("No locales defined in the project configuration.")
 
         # Extract reference locale first
         extractLocale(self.reference_locale)
-
-        for locale in project_config.all_locales:
+        # Extract other locales
+        for locale in locales:
             extractLocale(locale)
 
     def getTranslations(self):
@@ -101,9 +114,9 @@ class StringExtraction:
                         "complete_locales": [],
                         "translations": defaultdict(dict),
                     }
-                json_output[experiment_id]["translations"][locale][
-                    message_id
-                ] = translation
+                json_output[experiment_id]["translations"][locale][message_id] = (
+                    translation
+                )
 
         # Identify complete locales for each experiment, and remove
         # translations for partially translated locales.
@@ -190,7 +203,7 @@ def main():
 
     # Extract translations from FTL files, update statistics for each experiment
     extracted_strings = StringExtraction(
-        l10n_path=args.toml_path,
+        toml_path=args.toml_path,
         reference_locale=args.reference_code,
         experiments_metadata=experiments_metadata,
     )
