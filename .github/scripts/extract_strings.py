@@ -43,14 +43,8 @@ class StringExtraction:
                 ]
             else:
                 file_list = [
-                    (
-                        os.path.abspath(ref_path.format(locale=None)),
-                        os.path.abspath(ref_path.format(locale=None)),
-                    )
-                    for (
-                        ref_path,
-                        tgt_path,
-                    ), locales in project_config_paths.all().items()
+                    (os.path.abspath(ref_path), os.path.abspath(ref_path))
+                    for ref_path in project_config_paths.ref_paths
                 ]
 
             for l10n_file, reference_file in file_list:
