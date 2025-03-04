@@ -81,8 +81,8 @@ class StringExtraction:
                 }
             print(f"  {len(self.translations[locale])} strings extracted")
 
-        basedir = os.path.dirname(self.toml_path)
         project_config_paths = L10nConfigPaths(self.toml_path)
+        basedir = project_config_paths.base
 
         locales = list(project_config_paths.all_locales)
         locales.sort()
