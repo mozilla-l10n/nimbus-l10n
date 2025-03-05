@@ -1,7 +1,7 @@
-compare-locales==9.0.4
-jsonpath-ng==1.7.*
-moz-fluent-linter==0.4.*
-moz-l10n==0.6.0
-PyYAML==6.0.*
-requests==2.32.*
-toml==0.10.*
+compare-locales~=9.0.0
+jsonpath-ng~=1.7.0
+moz-fluent-linter~=0.4.0
+moz-l10n~=0.6.1
+PyYAML~=6.0.0
+requests~=2.32.0
+toml~=0.10.0
