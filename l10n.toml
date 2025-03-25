@@ -239,3 +239,14 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/pdf_annotations_signatures_ab_experiment_2025.ftl"
+    l10n = "{locale}/subset/pdf_annotations_signatures_ab_experiment_2025.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
