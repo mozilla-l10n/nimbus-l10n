@@ -191,7 +191,7 @@
     ]
   },
   "pdf-annotations-signatures-ab-experiment": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/pdf_annotations_signatures_ab_experiment_2025.ftl",
     "issue": "61",
     "locales": [
