@@ -13,4 +13,4 @@ fxa-adoption-passwords-primary-button-label = Registrati
 ## Branch: treatment-d
 
 fxa-adoption-passwords-treatment-backup-title = Password salvata. Facciamo un backup.
-fxa-adoption-passwords-treatment-backup-subtitle = Proteggi le tue password sincronizzandole con i tuoi dispositivi tramite crittografia.
+fxa-adoption-passwords-treatment-backup-subtitle = Proteggi le tue password sincronizzandole con i tuoi dispositivi usando la crittografia.
