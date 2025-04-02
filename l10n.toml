@@ -250,3 +250,14 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/account_adoption_callout_passwords_2025.ftl"
+    l10n = "{locale}/subset/account_adoption_callout_passwords_2025.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]

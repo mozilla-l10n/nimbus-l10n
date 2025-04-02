@@ -1,4 +1,16 @@
 {
+  "account-adoption-callout-passwords": {
+    "complete": false,
+    "file": "en-US/subset/account_adoption_callout_passwords_2025.ftl",
+    "issue": "63",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "ask-windows-mac-desktop-early-day-profiles-about-their-firefox-use-case": {
     "complete": true,
     "file": "en-US/subset/ask_windows_mac_desktop_early_day_profiles_about_their_firefox_use_case_2024.ftl",
