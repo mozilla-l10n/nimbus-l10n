@@ -261,3 +261,13 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/tab_groups_user_satisfaction_microsurvey_2025.ftl"
+    l10n = "{locale}/subset/tab_groups_user_satisfaction_microsurvey_2025.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr"
+    ]

@@ -225,5 +225,16 @@
       "fr",
       "it"
     ]
+  },
+  "tab-groups-user-satisfaction-microsurvey": {
+    "complete": false,
+    "file": "en-US/subset/tab_groups_user_satisfaction_microsurvey_2025.ftl",
+    "issue": "65",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr"
+    ]
   }
 }
