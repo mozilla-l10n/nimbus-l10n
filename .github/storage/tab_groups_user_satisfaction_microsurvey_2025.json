@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US"
@@ -31,6 +32,32 @@
       "radio-long-time-label": "I’ve been using Firefox consistently for a long time",
       "radio-none-of-label": "None of the above",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "de": {
+      "question-title": "Helfen Sie Tab-Gruppen zu verbessern",
+      "tab-groups-question-1": "Wie zufrieden sind Sie mit der Handhabung von Tab-Gruppen in Firefox?",
+      "submit-button-label": "Absenden",
+      "privacy-link-label": "Datenschutzerklärung",
+      "radio-very-dissatisfied-label": "Sehr unzufrieden",
+      "radio-dissatisfied-label": "Unzufrieden",
+      "radio-neutral-label": "Weder zufrieden noch unzufrieden",
+      "radio-satisfied-label": "Zufrieden",
+      "radio-very-satisfied-label": "Sehr zufrieden",
+      "radio-dont-use-label": "Ich verwende keine Tab-Gruppen in Firefox",
+      "tab-groups-question-2": "In welchen anderen Browsern haben Sie Tab-Gruppen verwendet?",
+      "radio-chrome-label": "Google Chrome",
+      "radio-edge-label": "Microsoft Edge",
+      "radio-safari-label": "Apple Safari",
+      "radio-vivaldi-label": "Vivaldi",
+      "radio-brave-label": "Brave",
+      "radio-arc-label": "Arc",
+      "radio-none-label": "In keinem der genannten",
+      "tab-groups-question-3": "Welche Aussage beschreibt am besten Ihre bisherige Nutzung von Firefox auf Ihrem Computer / Ihren Computern?",
+      "radio-first-time-label": "Ich habe vor kurzem begonnen Firefox zu verwenden – zum ersten Mal",
+      "radio-returning-label": "Ich habe vor kurzem wieder begonnen Firefox zu verwendet – nach einer Pause",
+      "radio-long-time-label": "Ich verwende Firefox seit langem regelmäßig",
+      "radio-none-of-label": "Keine der genannten",
+      "thanks-toast-title": "Danke für Ihr Feedback!"
     },
     "en-CA": {
       "question-title": "Help improve Tab Groups",
