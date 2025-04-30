@@ -23,3 +23,33 @@ radio-neutral-label = Indifférent·e
 radio-satisfied-label = Satisfait·e
 # Answer choice indicating the highest satisfaction with the Tab Groups experience
 radio-very-satisfied-label = Très satisfait·e
+# Answer choice indicating that the user does not use Tab Groups in Firefox
+radio-dont-use-label = Je n’utilise pas les groupes d’onglets dans Firefox
+# Survey question about use of tab groups outside Firefox
+tab-groups-question-2 = Dans quels autres navigateurs avez-vous utilisé les groupes d’onglets ?
+# Answer choice indicating tab groups use in Google Chrome
+radio-chrome-label = Google Chrome
+# Answer choice indicating Tab Groups use in Microsoft Edge
+radio-edge-label = Microsoft Edge
+# Answer choice indicating Tab Groups use in Apple Safari
+radio-safari-label = Apple Safari
+# Answer choice indicating Tab Groups use in Vivaldi
+radio-vivaldi-label = Vivaldi
+# Answer choice indicating Tab Groups use in Brave
+radio-brave-label = Brave
+# Answer choice indicating Tab Groups use in Arc
+radio-arc-label = Arc
+# Answer choice indicating that the user has not used Tab Groups outside Firefox
+radio-none-label = Aucun de ces navigateurs
+# Survey question about usage of Firefox
+tab-groups-question-3 = Quelle option décrit le mieux votre utilisation passée de Firefox sur votre ou vos ordinateurs ?
+# Answer choice indicating a first time user
+radio-first-time-label = J’ai récemment utilisé Firefox pour la première fois
+# Answer choice indicating a returning user
+radio-returning-label = J’ai recommencé à utiliser Firefox après une pause
+# Answer choice indicating long term use
+radio-long-time-label = J’utilise Firefox de façon régulière depuis longtemps
+# Answer choice indicating none of the answers apply
+radio-none-of-label = Aucune de ces propositions
+# Text displayed in a thank-you toast notification that appears briefly after the user submits their survey response
+thanks-toast-title = Merci de votre retour !
