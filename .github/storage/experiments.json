@@ -227,7 +227,7 @@
     ]
   },
   "tab-groups-user-satisfaction-microsurvey": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/tab_groups_user_satisfaction_microsurvey_2025.ftl",
     "issue": "65",
     "locales": [

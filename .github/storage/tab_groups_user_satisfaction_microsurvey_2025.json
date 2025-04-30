@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -110,6 +111,32 @@
       "radio-long-time-label": "I’ve been using Firefox consistently for a long time",
       "radio-none-of-label": "None of the above",
       "thanks-toast-title": "Thanks for your feedback!"
+    },
+    "fr": {
+      "question-title": "Aidez-nous à améliorer les groupes d’onglets",
+      "tab-groups-question-1": "Êtes-vous satisfait·e des groupes d’onglets dans Firefox ?",
+      "submit-button-label": "Envoyer",
+      "privacy-link-label": "Politique de confidentialité",
+      "radio-very-dissatisfied-label": "Très insatisfait·e",
+      "radio-dissatisfied-label": "Insatisfait·e",
+      "radio-neutral-label": "Indifférent·e",
+      "radio-satisfied-label": "Satisfait·e",
+      "radio-very-satisfied-label": "Très satisfait·e",
+      "radio-dont-use-label": "Je n’utilise pas les groupes d’onglets dans Firefox",
+      "tab-groups-question-2": "Dans quels autres navigateurs avez-vous utilisé les groupes d’onglets ?",
+      "radio-chrome-label": "Google Chrome",
+      "radio-edge-label": "Microsoft Edge",
+      "radio-safari-label": "Apple Safari",
+      "radio-vivaldi-label": "Vivaldi",
+      "radio-brave-label": "Brave",
+      "radio-arc-label": "Arc",
+      "radio-none-label": "Aucun de ces navigateurs",
+      "tab-groups-question-3": "Quelle option décrit le mieux votre utilisation passée de Firefox sur votre ou vos ordinateurs ?",
+      "radio-first-time-label": "J’ai récemment utilisé Firefox pour la première fois",
+      "radio-returning-label": "J’ai recommencé à utiliser Firefox après une pause",
+      "radio-long-time-label": "J’utilise Firefox de façon régulière depuis longtemps",
+      "radio-none-of-label": "Aucune de ces propositions",
+      "thanks-toast-title": "Merci de votre retour !"
     }
   }
 }
