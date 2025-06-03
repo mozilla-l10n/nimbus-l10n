@@ -271,3 +271,14 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/account_adoption_callout_credit_cards_and_addresses_2025.ftl"
+    l10n = "{locale}/subset/account_adoption_callout_credit_cards_and_addresses_2025.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]

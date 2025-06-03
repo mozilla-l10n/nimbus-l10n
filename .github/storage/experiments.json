@@ -1,4 +1,16 @@
 {
+  "account-adoption-callout-credit-cards-and-addresses": {
+    "complete": false,
+    "file": "en-US/subset/account_adoption_callout_credit_cards_and_addresses_2025.ftl",
+    "issue": "67",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "account-adoption-callout-passwords": {
     "complete": true,
     "file": "en-US/subset/account_adoption_callout_passwords_2025.ftl",
