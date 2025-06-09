@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -51,6 +52,17 @@
       "fxa-adoption-credit-cards-treatment-backup-subtitle": "Protect your payment methods by syncing them to your devices with encryption.",
       "fxa-adoption-credit-cards-treatment-uservalue-title": "Save once, sync everywhere",
       "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Get all your payment methods on another device with secure sync."
+    },
+    "fr": {
+      "fxa-adoption-addresses-treatment-backup-title": "Sauvegardons vos adresses enregistrées",
+      "fxa-adoption-addresses-treatment-backup-subtitle": "Protégez vos adresses enregistrées en les synchronisant sur vos appareils de façon chiffrée.",
+      "fxa-adoption-addresses-primary-button-label": "Créer un compte",
+      "fxa-adoption-addresses-treatment-uservalue-title": "Remplissez vos formulaires rapidement sur un autre appareil",
+      "fxa-adoption-addresses-treatment-uservalue-subtitle": "Synchronisez vos adresses enregistrées, partout où vous utilisez Firefox.",
+      "fxa-adoption-credit-cards-treatment-backup-title": "Sauvegardons vos moyens de paiement",
+      "fxa-adoption-credit-cards-treatment-backup-subtitle": "Protégez vos moyens de paiement en les synchronisant sur vos appareils de façon chiffrée.",
+      "fxa-adoption-credit-cards-treatment-uservalue-title": "Enregistrez une seule fois, synchronisez partout où vous le souhaitez",
+      "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Récupérez tous vos moyens de paiement sur un autre appareil avec une synchronisation sécurisée."
     },
     "it": {
       "fxa-adoption-addresses-treatment-backup-title": "Fai il backup degli indirizzi salvati",
