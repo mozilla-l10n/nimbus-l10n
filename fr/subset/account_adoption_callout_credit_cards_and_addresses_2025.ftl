@@ -21,6 +21,8 @@ fxa-adoption-addresses-treatment-uservalue-subtitle = Synchronisez vos adresses 
 
 # Callout title prompting users to back up credit cards
 fxa-adoption-credit-cards-treatment-backup-title = Sauvegardons vos moyens de paiement
+# Callout body prompting users to sync credit cards
+fxa-adoption-credit-cards-treatment-backup-subtitle = Protégez vos moyens de paiement en les synchronisant sur vos appareils de façon chiffrée.
 
 ## Branch: treatment-d
 
