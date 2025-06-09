@@ -26,3 +26,7 @@ fxa-adoption-credit-cards-treatment-backup-subtitle = Protégez vos moyens de pa
 
 ## Branch: treatment-d
 
+# Callout title promoting access to payment methods across devices
+fxa-adoption-credit-cards-treatment-uservalue-title = Enregistrez une seule fois, synchronisez partout où vous le souhaitez
+# Callout body promoting access to payment methods across devices
+fxa-adoption-credit-cards-treatment-uservalue-subtitle = Récupérez tous vos moyens de paiement sur un autre appareil avec une synchronisation sécurisée.
