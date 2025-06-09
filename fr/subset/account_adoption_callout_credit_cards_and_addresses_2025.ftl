@@ -7,6 +7,8 @@
 
 # Callout title prompting users to back up saved addresses
 fxa-adoption-addresses-treatment-backup-title = Sauvegardons vos adresses enregistrées
+# Callout body prompting users to back up saved addresses
+fxa-adoption-addresses-treatment-backup-subtitle = Protégez vos adresses enregistrées en les synchronisant sur vos appareils de façon chiffrée.
 # Primary button label that routes to accounts.firefox.com
 fxa-adoption-addresses-primary-button-label = Créer un compte
 
