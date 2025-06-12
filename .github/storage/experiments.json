@@ -248,5 +248,17 @@
       "en-GB",
       "fr"
     ]
+  },
+  "temp-copy-of-account-adoption-callout-for-l10n-re-extraction": {
+    "complete": false,
+    "file": "en-US/subset/temp_copy_of_account_adoption_callout_for_l10n_re_extraction_2025.ftl",
+    "issue": 69,
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
   }
 }
