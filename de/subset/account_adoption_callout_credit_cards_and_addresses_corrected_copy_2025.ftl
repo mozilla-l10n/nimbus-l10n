@@ -14,6 +14,8 @@ fxa-adoption-addresses-primary-button-label = Registrieren
 
 ## Branch: treatment-b
 
+# Callout title promoting speed when filling out addresses
+fxa-adoption-addresses-treatment-uservalue-title = Füllen Sie schnell Adressfelder auf einem anderen Gerät aus
 # Callout body prompting users to sync adresses
 fxa-adoption-addresses-treatment-uservalue-subtitle = Synchronisieren Sie Ihre gespeicherten Adressen überall dort, wo Sie Firefox verwenden.
 
@@ -25,3 +27,8 @@ fxa-adoption-credit-cards-treatment-backup-title = Sichern wir Ihre Zahlungsmeth
 fxa-adoption-credit-cards-treatment-backup-subtitle = Schützen Sie Ihre Zahlungsmethoden, indem Sie diese verschlüsselt mit Ihren Geräten synchronisieren.
 
 ## Branch: treatment-d
+
+# Callout title promoting syncing payment methods
+fxa-adoption-credit-cards-treatment-uservalue-title = Synchronisieren Sie Ihre Zahlungsmethoden sicher
+# Callout body promoting access to payment methods across devices
+fxa-adoption-credit-cards-treatment-uservalue-subtitle = Speichern Sie Ihre Zahlungsmethode einmal und verwenden Sie diese auf allen Ihren Geräten.
