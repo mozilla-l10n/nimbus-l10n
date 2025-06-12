@@ -4,7 +4,8 @@
     "de",
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -50,6 +51,17 @@
       "fxa-adoption-credit-cards-treatment-backup-subtitle": "Protect your payment methods by syncing them to your devices with encryption.",
       "fxa-adoption-credit-cards-treatment-uservalue-title": "Securely sync your payment methods",
       "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Save your payment method once and use it on all your devices."
+    },
+    "it": {
+      "fxa-adoption-addresses-treatment-backup-title": "Fai il backup degli indirizzi salvati",
+      "fxa-adoption-addresses-treatment-backup-subtitle": "Proteggi gli indirizzi che hai salvato sincronizzandoli con i tuoi dispositivi usando la crittografia.",
+      "fxa-adoption-addresses-primary-button-label": "Registrati",
+      "fxa-adoption-addresses-treatment-uservalue-title": "Compila velocemente gli indirizzi su un altro dispositivo",
+      "fxa-adoption-addresses-treatment-uservalue-subtitle": "Sincronizza gli indirizzi salvati ovunque utilizzi Firefox.",
+      "fxa-adoption-credit-cards-treatment-backup-title": "Fai il backup dei tuoi metodi di pagamento",
+      "fxa-adoption-credit-cards-treatment-backup-subtitle": "Proteggi i tuoi metodi di pagamento sincronizzandoli con i tuoi dispositivi usando la crittografia.",
+      "fxa-adoption-credit-cards-treatment-uservalue-title": "Sincronizza in modo sicuro i tuoi metodi di pagamento",
+      "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Salva una volta il tuo metodo di pagamento e utilizzalo su tutti i tuoi dispositivi."
     }
   }
 }
