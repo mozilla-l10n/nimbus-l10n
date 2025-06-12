@@ -1,0 +1,43 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "fxa-adoption-addresses-treatment-backup-title": "Let’s back up your saved addresses",
+      "fxa-adoption-addresses-treatment-backup-subtitle": "Protect your saved addresses by syncing them to your devices with encryption.",
+      "fxa-adoption-addresses-primary-button-label": "Sign up",
+      "fxa-adoption-addresses-treatment-uservalue-title": "Fill out addresses fast on another device",
+      "fxa-adoption-addresses-treatment-uservalue-subtitle": "Sync your saved addresses everywhere you use Firefox.",
+      "fxa-adoption-credit-cards-treatment-backup-title": "Let’s back up your payment methods",
+      "fxa-adoption-credit-cards-treatment-backup-subtitle": "Protect your payment methods by syncing them to your devices with encryption.",
+      "fxa-adoption-credit-cards-treatment-uservalue-title": "Securely sync your payment methods",
+      "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Save your payment method once and use it on all your devices."
+    },
+    "en-CA": {
+      "fxa-adoption-addresses-treatment-backup-title": "Let’s back up your saved addresses",
+      "fxa-adoption-addresses-treatment-backup-subtitle": "Protect your saved addresses by syncing them to your devices with encryption.",
+      "fxa-adoption-addresses-primary-button-label": "Sign up",
+      "fxa-adoption-addresses-treatment-uservalue-title": "Fill out addresses fast on another device",
+      "fxa-adoption-addresses-treatment-uservalue-subtitle": "Sync your saved addresses everywhere you use Firefox.",
+      "fxa-adoption-credit-cards-treatment-backup-title": "Let’s back up your payment methods",
+      "fxa-adoption-credit-cards-treatment-backup-subtitle": "Protect your payment methods by syncing them to your devices with encryption.",
+      "fxa-adoption-credit-cards-treatment-uservalue-title": "Securely sync your payment methods",
+      "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Save your payment method once and use it on all your devices."
+    },
+    "en-GB": {
+      "fxa-adoption-addresses-treatment-backup-title": "Let’s back up your saved addresses",
+      "fxa-adoption-addresses-treatment-backup-subtitle": "Protect your saved addresses by syncing them to your devices with encryption.",
+      "fxa-adoption-addresses-primary-button-label": "Sign up",
+      "fxa-adoption-addresses-treatment-uservalue-title": "Fill out addresses fast on another device",
+      "fxa-adoption-addresses-treatment-uservalue-subtitle": "Sync your saved addresses everywhere you use Firefox.",
+      "fxa-adoption-credit-cards-treatment-backup-title": "Let’s back up your payment methods",
+      "fxa-adoption-credit-cards-treatment-backup-subtitle": "Protect your payment methods by syncing them to your devices with encryption.",
+      "fxa-adoption-credit-cards-treatment-uservalue-title": "Securely sync your payment methods",
+      "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Save your payment method once and use it on all your devices."
+    }
+  }
+}
