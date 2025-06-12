@@ -1,0 +1,27 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Branch: treatment-a
+
+# Callout title prompting users to back up saved addresses
+fxa-adoption-addresses-treatment-backup-title = Sauvegardons vos adresses enregistrées
+# Callout body prompting users to back up saved addresses
+fxa-adoption-addresses-treatment-backup-subtitle = Protégez vos adresses enregistrées en les synchronisant sur vos appareils de façon chiffrée.
+# Primary button label that routes to accounts.firefox.com
+fxa-adoption-addresses-primary-button-label = Créer un compte
+
+## Branch: treatment-b
+
+# Callout body prompting users to sync adresses
+fxa-adoption-addresses-treatment-uservalue-subtitle = Synchronisez vos adresses enregistrées, partout où vous utilisez Firefox.
+
+## Branch: treatment-c
+
+# Callout title prompting users to back up credit cards
+fxa-adoption-credit-cards-treatment-backup-title = Sauvegardons vos moyens de paiement
+# Callout body prompting users to sync credit cards
+fxa-adoption-credit-cards-treatment-backup-subtitle = Protégez vos moyens de paiement en les synchronisant sur vos appareils de façon chiffrée.
+
+## Branch: treatment-d
