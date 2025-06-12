@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US"
@@ -16,6 +17,17 @@
       "fxa-adoption-credit-cards-treatment-backup-subtitle": "Protect your payment methods by syncing them to your devices with encryption.",
       "fxa-adoption-credit-cards-treatment-uservalue-title": "Securely sync your payment methods",
       "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Save your payment method once and use it on all your devices."
+    },
+    "de": {
+      "fxa-adoption-addresses-treatment-backup-title": "Sichern wir Ihre gespeicherten Adressen",
+      "fxa-adoption-addresses-treatment-backup-subtitle": "Schützen Sie Ihre gespeicherten Adressen, indem Sie diese verschlüsselt mit Ihren Geräten synchronisieren.",
+      "fxa-adoption-addresses-primary-button-label": "Registrieren",
+      "fxa-adoption-addresses-treatment-uservalue-title": "Füllen Sie schnell Adressfelder auf einem anderen Gerät aus",
+      "fxa-adoption-addresses-treatment-uservalue-subtitle": "Synchronisieren Sie Ihre gespeicherten Adressen überall dort, wo Sie Firefox verwenden.",
+      "fxa-adoption-credit-cards-treatment-backup-title": "Sichern wir Ihre Zahlungsmethoden",
+      "fxa-adoption-credit-cards-treatment-backup-subtitle": "Schützen Sie Ihre Zahlungsmethoden, indem Sie diese verschlüsselt mit Ihren Geräten synchronisieren.",
+      "fxa-adoption-credit-cards-treatment-uservalue-title": "Synchronisieren Sie Ihre Zahlungsmethoden sicher",
+      "fxa-adoption-credit-cards-treatment-uservalue-subtitle": "Speichern Sie Ihre Zahlungsmethode einmal und verwenden Sie diese auf allen Ihren Geräten."
     },
     "en-CA": {
       "fxa-adoption-addresses-treatment-backup-title": "Let’s back up your saved addresses",
