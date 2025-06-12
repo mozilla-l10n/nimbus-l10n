@@ -24,4 +24,5 @@ fxa-adoption-credit-cards-treatment-backup-title = Sauvegardons vos moyens de pa
 # Callout body prompting users to sync credit cards
 fxa-adoption-credit-cards-treatment-backup-subtitle = Protégez vos moyens de paiement en les synchronisant sur vos appareils de façon chiffrée.
 
+
 ## Branch: treatment-d
