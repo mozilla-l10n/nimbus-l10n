@@ -12,7 +12,7 @@
     ]
   },
   "account-adoption-callout-credit-cards-and-addresses-corrected-copy": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/account_adoption_callout_credit_cards_and_addresses_corrected_copy_2025.ftl",
     "issue": "71",
     "locales": [
