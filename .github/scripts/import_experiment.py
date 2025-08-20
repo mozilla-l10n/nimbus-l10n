@@ -246,7 +246,7 @@ def main():
 
     # Get the experiment recipe (JSON), generate the FTL file and store it in
     # the repository
-    experiment_id = args.exp_id
+    experiment_id = args.exp_id.strip()
     recipe = get_experiment_json(experiment_id)
     ftl_filename = f"{experiment_id.replace('-', '_')}_{date.today().year}.ftl"
     ref_ftl_fullname = os.path.join(ref_folder_path, ftl_filename)
@@ -308,7 +308,7 @@ def main():
     # Check if an issue already exists, otherwise create a new one
     gh_repo = args.repo
     api_token = args.token
-    issue_number = args.issue
+    issue_number = args.issue.strip()
     if not issue_exists(gh_repo, issue_number):
         issue_number = create_issue(
             gh_repo, experiment_id, ftl_filename, recipe_locales, api_token
