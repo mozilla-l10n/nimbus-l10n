@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -26,6 +27,13 @@
       "fxa-adoption-bookmarks-primary-button-label": "Sign up",
       "fxa-adoption-bookmarks-treatment-sync-title": "Get your favorite sites in a sec",
       "fxa-adoption-bookmarks-treatment-sync-subtitle": "Instantly sync all your bookmarks on another device."
+    },
+    "it": {
+      "fxa-adoption-bookmarks-treatment-backup-title": "Facciamo un backup dei tuoi segnalibri",
+      "fxa-adoption-bookmarks-treatment-backup-subtitle": "Proteggi i tuoi segnalibri sincronizzandoli con i tuoi dispositivi usando la crittografia.",
+      "fxa-adoption-bookmarks-primary-button-label": "Registrati",
+      "fxa-adoption-bookmarks-treatment-sync-title": "Accedi ai tuoi siti preferiti in un attimo",
+      "fxa-adoption-bookmarks-treatment-sync-subtitle": "Sincronizza al volo tutti i tuoi segnalibri su un altro dispositivo."
     }
   }
 }
