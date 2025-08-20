@@ -16,3 +16,5 @@ fxa-adoption-bookmarks-primary-button-label = Registrieren
 
 # Callout title promoting speed when returning to favorite sites
 fxa-adoption-bookmarks-treatment-sync-title = Holen Sie sich Ihre Lieblings-Websites in Sekunden
+# Callout body prompting users to sync bookmarks
+fxa-adoption-bookmarks-treatment-sync-subtitle = Synchronisieren Sie sofort alle Ihre Lesezeichen auf einem anderen Gerät.
