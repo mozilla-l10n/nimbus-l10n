@@ -1,0 +1,31 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "fxa-adoption-bookmarks-treatment-backup-title": "Let’s back up your bookmarks",
+      "fxa-adoption-bookmarks-treatment-backup-subtitle": "Protect your bookmarks by syncing them to your devices with encryption.",
+      "fxa-adoption-bookmarks-primary-button-label": "Sign up",
+      "fxa-adoption-bookmarks-treatment-sync-title": "Get your favorite sites in a sec",
+      "fxa-adoption-bookmarks-treatment-sync-subtitle": "Instantly sync all your bookmarks on another device."
+    },
+    "en-CA": {
+      "fxa-adoption-bookmarks-treatment-backup-title": "Let’s back up your bookmarks",
+      "fxa-adoption-bookmarks-treatment-backup-subtitle": "Protect your bookmarks by syncing them to your devices with encryption.",
+      "fxa-adoption-bookmarks-primary-button-label": "Sign up",
+      "fxa-adoption-bookmarks-treatment-sync-title": "Get your favorite sites in a sec",
+      "fxa-adoption-bookmarks-treatment-sync-subtitle": "Instantly sync all your bookmarks on another device."
+    },
+    "en-GB": {
+      "fxa-adoption-bookmarks-treatment-backup-title": "Let’s back up your bookmarks",
+      "fxa-adoption-bookmarks-treatment-backup-subtitle": "Protect your bookmarks by syncing them to your devices with encryption.",
+      "fxa-adoption-bookmarks-primary-button-label": "Sign up",
+      "fxa-adoption-bookmarks-treatment-sync-title": "Get your favorite sites in a sec",
+      "fxa-adoption-bookmarks-treatment-sync-subtitle": "Instantly sync all your bookmarks on another device."
+    }
+  }
+}
