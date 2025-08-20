@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -13,6 +14,13 @@
       "fxa-adoption-bookmarks-primary-button-label": "Sign up",
       "fxa-adoption-bookmarks-treatment-sync-title": "Get your favorite sites in a sec",
       "fxa-adoption-bookmarks-treatment-sync-subtitle": "Instantly sync all your bookmarks on another device."
+    },
+    "de": {
+      "fxa-adoption-bookmarks-treatment-backup-title": "Sichern Sie Ihre Lesezeichen",
+      "fxa-adoption-bookmarks-treatment-backup-subtitle": "Schützen Sie Ihre Lesezeichen, indem Sie diese verschlüsselt mit Ihren Geräten synchronisieren.",
+      "fxa-adoption-bookmarks-primary-button-label": "Registrieren",
+      "fxa-adoption-bookmarks-treatment-sync-title": "Holen Sie sich Ihre Lieblings-Websites in Sekunden",
+      "fxa-adoption-bookmarks-treatment-sync-subtitle": "Synchronisieren Sie sofort alle Ihre Lesezeichen auf einem anderen Gerät."
     },
     "en-CA": {
       "fxa-adoption-bookmarks-treatment-backup-title": "Let’s back up your bookmarks",
