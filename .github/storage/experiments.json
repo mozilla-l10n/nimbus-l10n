@@ -1,6 +1,6 @@
 {
   "account-adoption-callout-bookmarks": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/account_adoption_callout_bookmarks_2025.ftl",
     "issue": "76",
     "locales": [

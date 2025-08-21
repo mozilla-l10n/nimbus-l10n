@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -35,6 +36,13 @@
       "fxa-adoption-bookmarks-primary-button-label": "Sign up",
       "fxa-adoption-bookmarks-treatment-sync-title": "Get your favorite sites in a sec",
       "fxa-adoption-bookmarks-treatment-sync-subtitle": "Instantly sync all your bookmarks on another device."
+    },
+    "fr": {
+      "fxa-adoption-bookmarks-treatment-backup-title": "Sauvegardons vos marque-pages",
+      "fxa-adoption-bookmarks-treatment-backup-subtitle": "Protégez vos marque-pages en les synchronisant sur vos appareils de façon chiffrée.",
+      "fxa-adoption-bookmarks-primary-button-label": "Créer un compte",
+      "fxa-adoption-bookmarks-treatment-sync-title": "Récupérez vos sites préférés en une seconde",
+      "fxa-adoption-bookmarks-treatment-sync-subtitle": "Synchronisez instantanément tous vos marque-pages sur un autre appareil."
     },
     "it": {
       "fxa-adoption-bookmarks-treatment-backup-title": "Facciamo un backup dei tuoi segnalibri",
