@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -18,6 +19,18 @@
       "personalization-motivation-privacy-option": "Privacy and Security",
       "personalization-motivation-productivity-option": "Productivity",
       "personalization-motivation-other-option": "Other"
+    },
+    "de": {
+      "personalization-title": "Passen Sie Ihr Firefox-Erlebnis an",
+      "personalization-subtitle": "Beantworten Sie ein paar Fragen und wir empfehlen Erweiterungen, um Ihre Nutzung von Firefox zu verbessern.",
+      "personalization-use-case-title": "Wofür werden Sie Firefox verwenden?",
+      "personalization-use-case-personal-option": "Privat",
+      "personalization-use-case-school-option": "Schule",
+      "personalization-use-case-work-option": "Arbeit",
+      "personalization-motivation-title": "Welche Funktionen von Firefox sind für Sie am wichtigsten?",
+      "personalization-motivation-privacy-option": "Datenschutz und Sicherheit",
+      "personalization-motivation-productivity-option": "Produktivität",
+      "personalization-motivation-other-option": "Sonstiges"
     },
     "en-CA": {
       "personalization-title": "Customize your Firefox experience",
