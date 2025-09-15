@@ -4,6 +4,7 @@ locales = [
     "de",
     "en-CA",
     "en-GB",
+    "en-US",
     "fr",
     "it"
 ]
@@ -319,6 +320,17 @@ locales = [
 [[paths]]
     reference = "en-US/subset/onboarding_rollout_september_2025_2025.ftl"
     l10n = "{locale}/subset/onboarding_rollout_september_2025_2025.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/address_bar_tips_2025.ftl"
+    l10n = "{locale}/subset/address_bar_tips_2025.ftl"
     locales = [
         "de",
         "en-CA",
