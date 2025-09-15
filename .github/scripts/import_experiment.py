@@ -269,7 +269,10 @@ def main():
     # - Add the new file to [[paths]]
     toml_file = args.toml_path
     toml_data = read_toml_content(toml_file)
-    toml_locales = list(set(toml_data["locales"] + recipe_locales))
+    if recipe_locales:
+        toml_locales = list(set(toml_data["locales"] + recipe_locales))
+    else:
+        toml_locales = toml_data["locales"]
     toml_locales.sort()
     toml_data["locales"] = toml_locales
     l10n_file_path = os.path.join("{locale}", "subset", ftl_filename)
