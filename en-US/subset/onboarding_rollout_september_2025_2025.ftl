@@ -7,7 +7,7 @@
 # The title of the personalization questions card
 personalization-title = Customize your Firefox experience
 # A subtitle explainer for the questions in the personalizations card.
-personalization-subtitle = Answer a few questions and we'll recommend extensions to enhance your use of Firefox.
+personalization-subtitle = Answer a few questions and we’ll recommend extensions to enhance your use of Firefox.
 # A question, presented as a title for an option selection
 personalization-use-case-title = What will you use Firefox for?
 # An option that can be selected, indicating 'personal'.
