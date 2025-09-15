@@ -226,6 +226,18 @@
       "it"
     ]
   },
+  "onboarding-rollout-september-2025": {
+    "complete": false,
+    "file": "en-US/subset/onboarding_rollout_september_2025_2025.ftl",
+    "issue": "79",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "pdf-annotations-highlight-already-default-handler": {
     "complete": true,
     "file": "en-US/subset/pdf_annotations_highlight_already_default_handler_2024.ftl",
