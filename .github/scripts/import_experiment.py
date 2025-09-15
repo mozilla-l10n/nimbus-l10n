@@ -262,6 +262,21 @@ def main():
 
     # Extract the list of locales from the recipe, remove en-US
     recipe_locales = recipe["locales"]
+
+    # Parse and update the existing TOML file:
+    # - Make sure that the top-level list of locales includes all locales
+    #   requested in the recipe
+    # - Add the new file to [[paths]]
+    toml_file = args.toml_path
+    toml_data = read_toml_content(toml_file)
+    toml_locales = list(set(toml_data["locales"] + recipe_locales))
+    toml_locales.sort()
+    toml_data["locales"] = toml_locales
+    l10n_file_path = os.path.join("{locale}", "subset", ftl_filename)
+
+    # Use all locales defined in the TOML if no locales are defined
+    if not recipe_locales:
+        recipe_locales = toml_locales
     if "en-US" in recipe_locales:
         recipe_locales.remove("en-US")
     recipe_locales.sort()
@@ -275,17 +290,6 @@ def main():
         os.makedirs(loc_folder, exist_ok=True)
         with open(os.path.join(loc_folder, ftl_filename), "w") as f:
             f.write(ref_ftl_content)
-
-    # Parse and update the existing TOML file:
-    # - Make sure that the top-level list of locales includes all locales
-    #   requested in the recipe
-    # - Add the new file to [[paths]]
-    toml_file = args.toml_path
-    toml_data = read_toml_content(toml_file)
-    toml_locales = list(set(toml_data["locales"] + recipe_locales))
-    toml_locales.sort()
-    toml_data["locales"] = toml_locales
-    l10n_file_path = os.path.join("{locale}", "subset", ftl_filename)
 
     # Add the path, making sure not to create duplicates
     path_exists = False
