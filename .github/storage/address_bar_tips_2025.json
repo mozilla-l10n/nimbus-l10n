@@ -1,0 +1,34 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "messaging-new-tab-title-tip-save-step": "Search here to save a step",
+      "messaging-new-tab-subtitle-tip-save-step-google": "Firefox never tracks your searches. Type what you’re looking for in the address bar to get results from Google.",
+      "messaging-try-it-label": "Try it",
+      "messaging-no-thanks-label": "No thanks",
+      "messaging-new-tab-title-try-new-way": "Try a new way to search",
+      "messaging-new-tab-subtitle-try-new-way-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "en-CA": {
+      "messaging-new-tab-title-tip-save-step": "Search here to save a step",
+      "messaging-new-tab-subtitle-tip-save-step-google": "Firefox never tracks your searches. Type what you’re looking for in the address bar to get results from Google.",
+      "messaging-try-it-label": "Try it",
+      "messaging-no-thanks-label": "No thanks",
+      "messaging-new-tab-title-try-new-way": "Try a new way to search",
+      "messaging-new-tab-subtitle-try-new-way-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "en-GB": {
+      "messaging-new-tab-title-tip-save-step": "Search here to save a step",
+      "messaging-new-tab-subtitle-tip-save-step-google": "Firefox never tracks your searches. Type what you’re looking for in the address bar to get results from Google.",
+      "messaging-try-it-label": "Try it",
+      "messaging-no-thanks-label": "No thanks",
+      "messaging-new-tab-title-try-new-way": "Try a new way to search",
+      "messaging-new-tab-subtitle-try-new-way-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    }
+  }
+}
