@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -14,6 +15,14 @@
       "messaging-no-thanks-label": "No thanks",
       "messaging-new-tab-title-try-new-way": "Try a new way to search",
       "messaging-new-tab-subtitle-try-new-way-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "de": {
+      "messaging-new-tab-title-tip-save-step": "Suchen Sie hier, um einen Schritt zu speichern",
+      "messaging-new-tab-subtitle-tip-save-step-google": "Firefox verfolgt niemals Ihre Suchanfragen. Geben Sie das Gesuchte in die Adressleiste ein, um Ergebnisse von Google zu erhalten.",
+      "messaging-try-it-label": "Ausprobieren",
+      "messaging-no-thanks-label": "Nein, danke",
+      "messaging-new-tab-title-try-new-way": "Probieren Sie eine neue Möglichkeit der Suche aus",
+      "messaging-new-tab-subtitle-try-new-way-google": "Geben Sie das Gesuchte in die Adressleiste ein, um Ergebnisse aus Ihrer Chronik und von Google zu erhalten."
     },
     "en-CA": {
       "messaging-new-tab-title-tip-save-step": "Search here to save a step",
