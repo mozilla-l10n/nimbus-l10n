@@ -48,7 +48,7 @@
     ]
   },
   "address-bar-tips": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/address_bar_tips_2025.ftl",
     "issue": "81",
     "locales": [
@@ -239,7 +239,7 @@
     ]
   },
   "onboarding-rollout-september-2025": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/onboarding_rollout_september_2025_2025.ftl",
     "issue": "79",
     "locales": [

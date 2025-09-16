@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -55,6 +56,18 @@
       "personalization-motivation-privacy-option": "Privacy and Security",
       "personalization-motivation-productivity-option": "Productivity",
       "personalization-motivation-other-option": "Other"
+    },
+    "fr": {
+      "personalization-title": "Personnalisez votre navigation avec Firefox",
+      "personalization-subtitle": "Répondez à quelques questions et nous vous recommanderons des extensions pour améliorer votre utilisation de Firefox.",
+      "personalization-use-case-title": "Quelle sera votre utilisation de Firefox ?",
+      "personalization-use-case-personal-option": "Personnelle",
+      "personalization-use-case-school-option": "Scolaire",
+      "personalization-use-case-work-option": "Professionnelle",
+      "personalization-motivation-title": "Quelles fonctionnalités de Firefox sont les plus importantes pour vous ?",
+      "personalization-motivation-privacy-option": "Sécurité et vie privée",
+      "personalization-motivation-productivity-option": "Productivité",
+      "personalization-motivation-other-option": "Autre"
     },
     "it": {
       "personalization-title": "Personalizza la tua esperienza con Firefox",
