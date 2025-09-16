@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -29,6 +30,14 @@
       "messaging-no-thanks-label": "No thanks",
       "messaging-new-tab-title-try-new-way": "Try a new way to search",
       "messaging-new-tab-subtitle-try-new-way-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "it": {
+      "messaging-new-tab-title-tip-save-step": "Cerca qui per risparmiare un passaggio",
+      "messaging-new-tab-subtitle-tip-save-step-google": "Firefox non traccia mai le tue ricerche. Inserisci quello che stai cercando nella barra degli indirizzi per ottenere risultati da Google.",
+      "messaging-try-it-label": "Prova",
+      "messaging-no-thanks-label": "No grazie",
+      "messaging-new-tab-title-try-new-way": "Sperimenta un modo diverso per cercare",
+      "messaging-new-tab-subtitle-try-new-way-google": "Inserisci quello che stai cercando nella barra degli indirizzi per ottenere risultati dalla cronologia e da Google."
     }
   }
 }
