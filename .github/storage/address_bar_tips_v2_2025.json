@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -26,6 +27,13 @@
       "messaging-try-it-label": "Try it",
       "messaging-load-engine-title-search-history-too": "Want to search your history, too?",
       "messaging-load-engine-subtitle-search-history-too-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "it": {
+      "messaging-load-engine-title-try-faster-way": "Sperimenta un modo più veloce per cercare",
+      "messaging-load-engine-subtitle-try-faster-way-google": "La prossima volta inserisci quello che stavi cercando direttamente nella barra degli indirizzi. Continui comunque a usare Google.com, ma evitando passaggi superflui.",
+      "messaging-try-it-label": "Prova",
+      "messaging-load-engine-title-search-history-too": "Vuoi cercare anche nella cronologia?",
+      "messaging-load-engine-subtitle-search-history-too-google": "Inserisci quello che stai cercando nella barra degli indirizzi per ottenere risultati dalla cronologia e da Google."
     }
   }
 }
