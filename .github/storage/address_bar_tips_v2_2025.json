@@ -4,6 +4,7 @@
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -27,6 +28,13 @@
       "messaging-try-it-label": "Try it",
       "messaging-load-engine-title-search-history-too": "Want to search your history, too?",
       "messaging-load-engine-subtitle-search-history-too-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "fr": {
+      "messaging-load-engine-title-try-faster-way": "Testez une méthode plus rapide pour effectuer une recherche",
+      "messaging-load-engine-subtitle-try-faster-way-google": "La prochaine fois, saisissez votre recherche directement dans la barre d’adresse. Vous continuez d’utiliser Google.com, vous évitez simplement des étapes superflues.",
+      "messaging-try-it-label": "Essayer",
+      "messaging-load-engine-title-search-history-too": "Vous souhaitez également rechercher dans votre historique ?",
+      "messaging-load-engine-subtitle-search-history-too-google": "Tapez ce que vous recherchez dans la barre d’adresse afin d’afficher des résultats issus de votre historique ainsi que de Google."
     },
     "it": {
       "messaging-load-engine-title-try-faster-way": "Sperimenta un modo più veloce per cercare",
