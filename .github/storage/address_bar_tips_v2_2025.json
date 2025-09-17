@@ -1,6 +1,7 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -14,6 +15,13 @@
       "messaging-try-it-label": "Try it",
       "messaging-load-engine-title-search-history-too": "Want to search your history, too?",
       "messaging-load-engine-subtitle-search-history-too-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "de": {
+      "messaging-load-engine-title-try-faster-way": "Probieren Sie eine schnellere Möglichkeit der Suche aus",
+      "messaging-load-engine-subtitle-try-faster-way-google": "Geben Sie das nächste Mal in die Adressleiste ein, was Sie suchen. Sie verwenden immer noch Google.com – Sie überspringen nur zusätzliche Schritte.",
+      "messaging-try-it-label": "Ausprobieren",
+      "messaging-load-engine-title-search-history-too": "Soll auch Ihre Chronik durchsucht werden?",
+      "messaging-load-engine-subtitle-search-history-too-google": "Geben Sie das Gesuchte in die Adressleiste ein, um Ergebnisse aus Ihrer Chronik und von Google zu erhalten."
     },
     "en-CA": {
       "messaging-load-engine-title-try-faster-way": "Try a faster way to search",
