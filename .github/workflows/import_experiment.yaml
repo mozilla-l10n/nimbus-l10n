@@ -10,7 +10,7 @@ on:
         required: false
         default: ""
 jobs:
-  linter:
+  import:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
