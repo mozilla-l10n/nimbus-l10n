@@ -1,0 +1,31 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "messaging-load-engine-title-try-faster-way": "Try a faster way to search",
+      "messaging-load-engine-subtitle-try-faster-way-google": "Next time, type what you’re looking for in the address bar. You’re still using Google.com — just skipping extra steps.",
+      "messaging-try-it-label": "Try it",
+      "messaging-load-engine-title-search-history-too": "Want to search your history, too?",
+      "messaging-load-engine-subtitle-search-history-too-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "en-CA": {
+      "messaging-load-engine-title-try-faster-way": "Try a faster way to search",
+      "messaging-load-engine-subtitle-try-faster-way-google": "Next time, type what you’re looking for in the address bar. You’re still using Google.com — just skipping extra steps.",
+      "messaging-try-it-label": "Try it",
+      "messaging-load-engine-title-search-history-too": "Want to search your history, too?",
+      "messaging-load-engine-subtitle-search-history-too-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    },
+    "en-GB": {
+      "messaging-load-engine-title-try-faster-way": "Try a faster way to search",
+      "messaging-load-engine-subtitle-try-faster-way-google": "Next time, type what you’re looking for in the address bar. You’re still using Google.com — just skipping extra steps.",
+      "messaging-try-it-label": "Try it",
+      "messaging-load-engine-title-search-history-too": "Want to search your history, too?",
+      "messaging-load-engine-subtitle-search-history-too-google": "Type what you’re looking for in the address bar to get results from your history and from Google."
+    }
+  }
+}
