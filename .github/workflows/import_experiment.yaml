@@ -42,7 +42,7 @@ jobs:
           echo "issue_number=${issue_number}" >> $GITHUB_OUTPUT
       - name: Create pull request
         id: cpr
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.API_GITHUB_TOKEN }}
           branch: "exp-${{ github.event.inputs.experiment_id }}"
