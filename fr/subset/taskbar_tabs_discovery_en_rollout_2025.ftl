@@ -5,6 +5,8 @@
 
 ## Branch: delivery
 
+# Callout title for social feeds
+taskbar-tabs-social-callout-title = Conservez vos fils d’actualité préférés dans votre barre des tâches
 # Callout subtitle for social feeds
 taskbar-tabs-social-callout-subtitle = Ouvrez vos sites de réseaux sociaux sous forme d’application dans une fenêtre épurée et sécurisée par Firefox.
 # Callout title for chat sites
