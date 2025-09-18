@@ -1,9 +1,10 @@
 {
-  "complete": true,
+  "complete": false,
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -23,6 +24,12 @@
       "taskbar-tabs-social-callout-subtitle": "Launch your social sites like an app in a streamlined window protected by Firefox.",
       "taskbar-tabs-chat-callout-title": "Chat from your taskbar",
       "taskbar-tabs-chat-callout-subtitle": "Launch your chat sites like an app in a streamlined window protected by Firefox."
+    },
+    "it": {
+      "taskbar-tabs-social-callout-title": "Mantieni i tuoi feed preferiti nella barra delle applicazioni",
+      "taskbar-tabs-social-callout-subtitle": "Apri i tuoi social preferiti come un’app, in una finestra ottimizzata e protetta da  Firefox.",
+      "taskbar-tabs-chat-callout-title": "Chatta dalla barra delle applicazioni",
+      "taskbar-tabs-chat-callout-subtitle": "Apri le tue chat preferite come un’app, in una finestra ottimizzata e protetta da Firefox."
     }
   }
 }
