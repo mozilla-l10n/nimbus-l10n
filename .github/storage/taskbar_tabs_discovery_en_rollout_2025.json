@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "taskbar-tabs-social-callout-title": "Keep your favorite feeds in your taskbar",
+      "taskbar-tabs-social-callout-subtitle": "Launch your social sites like an app in a streamlined window protected by Firefox.",
+      "taskbar-tabs-chat-callout-title": "Chat from your taskbar",
+      "taskbar-tabs-chat-callout-subtitle": "Launch your chat sites like an app in a streamlined window protected by Firefox."
+    },
+    "en-CA": {
+      "taskbar-tabs-social-callout-title": "Keep your favorite feeds in your taskbar",
+      "taskbar-tabs-social-callout-subtitle": "Launch your social sites like an app in a streamlined window protected by Firefox.",
+      "taskbar-tabs-chat-callout-title": "Chat from your taskbar",
+      "taskbar-tabs-chat-callout-subtitle": "Launch your chat sites like an app in a streamlined window protected by Firefox."
+    },
+    "en-GB": {
+      "taskbar-tabs-social-callout-title": "Keep your favorite feeds in your taskbar",
+      "taskbar-tabs-social-callout-subtitle": "Launch your social sites like an app in a streamlined window protected by Firefox.",
+      "taskbar-tabs-chat-callout-title": "Chat from your taskbar",
+      "taskbar-tabs-chat-callout-subtitle": "Launch your chat sites like an app in a streamlined window protected by Firefox."
+    }
+  }
+}
