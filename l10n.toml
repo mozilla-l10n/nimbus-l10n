@@ -354,6 +354,9 @@ locales = [
     reference = "en-US/subset/taskbar_tabs_discovery_en_rollout_2025.ftl"
     l10n = "{locale}/subset/taskbar_tabs_discovery_en_rollout_2025.ftl"
     locales = [
+        "de",
         "en-CA",
-        "en-GB"
+        "en-GB",
+        "fr",
+        "it"
     ]
