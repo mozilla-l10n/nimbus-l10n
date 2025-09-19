@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-US",
     "it"
   ],
@@ -16,6 +17,18 @@
       "taskbar-tabs-media-callout-subtitle": "Launch your streaming sites like an app in a streamlined window protected by Firefox.",
       "taskbar-tabs-value-prop-callout-title": "Add this site to your taskbar",
       "taskbar-tabs-value-prop-callout-subtitle": "Launch it in its own window and a simplified interface with a single click."
+    },
+    "de": {
+      "taskbar-tabs-social-callout-title": "Behalten Sie Ihre Lieblings-Feeds in der Taskleiste",
+      "taskbar-tabs-social-callout-subtitle": "Starten Sie Ihre sozialen Websites wie eine App in einem optimierten Fenster, das von Firefox geschützt wird.",
+      "taskbar-tabs-chat-callout-title": "Chatten Sie über Ihre Taskleiste",
+      "taskbar-tabs-chat-callout-subtitle": "Starten Sie Ihre Chats wie eine App in einem optimierten Fenster, das von Firefox geschützt wird.",
+      "taskbar-tabs-email-callout-title": "Halten Sie Ihre E-Mails in der Taskleiste bereit",
+      "taskbar-tabs-email-callout-subtitle": "Starten Sie Ihre Webmail-Seite wie eine App in einem optimierten Fenster, das von Firefox geschützt wird.",
+      "taskbar-tabs-media-callout-title": "Streamen Sie aus der Taskleiste weiter",
+      "taskbar-tabs-media-callout-subtitle": "Starten Sie Ihre Streaming-Websites wie eine App in einem optimierten Fenster, das von Firefox geschützt wird.",
+      "taskbar-tabs-value-prop-callout-title": "Diese Website zur Taskleiste hinzufügen",
+      "taskbar-tabs-value-prop-callout-subtitle": "Starten Sie Websites in einem eigenen Fenster und einer vereinfachten Benutzeroberfläche mit einem einzigen Klick."
     },
     "it": {
       "taskbar-tabs-social-callout-title": "Mantieni i tuoi feed preferiti nella barra delle applicazioni",
