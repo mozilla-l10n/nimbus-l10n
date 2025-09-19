@@ -310,7 +310,7 @@
     ]
   },
   "taskbar-tabs-discovery-en-rollout": {
-    "complete": true,
+    "complete": false,
     "file": "en-US/subset/taskbar_tabs_discovery_en_rollout_2025.ftl",
     "issue": "85",
     "locales": [
