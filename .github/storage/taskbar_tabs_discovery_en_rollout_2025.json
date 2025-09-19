@@ -1,49 +1,20 @@
 {
-  "complete": true,
+  "complete": false,
   "complete_locales": [
-    "de",
-    "en-CA",
-    "en-GB",
-    "en-US",
-    "fr",
-    "it"
+    "en-US"
   ],
   "translations": {
     "en-US": {
       "taskbar-tabs-social-callout-title": "Keep your favorite feeds in your taskbar",
       "taskbar-tabs-social-callout-subtitle": "Launch your social sites like an app in a streamlined window protected by Firefox.",
       "taskbar-tabs-chat-callout-title": "Chat from your taskbar",
-      "taskbar-tabs-chat-callout-subtitle": "Launch your chat sites like an app in a streamlined window protected by Firefox."
-    },
-    "de": {
-      "taskbar-tabs-social-callout-title": "Behalten Sie Ihre Lieblings-Feeds in der Taskleiste",
-      "taskbar-tabs-social-callout-subtitle": "Starten Sie Ihre sozialen Websites wie eine App in einem optimierten Fenster, das von Firefox geschützt wird.",
-      "taskbar-tabs-chat-callout-title": "Chatten Sie über Ihre Taskleiste",
-      "taskbar-tabs-chat-callout-subtitle": "Starten Sie Ihre Chats wie eine App in einem optimierten Fenster, das von Firefox geschützt wird."
-    },
-    "en-CA": {
-      "taskbar-tabs-social-callout-title": "Keep your favorite feeds in your taskbar",
-      "taskbar-tabs-social-callout-subtitle": "Launch your social sites like an app in a streamlined window protected by Firefox.",
-      "taskbar-tabs-chat-callout-title": "Chat from your taskbar",
-      "taskbar-tabs-chat-callout-subtitle": "Launch your chat sites like an app in a streamlined window protected by Firefox."
-    },
-    "en-GB": {
-      "taskbar-tabs-social-callout-title": "Keep your favorite feeds in your taskbar",
-      "taskbar-tabs-social-callout-subtitle": "Launch your social sites like an app in a streamlined window protected by Firefox.",
-      "taskbar-tabs-chat-callout-title": "Chat from your taskbar",
-      "taskbar-tabs-chat-callout-subtitle": "Launch your chat sites like an app in a streamlined window protected by Firefox."
-    },
-    "fr": {
-      "taskbar-tabs-social-callout-title": "Conservez vos fils d’actualité préférés dans votre barre des tâches",
-      "taskbar-tabs-social-callout-subtitle": "Ouvrez vos sites de réseaux sociaux sous forme d’application dans une fenêtre épurée et sécurisée par Firefox.",
-      "taskbar-tabs-chat-callout-title": "Discutez depuis la barre des tâches",
-      "taskbar-tabs-chat-callout-subtitle": "Ouvrez vos sites de discussion sous forme d’application dans une fenêtre épurée et sécurisée par Firefox."
-    },
-    "it": {
-      "taskbar-tabs-social-callout-title": "Mantieni i tuoi feed preferiti nella barra delle applicazioni",
-      "taskbar-tabs-social-callout-subtitle": "Apri i tuoi social preferiti come un’app, in una finestra ottimizzata e protetta da  Firefox.",
-      "taskbar-tabs-chat-callout-title": "Chatta dalla barra delle applicazioni",
-      "taskbar-tabs-chat-callout-subtitle": "Apri le tue chat preferite come un’app, in una finestra ottimizzata e protetta da Firefox."
+      "taskbar-tabs-chat-callout-subtitle": "Launch your chat sites like an app in a streamlined window protected by Firefox.",
+      "taskbar-tabs-email-callout-title": "Keep your email in your taskbar",
+      "taskbar-tabs-email-callout-subtitle": "Launch your webmail like an app in a streamlined window protected by Firefox.",
+      "taskbar-tabs-media-callout-title": "Get back to streaming from your taskbar",
+      "taskbar-tabs-media-callout-subtitle": "Launch your streaming sites like an app in a streamlined window protected by Firefox.",
+      "taskbar-tabs-value-prop-callout-title": "Add this site to your taskbar",
+      "taskbar-tabs-value-prop-callout-subtitle": "Launch it in its own window and a simplified interface with a single click."
     }
   }
 }
