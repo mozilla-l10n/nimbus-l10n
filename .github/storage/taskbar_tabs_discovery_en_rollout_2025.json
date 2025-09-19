@@ -3,6 +3,7 @@
   "complete_locales": [
     "de",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -29,6 +30,18 @@
       "taskbar-tabs-media-callout-subtitle": "Starten Sie Ihre Streaming-Websites wie eine App in einem optimierten Fenster, das von Firefox geschützt wird.",
       "taskbar-tabs-value-prop-callout-title": "Diese Website zur Taskleiste hinzufügen",
       "taskbar-tabs-value-prop-callout-subtitle": "Starten Sie Websites in einem eigenen Fenster und einer vereinfachten Benutzeroberfläche mit einem einzigen Klick."
+    },
+    "fr": {
+      "taskbar-tabs-social-callout-title": "Conservez vos fils d’actualité préférés dans votre barre des tâches",
+      "taskbar-tabs-social-callout-subtitle": "Ouvrez vos sites de réseaux sociaux sous forme d’application dans une fenêtre épurée et sécurisée par Firefox.",
+      "taskbar-tabs-chat-callout-title": "Discutez depuis la barre des tâches",
+      "taskbar-tabs-chat-callout-subtitle": "Ouvrez vos sites de discussion sous forme d’application dans une fenêtre épurée et sécurisée par Firefox.",
+      "taskbar-tabs-email-callout-title": "Gardez votre compte e-mail dans la barre des tâches",
+      "taskbar-tabs-email-callout-subtitle": "Ouvrez votre messagerie web sous forme d’application dans une fenêtre épurée et sécurisée par Firefox.",
+      "taskbar-tabs-media-callout-title": "Reprenez le stream depuis la barre des tâches",
+      "taskbar-tabs-media-callout-subtitle": "Ouvrez vos sites de streaming sous forme d’application dans une fenêtre épurée et sécurisée par Firefox.",
+      "taskbar-tabs-value-prop-callout-title": "Ajoutez ce site à votre barre des tâches",
+      "taskbar-tabs-value-prop-callout-subtitle": "Lancez-le dans sa propre fenêtre et dans une interface simplifiée d’un simple clic."
     },
     "it": {
       "taskbar-tabs-social-callout-title": "Mantieni i tuoi feed preferiti nella barra delle applicazioni",
