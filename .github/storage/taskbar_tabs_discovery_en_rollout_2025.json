@@ -1,7 +1,8 @@
 {
   "complete": false,
   "complete_locales": [
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -15,6 +16,18 @@
       "taskbar-tabs-media-callout-subtitle": "Launch your streaming sites like an app in a streamlined window protected by Firefox.",
       "taskbar-tabs-value-prop-callout-title": "Add this site to your taskbar",
       "taskbar-tabs-value-prop-callout-subtitle": "Launch it in its own window and a simplified interface with a single click."
+    },
+    "it": {
+      "taskbar-tabs-social-callout-title": "Mantieni i tuoi feed preferiti nella barra delle applicazioni",
+      "taskbar-tabs-social-callout-subtitle": "Apri i tuoi social preferiti come un’app, in una finestra ottimizzata e protetta da  Firefox.",
+      "taskbar-tabs-chat-callout-title": "Chatta dalla barra delle applicazioni",
+      "taskbar-tabs-chat-callout-subtitle": "Apri le tue chat preferite come un’app, in una finestra ottimizzata e protetta da Firefox.",
+      "taskbar-tabs-email-callout-title": "Mantieni la tua email nella barra delle applicazioni",
+      "taskbar-tabs-email-callout-subtitle": "Apri la tua webmail come un’app, in una finestra ottimizzata e protetta da Firefox.",
+      "taskbar-tabs-media-callout-title": "Riprendi lo streaming dalla barra delle applicazioni",
+      "taskbar-tabs-media-callout-subtitle": "Apri i tuoi siti di streaming preferiti come un’app, in una finestra ottimizzata e protetta da Firefox.",
+      "taskbar-tabs-value-prop-callout-title": "Aggiungi questo sito alla barra delle applicazioni",
+      "taskbar-tabs-value-prop-callout-subtitle": "Aprilo in una finestra separata e con un’interfaccia ottimizzata con un solo clic."
     }
   }
 }
