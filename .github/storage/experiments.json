@@ -320,5 +320,17 @@
       "fr",
       "it"
     ]
+  },
+  "temp-copy-of-taskbar-tab-experiment": {
+    "complete": false,
+    "file": "en-US/subset/temp_copy_of_taskbar_tab_experiment_2025.ftl",
+    "issue": "85",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
   }
 }
