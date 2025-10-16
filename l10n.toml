@@ -5,8 +5,12 @@ locales = [
     "en-CA",
     "en-GB",
     "en-US",
+    "es-ES",
     "fr",
-    "it"
+    "it",
+    "ja",
+    "ja-JP-macos",
+    "pl"
 ]
 
 [[paths]]
@@ -359,4 +363,18 @@ locales = [
         "en-GB",
         "fr",
         "it"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/visual_search_awareness_2025.ftl"
+    l10n = "{locale}/subset/visual_search_awareness_2025.ftl"
+    locales = [
+        "de",
+        "en-GB",
+        "es-ES",
+        "fr",
+        "it",
+        "ja",
+        "ja-JP-macos",
+        "pl"
     ]

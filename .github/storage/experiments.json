@@ -320,5 +320,20 @@
       "fr",
       "it"
     ]
+  },
+  "visual-search-awareness": {
+    "complete": false,
+    "file": "en-US/subset/visual_search_awareness_2025.ftl",
+    "issue": "89",
+    "locales": [
+      "de",
+      "en-GB",
+      "es-ES",
+      "fr",
+      "it",
+      "ja",
+      "ja-JP-macos",
+      "pl"
+    ]
   }
 }
