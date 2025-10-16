@@ -5,12 +5,8 @@ locales = [
     "en-CA",
     "en-GB",
     "en-US",
-    "es-ES",
     "fr",
-    "it",
-    "ja",
-    "ja-JP-macos",
-    "pl"
+    "it"
 ]
 
 [[paths]]
@@ -371,10 +367,6 @@ locales = [
     locales = [
         "de",
         "en-GB",
-        "es-ES",
         "fr",
-        "it",
-        "ja",
-        "ja-JP-macos",
-        "pl"
+        "it"
     ]
