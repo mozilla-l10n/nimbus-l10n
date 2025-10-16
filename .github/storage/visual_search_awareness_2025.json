@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-GB",
     "en-US",
     "it"
@@ -10,6 +11,11 @@
       "visual-lens-title": "Learn more about any image with Google Lens",
       "visual-lens-subtitle": "Find specific or similar items. Translate or copy text. Just right-click any image to search what you see.",
       "got-it-message": "Got it"
+    },
+    "de": {
+      "visual-lens-title": "Erfahren Sie mehr über jedes Bild mit Google Lens",
+      "visual-lens-subtitle": "Bestimmte oder ähnliche Elemente finden. Text übersetzen oder kopieren. Klicken Sie einfach mit der rechten Maustaste auf eine Grafik, um diese zu durchsuchen.",
+      "got-it-message": "Verstanden"
     },
     "en-GB": {
       "visual-lens-title": "Learn more about any image with Google Lens",
