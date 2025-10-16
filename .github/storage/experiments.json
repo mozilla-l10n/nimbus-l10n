@@ -322,7 +322,7 @@
     ]
   },
   "visual-search-awareness": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/visual_search_awareness_2025.ftl",
     "issue": "89",
     "locales": [
