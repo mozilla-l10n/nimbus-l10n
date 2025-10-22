@@ -9,6 +9,11 @@ on:
         description: Reference issue number (leave empty to create one)
         required: false
         default: ""
+
+env:
+  EXP_ID: ${{ github.event.inputs.experiment_id }}
+  ISSUE_NR: ${{ github.event.inputs.issue_number }}
+
 jobs:
   import:
     runs-on: ubuntu-latest
@@ -25,8 +30,8 @@ jobs:
       - name: Generate localization file and create issue if necessary
         run: >
           python .github/scripts/import_experiment.py
-          --id "${{ github.event.inputs.experiment_id }}"
-          --issue "${{ github.event.inputs.issue_number }}"
+          --id "$EXP_ID"
+          --issue "$ISSUE_NR"
           --repo ${{ github.repository }}
           --toml l10n.toml
           --token ${{ secrets.API_GITHUB_TOKEN }}
@@ -34,10 +39,10 @@ jobs:
         id: env-variables
         run: |
           # If a new issue was created, need to use the issue number from experiments.json
-          if [ "${{ github.event.inputs.issue_number }}" = "" ]; then
-            issue_number=$(jq -r '."${{ github.event.inputs.experiment_id }}" | .issue' .github/storage/experiments.json)
+          if [ "$ISSUE_NR" = "" ]; then
+            issue_number=$(jq -r '."$EXP_ID" | .issue' .github/storage/experiments.json)
           else
-            issue_number=${{ github.event.inputs.issue_number }}
+            issue_number=$ISSUE_NR
           fi
           echo "issue_number=${issue_number}" >> $GITHUB_OUTPUT
       - name: Create pull request
@@ -45,10 +50,10 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.API_GITHUB_TOKEN }}
-          branch: "exp-${{ github.event.inputs.experiment_id }}"
+          branch: "exp-$EXP_ID"
           author: l10n-bot <actions@users.noreply.github.com>
-          commit-message: "Set up localization for experiment ${{ github.event.inputs.experiment_id }}"
-          title: "Set up localization for experiment ${{ github.event.inputs.experiment_id }}"
+          commit-message: "Set up localization for experiment $EXP_ID"
+          title: "Set up localization for experiment $EXP_ID"
           body: "See issue https://github.com/${{ github.repository }}/issues/${{ steps.env-variables.outputs.issue_number }}"
       - name: Add comment to issue
         run: >
