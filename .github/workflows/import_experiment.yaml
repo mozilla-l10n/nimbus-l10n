@@ -50,10 +50,10 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.API_GITHUB_TOKEN }}
-          branch: "exp-$EXP_ID"
+          branch: "exp-${{ env.EXP_ID }}"
           author: l10n-bot <actions@users.noreply.github.com>
-          commit-message: "Set up localization for experiment $EXP_ID"
-          title: "Set up localization for experiment $EXP_ID"
+          commit-message: "Set up localization for experiment ${{ env.EXP_ID }}"
+          title: "Set up localization for experiment ${{ env.EXP_ID }}"
           body: "See issue https://github.com/${{ github.repository }}/issues/${{ steps.env-variables.outputs.issue_number }}"
       - name: Add comment to issue
         run: >
