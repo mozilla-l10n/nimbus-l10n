@@ -4,6 +4,7 @@
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -42,6 +43,18 @@
       "gratitude-subtitle": "Thank you for using Firefox, the only major browser backed by a non-profit. With your support, we’re working to make the internet safer and more accessible for everyone.",
       "sync-title": "Go anywhere. Sync everything.",
       "sync-subtitle": "Grab bookmarks, passwords, and more everywhere you’re signed in to Firefox. Plus, your data is encrypted so only you can see it."
+    },
+    "fr": {
+      "pin-set-default-title": "Vous êtes entre de bonnes pattes",
+      "pin-set-default-subtitle": "Nous protégeons vos données et empêchons les entreprises d’espionner vos clics, automatiquement.",
+      "import-title": "Sentez-vous comme chez vous avec Firefox",
+      "import-subtitle": "Importez vos mots de passe, vos marque-pages, votre historique et bien plus.",
+      "addons-title": "Boostez votre navigation",
+      "addons-subtitle": "Les extensions sont de petites applications qui vous offrent la possibilité de personnaliser Firefox. Elles peuvent renforcer la protection de votre vie privée, optimiser votre productivité, modifier l’apparence de Firefox et bien d’autres choses encore.",
+      "gratitude-title": "Firefox vous protège",
+      "gratitude-subtitle": "Merci d’utiliser Firefox, le seul navigateur majeur soutenu par une organisation à but non lucratif. Avec votre soutien, nous nous efforçons de rendre Internet plus sûr et plus accessible à tout le monde.",
+      "sync-title": "Partez où vous voulez. Synchronisez toutes vos données.",
+      "sync-subtitle": "Récupérez vos marque-pages, vos mots de passe et bien d’autres éléments partout où vous êtes connecté·e via Firefox. Et comme vos données sont chiffrées, vous seul·e pouvez les consulter."
     },
     "it": {
       "pin-set-default-title": "Sei in buone mani. Anzi, zampe.",
