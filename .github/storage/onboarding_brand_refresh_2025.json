@@ -1,0 +1,46 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "pin-set-default-title": "You’re in safe paws",
+      "pin-set-default-subtitle": "We protect your data and block companies from spying on your clicks — automatically.",
+      "import-title": "Make Firefox feel more like home",
+      "import-subtitle": "Bring over your passwords, bookmarks, history and more.",
+      "addons-title": "Give your browsing a boost",
+      "addons-subtitle": "Extensions are tiny apps that let you customize Firefox. They can power up your privacy, enhance productivity, change the way Firefox looks, and so much more.",
+      "gratitude-title": "Firefox has your back",
+      "gratitude-subtitle": "Thank you for using Firefox, the only major browser backed by a non-profit. With your support, we’re working to make the internet safer and more accessible for everyone.",
+      "sync-title": "Go anywhere. Sync everything.",
+      "sync-subtitle": "Grab bookmarks, passwords, and more everywhere you’re signed in to Firefox. Plus, your data is encrypted so only you can see it."
+    },
+    "en-CA": {
+      "pin-set-default-title": "You’re in safe paws",
+      "pin-set-default-subtitle": "We protect your data and block companies from spying on your clicks — automatically.",
+      "import-title": "Make Firefox feel more like home",
+      "import-subtitle": "Bring over your passwords, bookmarks, history and more.",
+      "addons-title": "Give your browsing a boost",
+      "addons-subtitle": "Extensions are tiny apps that let you customize Firefox. They can power up your privacy, enhance productivity, change the way Firefox looks, and so much more.",
+      "gratitude-title": "Firefox has your back",
+      "gratitude-subtitle": "Thank you for using Firefox, the only major browser backed by a non-profit. With your support, we’re working to make the internet safer and more accessible for everyone.",
+      "sync-title": "Go anywhere. Sync everything.",
+      "sync-subtitle": "Grab bookmarks, passwords, and more everywhere you’re signed in to Firefox. Plus, your data is encrypted so only you can see it."
+    },
+    "en-GB": {
+      "pin-set-default-title": "You’re in safe paws",
+      "pin-set-default-subtitle": "We protect your data and block companies from spying on your clicks — automatically.",
+      "import-title": "Make Firefox feel more like home",
+      "import-subtitle": "Bring over your passwords, bookmarks, history and more.",
+      "addons-title": "Give your browsing a boost",
+      "addons-subtitle": "Extensions are tiny apps that let you customize Firefox. They can power up your privacy, enhance productivity, change the way Firefox looks, and so much more.",
+      "gratitude-title": "Firefox has your back",
+      "gratitude-subtitle": "Thank you for using Firefox, the only major browser backed by a non-profit. With your support, we’re working to make the internet safer and more accessible for everyone.",
+      "sync-title": "Go anywhere. Sync everything.",
+      "sync-subtitle": "Grab bookmarks, passwords, and more everywhere you’re signed in to Firefox. Plus, your data is encrypted so only you can see it."
+    }
+  }
+}
