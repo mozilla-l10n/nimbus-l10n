@@ -16,3 +16,5 @@ addons-title = Boostez votre navigation
 addons-subtitle = Les extensions sont de petites applications qui vous offrent la possibilité de personnaliser Firefox. Elles peuvent renforcer la protection de votre vie privée, optimiser votre productivité, modifier l’apparence de Firefox et bien d’autres choses encore.
 gratitude-title = Firefox vous protège
 gratitude-subtitle = Merci d’utiliser Firefox, le seul navigateur majeur soutenu par une organisation à but non lucratif. Avec votre soutien, nous nous efforçons de rendre Internet plus sûr et plus accessible à tout le monde.
+sync-title = Partez où vous voulez. Synchronisez toutes vos données.
+sync-subtitle = Récupérez vos marque-pages, vos mots de passe et bien d’autres éléments partout où vous êtes connecté·e via Firefox. Et comme vos données sont chiffrées, vous seul·e pouvez les consulter.
