@@ -251,7 +251,7 @@
     ]
   },
   "onboarding-brand-refresh": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/onboarding_brand_refresh_2025.ftl",
     "issue": "91",
     "locales": [

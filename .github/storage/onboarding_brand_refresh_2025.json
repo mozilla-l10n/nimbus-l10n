@@ -1,6 +1,7 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -19,6 +20,18 @@
       "gratitude-subtitle": "Thank you for using Firefox, the only major browser backed by a non-profit. With your support, we’re working to make the internet safer and more accessible for everyone.",
       "sync-title": "Go anywhere. Sync everything.",
       "sync-subtitle": "Grab bookmarks, passwords, and more everywhere you’re signed in to Firefox. Plus, your data is encrypted so only you can see it."
+    },
+    "de": {
+      "pin-set-default-title": "Sie sind in sicheren Händen",
+      "pin-set-default-subtitle": "Wir schützen Ihre Daten und verhindern automatisch, dass Unternehmen Ihre Klicks ausspionieren.",
+      "import-title": "Damit Firefox sich mehr wie zu Hause fühlt",
+      "import-subtitle": "Nehmen Sie Ihre Passwörter, Lesezeichen, Chronik und mehr mit.",
+      "addons-title": "Verbessern Sie Ihr Surfverhalten",
+      "addons-subtitle": "Erweiterungen sind kleine Apps, mit denen Sie Firefox anpassen können. Sie können Ihre Privatsphäre stärken, die Produktivität erhöhen, das Erscheinungsbild von Firefox ändern und vieles mehr.",
+      "gratitude-title": "Firefox steht hinter Ihnen",
+      "gratitude-subtitle": "Danke, dass Sie Firefox verwenden, den einzigen großen Browser, der von einer gemeinnützigen Organisation unterstützt wird. Mit Ihrer Unterstützung arbeiten wir daran, das Internet sicherer und für alle zugänglicher zu machen.",
+      "sync-title": "Überallhin gehen. Alles synchronisieren.",
+      "sync-subtitle": "Holen Sie sich Lesezeichen, Passwörter und mehr überall dort, wo Sie bei Firefox angemeldet sind. Außerdem werden Ihre Daten verschlüsselt, sodass nur Sie sie sehen können."
     },
     "en-CA": {
       "pin-set-default-title": "You’re in safe paws",
