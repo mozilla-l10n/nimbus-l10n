@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -15,6 +16,15 @@
       "account-adoption-browser-milestones-bookmarks-subtitle": "Get back to your favorite sites in a snap on any device when you sync.",
       "account-adoption-browser-miletsones-tabs-title": "You’ve got tons of tabs!",
       "account-adoption-browser-milestones-tabs-subtitle": "Grab any open tab on your synced devices in a snap."
+    },
+    "de": {
+      "accounts-adoption-browser-milestones-history-title": "Sie haben viele Seiten besucht!",
+      "accounts-adoption-browser-milestones-history-subtitle": "Wenn Sie synchronisieren, können Sie im Handumdrehen eine beliebige Seite in Ihrer Chronik erreichen.",
+      "account-adoption-browser-milestones-dismiss-split-button-label": "Weniger Nachrichten wie diese anzeigen",
+      "account-adoption-browser-milestones-bookmarks-title": "Sie haben schon eine Menge Lesezeichen!",
+      "account-adoption-browser-milestones-bookmarks-subtitle": "Kehren Sie durch die Synchronisation im Handumdrehen auf jedem Gerät zu Ihren Lieblings-Websites zurück.",
+      "account-adoption-browser-miletsones-tabs-title": "Sie haben jede Menge Tabs!",
+      "account-adoption-browser-milestones-tabs-subtitle": "Greifen Sie im Handumdrehen auf einen offenen Tab auf Ihren synchronisierten Geräten zu."
     },
     "en-CA": {
       "accounts-adoption-browser-milestones-history-title": "You’ve visited lots of pages!",
