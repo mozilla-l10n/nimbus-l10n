@@ -6,3 +6,5 @@
 ## Branch: treatment-a
 
 accounts-adoption-browser-milestones-history-title = Vous avez consulté un grand nombre de pages !
+accounts-adoption-browser-milestones-history-subtitle = Retrouvez instantanément n’importe quelle page de votre historique lorsque vous activez la synchronisation.
+account-adoption-browser-milestones-dismiss-split-button-label = Afficher moins de messages comme celui-ci
