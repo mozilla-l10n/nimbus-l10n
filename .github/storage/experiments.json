@@ -35,6 +35,18 @@
       "it"
     ]
   },
+  "account-adoption-callout-for-browser-milestones": {
+    "complete": false,
+    "file": "en-US/subset/account_adoption_callout_for_browser_milestones_2025.ftl",
+    "issue": "94",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "account-adoption-callout-passwords": {
     "complete": true,
     "file": "en-US/subset/account_adoption_callout_passwords_2025.ftl",
