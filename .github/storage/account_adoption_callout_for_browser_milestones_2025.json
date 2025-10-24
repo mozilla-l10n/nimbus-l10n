@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -32,6 +33,15 @@
       "account-adoption-browser-milestones-bookmarks-subtitle": "Get back to your favorite sites in a snap on any device when you sync.",
       "account-adoption-browser-miletsones-tabs-title": "You’ve got tons of tabs!",
       "account-adoption-browser-milestones-tabs-subtitle": "Grab any open tab on your synced devices in a snap."
+    },
+    "it": {
+      "accounts-adoption-browser-milestones-history-title": "Hai visitato un sacco di pagine!",
+      "accounts-adoption-browser-milestones-history-subtitle": "Attivando la sincronizzazione puoi ritrovare in un attimo qualsiasi pagina nella tua cronologia.",
+      "account-adoption-browser-milestones-dismiss-split-button-label": "Mostra meno messaggi come questo",
+      "account-adoption-browser-milestones-bookmarks-title": "Hai fatto il pieno di segnalibri!",
+      "account-adoption-browser-milestones-bookmarks-subtitle": "Accedi ai tuoi siti preferiti ovunque, in un attimo, grazie alla sincronizzazione.",
+      "account-adoption-browser-miletsones-tabs-title": "Hai una marea di schede!",
+      "account-adoption-browser-milestones-tabs-subtitle": "Recupera in un attimo qualsiasi scheda aperta sui tuoi dispositivi sincronizzati."
     }
   }
 }
