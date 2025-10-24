@@ -7,6 +7,9 @@
 accounts-adoption-browser-milestones-history-title = You’ve visited lots of pages!
 accounts-adoption-browser-milestones-history-subtitle = Get back to any page in your history in a snap when you sync.
 account-adoption-browser-milestones-dismiss-split-button-label = Show fewer messages like this
+# "Banking those bookmarks" means that the user is adding multiple bookmarks
+# to their library. If there is not a translation in your locale, an alternative string
+# can be "You’ve got a bunch of bookmarks!".
 account-adoption-browser-milestones-bookmarks-title = You’re banking those bookmarks!
 account-adoption-browser-milestones-bookmarks-subtitle = Get back to your favorite sites in a snap on any device when you sync.
 account-adoption-browser-miletsones-tabs-title = You’ve got tons of tabs!
