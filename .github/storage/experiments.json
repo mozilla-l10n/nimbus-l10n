@@ -36,7 +36,7 @@
     ]
   },
   "account-adoption-callout-for-browser-milestones": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/account_adoption_callout_for_browser_milestones_2025.ftl",
     "issue": "94",
     "locales": [

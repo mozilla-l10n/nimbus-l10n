@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -43,6 +44,15 @@
       "account-adoption-browser-milestones-bookmarks-subtitle": "Get back to your favorite sites in a snap on any device when you sync.",
       "account-adoption-browser-miletsones-tabs-title": "You’ve got tons of tabs!",
       "account-adoption-browser-milestones-tabs-subtitle": "Grab any open tab on your synced devices in a snap."
+    },
+    "fr": {
+      "accounts-adoption-browser-milestones-history-title": "Vous avez consulté un grand nombre de pages !",
+      "accounts-adoption-browser-milestones-history-subtitle": "Retrouvez instantanément n’importe quelle page de votre historique lorsque vous activez la synchronisation.",
+      "account-adoption-browser-milestones-dismiss-split-button-label": "Afficher moins de messages comme celui-ci",
+      "account-adoption-browser-milestones-bookmarks-title": "Vous en avez, des marque-pages !",
+      "account-adoption-browser-milestones-bookmarks-subtitle": "Lorsque vous activez la synchronisation, consultez vos sites préférés en un clin d’œil depuis n’importe quel appareil.",
+      "account-adoption-browser-miletsones-tabs-title": "Vous avez plein d’onglets !",
+      "account-adoption-browser-milestones-tabs-subtitle": "Récupérez en un clin d’œil n’importe quel onglet ouvert sur vos appareils synchronisés."
     },
     "it": {
       "accounts-adoption-browser-milestones-history-title": "Hai visitato un sacco di pagine!",
