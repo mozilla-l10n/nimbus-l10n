@@ -132,12 +132,12 @@ def print_toml_file(toml_data):
         return lines
 
     file_content = []
-    file_content.append(f"basepath = \"{toml_data['basepath']}\"\n")
+    file_content.append(f'basepath = "{toml_data["basepath"]}"\n')
     file_content += print_locales(toml_data["locales"])
     for path in toml_data["paths"]:
         file_content.append("\n[[paths]]")
-        file_content.append(f"    reference = \"{path['reference']}\"")
-        file_content.append(f"    l10n = \"{path['l10n']}\"")
+        file_content.append(f'    reference = "{path["reference"]}"')
+        file_content.append(f'    l10n = "{path["l10n"]}"')
         if "locales" in path:
             file_content += print_locales(path["locales"], 4)
     file_content.append("")
@@ -179,7 +179,7 @@ def create_issue(repo, experiment_id, file_name, recipe_locales, api_token):
     issue_body = f"""
 **Experiment ID**: `{experiment_id}`
 **Localization file**: `{file_name}`
-**Locales**: {', '.join(recipe_locales)}
+**Locales**: {", ".join(recipe_locales)}
     """
     payload = {
         "title": f"Localization request for experiment {experiment_id}",

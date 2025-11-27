@@ -5,11 +5,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 from collections import defaultdict
-from compare_locales import parser
 from moz.l10n.paths import L10nConfigPaths
 import argparse
 import json
 import os
+from moz.l10n.message import serialize_message
+from moz.l10n.model import Entry
+from moz.l10n.resource import parse_resource
 
 
 class StringExtraction:
@@ -21,6 +23,27 @@ class StringExtraction:
         self.toml_path = toml_path
         self.reference_locale = reference_locale
         self.experiments_metadata = experiments_metadata
+
+    def parse_file(
+        self,
+        filename: str,
+        locale: str,
+        id_format: str,
+    ) -> None:
+        try:
+            resource = parse_resource(filename, android_literal_quotes=True)
+
+            for section in resource.sections:
+                for entry in section.entries:
+                    if isinstance(entry, Entry):
+                        entry_id = ".".join(section.id + entry.id)
+                        string_id = f"{id_format}:{entry_id}"
+                        self.translations[locale][string_id] = serialize_message(
+                            resource.format, entry.value
+                        )
+        except Exception as e:
+            print(f"Error parsing file: {filename}")
+            print(e)
 
     def extractStrings(self):
         """Extract strings from TOML file."""
@@ -58,19 +81,7 @@ class StringExtraction:
 
                 key_path = os.path.relpath(reference_file, basedir)
                 experiment_id = os.path.basename(os.path.splitext(key_path)[0])
-                try:
-                    p = parser.getParser(reference_file)
-                except UserWarning:
-                    continue
-
-                p.readFile(l10n_file)
-                self.translations[locale].update(
-                    (
-                        f"{experiment_id}:{entity.key}",
-                        entity.raw_val if entity.raw_val is not None else "",
-                    )
-                    for entity in p.parse()
-                )
+                self.parse_file(l10n_file, locale, experiment_id)
 
             # Remove obsolete strings not available in the reference locale
             if locale != self.reference_locale:
