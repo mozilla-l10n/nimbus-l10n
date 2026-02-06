@@ -1,0 +1,25 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "welcome-back-spotlight-title": "Leap back into built-in privacy",
+      "welcome-back-spotlight-subtitle": "Welcome back to the only major browser backed by a non-profit. We take extra steps to protect your data wherever you roam.",
+      "embedded-import-title": "Import your data and make Firefox feel like home"
+    },
+    "en-CA": {
+      "welcome-back-spotlight-title": "Leap back into built-in privacy",
+      "welcome-back-spotlight-subtitle": "Welcome back to the only major browser backed by a non-profit. We take extra steps to protect your data wherever you roam.",
+      "embedded-import-title": "Import your data and make Firefox feel like home"
+    },
+    "en-GB": {
+      "welcome-back-spotlight-title": "Leap back into built-in privacy",
+      "welcome-back-spotlight-subtitle": "Welcome back to the only major browser backed by a non-profit. We take extra steps to protect your data wherever you roam.",
+      "embedded-import-title": "Import your data and make Firefox feel like home"
+    }
+  }
+}
