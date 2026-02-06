@@ -392,3 +392,14 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/welcome_back_flow_for_resurrected_users_2026.ftl"
+    l10n = "{locale}/subset/welcome_back_flow_for_resurrected_users_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]

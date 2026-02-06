@@ -355,5 +355,17 @@
       "fr",
       "it"
     ]
+  },
+  "welcome-back-flow-for-resurrected-users": {
+    "complete": false,
+    "file": "en-US/subset/welcome_back_flow_for_resurrected_users_2026.ftl",
+    "issue": "96",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
   }
 }
