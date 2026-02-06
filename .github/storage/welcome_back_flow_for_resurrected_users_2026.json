@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -11,6 +12,11 @@
       "welcome-back-spotlight-title": "Leap back into built-in privacy",
       "welcome-back-spotlight-subtitle": "Welcome back to the only major browser backed by a non-profit. We take extra steps to protect your data wherever you roam.",
       "embedded-import-title": "Import your data and make Firefox feel like home"
+    },
+    "de": {
+      "welcome-back-spotlight-title": "Sprung zurück zur integrierten Privatsphäre",
+      "welcome-back-spotlight-subtitle": "Willkommen zurück beim einzigen großen Browser, der von einer gemeinnützigen Organisation unterstützt wird. Wir unternehmen zusätzliche Schritte, um Ihre Daten zu schützen, egal wo Sie sich befinden.",
+      "embedded-import-title": "Importieren Sie Ihre Daten, damit Sie sich mit Firefox wie zu Hause fühlen"
     },
     "en-CA": {
       "welcome-back-spotlight-title": "Leap back into built-in privacy",
