@@ -1,0 +1,16 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Branch: treatment-a
+
+# Spotlight welcome back subtitle
+welcome-back-spotlight-subtitle = Bon retour sur le seul navigateur majeur soutenu par une organisation à but non lucratif. Nous prenons des mesures supplémentaires pour protéger vos données, où que vous soyez.
+
+## Branch: treatment-b
+
+# Title for the embedded import component
+# The word "home" in the headline is meant to be connected to the image of a fox in a house to the left.
+# Translations should try to evoke a sense of a place you feel comfortable and is uniquely yours like one's "home".
+embedded-import-title = Transférez vos données et personnalisez Firefox pour qu’il vous ressemble
