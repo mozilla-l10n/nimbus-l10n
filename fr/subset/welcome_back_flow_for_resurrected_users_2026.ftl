@@ -5,6 +5,8 @@
 
 ## Branch: treatment-a
 
+# Spotlight title focused on privacy
+welcome-back-spotlight-title = Redécouvrez la confidentialité intégrée
 # Spotlight welcome back subtitle
 welcome-back-spotlight-subtitle = Bon retour sur le seul navigateur majeur soutenu par une organisation à but non lucratif. Nous prenons des mesures supplémentaires pour protéger vos données, où que vous soyez.
 
