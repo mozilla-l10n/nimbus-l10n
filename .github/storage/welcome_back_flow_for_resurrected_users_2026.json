@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -27,6 +28,11 @@
       "welcome-back-spotlight-title": "Leap back into built-in privacy",
       "welcome-back-spotlight-subtitle": "Welcome back to the only major browser backed by a non-profit. We take extra steps to protect your data wherever you roam.",
       "embedded-import-title": "Import your data and make Firefox feel like home"
+    },
+    "fr": {
+      "welcome-back-spotlight-title": "Redécouvrez la confidentialité intégrée",
+      "welcome-back-spotlight-subtitle": "Bon retour sur le seul navigateur majeur soutenu par une organisation à but non lucratif. Nous prenons des mesures supplémentaires pour protéger vos données, où que vous soyez.",
+      "embedded-import-title": "Transférez vos données et personnalisez Firefox pour qu’il vous ressemble"
     },
     "it": {
       "welcome-back-spotlight-title": "Torna alla privacy integrata",

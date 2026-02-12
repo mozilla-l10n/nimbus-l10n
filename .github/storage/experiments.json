@@ -357,7 +357,7 @@
     ]
   },
   "welcome-back-flow-for-resurrected-users": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/welcome_back_flow_for_resurrected_users_2026.ftl",
     "issue": "96",
     "locales": [
