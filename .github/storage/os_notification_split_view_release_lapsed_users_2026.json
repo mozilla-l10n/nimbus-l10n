@@ -1,0 +1,28 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "split-view-toast-title": "See two tabs at once with split view",
+      "split-view-toast-subtitle": "Compare pages, multitask, and fill forms out faster with split view.",
+      "split-view-toast-primary-label": "Check it out",
+      "split-view-toast-secondary-label": "No thanks"
+    },
+    "en-CA": {
+      "split-view-toast-title": "See two tabs at once with split view",
+      "split-view-toast-subtitle": "Compare pages, multitask, and fill forms out faster with split view.",
+      "split-view-toast-primary-label": "Check it out",
+      "split-view-toast-secondary-label": "No thanks"
+    },
+    "en-GB": {
+      "split-view-toast-title": "See two tabs at once with split view",
+      "split-view-toast-subtitle": "Compare pages, multitask, and fill forms out faster with split view.",
+      "split-view-toast-primary-label": "Check it out",
+      "split-view-toast-secondary-label": "No thanks"
+    }
+  }
+}
