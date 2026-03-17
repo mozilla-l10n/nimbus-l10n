@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -23,6 +24,12 @@
       "split-view-toast-subtitle": "Compare pages, multitask, and fill forms out faster with split view.",
       "split-view-toast-primary-label": "Check it out",
       "split-view-toast-secondary-label": "No thanks"
+    },
+    "fr": {
+      "split-view-toast-title": "Affichez deux onglets en même temps avec la vue scindée",
+      "split-view-toast-subtitle": "Comparez des pages web, effectuez plusieurs tâches à la fois et remplissez des formulaires plus rapidement avec la vue scindée.",
+      "split-view-toast-primary-label": "La découvrir",
+      "split-view-toast-secondary-label": "Non merci"
     }
   }
 }
