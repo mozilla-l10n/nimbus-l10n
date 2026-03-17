@@ -403,3 +403,13 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/os_notification_split_view_release_lapsed_users_2026.ftl"
+    l10n = "{locale}/subset/os_notification_split_view_release_lapsed_users_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr"
+    ]
