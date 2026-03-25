@@ -7,7 +7,7 @@
 # Toast title promoting Finish Setup
 churned-profiles-v2-title = Finalizar la configuración de Firefox
 # Toast body explaining Finish Setup
-churned-profiles-v2-body = Solo lleva un segundo proteger más su navegación mientras navega por la web.
+churned-profiles-v2-body = Solo lleva un segundo proteger mejor su navegación mientras navega por la web.
 # Primary button label
 churned-profiles-v2-primary-label = Finalizar la configuración
 # Dismiss button label
