@@ -105,6 +105,24 @@
       "it"
     ]
   },
+  "churned-new-profiles-day-2-resurrection-finish-setup-v2": {
+    "complete": false,
+    "file": "en-US/subset/churned_new_profiles_day_2_resurrection_finish_setup_v2_2026.ftl",
+    "issue": "101",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "es-AR",
+      "es-CL",
+      "es-ES",
+      "es-MX",
+      "fr",
+      "it",
+      "pt-BR",
+      "pt-PT"
+    ]
+  },
   "desktop-feature-callout-signed-into-account": {
     "complete": true,
     "file": "en-US/subset/desktop_feature_callout_signed_into_account_2024.ftl",

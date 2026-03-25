@@ -5,8 +5,14 @@ locales = [
     "en-CA",
     "en-GB",
     "en-US",
+    "es-AR",
+    "es-CL",
+    "es-ES",
+    "es-MX",
     "fr",
-    "it"
+    "it",
+    "pt-BR",
+    "pt-PT"
 ]
 
 [[paths]]
@@ -412,4 +418,21 @@ locales = [
         "en-CA",
         "en-GB",
         "fr"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/churned_new_profiles_day_2_resurrection_finish_setup_v2_2026.ftl"
+    l10n = "{locale}/subset/churned_new_profiles_day_2_resurrection_finish_setup_v2_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "es-AR",
+        "es-CL",
+        "es-ES",
+        "es-MX",
+        "fr",
+        "it",
+        "pt-BR",
+        "pt-PT"
     ]
