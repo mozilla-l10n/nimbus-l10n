@@ -1,0 +1,70 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "es-AR",
+    "es-CL",
+    "es-ES",
+    "es-MX",
+    "pt-BR",
+    "pt-PT"
+  ],
+  "translations": {
+    "en-US": {
+      "churned-profiles-v2-title": "Finish setting up Firefox",
+      "churned-profiles-v2-body": "It only takes a sec to protect more of your browsing while you roam across the web.",
+      "churned-profiles-v2-primary-label": "Finish setup",
+      "churned-profiles-v2-secondary-label": "No thanks"
+    },
+    "en-CA": {
+      "churned-profiles-v2-title": "Finish setting up Firefox",
+      "churned-profiles-v2-body": "It only takes a sec to protect more of your browsing while you roam across the web.",
+      "churned-profiles-v2-primary-label": "Finish setup",
+      "churned-profiles-v2-secondary-label": "No thanks"
+    },
+    "en-GB": {
+      "churned-profiles-v2-title": "Finish setting up Firefox",
+      "churned-profiles-v2-body": "It only takes a sec to protect more of your browsing while you roam across the web.",
+      "churned-profiles-v2-primary-label": "Finish setup",
+      "churned-profiles-v2-secondary-label": "No thanks"
+    },
+    "es-AR": {
+      "churned-profiles-v2-title": "Finalizar configuración de Firefox",
+      "churned-profiles-v2-body": "Solo lleva un segundo proteger mejor su navegación mientras navega por la web.",
+      "churned-profiles-v2-primary-label": "Finalizar configuración",
+      "churned-profiles-v2-secondary-label": "No, gracias"
+    },
+    "es-CL": {
+      "churned-profiles-v2-title": "Finalizar la configuración de Firefox",
+      "churned-profiles-v2-body": "Solo lleva un segundo proteger mejor tu navegación mientras navegas por la web.",
+      "churned-profiles-v2-primary-label": "Finalizar la configuración",
+      "churned-profiles-v2-secondary-label": "No, gracias"
+    },
+    "es-ES": {
+      "churned-profiles-v2-title": "Finalizar la configuración de Firefox",
+      "churned-profiles-v2-body": "Solo lleva un segundo proteger mejor su navegación mientras navega por la web.",
+      "churned-profiles-v2-primary-label": "Finalizar la configuración",
+      "churned-profiles-v2-secondary-label": "No, gracias"
+    },
+    "es-MX": {
+      "churned-profiles-v2-title": "Finalizar los ajustes de Firefox",
+      "churned-profiles-v2-body": "Solo lleva un segundo proteger mejor tu navegación mientras navegas por la web.",
+      "churned-profiles-v2-primary-label": "Finalizar los ajustes",
+      "churned-profiles-v2-secondary-label": "No, gracias"
+    },
+    "pt-BR": {
+      "churned-profiles-v2-title": "Concluir a configuração do Firefox",
+      "churned-profiles-v2-body": "Leva só um segundo para proteger melhor sua navegação enquanto você navega pela web.",
+      "churned-profiles-v2-primary-label": "Concluir configuração",
+      "churned-profiles-v2-secondary-label": "Não, obrigado"
+    },
+    "pt-PT": {
+      "churned-profiles-v2-title": "Terminar configuração do Firefox",
+      "churned-profiles-v2-body": "Basta um segundo para proteger melhor a sua navegação enquanto navega na web.",
+      "churned-profiles-v2-primary-label": "Terminar configuração",
+      "churned-profiles-v2-secondary-label": "Não, obrigado"
+    }
+  }
+}
