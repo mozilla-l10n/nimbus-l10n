@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -18,6 +19,12 @@
       "churned-profiles-v2-body": "It only takes a sec to protect more of your browsing while you roam across the web.",
       "churned-profiles-v2-primary-label": "Finish setup",
       "churned-profiles-v2-secondary-label": "No thanks"
+    },
+    "de": {
+      "churned-profiles-v2-title": "Einrichtung von Firefox abschließen",
+      "churned-profiles-v2-body": "Es dauert nur eine Sekunde, um sich beim Surfen in Internet noch besser zu schützen.",
+      "churned-profiles-v2-primary-label": "Einrichtung abschließen",
+      "churned-profiles-v2-secondary-label": "Nein, danke"
     },
     "en-CA": {
       "churned-profiles-v2-title": "Finish setting up Firefox",
