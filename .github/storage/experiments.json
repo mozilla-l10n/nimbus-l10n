@@ -106,7 +106,7 @@
     ]
   },
   "churned-new-profiles-day-2-resurrection-finish-setup-v2": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/churned_new_profiles_day_2_resurrection_finish_setup_v2_2026.ftl",
     "issue": "101",
     "locales": [

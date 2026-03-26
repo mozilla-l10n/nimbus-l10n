@@ -1,5 +1,5 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
@@ -9,6 +9,7 @@
     "es-CL",
     "es-ES",
     "es-MX",
+    "fr",
     "it",
     "pt-BR",
     "pt-PT"
@@ -61,6 +62,12 @@
       "churned-profiles-v2-body": "Solo lleva un segundo proteger mejor tu navegación mientras navegas por la web.",
       "churned-profiles-v2-primary-label": "Finalizar los ajustes",
       "churned-profiles-v2-secondary-label": "No, gracias"
+    },
+    "fr": {
+      "churned-profiles-v2-title": "Finalisez la configuration de Firefox",
+      "churned-profiles-v2-body": "Il suffit d’un instant pour sécuriser davantage votre navigation sur le Web.",
+      "churned-profiles-v2-primary-label": "Finaliser la configuration",
+      "churned-profiles-v2-secondary-label": "Non merci"
     },
     "it": {
       "churned-profiles-v2-title": "Completa la configurazione di Firefox",
