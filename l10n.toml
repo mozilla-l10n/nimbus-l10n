@@ -436,3 +436,14 @@ locales = [
         "pt-BR",
         "pt-PT"
     ]
+
+[[paths]]
+    reference = "en-US/subset/kitified_value_prop_experiments_on_new_tab_1_2026.ftl"
+    l10n = "{locale}/subset/kitified_value_prop_experiments_on_new_tab_1_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
