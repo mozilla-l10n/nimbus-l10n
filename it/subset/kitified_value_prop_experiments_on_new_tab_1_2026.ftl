@@ -1,0 +1,19 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Branch: treatment-a
+
+newtab-kitified-value-prop-speed-heading = Naviga più velocemente con Firefox
+newtab-kitified-value-prop-speed-body = Con Firefox le pagine si caricano più velocemente e le schede risultano più fluide per rimanere sempre al passo con la tua navigazione.
+newtab-kitified-value-prop-treatment-a-primary-button-text = Scopri come
+newtab-kitified-value-prop-treatment-a-secondary-button-text = Non adesso
+newtab-kitified-value-prop-protection-heading = Ottieni protezioni integrate in ogni nuova scheda
+newtab-kitified-value-prop-protection-body = Firefox blocca automaticamente la maggior parte degli elementi traccianti, così puoi navigare con maggiore privacy e controllo.
+newtab-kitified-value-prop-focus-heading = Mantieni la concentrazione in Firefox
+newtab-kitified-value-prop-focus-body = Firefox ti aiuta a bloccare gli annunci pubblicitari che distraggono, a organizzare le tue schede e a mantenere i video sempre in vista senza passare da una scheda all’altra.
+
+## Branch: treatment-b
+
+newtab-kitified-value-prop-treatment-b-secondary-button-text = OK
