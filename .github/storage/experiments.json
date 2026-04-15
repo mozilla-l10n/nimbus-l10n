@@ -192,6 +192,18 @@
       "it"
     ]
   },
+  "kitified-value-prop-experiments-on-new-tab-1": {
+    "complete": false,
+    "file": "en-US/subset/kitified_value_prop_experiments_on_new_tab_1_2026.ftl",
+    "issue": "103",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "localized-privacy-addon-recommendations-onboarding": {
     "complete": true,
     "file": "en-US/subset/localized_privacy_addon_recommendations_onboarding_2024.ftl",
