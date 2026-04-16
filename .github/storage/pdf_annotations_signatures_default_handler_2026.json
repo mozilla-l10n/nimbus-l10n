@@ -1,0 +1,22 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "organize-split-screen-1-header": "Organize your PDF pages",
+      "organize-split-screen-1-subtitle": "Select pages to reorder, copy, delete, or save them as a new file. Open the page panel to get started."
+    },
+    "en-CA": {
+      "organize-split-screen-1-header": "Organize your PDF pages",
+      "organize-split-screen-1-subtitle": "Select pages to reorder, copy, delete, or save them as a new file. Open the page panel to get started."
+    },
+    "en-GB": {
+      "organize-split-screen-1-header": "Organize your PDF pages",
+      "organize-split-screen-1-subtitle": "Select pages to reorder, copy, delete, or save them as a new file. Open the page panel to get started."
+    }
+  }
+}
