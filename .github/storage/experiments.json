@@ -351,9 +351,9 @@
       "it"
     ]
   },
-  "pdf-annotations-signatures-default-handler": {
-    "complete": true,
-    "file": "en-US/subset/pdf_annotations_signatures_default_handler.ftl",
+  "pdf-annotations-signatures-default-handler-2026": {
+    "complete": false,
+    "file": "en-US/subset/pdf_annotations_signatures_default_handler_2026.ftl",
     "issue": "105",
     "locales": [
       "de",
