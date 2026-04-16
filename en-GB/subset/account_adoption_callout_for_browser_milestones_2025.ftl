@@ -8,6 +8,6 @@ accounts-adoption-browser-milestones-history-title = You’ve visited lots of pa
 accounts-adoption-browser-milestones-history-subtitle = Get back to any page in your history in a snap when you sync.
 account-adoption-browser-milestones-dismiss-split-button-label = Show fewer messages like this
 account-adoption-browser-milestones-bookmarks-title = You’re banking those bookmarks!
-account-adoption-browser-milestones-bookmarks-subtitle = Get back to your favorite sites in a snap on any device when you sync.
+account-adoption-browser-milestones-bookmarks-subtitle = Get back to your favourite sites in a snap on any device when you sync.
 account-adoption-browser-miletsones-tabs-title = You’ve got tons of tabs!
 account-adoption-browser-milestones-tabs-subtitle = Grab any open tab on your synced devices in a snap.

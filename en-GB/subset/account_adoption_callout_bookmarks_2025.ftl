@@ -13,7 +13,7 @@ fxa-adoption-bookmarks-primary-button-label = Sign up
 
 ## Branch: treatment-b
 
-# Callout title promoting speed when returning to favorite sites
-fxa-adoption-bookmarks-treatment-sync-title = Get your favorite sites in a sec
+# Callout title promoting speed when returning to favourite sites
+fxa-adoption-bookmarks-treatment-sync-title = Get your favourite sites in a sec
 # Callout body prompting users to sync bookmarks
 fxa-adoption-bookmarks-treatment-sync-subtitle = Instantly sync all your bookmarks on another device.

@@ -11,7 +11,7 @@ newtab-kitified-value-prop-treatment-a-secondary-button-text = Not now
 newtab-kitified-value-prop-protection-heading = Get protections built into every new tab
 newtab-kitified-value-prop-protection-body = Firefox blocks most trackers automatically, so you can browse with more privacy and control.
 newtab-kitified-value-prop-focus-heading = Keep your focus in Firefox
-newtab-kitified-value-prop-focus-body = Firefox helps you block distracting ads, organize your tabs, and keep videos in view without switching tabs.
+newtab-kitified-value-prop-focus-body = Firefox helps you block distracting ads, organise your tabs, and keep videos in view without switching tabs.
 
 ## Branch: treatment-b
 

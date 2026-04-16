@@ -12,7 +12,7 @@ import-title = Make Firefox feel more like home
 import-subtitle = Bring over your passwords, bookmarks, history and more.
 # The word 'home' in the headline is meant to be connected to the image of a fox in a house to the left. Translations should try to maintain this connection of a 'home' being a place you feel comfortable and is uniquely yours.
 addons-title = Give your browsing a boost
-addons-subtitle = Extensions are tiny apps that let you customize Firefox. They can power up your privacy, enhance productivity, change the way Firefox looks, and so much more.
+addons-subtitle = Extensions are tiny apps that let you customise Firefox. They can power up your privacy, enhance productivity, change the way Firefox looks, and so much more.
 gratitude-title = Firefox has your back
 gratitude-subtitle = Thank you for using Firefox, the only major browser backed by a non-profit. With your support, we’re working to make the internet safer and more accessible for everyone.
 sync-title = Go anywhere. Sync everything.
