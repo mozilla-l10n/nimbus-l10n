@@ -23,7 +23,7 @@ Translation has been completed for `{filename}`.
 
 Here’s the data to copy in the Localization field in Experimenter:
 
-```
+```json
 {json.dumps(translations, indent=2, sort_keys=True, ensure_ascii=False)}
 ```
 
