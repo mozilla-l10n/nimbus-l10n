@@ -4,6 +4,7 @@
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -39,6 +40,17 @@
       "newtab-kitified-value-prop-focus-heading": "Keep your focus in Firefox",
       "newtab-kitified-value-prop-focus-body": "Firefox helps you block distracting ads, organise your tabs, and keep videos in view without switching tabs.",
       "newtab-kitified-value-prop-treatment-b-secondary-button-text": "Got it"
+    },
+    "fr": {
+      "newtab-kitified-value-prop-speed-heading": "Naviguez plus rapidement avec Firefox",
+      "newtab-kitified-value-prop-speed-body": "Firefox accélère le chargement des pages et facilite l’affichage des onglets pour s’adapter à votre navigation.",
+      "newtab-kitified-value-prop-treatment-a-primary-button-text": "Découvrir comment",
+      "newtab-kitified-value-prop-treatment-a-secondary-button-text": "Pas maintenant",
+      "newtab-kitified-value-prop-protection-heading": "Obtenez des protections intégrées à chaque nouvel onglet",
+      "newtab-kitified-value-prop-protection-body": "Firefox bloque la majorité des traqueurs automatiquement, vous permettant ainsi de naviguer avec davantage de confidentialité et de contrôle.",
+      "newtab-kitified-value-prop-focus-heading": "Restez concentré·e sur Firefox",
+      "newtab-kitified-value-prop-focus-body": "Firefox vous permet de bloquer les publicités intrusives, de mieux gérer vos onglets et de garder un œil sur des vidéos sans avoir besoin de changer d’onglet.",
+      "newtab-kitified-value-prop-treatment-b-secondary-button-text": "J’ai compris"
     },
     "it": {
       "newtab-kitified-value-prop-speed-heading": "Naviga più velocemente con Firefox",
