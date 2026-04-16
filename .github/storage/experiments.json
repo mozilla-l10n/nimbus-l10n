@@ -193,7 +193,7 @@
     ]
   },
   "kitified-value-prop-experiments-on-new-tab-1": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/kitified_value_prop_experiments_on_new_tab_1_2026.ftl",
     "issue": "103",
     "locales": [
