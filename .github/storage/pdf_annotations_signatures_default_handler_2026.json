@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -17,6 +18,10 @@
     "en-GB": {
       "organize-split-screen-1-header": "Organize your PDF pages",
       "organize-split-screen-1-subtitle": "Select pages to reorder, copy, delete, or save them as a new file. Open the page panel to get started."
+    },
+    "it": {
+      "organize-split-screen-1-header": "Organizza le pagine dei tuoi PDF",
+      "organize-split-screen-1-subtitle": "Scegli le pagine da riordinare, copiare, eliminare o salvare come nuovo file. Apri il pannello delle pagine per cominciare."
     }
   }
 }
