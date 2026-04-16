@@ -49,6 +49,43 @@ Automation can be [manually triggered](https://github.com/mozilla-l10n/nimbus-l1
 * Open a new issue if an issue number wasn't provided. Note that this is actively discouraged, as requesters should [file an issue](https://github.com/mozilla-l10n/nimbus-l10n/issues/new/choose) with additional information on the experiment.
 * Open a pull request with a cross-reference to the issue.
 
+## Manual process
+
+Although discouraged, it's still possible to initiate a translation request without relying on the automated extraction process.
+
+1. Create the Fluent file in `en-US/subset`, e.g. `en-US/subset/pdf_annotations_signatures_default_handler_2026.ftl`.
+2. Add a new `[[paths]]` object at the end of [l10n.toml](l10n.toml) to cover the new file. For example:
+
+```toml
+[[paths]]
+    reference = "en-US/subset/pdf_annotations_signatures_default_handler_2026.ftl"
+    l10n = "{locale}/subset/pdf_annotations_signatures_default_handler_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
+```
+
+3. Add the experiment to `.github/storage/experiments.json` (you might need to make up an experiment ID if not provided). For example:
+
+```json
+  "pdf-annotations-signatures-default-handler": {
+    "complete": true,
+    "file": "en-US/subset/pdf_annotations_signatures_default_handler_2026.ftl",
+    "issue": "105",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  }
+```
+
 ## License
 
 Translations in this repository are available under the terms of the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/).
