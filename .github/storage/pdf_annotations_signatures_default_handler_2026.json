@@ -1,15 +1,21 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
     "en-US": {
       "organize-split-screen-1-header": "Organize your PDF pages",
       "organize-split-screen-1-subtitle": "Select pages to reorder, copy, delete, or save them as a new file. Open the page panel to get started."
+    },
+    "de": {
+      "organize-split-screen-1-header": "Organisieren Sie Ihre PDF-Seiten",
+      "organize-split-screen-1-subtitle": "Wählen Sie Seiten aus, die Sie neu anordnen, kopieren, löschen oder als neue Datei speichern möchten. Öffnen Sie die Seitenansicht, um loszulegen."
     },
     "en-CA": {
       "organize-split-screen-1-header": "Organize your PDF pages",
@@ -18,6 +24,10 @@
     "en-GB": {
       "organize-split-screen-1-header": "Organize your PDF pages",
       "organize-split-screen-1-subtitle": "Select pages to reorder, copy, delete, or save them as a new file. Open the page panel to get started."
+    },
+    "fr": {
+      "organize-split-screen-1-header": "Organisez vos pages PDF",
+      "organize-split-screen-1-subtitle": "Choisissez les pages à réorganiser, copier, supprimer, ou enregistrez-les dans un nouveau fichier. Ouvrez le panneau des pages pour commencer."
     },
     "it": {
       "organize-split-screen-1-header": "Organizza le pagine dei tuoi PDF",
