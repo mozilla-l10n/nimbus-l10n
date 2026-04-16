@@ -351,6 +351,18 @@
       "it"
     ]
   },
+  "pdf-annotations-signatures-default-handler": {
+    "complete": true,
+    "file": "en-US/subset/pdf_annotations_signatures_default_handler.ftl",
+    "issue": "105",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "recommend-bookmark-toolbar-existing-user": {
     "complete": true,
     "file": "en-US/subset/recommend_bookmark_toolbar_existing_user_2024.ftl",
@@ -401,18 +413,6 @@
     "complete": true,
     "file": "en-US/subset/welcome_back_flow_for_resurrected_users_2026.ftl",
     "issue": "96",
-    "locales": [
-      "de",
-      "en-CA",
-      "en-GB",
-      "fr",
-      "it"
-    ]
-  },
-  "pdf-annotations-signatures-default-handler": {
-    "complete": true,
-    "file": "en-US/subset/pdf_annotations_signatures_default_handler.ftl",
-    "issue": "105",
     "locales": [
       "de",
       "en-CA",
