@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -23,6 +24,12 @@
       "vpn-release-toast-subtitle": "Hide your location when you browse in Firefox for more privacy and control.",
       "vpn-toast-primary-label": "Open Firefox",
       "vpn-toast-secondary-label": "No thanks"
+    },
+    "fr": {
+      "vpn-release-toast-title": "Revenez essayer le VPN intégré",
+      "vpn-release-toast-subtitle": "Masquez votre localisation lorsque vous naviguez avec Firefox pour plus de confidentialité et de contrôle.",
+      "vpn-toast-primary-label": "Ouvrir Firefox",
+      "vpn-toast-secondary-label": "Non merci"
     }
   }
 }
