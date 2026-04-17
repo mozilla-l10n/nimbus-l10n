@@ -1,0 +1,46 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "feature-tour-dismiss-button": "Dismiss",
+      "organize-split-screen-1-subtitle": "Rearrange, copy, and delete pages without leaving Firefox.",
+      "organize-split-screen-1-header": "Clean up PDFs fast",
+      "feature-tour-next-button": "Next",
+      "feature-tour-submenu-item-1": "Don’t show this recommendation again",
+      "feature-tour-submenu-item-2": "Show fewer recommendations",
+      "feature-tour-submenu-item-3": "Manage settings",
+      "feature-tour-set-default-button": "Set as default",
+      "screen-2-subtitle": "You’ll have access to our tools every time you open a PDF.",
+      "screen-2-header": "Make Firefox your default PDF editor?"
+    },
+    "en-CA": {
+      "feature-tour-dismiss-button": "Dismiss",
+      "organize-split-screen-1-subtitle": "Rearrange, copy, and delete pages without leaving Firefox.",
+      "organize-split-screen-1-header": "Clean up PDFs fast",
+      "feature-tour-next-button": "Next",
+      "feature-tour-submenu-item-1": "Don’t show this recommendation again",
+      "feature-tour-submenu-item-2": "Show fewer recommendations",
+      "feature-tour-submenu-item-3": "Manage settings",
+      "feature-tour-set-default-button": "Set as default",
+      "screen-2-subtitle": "You’ll have access to our tools every time you open a PDF.",
+      "screen-2-header": "Make Firefox your default PDF editor?"
+    },
+    "en-GB": {
+      "feature-tour-dismiss-button": "Dismiss",
+      "organize-split-screen-1-subtitle": "Rearrange, copy, and delete pages without leaving Firefox.",
+      "organize-split-screen-1-header": "Clean up PDFs fast",
+      "feature-tour-next-button": "Next",
+      "feature-tour-submenu-item-1": "Don’t show this recommendation again",
+      "feature-tour-submenu-item-2": "Show fewer recommendations",
+      "feature-tour-submenu-item-3": "Manage settings",
+      "feature-tour-set-default-button": "Set as default",
+      "screen-2-subtitle": "You’ll have access to our tools every time you open a PDF.",
+      "screen-2-header": "Make Firefox your default PDF editor?"
+    }
+  }
+}
