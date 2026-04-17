@@ -1,0 +1,28 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "vpn-release-toast-title": "Come back to try built-in VPN",
+      "vpn-release-toast-subtitle": "Hide your location when you browse in Firefox for more privacy and control.",
+      "vpn-toast-primary-label": "Open Firefox",
+      "vpn-toast-secondary-label": "No thanks"
+    },
+    "en-CA": {
+      "vpn-release-toast-title": "Come back to try built-in VPN",
+      "vpn-release-toast-subtitle": "Hide your location when you browse in Firefox for more privacy and control.",
+      "vpn-toast-primary-label": "Open Firefox",
+      "vpn-toast-secondary-label": "No thanks"
+    },
+    "en-GB": {
+      "vpn-release-toast-title": "Come back to try built-in VPN",
+      "vpn-release-toast-subtitle": "Hide your location when you browse in Firefox for more privacy and control.",
+      "vpn-toast-primary-label": "Open Firefox",
+      "vpn-toast-secondary-label": "No thanks"
+    }
+  }
+}
