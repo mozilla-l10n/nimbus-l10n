@@ -374,6 +374,18 @@
       "it"
     ]
   },
+  "pdf-default-handler-organizesplit-promo": {
+    "complete": false,
+    "file": "en-US/subset/pdf_default_handler_organizesplit_promo_2026.ftl",
+    "issue": "105",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "recommend-bookmark-toolbar-existing-user": {
     "complete": true,
     "file": "en-US/subset/recommend_bookmark_toolbar_existing_user_2024.ftl",
