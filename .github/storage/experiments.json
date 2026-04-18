@@ -375,7 +375,7 @@
     ]
   },
   "pdf-default-handler-organizesplit-promo": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/pdf_default_handler_organizesplit_promo_2026.ftl",
     "issue": "105",
     "locales": [
