@@ -7,6 +7,10 @@
 
 # Terminal dismiss action for Variation 1 feature-only callout.
 feature-tour-dismiss-button = Schließen
+# Body copy for Organize & Split feature introduction. Ryan Casey design 2026-04-17.
+organize-split-screen-1-subtitle = Seiten neu anordnen, kopieren und löschen, ohne Firefox zu verlassen.
+# Headline for Organize & Split feature introduction. Ryan Casey design 2026-04-17.
+organize-split-screen-1-header = PDFs schnell aufräumen
 feature-tour-next-button = Weiter
 feature-tour-submenu-item-1 = Diese Empfehlung nicht mehr anzeigen
 feature-tour-submenu-item-2 = Weniger Empfehlungen anzeigen
