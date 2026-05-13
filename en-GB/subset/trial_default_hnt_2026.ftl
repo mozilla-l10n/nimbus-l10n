@@ -2,16 +2,20 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Branch: treatment-a
+### See screenshots at https://github.com/mozilla-l10n/nimbus-l10n/issues/110
 
-# Trial default HNT heading
+## Variant A
+
+# Heading for New Tab banner
 trial-default-hnt-heading = Always open sites with added privacy protection
-# Trial default HNT body
+# Body for New Tab banner
 trial-default-hnt-body = Set Firefox as your default and keep built-in privacy protection with every tab.
-# Trial default HNT primary cta label
+# Button (CTA) to make Firefox the default browser
 trial-default-hnt-primary-cta = Open links in Firefox
 
-## Branch: treatment-b
+## Variant B (button is the same as variant A)
 
-# Trial default HNT heading variant 2
+# Heading for New Tab banner
 trial-default-hnt-heading-1 = Try built-in privacy for a few days
+# Body for New Tab banner
+trial-default-hnt-body-1 = Firefox protects you from the start with automatic tracking protection and lots of other privacy tools. Not into it? You can switch back anytime.

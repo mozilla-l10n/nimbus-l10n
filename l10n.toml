@@ -11,8 +11,6 @@ locales = [
     "es-MX",
     "fr",
     "it",
-    "ja",
-    "pl",
     "pt-BR",
     "pt-PT"
 ]
@@ -489,9 +487,6 @@ locales = [
         "de",
         "en-CA",
         "en-GB",
-        "es-MX",
-        "it",
-        "ja",
-        "pl",
-        "pt-BR"
+        "fr",
+        "it"
     ]
