@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -13,6 +14,13 @@
       "trial-default-hnt-primary-cta": "Open links in Firefox",
       "trial-default-hnt-heading-1": "Try built-in privacy for a few days",
       "trial-default-hnt-body-1": "Firefox protects you from the start with automatic tracking protection and lots of other privacy tools. Not into it? You can switch back anytime."
+    },
+    "de": {
+      "trial-default-hnt-heading": "Websites immer mit zusätzlichem Datenschutz öffnen",
+      "trial-default-hnt-body": "Legen Sie Firefox als Standardbrowser fest und profitieren Sie bei jedem Tab vom integrierten Datenschutz.",
+      "trial-default-hnt-primary-cta": "Links in Firefox öffnen",
+      "trial-default-hnt-heading-1": "Testen Sie den integrierten Datenschutz ein paar Tage",
+      "trial-default-hnt-body-1": "Firefox schützt Sie von Anfang an mit automatischem Tracking-Schutz und vielen anderen Datenschutz-Werkzeugen. Gefällt Ihnen nicht? Sie können jederzeit wieder zurück wechseln."
     },
     "en-CA": {
       "trial-default-hnt-heading": "Always open sites with added privacy protection",
