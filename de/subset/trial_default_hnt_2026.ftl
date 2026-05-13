@@ -19,3 +19,5 @@ trial-default-hnt-primary-cta = Links in Firefox öffnen
 
 # Heading for New Tab banner
 trial-default-hnt-heading-1 = Testen Sie den integrierten Datenschutz ein paar Tage
+# Body for New Tab banner
+trial-default-hnt-body-1 = Firefox schützt Sie von Anfang an mit automatischem Tracking-Schutz und vielen anderen Datenschutz-Werkzeugen. Gefällt Ihnen nicht? Sie können jederzeit wieder zurück wechseln.
