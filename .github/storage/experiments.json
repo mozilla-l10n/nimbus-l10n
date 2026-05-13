@@ -421,6 +421,21 @@
       "it"
     ]
   },
+  "trial-default-hnt": {
+    "complete": false,
+    "file": "en-US/subset/trial_default_hnt_2026.ftl",
+    "issue": "110",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "es-MX",
+      "it",
+      "ja",
+      "pl",
+      "pt-BR"
+    ]
+  },
   "visual-search-awareness": {
     "complete": true,
     "file": "en-US/subset/visual_search_awareness_2025.ftl",

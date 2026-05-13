@@ -11,6 +11,8 @@ locales = [
     "es-MX",
     "fr",
     "it",
+    "ja",
+    "pl",
     "pt-BR",
     "pt-PT"
 ]
@@ -478,4 +480,18 @@ locales = [
         "en-GB",
         "fr",
         "it"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/trial_default_hnt_2026.ftl"
+    l10n = "{locale}/subset/trial_default_hnt_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "es-MX",
+        "it",
+        "ja",
+        "pl",
+        "pt-BR"
     ]
