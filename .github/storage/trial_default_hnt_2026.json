@@ -1,0 +1,31 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "trial-default-hnt-heading": "Always open sites with added privacy protection",
+      "trial-default-hnt-body": "Set Firefox as your default and keep built-in privacy protection with every tab.",
+      "trial-default-hnt-primary-cta": "Open links in Firefox",
+      "trial-default-hnt-heading-1": "Try built-in privacy for a few days",
+      "trial-default-hnt-body-1": "Firefox protects you from the start with automatic tracking protection and lots of other privacy tools. Not into it? You can switch back anytime."
+    },
+    "en-CA": {
+      "trial-default-hnt-heading": "Always open sites with added privacy protection",
+      "trial-default-hnt-body": "Set Firefox as your default and keep built-in privacy protection with every tab.",
+      "trial-default-hnt-primary-cta": "Open links in Firefox",
+      "trial-default-hnt-heading-1": "Try built-in privacy for a few days",
+      "trial-default-hnt-body-1": "Firefox protects you from the start with automatic tracking protection and lots of other privacy tools. Not into it? You can switch back anytime."
+    },
+    "en-GB": {
+      "trial-default-hnt-heading": "Always open sites with added privacy protection",
+      "trial-default-hnt-body": "Set Firefox as your default and keep built-in privacy protection with every tab.",
+      "trial-default-hnt-primary-cta": "Open links in Firefox",
+      "trial-default-hnt-heading-1": "Try built-in privacy for a few days",
+      "trial-default-hnt-body-1": "Firefox protects you from the start with automatic tracking protection and lots of other privacy tools. Not into it? You can switch back anytime."
+    }
+  }
+}
