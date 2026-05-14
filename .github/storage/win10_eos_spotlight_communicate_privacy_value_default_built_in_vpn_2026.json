@@ -1,0 +1,34 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-title": "Keep your browsing private on Windows",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-a": "Firefox blocks many ad trackers and has a built-in VPN that hides your location. Set Firefox as your default to roam the web with extra privacy.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-button-label": "Make Firefox my default",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-b": "Firefox blocks many ad trackers and has a built-in VPN that hides your location.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-c": "Firefox blocks many ad trackers so fewer companies follow your browsing. Set Firefox as your default to get extra privacy whenever you roam the web.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-d": "Firefox blocks many ad trackers so fewer companies follow your browsing."
+    },
+    "en-CA": {
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-title": "Keep your browsing private on Windows",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-a": "Firefox blocks many ad trackers and has a built-in VPN that hides your location. Set Firefox as your default to roam the web with extra privacy.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-button-label": "Make Firefox my default",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-b": "Firefox blocks many ad trackers and has a built-in VPN that hides your location.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-c": "Firefox blocks many ad trackers so fewer companies follow your browsing. Set Firefox as your default to get extra privacy whenever you roam the web.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-d": "Firefox blocks many ad trackers so fewer companies follow your browsing."
+    },
+    "en-GB": {
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-title": "Keep your browsing private on Windows",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-a": "Firefox blocks many ad trackers and has a built-in VPN that hides your location. Set Firefox as your default to roam the web with extra privacy.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-button-label": "Make Firefox my default",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-b": "Firefox blocks many ad trackers and has a built-in VPN that hides your location.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-c": "Firefox blocks many ad trackers so fewer companies follow your browsing. Set Firefox as your default to get extra privacy whenever you roam the web.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-d": "Firefox blocks many ad trackers so fewer companies follow your browsing."
+    }
+  }
+}
