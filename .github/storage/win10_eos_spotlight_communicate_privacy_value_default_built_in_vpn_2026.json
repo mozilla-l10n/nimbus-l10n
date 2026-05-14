@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US"
@@ -13,6 +14,14 @@
       "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-b": "Firefox blocks many ad trackers and has a built-in VPN that hides your location.",
       "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-c": "Firefox blocks many ad trackers so fewer companies follow your browsing. Set Firefox as your default to get extra privacy whenever you roam the web.",
       "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-d": "Firefox blocks many ad trackers so fewer companies follow your browsing."
+    },
+    "de": {
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-title": "Halten Sie Ihr Surfen unter Windows privat",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-a": "Firefox blockiert viele Werbe-Tracker und hat ein integriertes VPN, das Ihren Standort verbirgt. Legen Sie Firefox als Ihren Standard fest, um mit mehr Privatsphäre im Internet zu surfen.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-button-label": "Firefox als meinen Standardbrowser festlegen",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-b": "Firefox blockiert viele Werbe-Tracker und hat ein integriertes VPN, das Ihren Standort verbirgt.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-c": "Firefox blockiert viele Werbe-Tracker, sodass weniger Unternehmen Ihre Surfaktivitäten verfolgen. Legen Sie Firefox als Ihren Standard fest, um mehr Privatsphäre zu erhalten, wenn Sie im Internet unterwegs sind.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-d": "Firefox blockiert viele Werbe-Tracker, sodass weniger Unternehmen Ihre Surfaktivitäten verfolgen."
     },
     "en-CA": {
       "win10-eos-communicate-privacy-value-default-built-in-vpn-title": "Keep your browsing private on Windows",
