@@ -457,7 +457,7 @@
     ]
   },
   "win10-eos-spotlight-communicate-privacy-value-default-built-in-vpn": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/win10_eos_spotlight_communicate_privacy_value_default_built_in_vpn_2026.ftl",
     "issue": "112",
     "locales": [

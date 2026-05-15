@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -38,6 +39,14 @@
       "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-b": "Firefox blocks many ad trackers and has a built-in VPN that hides your location.",
       "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-c": "Firefox blocks many ad trackers so fewer companies follow your browsing. Set Firefox as your default to get extra privacy whenever you roam the web.",
       "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-d": "Firefox blocks many ad trackers so fewer companies follow your browsing."
+    },
+    "fr": {
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-title": "Protégez la confidentialité de votre navigation sur Windows",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-a": "Firefox bloque de nombreux traqueurs publicitaires et intègre un VPN qui dissimule votre localisation. Choisissez Firefox comme navigateur par défaut pour profiter d’une confidentialité renforcée lors de votre navigation.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-button-label": "Faire de Firefox mon navigateur par défaut",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-b": "Firefox bloque de nombreux traqueurs publicitaires et dispose d’un VPN intégré qui masque votre localisation.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-c": "Firefox bloque de nombreux traqueurs publicitaires, ce qui limite le suivi de votre navigation par les entreprises. Faites de Firefox votre navigateur par défaut pour bénéficier d’une confidentialité renforcée à chaque visite sur le Web.",
+      "win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-d": "Firefox bloque de nombreux traqueurs publicitaires, ce qui limite le suivi de votre navigation par les entreprises."
     }
   }
 }
