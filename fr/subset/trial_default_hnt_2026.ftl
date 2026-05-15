@@ -10,5 +10,7 @@
 
 # Heading for New Tab banner
 trial-default-hnt-heading = Ouvrez toujours les sites avec une protection de la vie privée renforcée
+# Body for New Tab banner
+trial-default-hnt-body = Définissez Firefox comme navigateur par défaut et profitez de la protection de la vie privée intégrée à chaque nouvel onglet.
 # Button (CTA) to make Firefox the default browser
 trial-default-hnt-primary-cta = Ouvrir les liens dans Firefox
