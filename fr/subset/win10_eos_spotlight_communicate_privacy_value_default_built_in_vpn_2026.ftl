@@ -9,6 +9,7 @@
 ## Branch: treatment-a
 
 win10-eos-communicate-privacy-value-default-built-in-vpn-title = Protégez la confidentialité de votre navigation sur Windows
+win10-eos-communicate-privacy-value-default-built-in-vpn-subtitle-a = Firefox bloque de nombreux traqueurs publicitaires et intègre un VPN qui dissimule votre localisation. Choisissez Firefox comme navigateur par défaut pour profiter d’une confidentialité renforcée lors de votre navigation.
 win10-eos-communicate-privacy-value-default-built-in-vpn-button-label = Faire de Firefox mon navigateur par défaut
 
 ## Branch: treatment-b
