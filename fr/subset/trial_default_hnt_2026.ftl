@@ -17,5 +17,7 @@ trial-default-hnt-primary-cta = Ouvrir les liens dans Firefox
 
 ## Variant B (button is the same as variant A)
 
+# Heading for New Tab banner
+trial-default-hnt-heading-1 = Testez la confidentialité intégrée pendant quelques jours
 # Body for New Tab banner
 trial-default-hnt-body-1 = Firefox vous protège d’emblée grâce à sa protection automatique contre le pistage et à de nombreux autres outils de protection de la vie privée. Cela ne vous convient pas ? Vous pouvez revenir en arrière à tout moment.
