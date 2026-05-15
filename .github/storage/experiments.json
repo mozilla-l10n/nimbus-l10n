@@ -422,7 +422,7 @@
     ]
   },
   "trial-default-hnt": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/trial_default_hnt_2026.ftl",
     "issue": "110",
     "locales": [

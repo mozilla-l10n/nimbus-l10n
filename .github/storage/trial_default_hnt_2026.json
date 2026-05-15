@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -35,6 +36,13 @@
       "trial-default-hnt-primary-cta": "Open links in Firefox",
       "trial-default-hnt-heading-1": "Try built-in privacy for a few days",
       "trial-default-hnt-body-1": "Firefox protects you from the start with automatic tracking protection and lots of other privacy tools. Not into it? You can switch back anytime."
+    },
+    "fr": {
+      "trial-default-hnt-heading": "Ouvrez toujours les sites avec une protection de la vie privée renforcée",
+      "trial-default-hnt-body": "Définissez Firefox comme navigateur par défaut et profitez de la protection de la vie privée intégrée à chaque nouvel onglet.",
+      "trial-default-hnt-primary-cta": "Ouvrir les liens dans Firefox",
+      "trial-default-hnt-heading-1": "Testez la confidentialité intégrée pendant quelques jours",
+      "trial-default-hnt-body-1": "Firefox vous protège d’emblée grâce à sa protection automatique contre le pistage et à de nombreux autres outils de protection de la vie privée. Cela ne vous convient pas ? Vous pouvez revenir en arrière à tout moment."
     },
     "it": {
       "trial-default-hnt-heading": "Apri sempre i siti con una maggiore protezione della privacy",
