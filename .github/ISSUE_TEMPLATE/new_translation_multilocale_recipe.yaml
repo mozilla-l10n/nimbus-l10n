@@ -11,9 +11,15 @@ body:
         Please note that this workflow is designed for Nimbus experiments, using
         a recipe format available with Firefox 113 and later versions.
 
+        The only locales currently supported through this workflow are the following:
+         - `de` (German)
+         - `en-CA` (Canadian English)
+         - `en-GB` (British English)
+         - `fr` (French)
+         - `it` (Italian)
 
-        To translate other types of content, please refer to [this
-        page](https://mozilla-hub.atlassian.net/wiki/spaces/FDPDT/pages/11045331/Localization+l10n+and+Translation).
+        To translate other types of content, of if you need more locales, please refer to [this
+        page](https://mozilla-hub.atlassian.net/wiki/spaces/FDPDT/pages/843284481/Request+translation+service+via+LSP).
   - type: textarea
     id: info
     attributes:
@@ -35,7 +41,7 @@ body:
       description: >
         Is there a hard deadline for the experiment? Keep in mind that getting
         translations will require at least 72h, shorter deadlines might require
-        using pretranslation (automated translation).
+        using machine translation.
       placeholder: YYYY-MM-DD
     validations:
       required: false
