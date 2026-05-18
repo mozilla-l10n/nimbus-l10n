@@ -6,16 +6,16 @@
 ## Branch: treatment-a
 
 # Heading of a New Tab promo encouraging the user to try the Tab Groups feature in Firefox
-tab-groups-promo-heading = Organizza le tue schede con i gruppi di schede
+tab-groups-promo-heading = Organisieren Sie Ihre Tabs mit Tab-Gruppen
 # Body text of a New Tab promo explaining how to create a tab group in Firefox
-tab-groups-promo-body = Trascina una scheda sopra un’altra per creare un gruppo e mantenere la concentrazione mentre navighi.
+tab-groups-promo-body = Ziehen Sie einen Tab auf einen anderen, um eine Gruppe zu erstellen um beim Surfen den Fokus zu behalten.
 # Label for the primary button in the Tab Groups New Tab promo; clicking it starts a tab group with the current tab
-tab-groups-promo-primary-button-label = Crea un gruppo di schede
+tab-groups-promo-primary-button-label = Eine Tab-Gruppe erstellen
 # Label for the secondary button in the Tab Groups New Tab promo; clicking it opens a Spotlight modal that includes an animation
-tab-groups-promo-secondary-button-label = Guarda una demo
+tab-groups-promo-secondary-button-label = Eine Demo ansehen
 # Title of the spotlight demo shown after the user clicks "Watch a demo" in the Tab Groups New Tab promo
-tab-groups-promo-demo-title = Scopri come funzionano i gruppi di schede
+tab-groups-promo-demo-title = Sehen Sie Tab-Gruppen in Aktion
 # Subtitle of the spotlight demo describing how to create a tab group
-tab-groups-promo-demo-subtitle = Trascina una scheda sopra un’altra per formare un gruppo.
+tab-groups-promo-demo-subtitle = Ziehen Sie einen Tab auf einen anderen, um eine Gruppe zu erstellen
 # Label for the dismiss button at the end of the Tab Groups demo spotlight
-tab-groups-promo-demo-primary-button-label = OK
+tab-groups-promo-demo-primary-button-label = Verstanden
