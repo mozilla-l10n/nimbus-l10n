@@ -5,7 +5,7 @@
 ## Branch: treatment-a
 
 # Heading of a New Tab promo encouraging the user to try the Tab Groups feature in Firefox
-tab-groups-promo-heading = Organize your tabs with tab groups
+tab-groups-promo-heading = Organise your tabs with tab groups
 # Body text of a New Tab promo explaining how to create a tab group in Firefox
 tab-groups-promo-body = Drag one tab onto another to create a group and stay focused when browsing.
 # Label for the primary button in the Tab Groups New Tab promo; clicking it starts a tab group with the current tab

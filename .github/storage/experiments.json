@@ -275,12 +275,11 @@
     "file": "en-US/subset/new_tab_tab_groups_promo_151_2026.ftl",
     "issue": "114",
     "locales": [
+      "de",
       "en-CA",
       "en-GB",
-      "es-AR",
-      "es-ES",
-      "es-MX",
-      "fr"
+      "fr",
+      "it"
     ]
   },
   "new-user-test-copy-about-privacy-speed-security-fx120": {
