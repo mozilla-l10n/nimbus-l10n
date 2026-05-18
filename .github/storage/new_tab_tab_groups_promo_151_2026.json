@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -32,6 +33,15 @@
       "tab-groups-promo-demo-title": "See tab groups in action",
       "tab-groups-promo-demo-subtitle": "Drag one tab onto another to create a group.",
       "tab-groups-promo-demo-primary-button-label": "Got it"
+    },
+    "it": {
+      "tab-groups-promo-heading": "Organizza le tue schede con i gruppi di schede",
+      "tab-groups-promo-body": "Trascina una scheda su un’altra per creare un gruppo e rimanere concentrato durante la navigazione.",
+      "tab-groups-promo-primary-button-label": "Avvia un gruppo di schede",
+      "tab-groups-promo-secondary-button-label": "Guarda una demo",
+      "tab-groups-promo-demo-title": "Guarda i gruppi di schede in azione",
+      "tab-groups-promo-demo-subtitle": "Trascina una scheda su un’altra per creare un gruppo.",
+      "tab-groups-promo-demo-primary-button-label": "OK"
     }
   }
 }
