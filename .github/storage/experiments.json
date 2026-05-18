@@ -271,7 +271,7 @@
     ]
   },
   "new-tab-tab-groups-promo-151": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/new_tab_tab_groups_promo_151_2026.ftl",
     "issue": "114",
     "locales": [

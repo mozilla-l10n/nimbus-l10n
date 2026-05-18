@@ -1,5 +1,5 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
@@ -8,6 +8,7 @@
     "es-AR",
     "es-ES",
     "es-MX",
+    "fr",
     "it"
   ],
   "translations": {
@@ -73,6 +74,15 @@
       "tab-groups-promo-demo-title": "Mira cómo funcionan los grupos de pestañas",
       "tab-groups-promo-demo-subtitle": "Arrastra una pestaña encima de otra para crear un grupo.",
       "tab-groups-promo-demo-primary-button-label": "Entendido"
+    },
+    "fr": {
+      "tab-groups-promo-heading": "Organisez vos onglets avec des groupes d’onglets",
+      "tab-groups-promo-body": "Faites glisser un onglet sur un autre pour créer un groupe et garder votre concentration lorsque vous naviguez.",
+      "tab-groups-promo-primary-button-label": "Créer un groupe d’onglets",
+      "tab-groups-promo-secondary-button-label": "Voir une démonstration",
+      "tab-groups-promo-demo-title": "Découvrez les groupes d’onglets",
+      "tab-groups-promo-demo-subtitle": "Faites glisser un onglet sur un autre pour créer un groupe.",
+      "tab-groups-promo-demo-primary-button-label": "J’ai compris"
     },
     "it": {
       "tab-groups-promo-heading": "Organizza le tue schede con i gruppi di schede",
