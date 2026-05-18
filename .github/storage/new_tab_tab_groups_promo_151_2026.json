@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -15,6 +16,15 @@
       "tab-groups-promo-demo-title": "See tab groups in action",
       "tab-groups-promo-demo-subtitle": "Drag one tab onto another to create a group.",
       "tab-groups-promo-demo-primary-button-label": "Got it"
+    },
+    "de": {
+      "tab-groups-promo-heading": "Organisieren Sie Ihre Tabs mit Tab-Gruppen",
+      "tab-groups-promo-body": "Ziehen Sie einen Tab auf einen anderen, um eine Gruppe zu erstellen um beim Surfen den Fokus zu behalten.",
+      "tab-groups-promo-primary-button-label": "Eine Tab-Gruppe erstellen",
+      "tab-groups-promo-secondary-button-label": "Eine Demo ansehen",
+      "tab-groups-promo-demo-title": "Sehen Sie Tab-Gruppen in Aktion",
+      "tab-groups-promo-demo-subtitle": "Ziehen Sie einen Tab auf einen anderen, um eine Gruppe zu erstellen",
+      "tab-groups-promo-demo-primary-button-label": "Verstanden"
     },
     "en-CA": {
       "tab-groups-promo-heading": "Organize your tabs with tab groups",
@@ -36,11 +46,11 @@
     },
     "it": {
       "tab-groups-promo-heading": "Organizza le tue schede con i gruppi di schede",
-      "tab-groups-promo-body": "Trascina una scheda su un’altra per creare un gruppo e rimanere concentrato durante la navigazione.",
-      "tab-groups-promo-primary-button-label": "Avvia un gruppo di schede",
+      "tab-groups-promo-body": "Trascina una scheda sopra un’altra per creare un gruppo e mantenere la concentrazione mentre navighi.",
+      "tab-groups-promo-primary-button-label": "Crea un gruppo di schede",
       "tab-groups-promo-secondary-button-label": "Guarda una demo",
-      "tab-groups-promo-demo-title": "Guarda i gruppi di schede in azione",
-      "tab-groups-promo-demo-subtitle": "Trascina una scheda su un’altra per creare un gruppo.",
+      "tab-groups-promo-demo-title": "Scopri come funzionano i gruppi di schede",
+      "tab-groups-promo-demo-subtitle": "Trascina una scheda sopra un’altra per formare un gruppo.",
       "tab-groups-promo-demo-primary-button-label": "OK"
     }
   }
