@@ -270,6 +270,19 @@
       "it"
     ]
   },
+  "new-tab-tab-groups-promo-151": {
+    "complete": false,
+    "file": "en-US/subset/new_tab_tab_groups_promo_151_2026.ftl",
+    "issue": "114",
+    "locales": [
+      "en-CA",
+      "en-GB",
+      "es-AR",
+      "es-ES",
+      "es-MX",
+      "fr"
+    ]
+  },
   "new-user-test-copy-about-privacy-speed-security-fx120": {
     "complete": true,
     "file": "en-US/subset/new_user_test_copy_about_privacy_speed_security_fx120_2023.ftl",
