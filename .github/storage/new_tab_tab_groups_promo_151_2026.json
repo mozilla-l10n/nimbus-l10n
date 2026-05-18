@@ -1,0 +1,37 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "tab-groups-promo-heading": "Organize your tabs with tab groups",
+      "tab-groups-promo-body": "Drag one tab onto another to create a group and stay focused when browsing.",
+      "tab-groups-promo-primary-button-label": "Start a tab group",
+      "tab-groups-promo-secondary-button-label": "Watch a demo",
+      "tab-groups-promo-demo-title": "See tab groups in action",
+      "tab-groups-promo-demo-subtitle": "Drag one tab onto another to create a group.",
+      "tab-groups-promo-demo-primary-button-label": "Got it"
+    },
+    "en-CA": {
+      "tab-groups-promo-heading": "Organize your tabs with tab groups",
+      "tab-groups-promo-body": "Drag one tab onto another to create a group and stay focused when browsing.",
+      "tab-groups-promo-primary-button-label": "Start a tab group",
+      "tab-groups-promo-secondary-button-label": "Watch a demo",
+      "tab-groups-promo-demo-title": "See tab groups in action",
+      "tab-groups-promo-demo-subtitle": "Drag one tab onto another to create a group.",
+      "tab-groups-promo-demo-primary-button-label": "Got it"
+    },
+    "en-GB": {
+      "tab-groups-promo-heading": "Organise your tabs with tab groups",
+      "tab-groups-promo-body": "Drag one tab onto another to create a group and stay focused when browsing.",
+      "tab-groups-promo-primary-button-label": "Start a tab group",
+      "tab-groups-promo-secondary-button-label": "Watch a demo",
+      "tab-groups-promo-demo-title": "See tab groups in action",
+      "tab-groups-promo-demo-subtitle": "Drag one tab onto another to create a group.",
+      "tab-groups-promo-demo-primary-button-label": "Got it"
+    }
+  }
+}
