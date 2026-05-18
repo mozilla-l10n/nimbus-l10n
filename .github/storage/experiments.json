@@ -437,15 +437,20 @@
     ]
   },
   "trial-default-hnt": {
-    "complete": true,
+    "complete": false,
     "file": "en-US/subset/trial_default_hnt_2026.ftl",
     "issue": "110",
     "locales": [
       "de",
       "en-CA",
       "en-GB",
+      "es-ES",
+      "es-MX",
       "fr",
-      "it"
+      "it",
+      "ja",
+      "pl",
+      "pt-BR"
     ]
   },
   "visual-search-awareness": {

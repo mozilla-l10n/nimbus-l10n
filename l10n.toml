@@ -11,6 +11,8 @@ locales = [
     "es-MX",
     "fr",
     "it",
+    "ja",
+    "pl",
     "pt-BR",
     "pt-PT"
 ]
@@ -487,8 +489,13 @@ locales = [
         "de",
         "en-CA",
         "en-GB",
+        "es-ES",
+        "es-MX",
         "fr",
-        "it"
+        "it",
+        "ja",
+        "pl",
+        "pt-BR"
     ]
 
 [[paths]]

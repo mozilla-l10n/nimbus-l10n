@@ -5,8 +5,13 @@
     "en-CA",
     "en-GB",
     "en-US",
+    "es-ES",
+    "es-MX",
     "fr",
-    "it"
+    "it",
+    "ja",
+    "pl",
+    "pt-BR"
   ],
   "translations": {
     "en-US": {
@@ -37,6 +42,20 @@
       "trial-default-hnt-heading-1": "Try built-in privacy for a few days",
       "trial-default-hnt-body-1": "Firefox protects you from the start with automatic tracking protection and lots of other privacy tools. Not into it? You can switch back anytime."
     },
+    "es-ES": {
+      "trial-default-hnt-heading": "Abra siempre los sitios web con protección de privacidad adicional",
+      "trial-default-hnt-body": "Establezca Firefox como navegador predeterminado y disfrute de protección de privacidad integrada en cada pestaña.",
+      "trial-default-hnt-primary-cta": "Abrir enlaces en Firefox",
+      "trial-default-hnt-heading-1": "Pruebe la privacidad integrada durante unos días",
+      "trial-default-hnt-body-1": "Firefox le protege desde el primer momento con protección automática contra rastreo y muchas otras herramientas de privacidad. ¿No le convence? Puede desactivarlo en cualquier momento."
+    },
+    "es-MX": {
+      "trial-default-hnt-heading": "Abre sitios siempre con protección de privacidad adicional",
+      "trial-default-hnt-body": "Elige Firefox como tu navegador predeterminado y mantén la protección de privacidad integrada en cada pestaña.",
+      "trial-default-hnt-primary-cta": "Abrir enlaces en Firefox",
+      "trial-default-hnt-heading-1": "Prueba la privacidad integrada por unos días",
+      "trial-default-hnt-body-1": "Firefox te protege desde el principio con protección automática contra rastreo y muchas otras herramientas de privacidad. ¿No te convence? Puedes revertir el cambio cuando quieras."
+    },
     "fr": {
       "trial-default-hnt-heading": "Ouvrez toujours les sites avec une protection de la vie privée renforcée",
       "trial-default-hnt-body": "Définissez Firefox comme navigateur par défaut et profitez de la protection de la vie privée intégrée à chaque nouvel onglet.",
@@ -50,6 +69,27 @@
       "trial-default-hnt-primary-cta": "Apri i link in Firefox",
       "trial-default-hnt-heading-1": "Metti alla prova la protezione della privacy integrata per qualche giorno",
       "trial-default-hnt-body-1": "Firefox offre fin da subito una protezione automatica dal tracciamento e molti altri strumenti per la privacy. Non ti convince? Puoi tornare indietro quando vuoi."
+    },
+    "ja": {
+      "trial-default-hnt-heading": "サイトを開くときは、いつもプライバシー保護を強化",
+      "trial-default-hnt-body": "Firefox をデフォルトに設定して、すべてのタブで内蔵のプライバシー保護機能を維持しましょう。",
+      "trial-default-hnt-primary-cta": "リンクを Firefox で開く",
+      "trial-default-hnt-heading-1": "数日間、内蔵のプライバシー機能を試してみてください",
+      "trial-default-hnt-body-1": "Firefox は、自動トラッキング防止などたくさんのプライバシー保護ツールで、最初からあなたを守ります。合わない場合は、いつでも戻せます。"
+    },
+    "pl": {
+      "trial-default-hnt-heading": "Dodatkowa ochrona prywatności na każdej stronie, którą otwierasz",
+      "trial-default-hnt-body": "Ustaw Firefox jako swoją domyślną przeglądarkę i korzystaj z wbudowanej ochrony prywatności na każdej karcie.",
+      "trial-default-hnt-primary-cta": "Otwieraj linki w przeglądarce Firefox",
+      "trial-default-hnt-heading-1": "Wypróbuj wbudowaną ochronę prywatności przez kilka dni",
+      "trial-default-hnt-body-1": "Od samego początku Firefox zapewnia Ci automatyczną ochronę przed śledzeniem i mnóstwo innych narzędzi ochrony prywatności. Nie interesuje Cię to? W każdej chwili możesz wrócić do poprzedniego rozwiązania."
+    },
+    "pt-BR": {
+      "trial-default-hnt-heading": "Abra sites com proteção extra de privacidade sempre",
+      "trial-default-hnt-body": "Defina o Firefox como padrão e tenha proteção de privacidade integrada em todas as abas.",
+      "trial-default-hnt-primary-cta": "Abrir links no Firefox",
+      "trial-default-hnt-heading-1": "Experimente a privacidade integrada por alguns dias",
+      "trial-default-hnt-body-1": "O Firefox protege você desde o início com proteção automática contra rastreamento e várias outras ferramentas de privacidade. Não curtiu? Você pode voltar atrás quando quiser."
     }
   }
 }
