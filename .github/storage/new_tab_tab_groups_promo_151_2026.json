@@ -5,6 +5,9 @@
     "en-CA",
     "en-GB",
     "en-US",
+    "es-AR",
+    "es-ES",
+    "es-MX",
     "it"
   ],
   "translations": {
@@ -43,6 +46,33 @@
       "tab-groups-promo-demo-title": "See tab groups in action",
       "tab-groups-promo-demo-subtitle": "Drag one tab onto another to create a group.",
       "tab-groups-promo-demo-primary-button-label": "Got it"
+    },
+    "es-AR": {
+      "tab-groups-promo-heading": "Organice sus pestañas con grupos de pestañas",
+      "tab-groups-promo-body": "Arrastre una pestaña encima de otra para crear un grupo y mantenerse concentrado al navegar.",
+      "tab-groups-promo-primary-button-label": "Crear un grupo de pestañas",
+      "tab-groups-promo-secondary-button-label": "Ver una demostración",
+      "tab-groups-promo-demo-title": "Vea cómo funcionan los grupos de pestañas",
+      "tab-groups-promo-demo-subtitle": "Arrastre una pestaña encima de otra para crear un grupo.",
+      "tab-groups-promo-demo-primary-button-label": "Entendido"
+    },
+    "es-ES": {
+      "tab-groups-promo-heading": "Organice sus pestañas con grupos de pestañas",
+      "tab-groups-promo-body": "Arrastre una pestaña encima de otra para crear un grupo y mantenerse concentrado al navegar.",
+      "tab-groups-promo-primary-button-label": "Crear un grupo de pestañas",
+      "tab-groups-promo-secondary-button-label": "Ver una demostración",
+      "tab-groups-promo-demo-title": "Vea cómo funcionan los grupos de pestañas",
+      "tab-groups-promo-demo-subtitle": "Arrastre una pestaña encima de otra para crear un grupo.",
+      "tab-groups-promo-demo-primary-button-label": "Entendido"
+    },
+    "es-MX": {
+      "tab-groups-promo-heading": "Organiza tus pestañas con grupos de pestañas",
+      "tab-groups-promo-body": "Arrastra una pestaña encima de otra para crear un grupo y mantenerte concentrado al navegar.",
+      "tab-groups-promo-primary-button-label": "Crear un grupo de pestañas",
+      "tab-groups-promo-secondary-button-label": "Ver una demostración",
+      "tab-groups-promo-demo-title": "Mira cómo funcionan los grupos de pestañas",
+      "tab-groups-promo-demo-subtitle": "Arrastra una pestaña encima de otra para crear un grupo.",
+      "tab-groups-promo-demo-primary-button-label": "Entendido"
     },
     "it": {
       "tab-groups-promo-heading": "Organizza le tue schede con i gruppi di schede",
