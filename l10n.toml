@@ -500,3 +500,14 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/new_tab_tab_groups_promo_151_2026.ftl"
+    l10n = "{locale}/subset/new_tab_tab_groups_promo_151_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
