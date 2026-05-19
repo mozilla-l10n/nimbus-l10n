@@ -13,7 +13,7 @@ tab-groups-promo-primary-button-label = Crear un grupo de pestañas
 # Label for the secondary button in the Tab Groups New Tab promo; clicking it opens a Spotlight modal that includes an animation
 tab-groups-promo-secondary-button-label = Ver una demostración
 # Title of the spotlight demo shown after the user clicks "Watch a demo" in the Tab Groups New Tab promo
-tab-groups-promo-demo-title = Mira cómo funcionan los grupos de pestañas
+tab-groups-promo-demo-title = Vea cómo funcionan los grupos de pestañas
 # Subtitle of the spotlight demo describing how to create a tab group
 tab-groups-promo-demo-subtitle = Arrastra una pestaña encima de otra para crear un grupo.
 # Label for the dismiss button at the end of the Tab Groups demo spotlight
