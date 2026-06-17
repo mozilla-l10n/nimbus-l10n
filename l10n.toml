@@ -521,3 +521,14 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/win10_eos_new_user_vs_returning_user_survey_2026.ftl"
+    l10n = "{locale}/subset/win10_eos_new_user_vs_returning_user_survey_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]

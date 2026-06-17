@@ -476,6 +476,18 @@
       "it"
     ]
   },
+  "win10-eos-new-user-vs-returning-user-survey": {
+    "complete": false,
+    "file": "en-US/subset/win10_eos_new_user_vs_returning_user_survey_2026.ftl",
+    "issue": "116",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "win10-eos-spotlight-communicate-privacy-value-default-built-in-vpn": {
     "complete": true,
     "file": "en-US/subset/win10_eos_spotlight_communicate_privacy_value_default_built_in_vpn_2026.ftl",
