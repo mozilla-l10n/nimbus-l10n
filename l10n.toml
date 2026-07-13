@@ -532,3 +532,19 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/set_up_your_email_web_app_welcome_back_spotlight_2026.ftl"
+    l10n = "{locale}/subset/set_up_your_email_web_app_welcome_back_spotlight_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "es-AR",
+        "es-CL",
+        "es-ES",
+        "es-MX",
+        "fr",
+        "it",
+        "pt-BR"
+    ]
