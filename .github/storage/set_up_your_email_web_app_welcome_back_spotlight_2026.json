@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -13,6 +14,13 @@
       "resurrection-spotlight-email-title-2": "Select your email to add to your taskbar",
       "world-cup-taskbar-tabs-pin-btn-label": "Add",
       "resurrection-spotlight-email-primary": "I’m done"
+    },
+    "de": {
+      "resurrection-spotlight-email-title": "Schön, Sie wieder zu sehen. Sollen E-Mails wie eine App geöffnet werden?",
+      "resurrection-spotlight-email-subtitle": "Heften Sie Ihren Posteingang an die Taskleiste an. Ein Klick öffnet ihn in einem eigenen Fenster mit allen Schutzmaßnahmen von Firefox.",
+      "resurrection-spotlight-email-title-2": "Wählen Sie Ihre E-Mail-Adresse aus, die Sie zur Taskleiste hinzufügen möchten",
+      "world-cup-taskbar-tabs-pin-btn-label": "Hinzufügen",
+      "resurrection-spotlight-email-primary": "Fertig"
     },
     "en-CA": {
       "resurrection-spotlight-email-title": "Good to see you again. Open your email like an app?",
