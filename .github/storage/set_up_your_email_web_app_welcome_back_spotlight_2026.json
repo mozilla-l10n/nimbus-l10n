@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -26,6 +27,13 @@
       "resurrection-spotlight-email-title-2": "Select your email to add to your taskbar",
       "world-cup-taskbar-tabs-pin-btn-label": "Add",
       "resurrection-spotlight-email-primary": "I’m done"
+    },
+    "it": {
+      "resurrection-spotlight-email-title": "È un piacere rivederti. Aprire la posta elettronica come un’app?",
+      "resurrection-spotlight-email-subtitle": "Aggiungi la tua casella di posta alla barra delle applicazioni. Con un clic si apre una finestra a sé stante, con tutte le protezioni di Firefox.",
+      "resurrection-spotlight-email-title-2": "Seleziona l’indirizzo email da aggiungere alla barra delle applicazioni",
+      "world-cup-taskbar-tabs-pin-btn-label": "Aggiungi",
+      "resurrection-spotlight-email-primary": "Ho finito"
     }
   }
 }
