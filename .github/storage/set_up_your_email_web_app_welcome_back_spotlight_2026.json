@@ -1,0 +1,31 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "resurrection-spotlight-email-title": "Good to see you again. Open your email like an app?",
+      "resurrection-spotlight-email-subtitle": "Pin your inbox to the taskbar. One click opens it in its own window, with all of Firefox’s protections.",
+      "resurrection-spotlight-email-title-2": "Select your email to add to your taskbar",
+      "world-cup-taskbar-tabs-pin-btn-label": "Add",
+      "resurrection-spotlight-email-primary": "I’m done"
+    },
+    "en-CA": {
+      "resurrection-spotlight-email-title": "Good to see you again. Open your email like an app?",
+      "resurrection-spotlight-email-subtitle": "Pin your inbox to the taskbar. One click opens it in its own window, with all of Firefox’s protections.",
+      "resurrection-spotlight-email-title-2": "Select your email to add to your taskbar",
+      "world-cup-taskbar-tabs-pin-btn-label": "Add",
+      "resurrection-spotlight-email-primary": "I’m done"
+    },
+    "en-GB": {
+      "resurrection-spotlight-email-title": "Good to see you again. Open your email like an app?",
+      "resurrection-spotlight-email-subtitle": "Pin your inbox to the taskbar. One click opens it in its own window, with all of Firefox’s protections.",
+      "resurrection-spotlight-email-title-2": "Select your email to add to your taskbar",
+      "world-cup-taskbar-tabs-pin-btn-label": "Add",
+      "resurrection-spotlight-email-primary": "I’m done"
+    }
+  }
+}
