@@ -414,7 +414,7 @@
     ]
   },
   "set-up-your-email-web-app-welcome-back-spotlight": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/set_up_your_email_web_app_welcome_back_spotlight_2026.ftl",
     "issue": "118",
     "locales": [

@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -35,6 +36,13 @@
       "resurrection-spotlight-email-title-2": "Select your email to add to your taskbar",
       "world-cup-taskbar-tabs-pin-btn-label": "Add",
       "resurrection-spotlight-email-primary": "I’m done"
+    },
+    "fr": {
+      "resurrection-spotlight-email-title": "Heureux de vous revoir. Vous ouvrez votre compte e-mail comme une application ?",
+      "resurrection-spotlight-email-subtitle": "Épinglez votre boîte de réception à la barre des tâches. Un simple clic l’ouvre dans une fenêtre dédiée, avec toutes les protections de Firefox.",
+      "resurrection-spotlight-email-title-2": "Sélectionnez un compte e-mail pour l’ajouter à votre barre des tâches",
+      "world-cup-taskbar-tabs-pin-btn-label": "Ajouter",
+      "resurrection-spotlight-email-primary": "J’ai terminé"
     },
     "it": {
       "resurrection-spotlight-email-title": "È un piacere rivederti. Vuoi aprire la posta elettronica come un’app?",
