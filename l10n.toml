@@ -543,3 +543,14 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/using_first_bookmark_as_reminders_to_save_data_pre_migration_2026.ftl"
+    l10n = "{locale}/subset/using_first_bookmark_as_reminders_to_save_data_pre_migration_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
