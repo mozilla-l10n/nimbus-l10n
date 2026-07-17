@@ -465,6 +465,18 @@
       "pt-BR"
     ]
   },
+  "using-first-bookmark-as-reminders-to-save-data-pre-migration": {
+    "complete": false,
+    "file": "en-US/subset/using_first_bookmark_as_reminders_to_save_data_pre_migration_2026.ftl",
+    "issue": "121",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "visual-search-awareness": {
     "complete": true,
     "file": "en-US/subset/visual_search_awareness_2025.ftl",
