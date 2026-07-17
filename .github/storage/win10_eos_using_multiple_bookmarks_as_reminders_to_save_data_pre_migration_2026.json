@@ -1,0 +1,37 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "win10-eos-multiple-bookmarks-title-treatment-a": "Bring your bookmarks to Windows 11",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-a": "Don’t lose your favorite sites when you change your operating system.",
+      "win10-eos-multiple-bookmarks-primary-button-label": "Back up",
+      "win10-eos-multiple-bookmarks-title-treatment-b": "Keep all your bookmarks safe",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-b": "Have you built a whole library of bookmarks? Back them up so you can always find them.",
+      "win10-eos-multiple-bookmarks-title-treatment-c": "Instantly get your bookmarks on a new device",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-c": "Find your favorite sites fast when you upgrade your Windows device."
+    },
+    "en-CA": {
+      "win10-eos-multiple-bookmarks-title-treatment-a": "Bring your bookmarks to Windows 11",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-a": "Don’t lose your favorite sites when you change your operating system.",
+      "win10-eos-multiple-bookmarks-primary-button-label": "Back up",
+      "win10-eos-multiple-bookmarks-title-treatment-b": "Keep all your bookmarks safe",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-b": "Have you built a whole library of bookmarks? Back them up so you can always find them.",
+      "win10-eos-multiple-bookmarks-title-treatment-c": "Instantly get your bookmarks on a new device",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-c": "Find your favorite sites fast when you upgrade your Windows device."
+    },
+    "en-GB": {
+      "win10-eos-multiple-bookmarks-title-treatment-a": "Bring your bookmarks to Windows 11",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-a": "Don’t lose your favorite sites when you change your operating system.",
+      "win10-eos-multiple-bookmarks-primary-button-label": "Back up",
+      "win10-eos-multiple-bookmarks-title-treatment-b": "Keep all your bookmarks safe",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-b": "Have you built a whole library of bookmarks? Back them up so you can always find them.",
+      "win10-eos-multiple-bookmarks-title-treatment-c": "Instantly get your bookmarks on a new device",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-c": "Find your favorite sites fast when you upgrade your Windows device."
+    }
+  }
+}
