@@ -522,5 +522,17 @@
       "en-GB",
       "fr"
     ]
+  },
+  "win10-eos-using-multiple-bookmarks-as-reminders-to-save-data-pre-migration": {
+    "complete": false,
+    "file": "en-US/subset/win10_eos_using_multiple_bookmarks_as_reminders_to_save_data_pre_migration_2026.ftl",
+    "issue": "120",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
   }
 }

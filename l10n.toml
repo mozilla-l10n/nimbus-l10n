@@ -554,3 +554,14 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/win10_eos_using_multiple_bookmarks_as_reminders_to_save_data_pre_migration_2026.ftl"
+    l10n = "{locale}/subset/win10_eos_using_multiple_bookmarks_as_reminders_to_save_data_pre_migration_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
