@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -32,6 +33,15 @@
       "win10-eos-multiple-bookmarks-subtitle-treatment-b": "Have you built a whole library of bookmarks? Back them up so you can always find them.",
       "win10-eos-multiple-bookmarks-title-treatment-c": "Instantly get your bookmarks on a new device",
       "win10-eos-multiple-bookmarks-subtitle-treatment-c": "Find your favorite sites fast when you upgrade your Windows device."
+    },
+    "it": {
+      "win10-eos-multiple-bookmarks-title-treatment-a": "Porta i tuoi segnalibri in Windows 11",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-a": "Non perdere i tuoi siti preferiti quando cambi sistema operativo.",
+      "win10-eos-multiple-bookmarks-primary-button-label": "Esegui backup",
+      "win10-eos-multiple-bookmarks-title-treatment-b": "Mantieni tutti i tuoi segnalibri al sicuro",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-b": "Hai creato un’intera libreria di segnalibri? Salvali in modo da poterli trovare sempre.",
+      "win10-eos-multiple-bookmarks-title-treatment-c": "Carica istantaneamente i tuoi segnalibri su un nuovo dispositivo",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-c": "Trova velocemente i tuoi siti preferiti aggiornando il tuo dispositivo Windows."
     }
   }
 }
