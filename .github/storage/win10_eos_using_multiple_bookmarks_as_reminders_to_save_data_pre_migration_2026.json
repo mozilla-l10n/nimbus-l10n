@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -43,6 +44,15 @@
       "win10-eos-multiple-bookmarks-subtitle-treatment-b": "Have you built a whole library of bookmarks? Back them up so you can always find them.",
       "win10-eos-multiple-bookmarks-title-treatment-c": "Instantly get your bookmarks on a new device",
       "win10-eos-multiple-bookmarks-subtitle-treatment-c": "Find your favorite sites fast when you upgrade your Windows device."
+    },
+    "fr": {
+      "win10-eos-multiple-bookmarks-title-treatment-a": "Transférez vos marque-pages sur Windows 11",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-a": "Ne perdez pas vos sites préférés lorsque vous changez de système d’exploitation.",
+      "win10-eos-multiple-bookmarks-primary-button-label": "Sauvegarder",
+      "win10-eos-multiple-bookmarks-title-treatment-b": "Protégez tous vos marque-pages",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-b": "Vous avez créé toute une collection de marque-pages ? Sauvegardez-les pour ne jamais les perdre.",
+      "win10-eos-multiple-bookmarks-title-treatment-c": "Retrouvez instantanément tous vos marque-pages sur un nouvel appareil",
+      "win10-eos-multiple-bookmarks-subtitle-treatment-c": "Retrouvez rapidement vos sites préférés lorsque vous mettez à niveau votre appareil Windows."
     },
     "it": {
       "win10-eos-multiple-bookmarks-title-treatment-a": "Porta i tuoi segnalibri in Windows 11",
