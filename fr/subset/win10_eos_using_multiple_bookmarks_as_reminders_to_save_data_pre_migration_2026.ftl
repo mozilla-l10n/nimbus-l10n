@@ -11,4 +11,10 @@ win10-eos-multiple-bookmarks-primary-button-label = Sauvegarder
 
 ## Branch: treatment-b
 
+win10-eos-multiple-bookmarks-title-treatment-b = Protégez tous vos marque-pages
 win10-eos-multiple-bookmarks-subtitle-treatment-b = Vous avez créé toute une collection de marque-pages ? Sauvegardez-les pour ne jamais les perdre.
+
+## Branch: treatment-c
+
+win10-eos-multiple-bookmarks-title-treatment-c = Retrouvez instantanément tous vos marque-pages sur un nouvel appareil
+win10-eos-multiple-bookmarks-subtitle-treatment-c = Retrouvez rapidement vos sites préférés lorsque vous mettez à niveau votre appareil Windows.
