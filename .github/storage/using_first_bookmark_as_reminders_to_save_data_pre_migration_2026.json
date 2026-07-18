@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -31,6 +32,12 @@
       "win10-first-bookmark-feature-callout-1-subtitle": "Firefox helps you find your favorite sites, even if something happens to your device.",
       "win10-first-bookmark-feature-callout-1-backup-button-label": "Back up",
       "win10-first-bookmark-feature-callout-1-dismiss-button-label": "Dismiss"
+    },
+    "fr": {
+      "win10-first-bookmark-feature-callout-1-title": "Sauvegardez votre premier marque-page !",
+      "win10-first-bookmark-feature-callout-1-subtitle": "Firefox vous permet de retrouver vos sites préférés, même en cas de problème avec votre appareil.",
+      "win10-first-bookmark-feature-callout-1-backup-button-label": "Sauvegarder",
+      "win10-first-bookmark-feature-callout-1-dismiss-button-label": "Ignorer"
     },
     "it": {
       "win10-first-bookmark-feature-callout-1-title": "Salva il tuo primo segnalibro.",
