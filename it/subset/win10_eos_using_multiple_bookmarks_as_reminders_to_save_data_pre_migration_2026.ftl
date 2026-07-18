@@ -12,9 +12,9 @@ win10-eos-multiple-bookmarks-primary-button-label = Esegui backup
 ## Branch: treatment-b
 
 win10-eos-multiple-bookmarks-title-treatment-b = Mantieni tutti i tuoi segnalibri al sicuro
-win10-eos-multiple-bookmarks-subtitle-treatment-b = Hai creato un’intera libreria di segnalibri? Salvali in modo da poterli trovare sempre.
+win10-eos-multiple-bookmarks-subtitle-treatment-b = Hai accumulato una vera collezione di segnalibri? Fai un backup per averli sempre a portata di mano.
 
 ## Branch: treatment-c
 
-win10-eos-multiple-bookmarks-title-treatment-c = Carica istantaneamente i tuoi segnalibri su un nuovo dispositivo
-win10-eos-multiple-bookmarks-subtitle-treatment-c = Trova velocemente i tuoi siti preferiti aggiornando il tuo dispositivo Windows.
+win10-eos-multiple-bookmarks-title-treatment-c = Accedi subito ai tuoi segnalibri su un nuovo dispositivo
+win10-eos-multiple-bookmarks-subtitle-treatment-c = Ritrova velocemente i tuoi siti preferiti nel momento in cui aggiorni il tuo dispositivo Windows.

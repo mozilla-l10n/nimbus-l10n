@@ -8,7 +8,7 @@
 # Title for Win10 first bookmark callout 1.
 win10-first-bookmark-feature-callout-1-title = Salva il tuo primo segnalibro.
 # Body text for first bookmark callout 1.
-win10-first-bookmark-feature-callout-1-subtitle = Firefox ti aiuta a trovare i tuoi siti preferiti, anche se succede qualcosa al tuo dispositivo.
+win10-first-bookmark-feature-callout-1-subtitle = Con Firefox puoi ritrovare i tuoi siti preferiti, anche se il tuo dispositivo dovesse avere dei problemi.
 # Back up button for first bookmark callout 1.
 win10-first-bookmark-feature-callout-1-backup-button-label = Esegui backup
 # Dismiss button for first bookmark callout 1.
