@@ -1,0 +1,55 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "nova-survey-title": "Help improve the Firefox redesign",
+      "nova-q1-satisfaction": "In this version of Nightly, you’re seeing an early preview of Firefox’s redesign. How satisfied are you with it so far?",
+      "nova-opt-very-dissatisfied": "Very dissatisfied",
+      "nova-opt-dissatisfied": "Dissatisfied",
+      "nova-opt-neutral": "Neutral",
+      "nova-opt-satisfied": "Satisfied",
+      "nova-opt-very-satisfied": "Very satisfied",
+      "nova-opt-not-noticed": "I haven’t noticed a change",
+      "nova-button-submit": "Submit",
+      "nova-button-privacy": "Privacy notice",
+      "nova-q2-writein": "What stands out to you about the redesign, good or bad?",
+      "nova-survey-disclaimer": "Please don’t share personal information.",
+      "nova-survey-thanks-title": "Thanks for your feedback!"
+    },
+    "en-CA": {
+      "nova-survey-title": "Help improve the Firefox redesign",
+      "nova-q1-satisfaction": "In this version of Nightly, you’re seeing an early preview of Firefox’s redesign. How satisfied are you with it so far?",
+      "nova-opt-very-dissatisfied": "Very dissatisfied",
+      "nova-opt-dissatisfied": "Dissatisfied",
+      "nova-opt-neutral": "Neutral",
+      "nova-opt-satisfied": "Satisfied",
+      "nova-opt-very-satisfied": "Very satisfied",
+      "nova-opt-not-noticed": "I haven’t noticed a change",
+      "nova-button-submit": "Submit",
+      "nova-button-privacy": "Privacy notice",
+      "nova-q2-writein": "What stands out to you about the redesign, good or bad?",
+      "nova-survey-disclaimer": "Please don’t share personal information.",
+      "nova-survey-thanks-title": "Thanks for your feedback!"
+    },
+    "en-GB": {
+      "nova-survey-title": "Help improve the Firefox redesign",
+      "nova-q1-satisfaction": "In this version of Nightly, you’re seeing an early preview of Firefox’s redesign. How satisfied are you with it so far?",
+      "nova-opt-very-dissatisfied": "Very dissatisfied",
+      "nova-opt-dissatisfied": "Dissatisfied",
+      "nova-opt-neutral": "Neutral",
+      "nova-opt-satisfied": "Satisfied",
+      "nova-opt-very-satisfied": "Very satisfied",
+      "nova-opt-not-noticed": "I haven’t noticed a change",
+      "nova-button-submit": "Submit",
+      "nova-button-privacy": "Privacy notice",
+      "nova-q2-writein": "What stands out to you about the redesign, good or bad?",
+      "nova-survey-disclaimer": "Please don’t share personal information.",
+      "nova-survey-thanks-title": "Thanks for your feedback!"
+    }
+  }
+}
