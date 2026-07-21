@@ -295,6 +295,17 @@
       "it"
     ]
   },
+  "nova-nightly-microsurvey": {
+    "complete": false,
+    "file": "en-US/subset/nova_nightly_microsurvey_2026.ftl",
+    "issue": "124",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr"
+    ]
+  },
   "npo-sign-up-sign-in-button-text-change": {
     "complete": true,
     "file": "en-US/subset/npo_sign_up_sign_in_button_text_change_2024.ftl",
