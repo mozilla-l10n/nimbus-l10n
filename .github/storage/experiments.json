@@ -296,7 +296,7 @@
     ]
   },
   "nova-nightly-microsurvey": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/nova_nightly_microsurvey_2026.ftl",
     "issue": "124",
     "locales": [

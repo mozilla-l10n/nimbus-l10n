@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -66,6 +67,21 @@
       "nova-q2-writein": "What stands out to you about the redesign, good or bad?",
       "nova-survey-disclaimer": "Please don’t share personal information.",
       "nova-survey-thanks-title": "Thanks for your feedback!"
+    },
+    "fr": {
+      "nova-survey-title": "Aidez-nous à améliorer la refonte de l’interface de Firefox",
+      "nova-q1-satisfaction": "Dans cette version de Nightly, vous découvrez en avant-première la nouvelle interface de Firefox. Quel est votre niveau de satisfaction jusqu’à présent ?",
+      "nova-opt-very-dissatisfied": "Très insatisfait·e",
+      "nova-opt-dissatisfied": "Insatisfait·e",
+      "nova-opt-neutral": "Indifférent·e",
+      "nova-opt-satisfied": "Satisfait·e",
+      "nova-opt-very-satisfied": "Très satisfait·e",
+      "nova-opt-not-noticed": "Je n’ai pas remarqué de changement",
+      "nova-button-submit": "Envoyer",
+      "nova-button-privacy": "Politique de confidentialité",
+      "nova-q2-writein": "Qu’est-ce qui vous frappe dans cette nouvelle interface, que ce soit en positif ou en négatif ?",
+      "nova-survey-disclaimer": "Veuillez ne pas partager d’informations personnelles.",
+      "nova-survey-thanks-title": "Merci de votre retour !"
     }
   }
 }
