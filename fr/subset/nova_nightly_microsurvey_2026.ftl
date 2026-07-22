@@ -5,6 +5,10 @@
 
 ## Branch: survey
 
+# Title shown at the top of the microsurvey callout
+nova-survey-title = Aidez-nous à améliorer la refonte de l’interface de Firefox
+# Question 1: satisfaction (CSAT) with the Firefox redesign preview in Nightly
+nova-q1-satisfaction = Dans cette version de Nightly, vous découvrez en avant-première la nouvelle interface de Firefox. Quel est votre niveau de satisfaction jusqu’à présent ?
 # Satisfaction scale option (lowest)
 nova-opt-very-dissatisfied = Très insatisfait·e
 # Satisfaction scale option
@@ -21,5 +25,9 @@ nova-opt-not-noticed = Je n’ai pas remarqué de changement
 nova-button-submit = Envoyer
 # Link that opens the Firefox privacy notice
 nova-button-privacy = Politique de confidentialité
+# Question 2: open-ended write-in about the redesign
+nova-q2-writein = Qu’est-ce qui vous frappe dans cette nouvelle interface, que ce soit en positif ou en négatif ?
+# Disclaimer shown above the submit button on the write-in question
+nova-survey-disclaimer = Veuillez ne pas partager d’informations personnelles.
 # Confirmation title shown on the final screen after the survey is submitted
 nova-survey-thanks-title = Merci de votre retour !
