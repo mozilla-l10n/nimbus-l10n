@@ -512,7 +512,7 @@
     ]
   },
   "win10-eos-hnt-using-multiple-passwords": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/win10_eos_hnt_using_multiple_passwords_2026.ftl",
     "issue": "126",
     "locales": [
