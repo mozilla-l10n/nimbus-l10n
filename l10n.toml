@@ -575,3 +575,14 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/win10_eos_hnt_using_multiple_passwords_2026.ftl"
+    l10n = "{locale}/subset/win10_eos_hnt_using_multiple_passwords_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
