@@ -19,4 +19,4 @@ win10-eos-hnt-using-multiple-passwords-body-b = Vuoi cambiare dispositivo? Salva
 ## Branch: treatment-c
 
 win10-eos-hnt-using-multiple-passwords-heading-c = Proteggi tutte le tue password
-win10-eos-hnt-using-multiple-passwords-body-c = Hai un sacco di password? Eseguine il backup per non perderne le tracce.
+win10-eos-hnt-using-multiple-passwords-body-c = Hai un sacco di password? Salvale e non perderle mai di vista.
