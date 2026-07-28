@@ -5,7 +5,7 @@
 ## Branch: treatment-a
 
 # Title for Win10 first password callout 1.
-win10-first-password-feature-callout-1-title = Password saved. Let's back it up!
+win10-first-password-feature-callout-1-title = Password saved. Let’s back it up!
 # Body text for first password callout 1.
 win10-first-password-feature-callout-1-subtitle = Protect your password by automatically backing them up.
 # Dismiss button for first password callout 1.
