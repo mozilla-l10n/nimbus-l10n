@@ -489,7 +489,7 @@
     ]
   },
   "using-first-password-as-reminders-to-save-data-pre-migration": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/using_first_password_as_reminders_to_save_data_pre_migration_2026.ftl",
     "issue": "128",
     "locales": [
