@@ -1,0 +1,23 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "sw-survey-title": "Help Firefox improve Smart Window",
+      "sw-q1-writein": "What is the main benefit you receive from Smart Window? How can we improve Smart Window for you?",
+      "sw-survey-disclaimer": "Please don’t share personal information.",
+      "sw-button-submit": "Submit",
+      "sw-button-privacy": "Privacy notice",
+      "sw-q2-satisfaction": "How satisfied are you with Firefox Smart Window?",
+      "sw-opt-very-dissatisfied": "Very Dissatisfied",
+      "sw-opt-dissatisfied": "Dissatisfied",
+      "sw-opt-neutral": "Neutral",
+      "sw-opt-satisfied": "Satisfied",
+      "sw-opt-very-satisfied": "Very Satisfied",
+      "sw-opt-dont-use": "I don’t use it",
+      "sw-survey-thanks-title": "Thanks for your feedback!"
+    }
+  }
+}
