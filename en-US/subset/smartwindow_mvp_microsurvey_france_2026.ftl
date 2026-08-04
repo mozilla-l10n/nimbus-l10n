@@ -9,7 +9,7 @@ sw-survey-title = Help Firefox improve Smart Window
 # Question 1: open-ended write-in about the main benefit of and improvements to Smart Window
 sw-q1-writein = What is the main benefit you receive from Smart Window? How can we improve Smart Window for you?
 # Disclaimer shown above the submit button on the write-in question
-sw-survey-disclaimer = Please don't share personal information.
+sw-survey-disclaimer = Please don’t share personal information.
 # Label for the button that submits the answer and advances the survey
 sw-button-submit = Submit
 # Link that opens the Firefox privacy notice
@@ -27,6 +27,6 @@ sw-opt-satisfied = Satisfied
 # Satisfaction scale option (highest)
 sw-opt-very-satisfied = Very Satisfied
 # Satisfaction option for users who do not use Smart Window
-sw-opt-dont-use = I don't use it
+sw-opt-dont-use = I don’t use it
 # Confirmation title shown on the final screen after the survey is submitted
 sw-survey-thanks-title = Thanks for your feedback!
