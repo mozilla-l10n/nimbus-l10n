@@ -1,7 +1,8 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -18,6 +19,21 @@
       "sw-opt-very-satisfied": "Very Satisfied",
       "sw-opt-dont-use": "I don’t use it",
       "sw-survey-thanks-title": "Thanks for your feedback!"
+    },
+    "fr": {
+      "sw-survey-title": "Aidez Firefox à améliorer les fenêtres intelligentes",
+      "sw-q1-writein": "Quel est le principal avantage que vous apportent les fenêtres intelligentes ? Comment pourrions-nous améliorer les fenêtres intelligentes pour vous ?",
+      "sw-survey-disclaimer": "Veuillez ne pas partager d’informations personnelles.",
+      "sw-button-submit": "Envoyer",
+      "sw-button-privacy": "Politique de confidentialité",
+      "sw-q2-satisfaction": "Êtes-vous satisfait·e des fenêtres intelligentes de Firefox ?",
+      "sw-opt-very-dissatisfied": "Très insatisfait·e",
+      "sw-opt-dissatisfied": "Insatisfait·e",
+      "sw-opt-neutral": "Indifférent·e",
+      "sw-opt-satisfied": "Satisfait·e",
+      "sw-opt-very-satisfied": "Très satisfait·e",
+      "sw-opt-dont-use": "Je ne l’utilise pas",
+      "sw-survey-thanks-title": "Merci de votre retour !"
     }
   }
 }

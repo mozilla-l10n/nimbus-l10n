@@ -437,7 +437,7 @@
     ]
   },
   "smartwindow-mvp-microsurvey-france": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/smartwindow_mvp_microsurvey_france_2026.ftl",
     "issue": "130",
     "locales": [
