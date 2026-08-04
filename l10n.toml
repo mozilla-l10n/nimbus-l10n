@@ -597,3 +597,10 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/smartwindow_mvp_microsurvey_france_2026.ftl"
+    l10n = "{locale}/subset/smartwindow_mvp_microsurvey_france_2026.ftl"
+    locales = [
+        "fr"
+    ]
