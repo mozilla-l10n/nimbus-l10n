@@ -6,7 +6,7 @@
 ## Branch: treatment-a
 
 test-copy-about-privacy-speed-security-fx120-easy-setup-title-label = Ci piace mantenerti al sicuro
-test-copy-about-privacy-speed-security-fx120-easy-setup-subtitle-label = Il nostro browser, supportato da un’organizzazione senza fini di lucro, blocca automaticamente le società che, di nascosto, cercano di seguire le tue attività sul Web.
+test-copy-about-privacy-speed-security-fx120-easy-setup-subtitle-label = Il nostro browser, supportato da un’organizzazione senza fini di lucro, aiuta a bloccare le aziende che, di nascosto, cercano di seguire le tue attività sul Web.
 test-copy-about-privacy-speed-security-fx120-mobile-download-title-label = Proteggiti con la crittografia quando passi da un dispositivo all’altro
 test-copy-about-privacy-speed-security-fx120-mobile-download-subtitle-label = Quando sei sincronizzato, sei più sicuro. Firefox critta password, segnalibri e altro ancora. Puoi anche recuperare schede dagli altri dispositivi.
 test-copy-about-privacy-speed-security-fx120-amo-introduce-title-label = Personalizza Firefox
