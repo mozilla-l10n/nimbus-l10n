@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -16,6 +17,16 @@
       "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
       "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
       "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
+    },
+    "de": {
+      "win10-eos-hnt-custom-icon-heading-a": "Datenschutz bei jedem neuen Tab inklusive",
+      "win10-eos-hnt-custom-icon-body-a": "Firefox verhindert, dass Unternehmen Sie im Internet verfolgen, wo immer Sie surfen",
+      "win10-eos-hnt-custom-icon-primary-button-a": "Links in Firefox öffnen",
+      "win10-eos-hnt-custom-icon-secondary-button-a": "An Taskleiste anheften",
+      "win10-eos-hnt-custom-icon-heading-b": "So macht das Starten von Firefox ein bisschen mehr Spaß",
+      "win10-eos-hnt-custom-icon-body-b": "Mit dem integrierten Schutz von Firefox können Sie beim Surfen Bonus-Symbole freischalten.",
+      "win10-eos-hnt-custom-icon-primary-button-b": "Links in Firefox öffnen",
+      "win10-eos-hnt-custom-icon-secondary-button-b": "An Taskleiste anheften"
     },
     "en-CA": {
       "win10-eos-hnt-custom-icon-heading-a": "Get built-in privacy with every new tab",
