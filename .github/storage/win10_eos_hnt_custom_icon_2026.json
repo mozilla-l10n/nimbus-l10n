@@ -1,0 +1,40 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "win10-eos-hnt-custom-icon-heading-a": "Get built-in privacy with every new tab",
+      "win10-eos-hnt-custom-icon-body-a": "Firefox helps stop companies following you around the web everywhere you browse",
+      "win10-eos-hnt-custom-icon-primary-button-a": "Open links with Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-a": "Pin to taskbar",
+      "win10-eos-hnt-custom-icon-heading-b": "Make launching Firefox a little more fun",
+      "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
+      "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
+    },
+    "en-CA": {
+      "win10-eos-hnt-custom-icon-heading-a": "Get built-in privacy with every new tab",
+      "win10-eos-hnt-custom-icon-body-a": "Firefox helps stop companies following you around the web everywhere you browse",
+      "win10-eos-hnt-custom-icon-primary-button-a": "Open links with Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-a": "Pin to taskbar",
+      "win10-eos-hnt-custom-icon-heading-b": "Make launching Firefox a little more fun",
+      "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
+      "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
+    },
+    "en-GB": {
+      "win10-eos-hnt-custom-icon-heading-a": "Get built-in privacy with every new tab",
+      "win10-eos-hnt-custom-icon-body-a": "Firefox helps stop companies following you around the web everywhere you browse",
+      "win10-eos-hnt-custom-icon-primary-button-a": "Open links with Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-a": "Pin to taskbar",
+      "win10-eos-hnt-custom-icon-heading-b": "Make launching Firefox a little more fun",
+      "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
+      "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
+    }
+  }
+}
