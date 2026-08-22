@@ -8,6 +8,8 @@
 
 ## Branch: treatment-a
 
+# Newtab promo heading
+win10-eos-hnt-custom-icon-heading-a = Bénéficiez d’un respect de la vie privée intégré pour chaque nouvel onglet
 # Newtab promo body
 win10-eos-hnt-custom-icon-body-a = Firefox aide à empêcher les entreprises de vous pister partout sur le Web
 # Primary CTA; sets Firefox as the default browser
