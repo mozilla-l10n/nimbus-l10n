@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -35,6 +36,16 @@
       "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
       "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
       "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
+    },
+    "it": {
+      "win10-eos-hnt-custom-icon-heading-a": "Privacy integrata in ogni nuova scheda",
+      "win10-eos-hnt-custom-icon-body-a": "Firefox aiuta a impedire alle aziende di seguirti ovunque navighi sul Web",
+      "win10-eos-hnt-custom-icon-primary-button-a": "Apri i link con Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-a": "Aggiungi alla barra delle applicazioni",
+      "win10-eos-hnt-custom-icon-heading-b": "Rendi ogni avvio di Firefox un po' più speciale",
+      "win10-eos-hnt-custom-icon-body-b": "Sblocca icone extra navigando di più con la protezione integrata di Firefox.",
+      "win10-eos-hnt-custom-icon-primary-button-b": "Apri i link con Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Aggiungi alla barra delle applicazioni"
     }
   }
 }
