@@ -611,14 +611,6 @@ locales = [
         "de",
         "en-CA",
         "en-GB",
-        "es-AR",
-        "es-CL",
-        "es-ES",
-        "es-MX",
         "fr",
-        "it",
-        "ja",
-        "pl",
-        "pt-BR",
-        "pt-PT"
+        "it"
     ]
