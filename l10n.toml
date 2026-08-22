@@ -4,7 +4,6 @@ locales = [
     "de",
     "en-CA",
     "en-GB",
-    "en-US",
     "es-AR",
     "es-CL",
     "es-ES",
@@ -603,4 +602,23 @@ locales = [
     l10n = "{locale}/subset/smartwindow_mvp_microsurvey_france_2026.ftl"
     locales = [
         "fr"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/win10_eos_hnt_custom_icon_2026.ftl"
+    l10n = "{locale}/subset/win10_eos_hnt_custom_icon_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "es-AR",
+        "es-CL",
+        "es-ES",
+        "es-MX",
+        "fr",
+        "it",
+        "ja",
+        "pl",
+        "pt-BR",
+        "pt-PT"
     ]
