@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -47,6 +48,16 @@
       "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
       "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
       "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
+    },
+    "fr": {
+      "win10-eos-hnt-custom-icon-heading-a": "Bénéficiez d’un respect de la vie privée intégré pour chaque nouvel onglet",
+      "win10-eos-hnt-custom-icon-body-a": "Firefox aide à empêcher les entreprises de vous pister partout sur le Web",
+      "win10-eos-hnt-custom-icon-primary-button-a": "Ouvrir les liens avec Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-a": "Épingler à la barre des tâches",
+      "win10-eos-hnt-custom-icon-heading-b": "Lancez Firefox avec une touche de fantaisie",
+      "win10-eos-hnt-custom-icon-body-b": "Débloquez des icônes bonus en naviguant davantage avec la protection intégrée de Firefox.",
+      "win10-eos-hnt-custom-icon-primary-button-b": "Ouvrir les liens avec Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Épingler à la barre des tâches"
     },
     "it": {
       "win10-eos-hnt-custom-icon-heading-a": "Privacy integrata in ogni nuova scheda",
