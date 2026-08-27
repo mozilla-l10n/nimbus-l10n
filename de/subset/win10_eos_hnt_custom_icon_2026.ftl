@@ -27,3 +27,10 @@ win10-eos-hnt-custom-icon-body-b = Mit dem integrierten Schutz von Firefox könn
 win10-eos-hnt-custom-icon-primary-button-b = Links in Firefox öffnen
 # Secondary CTA; pins Firefox to the taskbar
 win10-eos-hnt-custom-icon-secondary-button-b = An Taskleiste anheften
+# New tab promo heading, shown once Firefox is both the default browser and
+# pinned to the taskbar, which unlocks the bonus browser icons
+win10-eos-hnt-custom-icon-unlocked-heading-b = Sie haben alle Bonussymbole freigeschaltet!
+# New tab promo body for the unlocked state; Settings refers to the Firefox settings page
+win10-eos-hnt-custom-icon-unlocked-body-b = Wählen Sie in den Einstellungen ein Symbol für Ihre Taskleiste aus.
+# Only CTA for the unlocked state; opens the browser icon picker in Firefox settings
+win10-eos-hnt-custom-icon-unlocked-button-b = Wechseln Sie Ihr Symbol
