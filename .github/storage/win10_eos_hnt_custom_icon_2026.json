@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -44,6 +45,19 @@
       "win10-eos-hnt-custom-icon-unlocked-heading-b": "You unlocked all of the bonus icons!",
       "win10-eos-hnt-custom-icon-unlocked-body-b": "Go to Settings to pick an icon for your taskbar.",
       "win10-eos-hnt-custom-icon-unlocked-button-b": "Switch your icon"
+    },
+    "it": {
+      "win10-eos-hnt-custom-icon-heading-a": "Privacy integrata in ogni nuova scheda",
+      "win10-eos-hnt-custom-icon-body-a": "Firefox aiuta a impedire alle aziende di seguirti ovunque navighi sul Web",
+      "win10-eos-hnt-custom-icon-primary-button-a": "Apri i link con Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-a": "Aggiungi alla barra delle applicazioni",
+      "win10-eos-hnt-custom-icon-heading-b": "Rendi ogni avvio di Firefox un po' più speciale",
+      "win10-eos-hnt-custom-icon-body-b": "Sblocca icone extra navigando di più con la protezione integrata di Firefox.",
+      "win10-eos-hnt-custom-icon-primary-button-b": "Apri i link con Firefox",
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Aggiungi alla barra delle applicazioni",
+      "win10-eos-hnt-custom-icon-unlocked-heading-b": "Hai sbloccato tutte le icone extra!",
+      "win10-eos-hnt-custom-icon-unlocked-body-b": "Vai alle impostazioni per scegliere un’icona per la barra delle applicazioni.",
+      "win10-eos-hnt-custom-icon-unlocked-button-b": "Cambia icona"
     }
   }
 }
