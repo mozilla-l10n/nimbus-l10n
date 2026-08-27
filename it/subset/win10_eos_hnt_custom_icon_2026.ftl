@@ -8,9 +8,9 @@
 
 ## Branch: treatment-a
 
-# Newtab promo heading
+# New tab promo heading
 win10-eos-hnt-custom-icon-heading-a = Privacy integrata in ogni nuova scheda
-# Newtab promo body
+# New tab promo body
 win10-eos-hnt-custom-icon-body-a = Firefox aiuta a impedire alle aziende di seguirti ovunque navighi sul Web
 # Primary CTA; sets Firefox as the default browser
 win10-eos-hnt-custom-icon-primary-button-a = Apri i link con Firefox
@@ -19,9 +19,9 @@ win10-eos-hnt-custom-icon-secondary-button-a = Aggiungi alla barra delle applica
 
 ## Branch: treatment-b
 
-# Newtab promo heading
+# New tab promo heading
 win10-eos-hnt-custom-icon-heading-b = Rendi ogni avvio di Firefox un po' più speciale
-# Newtab promo body
+# New tab promo body
 win10-eos-hnt-custom-icon-body-b = Sblocca icone extra navigando di più con la protezione integrata di Firefox.
 # Primary CTA; sets Firefox as the default browser
 win10-eos-hnt-custom-icon-primary-button-b = Apri i link con Firefox
