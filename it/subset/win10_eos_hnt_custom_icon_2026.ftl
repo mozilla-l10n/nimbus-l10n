@@ -27,3 +27,10 @@ win10-eos-hnt-custom-icon-body-b = Sblocca icone extra navigando di più con la 
 win10-eos-hnt-custom-icon-primary-button-b = Apri i link con Firefox
 # Secondary CTA; pins Firefox to the taskbar
 win10-eos-hnt-custom-icon-secondary-button-b = Aggiungi alla barra delle applicazioni
+# New tab promo heading, shown once Firefox is both the default browser and
+# pinned to the taskbar, which unlocks the bonus browser icons
+win10-eos-hnt-custom-icon-unlocked-heading-b = Hai sbloccato tutte le icone extra!
+# New tab promo body for the unlocked state; Settings refers to the Firefox settings page
+win10-eos-hnt-custom-icon-unlocked-body-b = Vai alle impostazioni per scegliere un’icona per la barra delle applicazioni.
+# Only CTA for the unlocked state; opens the browser icon picker in Firefox settings
+win10-eos-hnt-custom-icon-unlocked-button-b = Cambia icona
