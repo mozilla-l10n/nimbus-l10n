@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -19,6 +20,19 @@
       "win10-eos-hnt-custom-icon-unlocked-heading-b": "You unlocked all of the bonus icons!",
       "win10-eos-hnt-custom-icon-unlocked-body-b": "Go to Settings to pick an icon for your taskbar.",
       "win10-eos-hnt-custom-icon-unlocked-button-b": "Switch your icon"
+    },
+    "de": {
+      "win10-eos-hnt-custom-icon-heading-a": "Datenschutz bei jedem neuen Tab inklusive",
+      "win10-eos-hnt-custom-icon-body-a": "Firefox verhindert, dass Unternehmen Sie im Internet verfolgen, wo immer Sie surfen",
+      "win10-eos-hnt-custom-icon-primary-button-a": "Links in Firefox öffnen",
+      "win10-eos-hnt-custom-icon-secondary-button-a": "An Taskleiste anheften",
+      "win10-eos-hnt-custom-icon-heading-b": "So macht das Starten von Firefox ein bisschen mehr Spaß",
+      "win10-eos-hnt-custom-icon-body-b": "Mit dem integrierten Schutz von Firefox können Sie beim Surfen Bonus-Symbole freischalten.",
+      "win10-eos-hnt-custom-icon-primary-button-b": "Links in Firefox öffnen",
+      "win10-eos-hnt-custom-icon-secondary-button-b": "An Taskleiste anheften",
+      "win10-eos-hnt-custom-icon-unlocked-heading-b": "Sie haben alle Bonussymbole freigeschaltet!",
+      "win10-eos-hnt-custom-icon-unlocked-body-b": "Wählen Sie in den Einstellungen ein Symbol für Ihre Taskleiste aus.",
+      "win10-eos-hnt-custom-icon-unlocked-button-b": "Wechseln Sie Ihr Symbol"
     },
     "en-CA": {
       "win10-eos-hnt-custom-icon-heading-a": "Get built-in privacy with every new tab",
