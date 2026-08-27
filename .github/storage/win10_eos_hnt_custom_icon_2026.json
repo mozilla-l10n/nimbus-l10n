@@ -1,12 +1,9 @@
 {
-  "complete": true,
+  "complete": false,
   "complete_locales": [
-    "de",
     "en-CA",
     "en-GB",
-    "en-US",
-    "fr",
-    "it"
+    "en-US"
   ],
   "translations": {
     "en-US": {

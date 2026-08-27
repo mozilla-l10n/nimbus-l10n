@@ -532,7 +532,7 @@
     ]
   },
   "win10-eos-hnt-custom-icon": {
-    "complete": true,
+    "complete": false,
     "file": "en-US/subset/win10_eos_hnt_custom_icon_2026.ftl",
     "issue": "132",
     "locales": [
