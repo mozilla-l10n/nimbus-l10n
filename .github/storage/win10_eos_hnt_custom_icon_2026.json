@@ -14,17 +14,10 @@
       "win10-eos-hnt-custom-icon-heading-b": "Make launching Firefox a little more fun",
       "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
       "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
-      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
-    },
-    "de": {
-      "win10-eos-hnt-custom-icon-heading-a": "Datenschutz bei jedem neuen Tab inklusive",
-      "win10-eos-hnt-custom-icon-body-a": "Firefox verhindert, dass Unternehmen Sie im Internet verfolgen, wo immer Sie surfen",
-      "win10-eos-hnt-custom-icon-primary-button-a": "Links in Firefox öffnen",
-      "win10-eos-hnt-custom-icon-secondary-button-a": "An Taskleiste anheften",
-      "win10-eos-hnt-custom-icon-heading-b": "So macht das Starten von Firefox ein bisschen mehr Spaß",
-      "win10-eos-hnt-custom-icon-body-b": "Mit dem integrierten Schutz von Firefox können Sie beim Surfen Bonus-Symbole freischalten.",
-      "win10-eos-hnt-custom-icon-primary-button-b": "Links in Firefox öffnen",
-      "win10-eos-hnt-custom-icon-secondary-button-b": "An Taskleiste anheften"
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar",
+      "win10-eos-hnt-custom-icon-unlocked-heading-b": "You unlocked all of the bonus icons!",
+      "win10-eos-hnt-custom-icon-unlocked-body-b": "Go to Settings to pick an icon for your taskbar.",
+      "win10-eos-hnt-custom-icon-unlocked-button-b": "Switch your icon"
     },
     "en-CA": {
       "win10-eos-hnt-custom-icon-heading-a": "Get built-in privacy with every new tab",
@@ -34,7 +27,10 @@
       "win10-eos-hnt-custom-icon-heading-b": "Make launching Firefox a little more fun",
       "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
       "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
-      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar",
+      "win10-eos-hnt-custom-icon-unlocked-heading-b": "You unlocked all of the bonus icons!",
+      "win10-eos-hnt-custom-icon-unlocked-body-b": "Go to Settings to pick an icon for your taskbar.",
+      "win10-eos-hnt-custom-icon-unlocked-button-b": "Switch your icon"
     },
     "en-GB": {
       "win10-eos-hnt-custom-icon-heading-a": "Get built-in privacy with every new tab",
@@ -44,27 +40,10 @@
       "win10-eos-hnt-custom-icon-heading-b": "Make launching Firefox a little more fun",
       "win10-eos-hnt-custom-icon-body-b": "Unlock bonus icons when you browse more with Firefox’s built-in protection.",
       "win10-eos-hnt-custom-icon-primary-button-b": "Open links with Firefox",
-      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar"
-    },
-    "fr": {
-      "win10-eos-hnt-custom-icon-heading-a": "Bénéficiez d’un respect de la vie privée intégré pour chaque nouvel onglet",
-      "win10-eos-hnt-custom-icon-body-a": "Firefox aide à empêcher les entreprises de vous pister partout sur le Web",
-      "win10-eos-hnt-custom-icon-primary-button-a": "Ouvrir les liens avec Firefox",
-      "win10-eos-hnt-custom-icon-secondary-button-a": "Épingler à la barre des tâches",
-      "win10-eos-hnt-custom-icon-heading-b": "Lancez Firefox avec une touche de fantaisie",
-      "win10-eos-hnt-custom-icon-body-b": "Débloquez des icônes bonus en naviguant davantage avec la protection intégrée de Firefox.",
-      "win10-eos-hnt-custom-icon-primary-button-b": "Ouvrir les liens avec Firefox",
-      "win10-eos-hnt-custom-icon-secondary-button-b": "Épingler à la barre des tâches"
-    },
-    "it": {
-      "win10-eos-hnt-custom-icon-heading-a": "Privacy integrata in ogni nuova scheda",
-      "win10-eos-hnt-custom-icon-body-a": "Firefox aiuta a impedire alle aziende di seguirti ovunque navighi sul Web",
-      "win10-eos-hnt-custom-icon-primary-button-a": "Apri i link con Firefox",
-      "win10-eos-hnt-custom-icon-secondary-button-a": "Aggiungi alla barra delle applicazioni",
-      "win10-eos-hnt-custom-icon-heading-b": "Rendi ogni avvio di Firefox un po' più speciale",
-      "win10-eos-hnt-custom-icon-body-b": "Sblocca icone extra navigando di più con la protezione integrata di Firefox.",
-      "win10-eos-hnt-custom-icon-primary-button-b": "Apri i link con Firefox",
-      "win10-eos-hnt-custom-icon-secondary-button-b": "Aggiungi alla barra delle applicazioni"
+      "win10-eos-hnt-custom-icon-secondary-button-b": "Pin to taskbar",
+      "win10-eos-hnt-custom-icon-unlocked-heading-b": "You unlocked all of the bonus icons!",
+      "win10-eos-hnt-custom-icon-unlocked-body-b": "Go to Settings to pick an icon for your taskbar.",
+      "win10-eos-hnt-custom-icon-unlocked-button-b": "Switch your icon"
     }
   }
 }
