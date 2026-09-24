@@ -4,6 +4,7 @@ locales = [
     "de",
     "en-CA",
     "en-GB",
+    "en-US",
     "es-AR",
     "es-CL",
     "es-ES",
@@ -607,6 +608,17 @@ locales = [
 [[paths]]
     reference = "en-US/subset/win10_eos_hnt_custom_icon_2026.ftl"
     l10n = "{locale}/subset/win10_eos_hnt_custom_icon_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
+
+[[paths]]
+    reference = "en-US/subset/first_run_onboarding_refresh_2026.ftl"
+    l10n = "{locale}/subset/first_run_onboarding_refresh_2026.ftl"
     locales = [
         "de",
         "en-CA",

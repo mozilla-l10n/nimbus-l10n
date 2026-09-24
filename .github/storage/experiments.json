@@ -144,6 +144,18 @@
       "it"
     ]
   },
+  "first-run-onboarding-refresh": {
+    "complete": false,
+    "file": "en-US/subset/first_run_onboarding_refresh_2026.ftl",
+    "issue": "134",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "fox-doodle-multi-action-cta-fr-it-de": {
     "complete": true,
     "file": "en-US/subset/fox_doodle_multi_action_cta_fr_it_de_2024.ftl",
