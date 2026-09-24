@@ -5,6 +5,8 @@
 ## Branch: treatment-a
 
 # Import screen body text
+# "It stays yours" refers to the string above it "Bring in your data"
+# https://pontoon.mozilla.org/projects/firefox/all-resources/?string=339676
 onboarding-refresh-fro-import-subtitle = It stays yours. Firefox never sells personal data.
 
 ## Branch: treatment-b
