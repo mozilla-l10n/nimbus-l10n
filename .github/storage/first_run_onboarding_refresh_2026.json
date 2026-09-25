@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -17,6 +18,10 @@
     "en-GB": {
       "onboarding-refresh-fro-import-subtitle": "It stays yours. Firefox never sells personal data.",
       "onboarding-refresh-fro-tab-layout-title": "Choose a new tab layout"
+    },
+    "it": {
+      "onboarding-refresh-fro-import-subtitle": "Restano solo tuoi. Firefox non vende mai i tuoi dati personali.",
+      "onboarding-refresh-fro-tab-layout-title": "Scegli un nuovo layout per le schede"
     }
   }
 }
