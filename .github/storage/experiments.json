@@ -145,7 +145,7 @@
     ]
   },
   "first-run-onboarding-refresh": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/first_run_onboarding_refresh_2026.ftl",
     "issue": "134",
     "locales": [
