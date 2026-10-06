@@ -318,6 +318,15 @@
       "fr"
     ]
   },
+  "nova-release-microsurvey-german-french": {
+    "complete": false,
+    "file": "en-US/subset/nova_release_microsurvey_german_french_2026.ftl",
+    "issue": "136",
+    "locales": [
+      "de",
+      "fr"
+    ]
+  },
   "npo-sign-up-sign-in-button-text-change": {
     "complete": true,
     "file": "en-US/subset/npo_sign_up_sign_in_button_text_change_2024.ftl",
