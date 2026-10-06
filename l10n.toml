@@ -626,3 +626,11 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/nova_release_microsurvey_german_french_2026.ftl"
+    l10n = "{locale}/subset/nova_release_microsurvey_german_french_2026.ftl"
+    locales = [
+        "de",
+        "fr"
+    ]
