@@ -319,7 +319,7 @@
     ]
   },
   "nova-release-microsurvey-german-french": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/nova_release_microsurvey_german_french_2026.ftl",
     "issue": "136",
     "locales": [
