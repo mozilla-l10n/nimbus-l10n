@@ -1,0 +1,25 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "sw-organize-tabs-callout-title": "Keep your tabs organized",
+      "sw-organize-tabs-callout-subtitle": "Group related tabs in one click, and quickly close any duplicates.",
+      "sw-organize-tabs-callout-button": "Organize tabs"
+    },
+    "en-CA": {
+      "sw-organize-tabs-callout-title": "Keep your tabs organized",
+      "sw-organize-tabs-callout-subtitle": "Group related tabs in one click, and quickly close any duplicates.",
+      "sw-organize-tabs-callout-button": "Organize tabs"
+    },
+    "en-GB": {
+      "sw-organize-tabs-callout-title": "Keep your tabs organised",
+      "sw-organize-tabs-callout-subtitle": "Group related tabs in one click, and quickly close any duplicates.",
+      "sw-organize-tabs-callout-button": "Organise tabs"
+    }
+  }
+}
