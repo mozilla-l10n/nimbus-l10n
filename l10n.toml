@@ -634,3 +634,12 @@ locales = [
         "de",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/smart_window_organize_tabs_callout_v2_en_fr_2026.ftl"
+    l10n = "{locale}/subset/smart_window_organize_tabs_callout_v2_en_fr_2026.ftl"
+    locales = [
+        "en-CA",
+        "en-GB",
+        "fr"
+    ]
