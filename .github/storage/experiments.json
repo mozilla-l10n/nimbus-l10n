@@ -457,6 +457,16 @@
       "it"
     ]
   },
+  "smart-window-organize-tabs-callout-v2-en-fr": {
+    "complete": false,
+    "file": "en-US/subset/smart_window_organize_tabs_callout_v2_en_fr_2026.ftl",
+    "issue": "138",
+    "locales": [
+      "en-CA",
+      "en-GB",
+      "fr"
+    ]
+  },
   "smartwindow-mvp-microsurvey-france": {
     "complete": true,
     "file": "en-US/subset/smartwindow_mvp_microsurvey_france_2026.ftl",
