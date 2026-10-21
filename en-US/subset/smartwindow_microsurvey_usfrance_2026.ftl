@@ -27,7 +27,7 @@ sw-opt-dont-use = I don’t use it
 # Question 1: open-ended write-in about the main benefit of and improvements to Smart Window
 sw-q1-writein = What is the main benefit you receive from Smart Window? How can we improve Smart Window for you?
 # Disclaimer shown above the submit button on the write-in question
-sw-survey-disclaimer = Please don't share personal information.
+sw-survey-disclaimer = Please don’t share personal information.
 # Question 3: open-ended write-in about the main reason the user opened Smart Window today
 sw-q3-visit-reason = What is the main reason you came to Smart Window today?
 # Confirmation title shown on the final screen after the survey is submitted
