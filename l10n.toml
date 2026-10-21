@@ -643,3 +643,10 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/smartwindow_microsurvey_usfrance_2026.ftl"
+    l10n = "{locale}/subset/smartwindow_microsurvey_usfrance_2026.ftl"
+    locales = [
+        "fr"
+    ]
