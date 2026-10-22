@@ -8,4 +8,6 @@
 # Title of a callout pointing at the Organize Tabs button in the Smart Window toolbar
 sw-organize-tabs-callout-title = Organisez vos onglets
 # Body text of the Organize Tabs callout
-sw-organize-tabs-callout-subtitle = Regrouper les onglets associés en un clic et fermer rapidement les doublons.
+sw-organize-tabs-callout-subtitle = Regroupez les onglets associés en un clic et fermez rapidement les doublons.
+# Button in the callout that opens the Organize Tabs panel
+sw-organize-tabs-callout-button = Organiser les onglets
