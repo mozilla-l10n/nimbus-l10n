@@ -1,9 +1,10 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -20,6 +21,11 @@
       "sw-organize-tabs-callout-title": "Keep your tabs organised",
       "sw-organize-tabs-callout-subtitle": "Group related tabs in one click, and quickly close any duplicates.",
       "sw-organize-tabs-callout-button": "Organise tabs"
+    },
+    "fr": {
+      "sw-organize-tabs-callout-title": "Organisez vos onglets",
+      "sw-organize-tabs-callout-subtitle": "Regroupez les onglets associés en un clic et fermez rapidement les doublons.",
+      "sw-organize-tabs-callout-button": "Organiser les onglets"
     }
   }
 }

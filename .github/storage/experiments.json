@@ -458,7 +458,7 @@
     ]
   },
   "smart-window-organize-tabs-callout-v2-en-fr": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/smart_window_organize_tabs_callout_v2_en_fr_2026.ftl",
     "issue": "138",
     "locales": [
