@@ -3,7 +3,8 @@
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "it"
   ],
   "translations": {
     "en-US": {
@@ -65,6 +66,26 @@
       "nuts-submit": "Submit",
       "nuts-thanks-title": "Thank you!",
       "nuts-thanks-body": "Thanks for sharing your feedback. It helps us make Firefox better."
+    },
+    "it": {
+      "nuts-title": "Raccontaci la tua esperienza con Firefox",
+      "nuts-q-integrity": "Quanto sei d’accordo o in disaccordo con la seguente affermazione? “Firefox mantiene le promesse che fa in materia di privacy e sicurezza.”",
+      "nuts-scale-strongly-disagree": "Assolutamente in disaccordo",
+      "nuts-scale-disagree": "Non sono d’accordo",
+      "nuts-scale-neither": "Né d'accordo né in disaccordo",
+      "nuts-scale-agree": "D’accordo",
+      "nuts-scale-strongly-agree": "Assolutamente d’accordo",
+      "nuts-next": "Avanti",
+      "nuts-privacy-notice": "Informativa sulla privacy",
+      "nuts-q-benevolence": "Quanto sei d’accordo o in disaccordo con la seguente affermazione? “Firefox ha a cuore i miei interessi, non solo il proprio profitto.”",
+      "nuts-q-tenure": "Quale delle seguenti opzioni descrive meglio come hai utilizzato Firefox in passato?",
+      "nuts-tenure-first-time": "Ho iniziato a usare Firefox per la prima volta da poco",
+      "nuts-tenure-stopped-within-year": "Usavo Firefox, ma ho smesso nel corso dell’ultimo anno",
+      "nuts-tenure-stopped-over-year": "Usavo Firefox, ma ho smesso più di un anno fa",
+      "nuts-tenure-current-reinstall": "Uso già Firefox e l’ho appena installato o reinstallato su questo dispositivo",
+      "nuts-submit": "Invia",
+      "nuts-thanks-title": "Grazie!",
+      "nuts-thanks-body": "Grazie per averci dato la tua opinione. Ci aiuta a rendere Firefox ancora migliore."
     }
   }
 }
