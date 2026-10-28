@@ -35,3 +35,9 @@ nuts-tenure-stopped-within-year = Ich habe Firefox früher verwendet, aber im le
 nuts-tenure-stopped-over-year = Ich habe Firefox früher genutzt, aber vor über einem Jahr damit aufgehört
 # Answer option describing how the person has used Firefox in the past.
 nuts-tenure-current-reinstall = Ich nutze Firefox bereits und habe ihn gerade auf diesem Gerät installiert (oder erneut installiert)
+# Button that submits the last survey answer.
+nuts-submit = Absenden
+# Heading on the last screen of the survey.
+nuts-thanks-title = Vielen Dank!
+# Thank-you message after the survey is submitted.
+nuts-thanks-body = Vielen Dank für Ihr Feedback. Damit helfen Sie uns, Firefox weiter zu verbessern.
