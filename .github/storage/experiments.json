@@ -308,7 +308,7 @@
     ]
   },
   "new-user-trust-microsurvey": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/new_user_trust_microsurvey_2026.ftl",
     "issue": "143",
     "locales": [

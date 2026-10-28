@@ -1,10 +1,11 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "de",
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -87,6 +88,26 @@
       "nuts-submit": "Submit",
       "nuts-thanks-title": "Thank you!",
       "nuts-thanks-body": "Thanks for sharing your feedback. It helps us make Firefox better."
+    },
+    "fr": {
+      "nuts-title": "Parlez-nous de votre utilisation de Firefox",
+      "nuts-q-integrity": "Dans quelle mesure êtes-vous d’accord ou non avec l’affirmation suivante ? « Firefox respecte ses engagements en matière de confidentialité et de sécurité. »",
+      "nuts-scale-strongly-disagree": "Pas du tout d’accord",
+      "nuts-scale-disagree": "Pas d’accord",
+      "nuts-scale-neither": "Sans avis tranché",
+      "nuts-scale-agree": "D’accord",
+      "nuts-scale-strongly-agree": "Tout à fait d’accord",
+      "nuts-next": "Suivant",
+      "nuts-privacy-notice": "Politique de confidentialité",
+      "nuts-q-benevolence": "Dans quelle mesure êtes-vous d’accord ou non avec l’affirmation suivante ? « Firefox se soucie de mes intérêts, et pas seulement de ses propres profits. »",
+      "nuts-q-tenure": "Parmi les propositions suivantes, laquelle décrit le mieux votre utilisation antérieure de Firefox ?",
+      "nuts-tenure-first-time": "J’ai commencé à utiliser Firefox pour la première fois récemment",
+      "nuts-tenure-stopped-within-year": "J’utilisais Firefox auparavant, mais j’ai arrêté de l’utiliser il y a moins d’un an",
+      "nuts-tenure-stopped-over-year": "J’utilisais Firefox auparavant, mais j’ai arrêté de l’utiliser il y a plus d’un an",
+      "nuts-tenure-current-reinstall": "J’utilise déjà Firefox et je viens de l’installer (ou de le réinstaller) sur cet appareil",
+      "nuts-submit": "Envoyer",
+      "nuts-thanks-title": "Merci !",
+      "nuts-thanks-body": "Merci pour votre avis. Il nous aide à améliorer Firefox."
     },
     "it": {
       "nuts-title": "Raccontaci la tua esperienza con Firefox",
