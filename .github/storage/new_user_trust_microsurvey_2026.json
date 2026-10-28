@@ -1,0 +1,70 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "nuts-title": "Tell us about your Firefox experience",
+      "nuts-q-integrity": "How much do you agree or disagree with the following statement? “Firefox follows through on the privacy and security promises it makes.”",
+      "nuts-scale-strongly-disagree": "Strongly disagree",
+      "nuts-scale-disagree": "Disagree",
+      "nuts-scale-neither": "Neither agree nor disagree",
+      "nuts-scale-agree": "Agree",
+      "nuts-scale-strongly-agree": "Strongly agree",
+      "nuts-next": "Next",
+      "nuts-privacy-notice": "Privacy notice",
+      "nuts-q-benevolence": "How much do you agree or disagree with the following statement? “Firefox has my best interests in mind, not just its own profit.”",
+      "nuts-q-tenure": "Which of the following options best describes your past use of Firefox?",
+      "nuts-tenure-first-time": "I recently started using Firefox for the first time",
+      "nuts-tenure-stopped-within-year": "I used Firefox before, but stopped using it within the last year",
+      "nuts-tenure-stopped-over-year": "I used Firefox before, but stopped using it more than a year ago",
+      "nuts-tenure-current-reinstall": "I already use Firefox and just installed (or re-installed) it on this device",
+      "nuts-submit": "Submit",
+      "nuts-thanks-title": "Thank you!",
+      "nuts-thanks-body": "Thanks for sharing your feedback. It helps us make Firefox better."
+    },
+    "en-CA": {
+      "nuts-title": "Tell us about your Firefox experience",
+      "nuts-q-integrity": "How much do you agree or disagree with the following statement? “Firefox follows through on the privacy and security promises it makes.”",
+      "nuts-scale-strongly-disagree": "Strongly disagree",
+      "nuts-scale-disagree": "Disagree",
+      "nuts-scale-neither": "Neither agree nor disagree",
+      "nuts-scale-agree": "Agree",
+      "nuts-scale-strongly-agree": "Strongly agree",
+      "nuts-next": "Next",
+      "nuts-privacy-notice": "Privacy notice",
+      "nuts-q-benevolence": "How much do you agree or disagree with the following statement? “Firefox has my best interests in mind, not just its own profit.”",
+      "nuts-q-tenure": "Which of the following options best describes your past use of Firefox?",
+      "nuts-tenure-first-time": "I recently started using Firefox for the first time",
+      "nuts-tenure-stopped-within-year": "I used Firefox before, but stopped using it within the last year",
+      "nuts-tenure-stopped-over-year": "I used Firefox before, but stopped using it more than a year ago",
+      "nuts-tenure-current-reinstall": "I already use Firefox and just installed (or re-installed) it on this device",
+      "nuts-submit": "Submit",
+      "nuts-thanks-title": "Thank you!",
+      "nuts-thanks-body": "Thanks for sharing your feedback. It helps us make Firefox better."
+    },
+    "en-GB": {
+      "nuts-title": "Tell us about your Firefox experience",
+      "nuts-q-integrity": "How much do you agree or disagree with the following statement? “Firefox follows through on the privacy and security promises it makes.”",
+      "nuts-scale-strongly-disagree": "Strongly disagree",
+      "nuts-scale-disagree": "Disagree",
+      "nuts-scale-neither": "Neither agree nor disagree",
+      "nuts-scale-agree": "Agree",
+      "nuts-scale-strongly-agree": "Strongly agree",
+      "nuts-next": "Next",
+      "nuts-privacy-notice": "Privacy notice",
+      "nuts-q-benevolence": "How much do you agree or disagree with the following statement? “Firefox has my best interests in mind, not just its own profit.”",
+      "nuts-q-tenure": "Which of the following options best describes your past use of Firefox?",
+      "nuts-tenure-first-time": "I recently started using Firefox for the first time",
+      "nuts-tenure-stopped-within-year": "I used Firefox before, but stopped using it within the last year",
+      "nuts-tenure-stopped-over-year": "I used Firefox before, but stopped using it more than a year ago",
+      "nuts-tenure-current-reinstall": "I already use Firefox and just installed (or re-installed) it on this device",
+      "nuts-submit": "Submit",
+      "nuts-thanks-title": "Thank you!",
+      "nuts-thanks-body": "Thanks for sharing your feedback. It helps us make Firefox better."
+    }
+  }
+}
