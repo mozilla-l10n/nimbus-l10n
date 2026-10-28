@@ -307,6 +307,18 @@
       "it"
     ]
   },
+  "new-user-trust-microsurvey": {
+    "complete": false,
+    "file": "en-US/subset/new_user_trust_microsurvey_2026.ftl",
+    "issue": "143",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "nova-nightly-microsurvey": {
     "complete": true,
     "file": "en-US/subset/nova_nightly_microsurvey_2026.ftl",
