@@ -1,6 +1,7 @@
 {
   "complete": false,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -26,6 +27,26 @@
       "nuts-submit": "Submit",
       "nuts-thanks-title": "Thank you!",
       "nuts-thanks-body": "Thanks for sharing your feedback. It helps us make Firefox better."
+    },
+    "de": {
+      "nuts-title": "Wie gefällt Ihnen Firefox?",
+      "nuts-q-integrity": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu? „Firefox hält seine Versprechen in Bezug auf Datenschutz und Sicherheit ein.“",
+      "nuts-scale-strongly-disagree": "Stimme überhaupt nicht zu",
+      "nuts-scale-disagree": "Stimme nicht zu",
+      "nuts-scale-neither": "Stimme weder zu noch nicht zu",
+      "nuts-scale-agree": "Stimme zu",
+      "nuts-scale-strongly-agree": "Stimme voll zu",
+      "nuts-next": "Weiter",
+      "nuts-privacy-notice": "Datenschutzerklärung",
+      "nuts-q-benevolence": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu? „Firefox liegt mein Wohl am Herzen und nicht nur der eigene Gewinn.“",
+      "nuts-q-tenure": "Welche der folgenden Aussagen beschreibt am besten, wie Sie Firefox bisher genutzt haben?",
+      "nuts-tenure-first-time": "Ich nutze Firefox erst seit Kurzem",
+      "nuts-tenure-stopped-within-year": "Ich habe Firefox früher verwendet, aber im letzten Jahr damit aufgehört",
+      "nuts-tenure-stopped-over-year": "Ich habe Firefox früher genutzt, aber vor über einem Jahr damit aufgehört",
+      "nuts-tenure-current-reinstall": "Ich nutze Firefox bereits und habe ihn gerade auf diesem Gerät installiert (oder erneut installiert)",
+      "nuts-submit": "Absenden",
+      "nuts-thanks-title": "Vielen Dank!",
+      "nuts-thanks-body": "Vielen Dank für Ihr Feedback. Damit helfen Sie uns, Firefox weiter zu verbessern."
     },
     "en-CA": {
       "nuts-title": "Tell us about your Firefox experience",
