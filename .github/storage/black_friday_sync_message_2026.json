@@ -1,0 +1,25 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "black-friday-sync-message-heading": "Switching devices is simple when you sync",
+      "black-friday-sync-message-body": "Bring over your bookmarks and passwords in a sec when you switch devices.",
+      "black-friday-sync-message-primary-button-label": "Sync Firefox"
+    },
+    "en-CA": {
+      "black-friday-sync-message-heading": "Switching devices is simple when you sync",
+      "black-friday-sync-message-body": "Bring over your bookmarks and passwords in a sec when you switch devices.",
+      "black-friday-sync-message-primary-button-label": "Sync Firefox"
+    },
+    "en-GB": {
+      "black-friday-sync-message-heading": "Switching devices is simple when you sync",
+      "black-friday-sync-message-body": "Bring over your bookmarks and passwords in a sec when you switch devices.",
+      "black-friday-sync-message-primary-button-label": "Sync Firefox"
+    }
+  }
+}
