@@ -661,3 +661,12 @@ locales = [
         "fr",
         "it"
     ]
+
+[[paths]]
+    reference = "en-US/subset/black_friday_sync_message_2026.ftl"
+    l10n = "{locale}/subset/black_friday_sync_message_2026.ftl"
+    locales = [
+        "en-CA",
+        "en-GB",
+        "fr"
+    ]

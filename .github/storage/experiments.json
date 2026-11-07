@@ -105,6 +105,16 @@
       "it"
     ]
   },
+  "black-friday-sync-message": {
+    "complete": false,
+    "file": "en-US/subset/black_friday_sync_message_2026.ftl",
+    "issue": "145",
+    "locales": [
+      "en-CA",
+      "en-GB",
+      "fr"
+    ]
+  },
   "churned-new-profiles-day-2-resurrection-finish-setup-v2": {
     "complete": true,
     "file": "en-US/subset/churned_new_profiles_day_2_resurrection_finish_setup_v2_2026.ftl",
