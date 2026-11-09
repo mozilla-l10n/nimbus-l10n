@@ -106,7 +106,7 @@
     ]
   },
   "black-friday-sync-message": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/black_friday_sync_message_2026.ftl",
     "issue": "145",
     "locales": [

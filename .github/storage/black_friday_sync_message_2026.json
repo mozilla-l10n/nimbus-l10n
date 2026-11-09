@@ -1,9 +1,10 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
     "en-CA",
     "en-GB",
-    "en-US"
+    "en-US",
+    "fr"
   ],
   "translations": {
     "en-US": {
@@ -20,6 +21,11 @@
       "black-friday-sync-message-heading": "Switching devices is simple when you sync",
       "black-friday-sync-message-body": "Bring over your bookmarks and passwords in a sec when you switch devices.",
       "black-friday-sync-message-primary-button-label": "Sync Firefox"
+    },
+    "fr": {
+      "black-friday-sync-message-heading": "Passer d’un appareil à un autre est simple avec la synchronisation",
+      "black-friday-sync-message-body": "Retrouvez en une seconde marque-pages et mots de passe lorsque vous changez d’appareil.",
+      "black-friday-sync-message-primary-button-label": "Synchroniser Firefox"
     }
   }
 }
