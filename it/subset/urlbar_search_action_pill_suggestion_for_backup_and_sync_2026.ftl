@@ -15,3 +15,5 @@ urlbar-action-sync-keywords = sincronizzazione, dati, sync
 urlbar-action-sync-label = Sincronizza i tuoi dati
 # Title of the first screen of a dialog that helps the user back up Firefox.
 backup-spotlight-title = Salviamo i tuoi dati di Firefox
+# Description of the backup option in a dialog that helps the user back up Firefox.
+backup-spotlight-backup-body = Vengono salvati sul tuo dispositivo
