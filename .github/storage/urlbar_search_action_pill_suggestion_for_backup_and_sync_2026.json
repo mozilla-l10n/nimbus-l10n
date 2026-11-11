@@ -1,0 +1,34 @@
+{
+  "complete": false,
+  "complete_locales": [
+    "en-CA",
+    "en-GB",
+    "en-US"
+  ],
+  "translations": {
+    "en-US": {
+      "urlbar-action-backup-keywords": "backup, back up, save, data",
+      "urlbar-action-backup-label": "Back up and save data",
+      "urlbar-action-sync-keywords": "sync, data",
+      "urlbar-action-sync-label": "Sync data",
+      "backup-spotlight-title": "Let’s back up your Firefox data",
+      "backup-spotlight-backup-body": "Saves to your device"
+    },
+    "en-CA": {
+      "urlbar-action-backup-keywords": "backup, back up, save, data",
+      "urlbar-action-backup-label": "Back up and save data",
+      "urlbar-action-sync-keywords": "sync, data",
+      "urlbar-action-sync-label": "Sync data",
+      "backup-spotlight-title": "Let’s back up your Firefox data",
+      "backup-spotlight-backup-body": "Saves to your device"
+    },
+    "en-GB": {
+      "urlbar-action-backup-keywords": "backup, back up, save, data",
+      "urlbar-action-backup-label": "Back up and save data",
+      "urlbar-action-sync-keywords": "sync, data",
+      "urlbar-action-sync-label": "Sync data",
+      "backup-spotlight-title": "Let’s back up your Firefox data",
+      "backup-spotlight-backup-body": "Saves to your device"
+    }
+  }
+}
