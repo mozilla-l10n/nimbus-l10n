@@ -13,3 +13,7 @@ urlbar-action-backup-label = Sauvegardez et protégez vos données
 urlbar-action-sync-keywords = synchronisation, synchroniser, données
 # Label of an address bar button that opens a dialog to back up Firefox data.
 urlbar-action-sync-label = Synchronisation des données
+# Title of the first screen of a dialog that helps the user back up Firefox.
+backup-spotlight-title = Sauvegardez vos données Firefox
+# Description of the backup option in a dialog that helps the user back up Firefox.
+backup-spotlight-backup-body = S’enregistre sur votre appareil
