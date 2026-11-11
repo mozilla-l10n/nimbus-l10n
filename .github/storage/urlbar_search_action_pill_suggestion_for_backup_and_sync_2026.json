@@ -4,6 +4,7 @@
     "en-CA",
     "en-GB",
     "en-US",
+    "fr",
     "it"
   ],
   "translations": {
@@ -30,6 +31,14 @@
       "urlbar-action-sync-label": "Sync data",
       "backup-spotlight-title": "Let’s back up your Firefox data",
       "backup-spotlight-backup-body": "Saves to your device"
+    },
+    "fr": {
+      "urlbar-action-backup-keywords": "sauvegarde, sauvegarder, enregistrer, données",
+      "urlbar-action-backup-label": "Sauvegardez et protégez vos données",
+      "urlbar-action-sync-keywords": "synchronisation, synchroniser, données",
+      "urlbar-action-sync-label": "Synchronisation des données",
+      "backup-spotlight-title": "Sauvegardez vos données Firefox",
+      "backup-spotlight-backup-body": "S’enregistre sur votre appareil"
     },
     "it": {
       "urlbar-action-backup-keywords": "backup, copia di sicurezza, salva, salvataggio, dati",
