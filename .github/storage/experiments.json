@@ -545,6 +545,18 @@
       "pt-BR"
     ]
   },
+  "urlbar-search-action-pill-suggestion-for-backup-and-sync": {
+    "complete": false,
+    "file": "en-US/subset/urlbar_search_action_pill_suggestion_for_backup_and_sync_2026.ftl",
+    "issue": "147",
+    "locales": [
+      "de",
+      "en-CA",
+      "en-GB",
+      "fr",
+      "it"
+    ]
+  },
   "using-first-bookmark-as-reminders-to-save-data-pre-migration": {
     "complete": true,
     "file": "en-US/subset/using_first_bookmark_as_reminders_to_save_data_pre_migration_2026.ftl",

@@ -670,3 +670,14 @@ locales = [
         "en-GB",
         "fr"
     ]
+
+[[paths]]
+    reference = "en-US/subset/urlbar_search_action_pill_suggestion_for_backup_and_sync_2026.ftl"
+    l10n = "{locale}/subset/urlbar_search_action_pill_suggestion_for_backup_and_sync_2026.ftl"
+    locales = [
+        "de",
+        "en-CA",
+        "en-GB",
+        "fr",
+        "it"
+    ]
