@@ -546,7 +546,7 @@
     ]
   },
   "urlbar-search-action-pill-suggestion-for-backup-and-sync": {
-    "complete": false,
+    "complete": true,
     "file": "en-US/subset/urlbar_search_action_pill_suggestion_for_backup_and_sync_2026.ftl",
     "issue": "147",
     "locales": [

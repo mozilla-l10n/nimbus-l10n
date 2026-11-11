@@ -1,6 +1,7 @@
 {
-  "complete": false,
+  "complete": true,
   "complete_locales": [
+    "de",
     "en-CA",
     "en-GB",
     "en-US",
@@ -15,6 +16,14 @@
       "urlbar-action-sync-label": "Sync data",
       "backup-spotlight-title": "Let’s back up your Firefox data",
       "backup-spotlight-backup-body": "Saves to your device"
+    },
+    "de": {
+      "urlbar-action-backup-keywords": "Sicherung, sichern, speichern, Daten",
+      "urlbar-action-backup-label": "Daten sichern und speichern",
+      "urlbar-action-sync-keywords": "Synchronisieren, Daten",
+      "urlbar-action-sync-label": "Daten synchronisieren",
+      "backup-spotlight-title": "Sichern Sie Ihre Firefox-Daten",
+      "backup-spotlight-backup-body": "Wird auf Ihrem Gerät gespeichert"
     },
     "en-CA": {
       "urlbar-action-backup-keywords": "backup, back up, save, data",
